@@ -1,12 +1,8 @@
 import { ArrowRightOutlined } from "@ant-design/icons";
 import React, { useEffect, useRef, useState } from "react";
-import TypographyEffect from "../../../components/utils/TypographyEffect";
 import IllustrationLight from "../../../assets/Images/DALLE2025-02-2513.44.21-AmoderndigitalmarketingclassroominIndiawhereayoungprofessionalisengagedinlearning.Theroomisilluminatedwithneonredholograms-ezgif.com-webp-to-jpg-converter.jpg";
 import VideoBanner from "../../../assets/Video/Banner.mp4";
 import { Link } from "react-router-dom";
-import { IoLogoWhatsapp } from "react-icons/io";
-import { IoNewspaper } from "react-icons/io5";
-import { GiRotaryPhone } from "react-icons/gi";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 
@@ -21,6 +17,7 @@ function Banner() {
     const observerOptions = {
       threshold: 0.1, // Trigger when 10% of the element is visible
     };
+    
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -56,6 +53,7 @@ function Banner() {
         <source src={VideoBanner} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+      <h2 className="hidden">{isLeftVisible} {isRightVisible}</h2>
       <Carousel className="relative w-full cursor-pointer -mt-10 " showArrows={true} showStatus={false} autoPlay stopOnHover infiniteLoop interval={7500}>
         <div className="flex flex-row items-center justify-start text-start w-full h-full gap-6 mb-10 p-4">
           <div className="flex flex-col mb-10 w-full">

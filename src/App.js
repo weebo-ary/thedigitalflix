@@ -1,7 +1,6 @@
 import "./input.css";
 import { Outlet } from "react-router-dom";
 import Navbar from "./components/nav/nav";
-import Header from "./components/nav/header";
 import Footer from "./components/footer";
 import { useState, useEffect } from "react";
 import LightLogo from "./assets/Logo/LightLogo.png";

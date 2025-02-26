@@ -1,9 +1,6 @@
 import React from "react";
 import {
-  FacebookOutlined,
-  TwitterOutlined,
   LinkedinOutlined,
-  InstagramOutlined,
 } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 

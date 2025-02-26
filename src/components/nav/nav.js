@@ -4,7 +4,7 @@ import DropdownMenu from "../dropdown/DropdownMenu";
 import DropdownMenuProducts from "../dropdown/DropDownProducts";
 import DarkLogo from "../../assets/Logo/DarkLogo.png";
 import LightLogo from "../../assets/Logo/LightLogo.png";
-import { LoginOutlined, MenuOutlined } from "@ant-design/icons";
+import { MenuOutlined } from "@ant-design/icons";
 import { NavLink } from "react-router-dom";
 import "./nav.css";
 import Sidebar from "../Drawer/Sidebar";
@@ -97,7 +97,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="text-white transition hover:text-blue-600/75 flex gap-1"
-                    href="#"
+                    href="https://www.instagram.com/thedigitalflix/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -132,10 +132,10 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="text-white transition hover:text-red-600/75 flex items-center gap-1">
+                  {/* <a className="text-white transition hover:text-red-600/75 flex items-center gap-1"> */}
                     {" "}
                     |
-                  </a>
+                  {/* </a> */}
                 </li>
                 <li>
                   <a
