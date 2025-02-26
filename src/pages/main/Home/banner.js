@@ -58,8 +58,8 @@ function Banner() {
         Your browser does not support the video tag.
       </video>
       <h2 className="hidden">{isLeftVisible} {isRightVisible}</h2>
-      <Carousel className="relative w-full cursor-pointer -mt-10 " showArrows={true} showStatus={false} autoPlay stopOnHover infiniteLoop interval={7500}>
-        <div className="flex flex-row items-center justify-start text-start w-full h-full gap-6 mb-10 p-4">
+      <Carousel className="relative w-full cursor-pointer -mt-10" showArrows={true} showStatus={false} autoPlay stopOnHover infiniteLoop interval={7500}>
+        <div className="flex flex-row items-center justify-start text-start w-full h-full gap-6 mb-10 p-4 pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full">
             <p>
               Connect with us <span className="text-red-500">@thedigitalflix</span>
@@ -90,10 +90,10 @@ function Banner() {
             </div>
           </div>
           <div className="w-full">
-            <img src={IllustrationLight} alt="Placeholder" className="w-full" />
+            <img src={IllustrationFive} alt="Placeholder" className="w-full" />
           </div>
         </div>
-        <div className="flex flex-row items-center justify-start text-start w-full h-full p-4">
+        <div className="flex flex-row items-center justify-start text-start w-full h-full p-4 pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full">
             <p>
               Connect with us <span className="text-red-500">@thedigitalflix</span>
@@ -127,7 +127,7 @@ function Banner() {
             <img src={IllustrationTwo} alt="Placeholder" className="w-full" />
           </div>
         </div>
-        <div className="flex flex-row items-center justify-start text-start w-full h-full ">
+        <div className="flex flex-row items-center justify-start text-start w-full h-full pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full p-4">
             <p>
               Connect with us <span className="text-red-500">@thedigitalflix</span>
@@ -161,7 +161,7 @@ function Banner() {
             <img src={IllustrationThree} alt="Placeholder" className="w-full" />
           </div>
         </div>
-        <div className="flex flex-row items-center justify-start text-start w-full h-full">
+        <div className="flex flex-row items-center justify-start text-start w-full h-full pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full p-4">
             <p>
               Connect with us <span className="text-red-500">@thedigitalflix</span>
@@ -193,7 +193,7 @@ function Banner() {
             <img src={IllustrationFour} alt="Placeholder" className="w-full" />
           </div>
         </div>
-        <div className="flex flex-row items-center justify-start text-start w-full h-full">
+        <div className="flex flex-row items-center justify-start text-start w-full h-full pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full p-4">
             <p>
               Connect with us <span className="text-red-500"> @thedigitalflix</span>
@@ -223,7 +223,7 @@ function Banner() {
             </div>
           </div>
           <div className="w-full">
-            <img src={IllustrationFive} alt="Placeholder" className="w-full" />
+            <img src={IllustrationLight} alt="Placeholder" className="w-full" />
           </div>
         </div>
       </Carousel>
