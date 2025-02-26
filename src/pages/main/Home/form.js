@@ -9,7 +9,7 @@ function Form() {
           <div className="w-full">
             <h2 className="text-4xl font-bold mb-4 text-center">
               Unlock your Digital future with{" "}
-              <span className="text-red-500">TheDigitalFlix!</span>
+              <span className="text-red-600">TheDigitalFlix!</span>
             </h2>
             <DotLottieReact
               src="https://lottie.host/71e2dbfe-cab3-444a-bcff-bb5dd2da606d/0pRV27oiTH.lottie"
@@ -35,8 +35,8 @@ function Form() {
                 for="floating_text"
                 class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
-                Start your digital journey with TheDigitalFlix! Enter your name
-                to begin
+                Start your digital journey with TheDigitalFlix!{" "}
+                <b>Enter your Name to begin</b>
               </label>
             </div>
             <div class="relative z-0 w-full mb-5 group">
@@ -52,8 +52,8 @@ function Form() {
                 for="floating_text"
                 class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
-                Your digital breakthrough awaits! Share your number to stay in
-                the loop
+                Your digital breakthrough awaits! <b>Share your Number</b> to
+                stay in the loop
               </label>
             </div>
             <div class="relative z-0 w-full mb-5 group">
@@ -69,8 +69,8 @@ function Form() {
                 for="floating_repeat_text"
                 class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
-                Unlock digital success! Share your email for expert tips and
-                updates
+                Unlock digital success! <b>Share your Email</b> for expert tips
+                and updates
               </label>
             </div>
             <div class="grid md:grid-cols-2 md:gap-6">
@@ -87,23 +87,27 @@ function Form() {
                   for="floating_address"
                   class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                 >
-                  Enter your address for updates
+                  Enter your <b>Address</b> for updates
                 </label>
               </div>
               <div class="relative z-0 w-full mb-5 group">
-                <input
-                  type="text"
+                <select
                   name="floating_occupation"
                   id="floating_occupation"
-                  class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-red-600 peer"
-                  placeholder=""
+                  class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-red-600 peer"
                   required
-                />
+                >
+                  <option value="" disabled selected hidden></option>
+                  <option value="employee ">Employee</option>
+                  <option value="student" selected>Student</option>
+                  <option value="freelancer">Freelancer</option>
+                  <option value="other">Other</option>
+                </select>
                 <label
                   for="floating_occupation"
                   class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                 >
-                  Working Status
+                  Working Status 👇🏻
                 </label>
               </div>
             </div>
