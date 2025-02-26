@@ -90,7 +90,7 @@ function Banner() {
             </div>
           </div>
           <div className="w-full">
-            <img src={IllustrationTwo} alt="Placeholder" className="w-full" />
+            <img src={IllustrationLight} alt="Placeholder" className="w-full" />
           </div>
         </div>
         <div className="flex flex-row items-center justify-start text-start w-full h-full p-4">
@@ -124,7 +124,7 @@ function Banner() {
             </div>
           </div>
           <div className="w-full">
-            <img src={IllustrationThree} alt="Placeholder" className="w-full" />
+            <img src={IllustrationTwo} alt="Placeholder" className="w-full" />
           </div>
         </div>
         <div className="flex flex-row items-center justify-start text-start w-full h-full ">
@@ -158,7 +158,7 @@ function Banner() {
             </div>
           </div>
           <div className="w-full">
-            <img src={IllustrationFour} alt="Placeholder" className="w-full" />
+            <img src={IllustrationThree} alt="Placeholder" className="w-full" />
           </div>
         </div>
         <div className="flex flex-row items-center justify-start text-start w-full h-full">
@@ -190,7 +190,7 @@ function Banner() {
             </div>
           </div>
           <div className="w-full">
-            <img src={IllustrationFive} alt="Placeholder" className="w-full" />
+            <img src={IllustrationFour} alt="Placeholder" className="w-full" />
           </div>
         </div>
         <div className="flex flex-row items-center justify-start text-start w-full h-full">
@@ -223,7 +223,7 @@ function Banner() {
             </div>
           </div>
           <div className="w-full">
-            <img src={IllustrationLight} alt="Placeholder" className="w-full" />
+            <img src={IllustrationFive} alt="Placeholder" className="w-full" />
           </div>
         </div>
       </Carousel>
