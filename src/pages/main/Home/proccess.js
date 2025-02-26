@@ -17,72 +17,92 @@ function ProcessSection() {
   const [isPaused, setIsPaused] = useState(false);
   const [progress, setProgress] = useState(0);
   const [isZoomedIn, setIsZoomedIn] = useState(false); // State to control zoom animation
+  const [isHovered, setIsHovered] = useState(false);
+
 
   const sectionRef = useRef(null);
 
   // Define the array of carousel items
   const carouselItems = [
     {
-      icon: <ThunderboltOutlined className="text-4xl text-blue-500" />,
-      title: "Line Monitoring",
-      description:
-        "Real-time tracking ensures efficiency, quality, workflow-optimization and quick issue identification for productivity.",
+      icon: <ThunderboltOutlined className="text-3xl text-blue-500 mt-3" />,
+      title: "100% Placement Assistance",
+      bg: "bg-green-100",
+      bgHover: "bg-green-300"
     },
     {
       icon: <RadarChartOutlined className="text-4xl text-blue-500" />,
-      title: "Machine Performance Monitoring",
-      description:
-        "Track operational metrics such as speed, efficiency, and downtime to optimize productivity.",
+      title: "Practice on Live Project",
+      bg: "bg-orange-100",
+      bgHover: "bg-orange-300"
     },
     {
       icon: <BarChartOutlined className="text-4xl text-blue-500" />,
-      title: "Predictive Maintenance ",
-      description:
-        "Forecast equipment failures before they occur, minimizing unexpected downtime and enhancing reliability and reduces overall maintenance costs.",
+      title: "Get Scholarships",
+      bg: "bg-blue-100",
+      bgHover: "bg-blue-300"
+    },
+    {
+      icon: <CheckCircleOutlined className="text-4xl text-blue-500" />,
+      title: "Start Your Own Company",
+      bg: "bg-pink-100",
+      bgHover: "bg-pink-300"
     },
   ];
 
   const carouselItemsTwo = [
     {
       icon: <DatabaseOutlined className="text-4xl text-blue-500" />,
-      title: " Incident Resolution",
-      description:
-        "Offers troubleshooting guidance/assistance for operational issues, minimizing downtime and enhancing overall machine performance.",
+      title: "Pay Fees in Installments",
+      bg: "bg-violet-100",
+      bgHover: "bg-violet-300"
     },
-   
+
     {
       icon: <CloudDownloadOutlined className="text-4xl text-blue-500" />,
-      title: "Data Analytics",
-      description:
-        "Transforms raw performance metrics into actionable insights, enabling informed decision-making for optimization.",
+      title: "Interview Training",
+      bg: "bg-purple-100",
+      bgHover: "bg-purple-300"
     },
     {
       icon: <NumberOutlined className="text-4xl text-blue-500" />,
-      title: "Customised Industry 4.0 solutions",
-      description:
-        "Tailor advanced technologies like IoT, AI, and automation to meet specific industry needs, enhancing operational efficiency.",
+      title: "Online / Offline Classes",
+      bg: "bg-green-100",
+      bgHover: "bg-green-300"
+    },
+    {
+      icon: <ToolOutlined className="text-4xl text-blue-500" />,
+      title: "Certificate of Completion",
+      bg: "bg-orange-100",
+      bgHover: "bg-orange-300"
     },
   ];
 
   const carouselItemsThree = [
     {
       icon: <CheckCircleOutlined className="text-4xl text-blue-500" />,
-      title: "Production Monitoring",
-      description:
-        "Ensure real-time tracking of output, product count to enable quick identification of bottlenecks.",
+      title: "Personality Development Classes",
+      bg: "bg-pink-100",
+      bgHover: "bg-pink-300"
     },
     {
       icon: <ToolOutlined className="text-4xl text-blue-500" />,
-      title: "Energy Monitoring",
-      description:
-        "Tracks power consumption in real time, providing insights into efficiency and operational costs",
+      title: "Industry Expert Sessions",
+      bg: "bg-yellow-100",
+      bgHover: "bg-yellow-300"
     },
-   
+
     {
       icon: <MonitorOutlined className="text-4xl text-blue-500" />,
-      title: "CNC Monitoring",
-      description:
-        "Real-time tracking of CNC machines enhances precision, productivity, and reduces errors through metric analysis.",
+      title: "Become a Freelancer",
+      bg: "bg-red-100",
+      bgHover: "bg-red-300"
+    },
+    {
+      icon: <MonitorOutlined className="text-4xl text-blue-500" />,
+      title: "AI Integrated Courses",
+      bg: "bg-blue-100",
+      bgHover: "bg-blue-300"
     },
   ];
 
@@ -165,15 +185,6 @@ function ProcessSection() {
             Design Or Develop Custom Software For Your Operations.
           </p>{" "}
         </div>
-        {/* <div className="">
-          <div className="">
-            <Link to="/cnc-monitoring">
-              <button className="px-6 py-3 bg-slate-600 dark:bg-white text-white dark:text-black font-medium rounded-lg shadow hover:bg-gray-700 transition">
-                Learn more <ArrowRightOutlined className="ml-2" />
-              </button>
-            </Link>
-          </div>
-        </div> */}
       </div>
       <div className="flex flex-col xs:max-w-full items-center justify-center">
         <div
@@ -188,18 +199,16 @@ function ProcessSection() {
               onMouseLeave={handleMouseLeave}
             >
               <div
-                className={`z-10 sm:max-w-full xs:max-w-full top-5 flex flex-row-reverse items-center justify-center gap-5  transition-all duration-500 ease-in-out transform ${
-                  isTransitioning
-                    ? "translate-x-full opacity-0"
-                    : "translate-x-0 opacity-100"
-                }`}
+               className={`z-10 sm:max-w-full xs:max-w-full top-5 flex flex-row-reverse items-center justify-center gap-5 transition-all duration-500 ease-in-out transform p-2 rounded-lg ${carouselItems[currentIndex].bg} ${isHovered ? carouselItems[currentIndex].bgHover : ''}`}
+               onMouseEnter={() => setIsHovered(true)}
+               onMouseLeave={() => setIsHovered(false)}
               >
                 <div>{carouselItems[currentIndex].icon}</div>
                 <div>
-                  <h3 className="mt-4 text-2xl md:text-2xl sm:text-sm xs:text-sm text-end font-bold text-gray-800 dark:text-white">
+                  <h3 className="mt-4 text-2xl md:text-2xl sm:text-sm xs:text-sm text-end font-bold text-gray-800 dark:text-black">
                     {carouselItems[currentIndex].title}
                   </h3>
-                  <p className="mt-2 text-end md:text-lg sm:text-xs xs:text-xs text-gray-600 dark:text-gray-400">
+                  <p className="mt-2 text-end md:text-lg sm:text-xs xs:text-xs text-gray-600 dark:text-white">
                     {carouselItems[currentIndex].description}
                   </p>
                 </div>
@@ -208,15 +217,15 @@ function ProcessSection() {
               <br />
 
               <div
-                className={`relative z-10 top-5 sm:max-w-full xs:max-w-full flex flex-row items-center justify-center gap-5 transition-all duration-500 ease-in-out transform ${
+                className={`relative z-10 top-5 sm:max-w-full xs:max-w-full flex flex-row items-center justify-center gap-5 transition-all duration-500 ease-in-out transform p-2 rounded-lg mb-4 ${
                   isTransitioning
                     ? "translate-x-[-100%] opacity-0"
                     : "translate-x-0 opacity-100"
-                }`}
+                } ${carouselItemsTwo[currentIndex].bg }`}
               >
                 <div>{carouselItemsTwo[currentIndex].icon}</div>
                 <div>
-                  <h3 className="mt-4 text-2xl md:text-2xl sm:text-sm xs:text-sm text-start font-bold text-gray-800 dark:text-white">
+                  <h3 className="mt-4 text-2xl md:text-2xl sm:text-sm xs:text-sm text-start font-bold text-gray-800 dark:text-black">
                     {carouselItemsTwo[currentIndex].title}
                   </h3>
                   <p className="mt-2 text-start md:text-lg sm:text-xs xs:text-xs text-gray-600 dark:text-gray-400">
@@ -228,15 +237,15 @@ function ProcessSection() {
               <br />
 
               <div
-                className={`relative z-10 top-5 sm:max-w-full xs:max-w-full flex flex-row-reverse items-center justify-center gap-5  transition-all duration-500 ease-in-out transform ${
+                className={`relative z-10 top-5 sm:max-w-full xs:max-w-full flex flex-row-reverse items-center justify-center gap-5  transition-all duration-500 ease-in-out transform p-2 rounded-lg mb-4 ${
                   isTransitioning
                     ? "translate-x-full opacity-0"
                     : "translate-x-0 opacity-100"
-                }`}
+                } ${carouselItemsThree[currentIndex].bg}`}
               >
                 <div>{carouselItemsThree[currentIndex].icon}</div>
                 <div>
-                  <h3 className="mt-4 text-2xl md:text-2xl sm:text-sm xs:text-sm text-end font-bold text-gray-800 dark:text-white">
+                  <h3 className="mt-4 text-2xl md:text-2xl sm:text-sm xs:text-sm text-end font-bold text-gray-800 dark:text-black">
                     {carouselItemsThree[currentIndex].title}
                   </h3>
                   <p className="mt-2 text-end md:text-lg sm:text-xs xs:text-xs   text-gray-600 dark:text-gray-400">
