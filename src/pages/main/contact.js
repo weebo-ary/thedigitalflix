@@ -52,19 +52,19 @@ function Contact() {
 
   return (
     <>
-      <div className="mx-0 lg:mx-0 md:mx-0 sm:mx-0 xs:mx-0 lg:mb-0 lg:mt-20 xs:mt-0 lg:min-h-screen md:h-min-h-screen sm:min-h-screen xs:min-h-screen flex flex-row md:flex-row items-start justify-start sm:flex-col xs:flex-col overflow-hidden p-5 md:gap-10">
+      <div className="mx-0 lg:mx-0 md:mx-0 sm:mx-0 xs:mx-0 lg:mb-0 lg:mt-20 xs:mt-0 lg:h-screen md:h-screen sm:min-h-screen xs:min-h-screen flex flex-row md:flex-row items-start justify-start sm:flex-col xs:flex-col overflow-hidden p-5 md:gap-10">
         <video
           autoPlay
           loop
           muted
           playsInline
-          className="absolute inset-0 w-full min-h-screen object-cover opacity-90 dark:opacity-40 z-0"
+          className="absolute inset-0 w-full h-screen object-cover opacity-90 dark:opacity-40 z-0"
         >
           <source src={VideoContact} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
-        <div className="z-10 mx-auto flex md:flex-row sm:flex-col xs:flex-col-reverse justify-between items-start gap-20 space-y-10 md:space-y-0">
+        <div className="z-10 mx-auto flex md:flex-row sm:flex-col xs:flex-col-reverse justify-between items-start gap-20 space-y-10 md:space-y-0 ">
           {/* Contact Information */}
           <div className="text-white max-w-md space-y-8 p-6">
             <h1 className="text-4xl font-bold">Connect with us</h1>

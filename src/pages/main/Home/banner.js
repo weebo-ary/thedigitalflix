@@ -79,7 +79,7 @@ function Banner() {
             <div className="flex flex-row gap-6">
               <Link to="/contact">
                 <button className="bg-white hover:bg-gray-800 text-black transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
-                  Contact Us
+                  Enroll Now
                 </button>
               </Link>
               <Link to="/contact">
@@ -90,7 +90,7 @@ function Banner() {
             </div>
           </div>
           <div className="w-full">
-            <img src={IllustrationFive} alt="Placeholder" className="w-full" />
+            <img src={IllustrationFive} alt="Placeholder" className="w-full rounded-lg" />
           </div>
         </div>
         <div className="flex flex-row items-center justify-start text-start w-full h-full p-4 pl-6 pr-6">
@@ -113,7 +113,7 @@ function Banner() {
             <div className="flex flex-row gap-6">
               <Link to="/contact">
                 <button className="bg-white hover:bg-gray-800 text-black transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
-                  Contact Us
+                  Enroll Now
                 </button>
               </Link>
               <Link to="/contact">
@@ -124,7 +124,7 @@ function Banner() {
             </div>
           </div>
           <div className="w-full">
-            <img src={IllustrationTwo} alt="Placeholder" className="w-full" />
+            <img src={IllustrationTwo} alt="Placeholder" className="w-full rounded-lg" />
           </div>
         </div>
         <div className="flex flex-row items-center justify-start text-start w-full h-full pl-6 pr-6">
@@ -147,7 +147,7 @@ function Banner() {
             <div className="flex flex-row gap-6">
               <Link to="/contact">
                 <button className="bg-white hover:bg-gray-800 text-black transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
-                  Contact Us
+                  Enroll Now
                 </button>
               </Link>
               <Link to="/contact">
@@ -179,7 +179,7 @@ function Banner() {
             <div className="flex flex-row gap-6">
               <Link to="/contact">
                 <button className="bg-white hover:bg-gray-800 text-black transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
-                  Contact Us
+                  Enroll Now
                 </button>
               </Link>
               <Link to="/contact">
@@ -212,7 +212,7 @@ function Banner() {
             <div className="flex flex-row gap-6">
               <Link to="/contact">
                 <button className="bg-white hover:bg-gray-800 text-black transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
-                  Contact Us
+                  Enroll Now
                 </button>
               </Link>
               <Link to="/contact">
