@@ -17,8 +17,6 @@ function ProcessSection() {
   const [isPaused, setIsPaused] = useState(false);
   const [progress, setProgress] = useState(0);
   const [isZoomedIn, setIsZoomedIn] = useState(false); // State to control zoom animation
-  const [isHovered, setIsHovered] = useState(false);
-
 
   const sectionRef = useRef(null);
 
@@ -199,9 +197,11 @@ function ProcessSection() {
               onMouseLeave={handleMouseLeave}
             >
               <div
-               className={`z-10 sm:max-w-full xs:max-w-full top-5 flex flex-row-reverse items-center justify-center gap-5 transition-all duration-500 ease-in-out transform p-2 rounded-lg ${carouselItems[currentIndex].bg} ${isHovered ? carouselItems[currentIndex].bgHover : ''}`}
-               onMouseEnter={() => setIsHovered(true)}
-               onMouseLeave={() => setIsHovered(false)}
+                className={`z-10 sm:max-w-full xs:max-w-full top-5 flex flex-row-reverse items-center justify-center gap-5  transition-all duration-500 ease-in-out transform p-2 rounded-lg ${
+                  isTransitioning
+                    ? "translate-x-full opacity-0"
+                    : "translate-x-0 opacity-100"
+                } ${carouselItems[currentIndex].bg} hover:bg-green-300`}
               >
                 <div>{carouselItems[currentIndex].icon}</div>
                 <div>
@@ -221,7 +221,7 @@ function ProcessSection() {
                   isTransitioning
                     ? "translate-x-[-100%] opacity-0"
                     : "translate-x-0 opacity-100"
-                } ${carouselItemsTwo[currentIndex].bg }`}
+                } ${carouselItemsTwo[currentIndex].bg} hover:bg-red-300`}
               >
                 <div>{carouselItemsTwo[currentIndex].icon}</div>
                 <div>
@@ -241,7 +241,7 @@ function ProcessSection() {
                   isTransitioning
                     ? "translate-x-full opacity-0"
                     : "translate-x-0 opacity-100"
-                } ${carouselItemsThree[currentIndex].bg}`}
+                } ${carouselItemsThree[currentIndex].bg} hover:bg-blue-300`}
               >
                 <div>{carouselItemsThree[currentIndex].icon}</div>
                 <div>
