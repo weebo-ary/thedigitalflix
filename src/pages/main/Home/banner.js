@@ -1,6 +1,10 @@
 import { ArrowRightOutlined } from "@ant-design/icons";
 import React, { useEffect, useRef, useState } from "react";
 import IllustrationLight from "../../../assets/Images/DALLE2025-02-2513.44.21-AmoderndigitalmarketingclassroominIndiawhereayoungprofessionalisengagedinlearning.Theroomisilluminatedwithneonredholograms-ezgif.com-webp-to-jpg-converter.jpg";
+import IllustrationTwo from "../../../assets/Images/TheDigitalFlix WEBSITE DEVELOPMENT PPC SEO.jpg";
+import IllustrationThree from "../../../assets/Images/TheDigitalFlix ONLINE AND OFFLINE CLASSES GET SCHOLARSHIPS  JOB OPPORTUNITIES and CERTIFICATIONS.jpg";
+import IllustrationFour from "../../../assets/Images/TheDigitalFlix COURSES FOR STUDENTS PROFESSIONAL ENTREPRENEURS AND JOB SEEKERS.jpg";
+import IllustrationFive from "../../../assets/Images/TheDigitalFlix GET JOBS IN DIGITAL MARKETING BECOME A FREELANCER START YOUR OWN AGENCY.jpg";
 import VideoBanner from "../../../assets/Video/Banner.mp4";
 import { Link } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -86,7 +90,7 @@ function Banner() {
             </div>
           </div>
           <div className="w-full">
-            <img src={IllustrationLight} alt="Placeholder" className="w-full" />
+            <img src={IllustrationTwo} alt="Placeholder" className="w-full" />
           </div>
         </div>
         <div className="flex flex-row items-center justify-start text-start w-full h-full p-4">
@@ -120,7 +124,7 @@ function Banner() {
             </div>
           </div>
           <div className="w-full">
-            <img src={IllustrationLight} alt="Placeholder" className="w-full" />
+            <img src={IllustrationThree} alt="Placeholder" className="w-full" />
           </div>
         </div>
         <div className="flex flex-row items-center justify-start text-start w-full h-full ">
@@ -154,7 +158,7 @@ function Banner() {
             </div>
           </div>
           <div className="w-full">
-            <img src={IllustrationLight} alt="Placeholder" className="w-full" />
+            <img src={IllustrationFour} alt="Placeholder" className="w-full" />
           </div>
         </div>
         <div className="flex flex-row items-center justify-start text-start w-full h-full">
@@ -186,7 +190,7 @@ function Banner() {
             </div>
           </div>
           <div className="w-full">
-            <img src={IllustrationLight} alt="Placeholder" className="w-full" />
+            <img src={IllustrationFive} alt="Placeholder" className="w-full" />
           </div>
         </div>
         <div className="flex flex-row items-center justify-start text-start w-full h-full">
