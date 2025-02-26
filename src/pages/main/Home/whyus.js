@@ -1,41 +1,51 @@
 import {SettingOutlined } from "@ant-design/icons";
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useInView } from "react-intersection-observer";
+
+const counters = [
+  { id: 1, title: "Creativity 🎨", value: 100, suffix: "%", color: "text-blue-500" },
+  { id: 2, title: "Use of AI 🤖", value: 92, suffix: "%", color: "text-green-500" },
+  { id: 3, title: "Practical Learning 🛠️", value: 95, suffix: "%", color: "text-orange-500" },
+];
+
+const counterTwo = [
+  { id: 4, title: "Student Satisfaction ❤️", value: 99, suffix: "%", color: "text-purple-500" },
+  { id: 5, title: "Student Success Rate 🎓", value: 99, suffix: "%", color: "text-pink-500" },
+]
+
+const Counter = ({ end, suffix }) => {
+  const [count, setCount] = useState(0);
+  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.5 });
+
+  useEffect(() => {
+    if (inView) {
+      let start = 0;
+      const duration = 2000; // Animation time (ms)
+      const increment = end / (duration / 10);
+
+      const timer = setInterval(() => {
+        start += increment;
+        if (start >= end) {
+          setCount(end);
+          clearInterval(timer);
+        } else {
+          setCount(Math.ceil(start));
+        }
+      }, 10);
+
+      return () => clearInterval(timer);
+    }
+  }, [inView, end]);
+
+  return (
+    <span ref={ref} className="text-5xl font-extrabold">
+      {count}
+      {suffix}
+    </span>
+  );
+};
 
 function WhyUsSection() {
-
-    const blobsData = [
-    {
-      title: "Advanced AI",
-      description: "Utilizing cutting-edge AI to provide actionable insights.",
-      color: "#9FD2C7",
-    },
-    {
-      title: "Manufacturing Focused",
-      description:
-        "Tailored solutions for manufacturing industries. Gives us Insights",
-      color: "#FFD700",
-    },
-    {
-      title: "Real-time Analytics",
-      description: "Get insights in real-time for better decision making.",
-      color: "#FF9AA2",
-    },
-    {
-      title: "Data-driven",
-      description: "Leverage manufacturing data for continuous improvement.",
-      color: "#A0CED9",
-    },
-    {
-      title: "Scalable Solutions",
-      description: "Grow with flexible and scalable AI-driven platforms.",
-      color: "#F5A623",
-    },
-    {
-      title: "Experienced Team",
-      description: "Led by a team with deep industry expertise.",
-      color: "#FFC0CB",
-    },
-  ];
 
   return (
     <div className="mx-8 my-10 p-5">
@@ -47,15 +57,13 @@ function WhyUsSection() {
         </div>
         <div className="">
           <p className="text-3xl md:text-3xl sm:text-xl xs:text-xl text-center md:text-center sm:text-start xs:text-start text-gray-600 dark:text-gray-400">
-            Coupled with our machine monitoring technology, our solutions pave
-            the way for data-driven decision-making, predictive maintenance, and
-            enhanced operational excellence.
+          At TheDigitalFlix, we blend AI-powered digital marketing training with hands-on projects, industry certifications, and 100% placement assistance, ensuring you gain real-world skills to thrive in the digital era!
           </p>
         </div>
       </div>
       <div className=""></div>
-      <div className="grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 xs:grid-cols-1 gap-5 mt-10">
-          {blobsData.map((blob, index) => (
+      <div className="grid grid-cols-2 md:grid-cols-3 sm:grid-cols-1 xs:grid-cols-1 gap-5 mt-10 items-center">
+          {counters.map(({id, title, value, suffix, color, index}) => (
             <div
               key={index}
               className="relative p-6 rounded-lg shadow-md overflow-hidden flex items-center justify-start bg-white dark:bg-gray-900"
@@ -67,12 +75,36 @@ function WhyUsSection() {
               </div>
 
               {/* Blob Content */}
-              <div className="relative z-10 text-start ml-4">
+              <div className="relative z-10 text-start ml-4" key={id}>
                 <h3 className="text-xl font-bold text-gray-800 dark:text-white">
-                  {blob.title}
+                  {title}
                 </h3>
-                <p className="mt-2 text-gray-600 dark:text-gray-400">
-                  {blob.description}
+                <p className={`mt-2 ${color} dark:${color}`}>
+                  <Counter end={value} suffix={suffix} />
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="flex md:flex sm:grid xs:grid sm:grid-cols-1 xs:grid-cols-1 gap-5 mt-10 items-center justify-center w-full">
+          {counterTwo.map(({id, title, value, suffix, color, index}) => (
+            <div
+              key={index}
+              className="relative p-6 rounded-lg shadow-md overflow-hidden flex items-center justify-start bg-white dark:bg-gray-900"
+            >
+              <div className="flex-shrink-0">
+                <div className="w-12 h-12 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
+                  <SettingOutlined className="text-black dark:text-white text-2xl animate-spin" />
+                </div>
+              </div>
+
+              {/* Blob Content */}
+              <div className="relative z-10 text-start ml-4" key={id}>
+                <h3 className="text-xl font-bold text-gray-800 dark:text-white">
+                  {title}
+                </h3>
+                <p className={`mt-2 ${color} dark:${color}`}>
+                  <Counter end={value} suffix={suffix} />
                 </p>
               </div>
             </div>

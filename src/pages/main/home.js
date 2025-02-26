@@ -9,6 +9,7 @@ import TrustUs from "./Home/trustus";
 import Offering from "./Home/offering";
 import Faq from "./Home/faq";
 import "./Home/index.css"
+import BrouchureSection from "./Home/brouchure";
 
 function home() {
   return (
@@ -18,6 +19,7 @@ function home() {
       <Tabs />
       <Proccess />
       <Feature />
+      <BrouchureSection />
        <WhyUs />
        {/* <Video /> */}
       <TrustUs />
