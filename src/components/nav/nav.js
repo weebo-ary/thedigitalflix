@@ -12,6 +12,8 @@ import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { FaLocationDot, FaXTwitter } from "react-icons/fa6";
 import { MdEmail, MdOutlineWifiCalling3 } from "react-icons/md";
 import { RiInstagramFill, RiWhatsappFill } from "react-icons/ri";
+import { FaDownload } from "react-icons/fa6";
+
 
 import {
   ControlOutlined,
@@ -169,6 +171,22 @@ const Navbar = () => {
                     {" "}
                     <span className="text-xs">Our Location: </span>
                     <FaLocationDot />{" "}
+                  </a>
+                </li>
+                <li>
+                  {/* <a className="text-white transition hover:text-red-600/75 flex items-center gap-1"> */}
+                    {" "}
+                    |
+                  {/* </a> */}
+                </li>
+                <li>
+                  <a
+                    className="text-white transition bg-red-600 px-3 py-3 rounded-md hover:text-white-600/75 flex gap-4"
+                    href="https://www.google.com/maps/place/The+DigitalFlix+Institute+of+Digital+Marketing/data=!4m2!3m1!1s0x0:0x4759d4f33282627d?sa=X&ved=1t:2428&ictx=111"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaDownload /> <span className="text-xs">Download Brouchure</span>
                   </a>
                 </li>
               </ul>
