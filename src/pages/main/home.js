@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "./Home/banner";
 import Form from "./Home/form";
+import Tabs from "./Home/tabs";
 import Feature from "./Home/feature";
 import Proccess from "./Home/proccess";
 import WhyUs from "./Home/whyus";
@@ -14,6 +15,7 @@ function home() {
     <div>
       <Banner />
       <Form />
+      <Tabs />
       <Proccess />
       <Feature />
        <WhyUs />
