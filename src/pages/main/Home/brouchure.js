@@ -59,9 +59,9 @@ function BrouchureSection() {
       <Modal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
-        imageSrc={Feature1} // Change with your image URL
-        logoSrc={Logo} // Change with your logo URL
-        head1="Welcome to Our Platform"
+        imageSrc={Feature1} 
+        logoSrc={Logo} 
+        head1="Register For Demo"
         head2="Please enter your details below"
         buttonText="Submit"
       />

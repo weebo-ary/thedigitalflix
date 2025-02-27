@@ -1,12 +1,20 @@
 import React from "react";
-import {
-  LinkedinOutlined,
-} from "@ant-design/icons";
+import { LinkedinOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="overflow-hidden bg-gray-100 mt-0 dark:bg-gray-900 text-black  dark:text-white py-10 transition-colors duration-500">
+    <footer className="overflow-hidden bg-gray-100 mt-0 dark:bg-gray-900 text-black  dark:text-white transition-colors duration-500">
+      <div className="w-full h-[400px] border-4 overflow-hidden shadow-lg mb-10 border-slate-300 rounded-lg">
+        <iframe
+          title="Google Maps Location"
+          className="w-full h-full"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.4923012940374!2d77.3882281!3d23.219583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c430007d08acf%3A0x4759d4f33282627d!2sThe%20DigitalFlix%20Institute%20of%20Digital%20Marketing!5e0!3m2!1sen!2sin!4v1709053501234!5m2!1sen!2sin"
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
       <div className="flex md:flex md:items-start md:justify-between xs:grid sm:grid sm:grid-cols-1 xs:grid-cols-1 px-12 gap-8">
         {/* Column 1: Company Logo / Branding */}
         <div className="space-y-4 md:w-1/4 xs:w-full sm:w-full md:border-r xs:border-none sm:border-none">
@@ -14,7 +22,8 @@ const Footer = () => {
             DigitalFlix Solutions Pvt. Ltd.
           </h4>
           <p className="text-gray-600 dark:text-gray-400">
-          Our AI-enabled digital marketing courses equip you with cutting-edge tools and strategies to excel in the digital world. .
+            Our AI-enabled digital marketing courses equip you with cutting-edge
+            tools and strategies to excel in the digital world. .
           </p>
           {/* Social Media Icons */}
           <div className="flex space-x-4 mt-4">
@@ -24,7 +33,12 @@ const Footer = () => {
             <a href="https://twitter.com" target="_blank" rel="noreferrer">
               <TwitterOutlined className="text-2xl text-gray-600 dark:text-gray-300 hover:text-blue-400 dark:hover:text-blue-600 transition-colors duration-300" />
             </a> */}
-            <a href="https://www.linkedin.com/company/thedigitalflix" target="_blank" rel="noreferrer" className="flex items-center justify-center gap-3">
+            <a
+              href="https://www.linkedin.com/company/thedigitalflix"
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center justify-center gap-3"
+            >
               <LinkedinOutlined className="text-2xl text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-800 transition-colors duration-300" />
               Connect with us on LinkedIn!
             </a>
@@ -156,22 +170,21 @@ const Footer = () => {
             </a>
           </p>
           <p className="text-gray-600 dark:text-gray-500">
-            Phone:{" "}
-            <br/>
+            Phone: <br />
             <a
               href="tel:+918770885079"
               className="hover:text-gray-800 dark:hover:text-white"
             >
               +91-9201457156
             </a>
-            <br/>
+            <br />
             <a
               href="tel:+917987999491"
               className="hover:text-gray-800 dark:hover:text-white"
             >
               +91-7987999491
             </a>
-            <br/>
+            <br />
             <a
               href="tel:07553162670"
               className="hover:text-gray-800 dark:hover:text-white ml-5"
@@ -179,14 +192,36 @@ const Footer = () => {
               0755-3162670
             </a>
           </p>
-          <a href="https://maps.app.goo.gl/dnQoKxYmorxtVSNP7" target="_blank" rel="noreferrer" className="text-gray-600 dark:text-gray-500 hover:text-gray-800 dark:hover:text-white">
-            HeadQuarter : The DigitalFlix Institute <br/> of Digital Marketing, B1, Kamla Nagar,<br/> Chitragupt Nagar, Kotra Sultanabad, Bhopal,<br/> Madhya Pradesh 462003
-          </a>
           {/* <p className="text-gray-600 dark:text-gray-500">
             NCR Office : P41 Etheria, 24th Floor, Bhutani <br/> 
             Alphathum, Sector 90, Noida (U.P.), 201305
           </p> */}
         </div>
+      </div>
+      <div className="mt-10 flex items-center justify-center gap-4 p-2">
+        <p className=" bg-white text-black rounded-lg p-2 hover:text-gray-800 dark:hover:text-red-400">
+          <b>🇮🇳 India Corp-Office</b> : The DigitalFlix Institute of Digital Marketing, B1,
+          Kamla Nagar, Chitragupt Nagar, Kotra Sultanabad, Bhopal, Madhya
+          Pradesh 462003
+        </p>
+
+        <p className=" bg-white text-black rounded-lg p-2 hover:text-gray-800 dark:hover:text-red-400">
+          <b>Registered Office</b> : The DigitalFlix Institute of Digital Marketing, B1,
+          Kamla Nagar, Chitragupt Nagar, Kotra Sultanabad, Bhopal, Madhya
+          Pradesh 462003
+        </p>
+
+        <p className=" bg-white text-black rounded-lg p-2 hover:text-gray-800 dark:hover:text-red-400">
+          <b>Albania Office</b> : The DigitalFlix Institute of Digital Marketing, B1,
+          Kamla Nagar, Chitragupt Nagar, Kotra Sultanabad, Bhopal, Madhya
+          Pradesh 462003
+        </p>
+
+        <p className=" bg-white text-black rounded-lg p-2 hover:text-gray-800 dark:hover:text-red-400">
+          <b>Germany Office</b> : The DigitalFlix Institute of Digital Marketing, B1,
+          Kamla Nagar, Chitragupt Nagar, Kotra Sultanabad, Bhopal, Madhya
+          Pradesh 462003
+        </p>
       </div>
       {/* <div className="bg-gray-100 dark:bg-gray-900 border-t py-6 mt-10 transition duration-500">
         <div className="mt-7 mx-auto px-4 flex flex-col md:flex-row xs:flex-row items-center justify-around">

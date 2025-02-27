@@ -43,7 +43,7 @@ const Modal = ({
           </div>
 
           {/* Headings */}
-          <h2 className="text-lg font-semibold text-center mt-2">{head1}</h2>
+          <h2 className="text-lg font-semibold text-center mt-2 text-gray-800">{head1}</h2>
           <h3 className="text-md text-gray-600 text-center mb-4">{head2}</h3>
 
           {/* Input Fields */}

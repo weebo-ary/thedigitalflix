@@ -76,11 +76,11 @@ function Banner() {
           <div className="flex flex-col mb-10 w-full">
             <p>
               Connect with us{" "}
-              <span className="text-red-500">@thedigitalflix</span>
+              <a href="https://www.linktr.ee/thedigitalflix" target="_blank" rel="noreferrer"><span className="text-red-500">@thedigitalflix</span></a>
             </p>
             <h1 className="text-4xl font-bold text-white mb-4 mt-4">
               DIGITAL MARKETING COURSE IN BHOPAL | POWERED BY
-              <span className="text-red-500"> ARTIFICIAL INTELLIGENCE</span>
+              <span className="text-red-600"> ARTIFICIAL INTELLIGENCE</span>
             </h1>
             <p className="text-xl font-semibold text-white mb-8">
               Welcome to The DigitalFlix Institute of Digital Marketing – where
@@ -93,7 +93,7 @@ function Banner() {
             <div className="flex flex-row gap-6">
               <button
                 onClick={() => setIsModalOpen(true)}
-                className="w-1/2 bg-red-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-600 transition"
+                className="w-1/2 bg-red-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-500 transition"
               >
                 Enroll Now
               </button>
@@ -116,10 +116,10 @@ function Banner() {
           <div className="flex flex-col mb-10 w-full">
             <p>
               Connect with us{" "}
-              <span className="text-red-500">@thedigitalflix</span>
+              <a href="https://www.linktr.ee/thedigitalflix" target="_blank" rel="noreferrer"><span className="text-red-500">@thedigitalflix</span></a>
             </p>
             <h2 className="text-4xl font-bold text-white mb-4 mt-4">
-              <span className="text-red-500">WEBSITE DEVELOPMENT</span> | SEO |
+              <span className="text-red-600">WEBSITE DEVELOPMENT</span> | SEO |
               SOCIAL MEDIA | PPC | ARTIFICIAL INTELLIGENCE
             </h2>
             <p className="text-xl font-semibold text-white mb-8">
@@ -133,7 +133,7 @@ function Banner() {
             <div className="flex flex-row gap-6">
               <button
                 onClick={() => setIsModalOpen(true)}
-                className="w-1/2 bg-red-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-600 transition"
+                className="w-1/2 bg-red-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-500 transition"
               >
                 Enroll Now
               </button>
@@ -158,13 +158,13 @@ function Banner() {
           <div className="flex flex-col mb-10 w-full p-4">
             <p>
               Connect with us{" "}
-              <span className="text-red-500">@thedigitalflix</span>
+              <a href="https://www.linktr.ee/thedigitalflix" target="_blank" rel="noreferrer"><span className="text-red-500">@thedigitalflix</span></a>
             </p>
             <h2 className="text-4xl font-bold text-white mb-4 mt-4">
-              <span className="text-red-500">ONLINE AND OFFLINE</span> CLASSES |
-              GET <span className="text-red-500">SCHOLARSHIPS</span>,{" "}
-              <span className="text-red-500">JOB</span> OPPORTUNITIES &{" "}
-              <span className="text-red-500">CERTIFICATIONS</span>
+              <span className="text-red-600">ONLINE AND OFFLINE</span> CLASSES |
+              GET <span className="text-red-600">SCHOLARSHIPS</span>,{" "}
+              <span className="text-red-600">JOB</span> OPPORTUNITIES &{" "}
+              <span className="text-red-600">CERTIFICATIONS</span>
             </h2>
             <p className="text-xl font-semibold text-white mb-8">
               Whether you prefer online or offline classes, we offer flexible
@@ -177,7 +177,7 @@ function Banner() {
             <div className="flex flex-row gap-6">
               <button
                 onClick={() => setIsModalOpen(true)}
-                className="w-1/2 bg-red-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-600 transition"
+                className="w-1/2 bg-red-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-500 transition"
               >
                 Enroll Now
               </button>
@@ -189,20 +189,24 @@ function Banner() {
             </div>
           </div>
           <div className="w-full">
-            <img src={IllustrationThree} alt="Placeholder" className="w-full" />
+            <img
+              src={IllustrationThree}
+              alt="Placeholder"
+              className="w-full rounded-lg"
+            />
           </div>
         </div>
         <div className="flex flex-row items-center justify-start text-start w-full h-full pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full p-4">
             <p>
               Connect with us{" "}
-              <span className="text-red-500">@thedigitalflix</span>
+              <a href="https://www.linktr.ee/thedigitalflix" target="_blank" rel="noreferrer"><span className="text-red-500">@thedigitalflix</span></a>
             </p>
             <h2 className="text-4xl font-bold text-white mb-4 mt-4">
-              COURSES FOR <span className="text-red-500">STUDENTS</span>,{" "}
-              <span className="text-red-500">PROFESSIONALS</span>,{" "}
-              <span className="text-red-500">ENTREPRENEURS</span> &{" "}
-              <span className="text-red-500">JOB</span> SEEKERS
+              COURSES FOR <span className="text-red-600">STUDENTS</span>,{" "}
+              <span className="text-red-600">PROFESSIONALS</span>,{" "}
+              <span className="text-red-600">ENTREPRENEURS</span> &{" "}
+              <span className="text-red-600">JOB</span> SEEKERS
             </h2>
             <p className="text-xl font-semibold text-white mb-8">
               No matter where you are in your career, TheDigitalFlix has the
@@ -214,7 +218,7 @@ function Banner() {
             <div className="flex flex-row gap-6">
               <button
                 onClick={() => setIsModalOpen(true)}
-                className="w-1/2 bg-red-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-600 transition"
+                className="w-1/2 bg-red-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-500 transition"
               >
                 Enroll Now
               </button>
@@ -226,20 +230,24 @@ function Banner() {
             </div>
           </div>
           <div className="w-full">
-            <img src={IllustrationFour} alt="Placeholder" className="w-full" />
+            <img
+              src={IllustrationFour}
+              alt="Placeholder"
+              className="w-full rounded-lg"
+            />
           </div>
         </div>
         <div className="flex flex-row items-center justify-start text-start w-full h-full pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full p-4">
             <p>
               Connect with us{" "}
-              <span className="text-red-500"> @thedigitalflix</span>
+              <a href="https://www.linktr.ee/thedigitalflix" target="_blank" rel="noreferrer"><span className="text-red-500">@thedigitalflix</span></a>
             </p>
             <h2 className="text-4xl font-bold text-white mb-4 mt-4">
               GET JOBS IN{" "}
-              <span className="text-red-500">DIGITAL MARKETING</span> | BECOME A{" "}
-              <span className="text-red-500">FREELANCER</span> | START YOUR OWN{" "}
-              <span className="text-red-500">DIGITAL AGENCY</span>
+              <span className="text-red-600">DIGITAL MARKETING</span> | BECOME A{" "}
+              <span className="text-red-600">FREELANCER</span> | START YOUR OWN{" "}
+              <span className="text-red-600">DIGITAL AGENCY</span>
             </h2>
             <p className="text-xl font-semibold text-white mb-8">
               TheDigitalFlix empowers you with in-demand digital marketing
@@ -251,7 +259,7 @@ function Banner() {
             <div className="flex flex-row gap-6">
               <button
                 onClick={() => setIsModalOpen(true)}
-                className="w-1/2 bg-red-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-600 transition"
+                className="w-1/2 bg-red-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-500 transition"
               >
                 Enroll Now
               </button>
@@ -263,7 +271,11 @@ function Banner() {
             </div>
           </div>
           <div className="w-full">
-            <img src={IllustrationLight} alt="Placeholder" className="w-full" />
+            <img
+              src={IllustrationLight}
+              alt="Placeholder"
+              className="w-full rounded-lg"
+            />
           </div>
         </div>
       </Carousel>

@@ -62,7 +62,7 @@ function App() {
   if (isLoading || isTransitioning) {
     return (
       <div
-        className={`overflow-y-hidden flex flex-col items-center justify-center min-h-screen bg-white dark:bg-gray-800 transition-transform duration-1000 transform ${
+        className={`overflow-y-hidden flex flex-col items-center justify-center min-h-screen bg-white dark:bg-gray-900 transition-transform duration-1000 transform ${
           !isLoading && "translate-y-full"
         }`}
       >
@@ -95,7 +95,7 @@ function App() {
           onClose={() => setIsModalOpen(false)}
           imageSrc={Feature1} // Replace with your image URL
           logoSrc={Logo} // Replace with your logo URL
-          head1="Welcome to Our Platform"
+          head1="Register For Demo"
           head2="Please enter your details below"
           buttonText="Submit"
         />
