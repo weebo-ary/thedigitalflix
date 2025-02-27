@@ -11,11 +11,10 @@ const Footer = () => {
         {/* Column 1: Company Logo / Branding */}
         <div className="space-y-4 md:w-1/4 xs:w-full sm:w-full md:border-r xs:border-none sm:border-none">
           <h4 className="text-2xl font-bold text-gray-900 dark:text-white">
-            Opsight AI
+            DigitalFlix Solutions Pvt. Ltd.
           </h4>
           <p className="text-gray-600 dark:text-gray-400">
-            AI-driven solutions to achieve operational excellence in your
-            company.
+          Our AI-enabled digital marketing courses equip you with cutting-edge tools and strategies to excel in the digital world. .
           </p>
           {/* Social Media Icons */}
           <div className="flex space-x-4 mt-4">
@@ -25,7 +24,7 @@ const Footer = () => {
             <a href="https://twitter.com" target="_blank" rel="noreferrer">
               <TwitterOutlined className="text-2xl text-gray-600 dark:text-gray-300 hover:text-blue-400 dark:hover:text-blue-600 transition-colors duration-300" />
             </a> */}
-            <a href="https://www.linkedin.com/company/opsight-ai-pvt-ltd/" target="_blank" rel="noreferrer" className="flex items-center justify-center gap-3">
+            <a href="https://www.linkedin.com/company/thedigitalflix" target="_blank" rel="noreferrer" className="flex items-center justify-center gap-3">
               <LinkedinOutlined className="text-2xl text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-800 transition-colors duration-300" />
               Connect with us on LinkedIn!
             </a>
@@ -153,26 +152,40 @@ const Footer = () => {
               href="mailto:support@company.com"
               className="hover:text-gray-800 dark:hover:text-white"
             >
-              support@company.com
+              connect@thedigitalflix.com
             </a>
           </p>
           <p className="text-gray-600 dark:text-gray-500">
             Phone:{" "}
+            <br/>
             <a
               href="tel:+918770885079"
               className="hover:text-gray-800 dark:hover:text-white"
             >
-              +91-8770885079
+              +91-9201457156
+            </a>
+            <br/>
+            <a
+              href="tel:+917987999491"
+              className="hover:text-gray-800 dark:hover:text-white"
+            >
+              +91-7987999491
+            </a>
+            <br/>
+            <a
+              href="tel:07553162670"
+              className="hover:text-gray-800 dark:hover:text-white ml-5"
+            >
+              0755-3162670
             </a>
           </p>
-          <p className="text-gray-600 dark:text-gray-500">
-            HeadQuarter : Priyadarshini Adhishthan Bawadia <br/>
-            Kalan, Bhopal (M.P.), 462026
-          </p>
-          <p className="text-gray-600 dark:text-gray-500">
+          <a href="https://maps.app.goo.gl/dnQoKxYmorxtVSNP7" target="_blank" rel="noreferrer" className="text-gray-600 dark:text-gray-500 hover:text-gray-800 dark:hover:text-white">
+            HeadQuarter : The DigitalFlix Institute <br/> of Digital Marketing, B1, Kamla Nagar,<br/> Chitragupt Nagar, Kotra Sultanabad, Bhopal,<br/> Madhya Pradesh 462003
+          </a>
+          {/* <p className="text-gray-600 dark:text-gray-500">
             NCR Office : P41 Etheria, 24th Floor, Bhutani <br/> 
             Alphathum, Sector 90, Noida (U.P.), 201305
-          </p>
+          </p> */}
         </div>
       </div>
       {/* <div className="bg-gray-100 dark:bg-gray-900 border-t py-6 mt-10 transition duration-500">

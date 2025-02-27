@@ -8,12 +8,11 @@ import { MenuOutlined } from "@ant-design/icons";
 import { NavLink } from "react-router-dom";
 import "./nav.css";
 import Sidebar from "../Drawer/Sidebar";
-import { FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaDownload, FaFacebook, FaLinkedin } from "react-icons/fa";
 import { FaLocationDot, FaXTwitter } from "react-icons/fa6";
 import { MdEmail, MdOutlineWifiCalling3 } from "react-icons/md";
 import { RiInstagramFill, RiWhatsappFill } from "react-icons/ri";
-import { FaDownload } from "react-icons/fa6";
-
+import Feature1 from "../../assets/Images/Feat2.jpg";
 
 import {
   ControlOutlined,
@@ -23,6 +22,7 @@ import {
   PhoneOutlined,
 } from "@ant-design/icons";
 import DropdownMenuServices from "../dropdown/DropDownService";
+import Modal from "../../pages/main/Home/modal";
 
 const Navbar = () => {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
@@ -57,6 +57,9 @@ const Navbar = () => {
     };
   }, []);
 
+    const [isModalOpen, setIsModalOpen] = useState(false);
+  
+
   return (
     <>
       <nav
@@ -67,7 +70,7 @@ const Navbar = () => {
         }`}
       >
         <div className="w-full">
-          <div className="flex flex-row items-center justify-center bg-gray-900 p-2">
+          <div className=" flex flex-row items-center justify-center bg-gray-900 p-2">
             <nav aria-label="Global">
               <ul className="flex items-center gap-6 text-lg">
                 <li>
@@ -179,16 +182,12 @@ const Navbar = () => {
                     |
                   {/* </a> */}
                 </li>
-                <li>
-                  <a
-                    className="text-white transition bg-red-600 px-3 py-3 rounded-md hover:text-white-600/75 flex gap-4"
-                    href="https://www.google.com/maps/place/The+DigitalFlix+Institute+of+Digital+Marketing/data=!4m2!3m1!1s0x0:0x4759d4f33282627d?sa=X&ved=1t:2428&ictx=111"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FaDownload /> <span className="text-xs">Download Brouchure</span>
-                  </a>
-                </li>
+                <button
+                onClick={() => setIsModalOpen(true)}
+                className="w-30 h-auto flex items-center justify-center bg-red-500 text-xs text-white px-4 py-2 rounded-md shadow-md hover:bg-red-600 transition gap-2"
+              >
+                <FaDownload /> Brouchure
+              </button>
               </ul>
             </nav>
           </div>
@@ -291,6 +290,15 @@ const Navbar = () => {
           <Sidebar isOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
         </div>
       </nav>
+      <Modal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        imageSrc={Feature1} // Change with your image URL
+        logoSrc={LightLogo} // Change with your logo URL
+        head1="Welcome to Our Platform"
+        head2="Please enter your details below"
+        buttonText="Submit"
+      />
     </>
   );
 };

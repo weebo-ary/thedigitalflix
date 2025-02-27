@@ -6,12 +6,27 @@ import { useState, useEffect } from "react";
 import LightLogo from "./assets/Logo/LightLogo.png";
 import DarkLogo from "./assets/Logo/DarkLogo.png";
 import ScrollToTop from "./components/ScrollToTop";
+import Modal from "./pages/main/Home/modalOnRefresh";
+import Logo from "./assets/Logo/LightLogo.png"
+import Feature1 from "./assets/Images/Feat2.jpg";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [isTransitioning, setIsTransitioning] = useState(false);
 
   const [theme] = useState(localStorage.getItem("theme") || "dark");
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  useEffect(() => {
+    sessionStorage.setItem("modalShown", "false");
+
+    const hasModalShown = sessionStorage.getItem("modalShown");
+    if (hasModalShown === "false") {
+      setIsModalOpen(true);
+      sessionStorage.setItem("modalShown", "true"); // Set to true after displaying
+    }
+  }, []);
 
   // Apply the theme to the loading screen only
   useEffect(() => {
@@ -56,14 +71,26 @@ function App() {
     );
   }
 
+  
+
   return (
     <div className="bg-white dark:bg-gray-800 text-black dark:text-white min-h-screen transition duration-500">
       <ScrollToTop />
       <Navbar />
       <div className="overflow-hidden">
         <Outlet />
+        <Modal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        imageSrc={Feature1} // Replace with your image URL
+        logoSrc={Logo} // Replace with your logo URL
+        head1="Welcome to Our Platform"
+        head2="Please enter your details below"
+        buttonText="Submit"
+      />
       </div>
       <Footer />
+      
     </div>
   );
 }

@@ -9,10 +9,14 @@ import VideoBanner from "../../../assets/Video/Banner.mp4";
 import { Link } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import Feature1 from "../../../assets/Images/Feat2.jpg";
+import Logo from "../../../assets/Logo/LightLogo.png";
+import Modal from "./modal";
 
 function Banner() {
   const [isLeftVisible, setIsLeftVisible] = useState(false);
   const [isRightVisible, setIsRightVisible] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const leftSectionRef = useRef(null);
   const rightSectionRef = useRef(null);
@@ -21,7 +25,6 @@ function Banner() {
     const observerOptions = {
       threshold: 0.1, // Trigger when 10% of the element is visible
     };
-    
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -57,12 +60,23 @@ function Banner() {
         <source src={VideoBanner} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <h2 className="hidden">{isLeftVisible} {isRightVisible}</h2>
-      <Carousel className="relative w-full cursor-pointer -mt-10" showArrows={true} showStatus={false} autoPlay stopOnHover infiniteLoop interval={7500}>
+      <h2 className="hidden">
+        {isLeftVisible} {isRightVisible}
+      </h2>
+      <Carousel
+        className="relative w-full cursor-pointer -mt-10"
+        showArrows={true}
+        showStatus={false}
+        autoPlay
+        stopOnHover
+        infiniteLoop
+        interval={7500}
+      >
         <div className="flex flex-row items-center justify-start text-start w-full h-full gap-6 mb-10 p-4 pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full">
             <p>
-              Connect with us <span className="text-red-500">@thedigitalflix</span>
+              Connect with us{" "}
+              <span className="text-red-500">@thedigitalflix</span>
             </p>
             <h1 className="text-4xl font-bold text-white mb-4 mt-4">
               DIGITAL MARKETING COURSE IN BHOPAL | POWERED BY
@@ -77,11 +91,12 @@ function Banner() {
               the industry.
             </p>
             <div className="flex flex-row gap-6">
-              <Link to="/contact">
-                <button className="bg-white hover:bg-gray-800 text-black transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
-                  Enroll Now
-                </button>
-              </Link>
+              <button
+                onClick={() => setIsModalOpen(true)}
+                className="w-1/2 bg-red-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-600 transition"
+              >
+                Enroll Now
+              </button>
               <Link to="/contact">
                 <button className="text-gray-300 transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
                   Learn More <ArrowRightOutlined className="ml-2" />
@@ -90,17 +105,22 @@ function Banner() {
             </div>
           </div>
           <div className="w-full">
-            <img src={IllustrationFive} alt="Placeholder" className="w-full rounded-lg" />
+            <img
+              src={IllustrationFive}
+              alt="Placeholder"
+              className="w-full rounded-lg"
+            />
           </div>
         </div>
         <div className="flex flex-row items-center justify-start text-start w-full h-full p-4 pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full">
             <p>
-              Connect with us <span className="text-red-500">@thedigitalflix</span>
+              Connect with us{" "}
+              <span className="text-red-500">@thedigitalflix</span>
             </p>
             <h2 className="text-4xl font-bold text-white mb-4 mt-4">
-            <span className="text-red-500">WEBSITE DEVELOPMENT</span> | SEO | SOCIAL MEDIA | PPC | ARTIFICIAL
-              INTELLIGENCE
+              <span className="text-red-500">WEBSITE DEVELOPMENT</span> | SEO |
+              SOCIAL MEDIA | PPC | ARTIFICIAL INTELLIGENCE
             </h2>
             <p className="text-xl font-semibold text-white mb-8">
               Our AI-powered courses are designed to equip you with cutting-edge
@@ -111,11 +131,13 @@ function Banner() {
               certifications.
             </p>
             <div className="flex flex-row gap-6">
-              <Link to="/contact">
-                <button className="bg-white hover:bg-gray-800 text-black transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
-                  Enroll Now
-                </button>
-              </Link>
+              <button
+                onClick={() => setIsModalOpen(true)}
+                className="w-1/2 bg-red-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-600 transition"
+              >
+                Enroll Now
+              </button>
+
               <Link to="/contact">
                 <button className="text-gray-300 transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
                   Learn More <ArrowRightOutlined className="ml-2" />
@@ -123,18 +145,26 @@ function Banner() {
               </Link>
             </div>
           </div>
+
           <div className="w-full">
-            <img src={IllustrationTwo} alt="Placeholder" className="w-full rounded-lg" />
+            <img
+              src={IllustrationTwo}
+              alt="Placeholder"
+              className="w-full rounded-lg"
+            />
           </div>
         </div>
         <div className="flex flex-row items-center justify-start text-start w-full h-full pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full p-4">
             <p>
-              Connect with us <span className="text-red-500">@thedigitalflix</span>
+              Connect with us{" "}
+              <span className="text-red-500">@thedigitalflix</span>
             </p>
             <h2 className="text-4xl font-bold text-white mb-4 mt-4">
-            <span className="text-red-500">ONLINE AND OFFLINE</span> CLASSES | GET <span className="text-red-500">SCHOLARSHIPS</span>, <span className="text-red-500">JOB
-              </span> OPPORTUNITIES & <span className="text-red-500">CERTIFICATIONS</span>
+              <span className="text-red-500">ONLINE AND OFFLINE</span> CLASSES |
+              GET <span className="text-red-500">SCHOLARSHIPS</span>,{" "}
+              <span className="text-red-500">JOB</span> OPPORTUNITIES &{" "}
+              <span className="text-red-500">CERTIFICATIONS</span>
             </h2>
             <p className="text-xl font-semibold text-white mb-8">
               Whether you prefer online or offline classes, we offer flexible
@@ -145,11 +175,12 @@ function Banner() {
               toward digital success
             </p>
             <div className="flex flex-row gap-6">
-              <Link to="/contact">
-                <button className="bg-white hover:bg-gray-800 text-black transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
-                  Enroll Now
-                </button>
-              </Link>
+              <button
+                onClick={() => setIsModalOpen(true)}
+                className="w-1/2 bg-red-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-600 transition"
+              >
+                Enroll Now
+              </button>
               <Link to="/contact">
                 <button className="text-gray-300 transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
                   Learn More <ArrowRightOutlined className="ml-2" />
@@ -164,10 +195,14 @@ function Banner() {
         <div className="flex flex-row items-center justify-start text-start w-full h-full pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full p-4">
             <p>
-              Connect with us <span className="text-red-500">@thedigitalflix</span>
+              Connect with us{" "}
+              <span className="text-red-500">@thedigitalflix</span>
             </p>
             <h2 className="text-4xl font-bold text-white mb-4 mt-4">
-              COURSES FOR <span className="text-red-500">STUDENTS</span>, <span className="text-red-500">PROFESSIONALS</span>, <span className="text-red-500">ENTREPRENEURS</span> & <span className="text-red-500">JOB</span> SEEKERS
+              COURSES FOR <span className="text-red-500">STUDENTS</span>,{" "}
+              <span className="text-red-500">PROFESSIONALS</span>,{" "}
+              <span className="text-red-500">ENTREPRENEURS</span> &{" "}
+              <span className="text-red-500">JOB</span> SEEKERS
             </h2>
             <p className="text-xl font-semibold text-white mb-8">
               No matter where you are in your career, TheDigitalFlix has the
@@ -177,11 +212,12 @@ function Banner() {
               skills, our expert-led training will equip you for success.
             </p>
             <div className="flex flex-row gap-6">
-              <Link to="/contact">
-                <button className="bg-white hover:bg-gray-800 text-black transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
-                  Enroll Now
-                </button>
-              </Link>
+              <button
+                onClick={() => setIsModalOpen(true)}
+                className="w-1/2 bg-red-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-600 transition"
+              >
+                Enroll Now
+              </button>
               <Link to="/contact">
                 <button className="text-gray-300 transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
                   Learn More <ArrowRightOutlined className="ml-2" />
@@ -196,11 +232,14 @@ function Banner() {
         <div className="flex flex-row items-center justify-start text-start w-full h-full pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full p-4">
             <p>
-              Connect with us <span className="text-red-500"> @thedigitalflix</span>
+              Connect with us{" "}
+              <span className="text-red-500"> @thedigitalflix</span>
             </p>
             <h2 className="text-4xl font-bold text-white mb-4 mt-4">
-              GET JOBS IN <span className="text-red-500">DIGITAL MARKETING</span> | BECOME A <span className="text-red-500">FREELANCER</span> | START YOUR
-              OWN <span className="text-red-500">DIGITAL AGENCY</span>
+              GET JOBS IN{" "}
+              <span className="text-red-500">DIGITAL MARKETING</span> | BECOME A{" "}
+              <span className="text-red-500">FREELANCER</span> | START YOUR OWN{" "}
+              <span className="text-red-500">DIGITAL AGENCY</span>
             </h2>
             <p className="text-xl font-semibold text-white mb-8">
               TheDigitalFlix empowers you with in-demand digital marketing
@@ -210,11 +249,12 @@ function Banner() {
               endless career opportunities in the digital world.
             </p>
             <div className="flex flex-row gap-6">
-              <Link to="/contact">
-                <button className="bg-white hover:bg-gray-800 text-black transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
-                  Enroll Now
-                </button>
-              </Link>
+              <button
+                onClick={() => setIsModalOpen(true)}
+                className="w-1/2 bg-red-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-600 transition"
+              >
+                Enroll Now
+              </button>
               <Link to="/contact">
                 <button className="text-gray-300 transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
                   Learn More <ArrowRightOutlined className="ml-2" />
@@ -227,6 +267,15 @@ function Banner() {
           </div>
         </div>
       </Carousel>
+      <Modal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        imageSrc={Feature1} // Change with your image URL
+        logoSrc={Logo} // Change with your logo URL
+        head1="Welcome to Our Platform"
+        head2="Please enter your details below"
+        buttonText="Submit"
+      />
     </div>
   );
 }
