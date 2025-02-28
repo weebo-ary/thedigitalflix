@@ -1,9 +1,11 @@
 import { Tabs, Card } from "flowbite-react";
 import { GrCertificate } from "react-icons/gr";
 import { PiBooks } from "react-icons/pi";
-import { FaGear } from "react-icons/fa6";
+import { FaGear, FaMeta } from "react-icons/fa6";
 
 import React from "react";
+import { FaGoogle, FaHubspot } from "react-icons/fa";
+import { SiSemrush } from "react-icons/si";
 
 export function TabsCert() {
   return (
@@ -19,8 +21,8 @@ export function TabsCert() {
           },
         }}
       >
-        <Tabs.Item title="Courses" icon={PiBooks}>
-          <h2 className="text-5xl pl-6 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
+        <Tabs.Item title="Courses" active icon={PiBooks}>
+          <h2 className="text-4xl pl-6 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
             Get 20+
           </h2>
           <div className="flex items-center justify-center gap-6">
@@ -78,14 +80,32 @@ export function TabsCert() {
                 Learn More
               </button>
             </Card>
-            <button className="text-gray-300 hover:text-white text-sm">
+            <button className="bg-red-600 text-white py-2 px-1 rounded-lg w-1/4">
               View More...
             </button>
           </div>
         </Tabs.Item>
         <Tabs.Item active title="Certifications" icon={GrCertificate}>
-          <h2 className="text-5xl pl-6 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
-            Get 20+
+          <h2 className="text-2xl pl-6 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
+            Get upto <span className="text-red-600">50+ Certifications</span> in alignment with Global Brands like :{" "}
+            <div className="flex items-center gap-8 pb-6 mt-4">
+              <div className="flex flex-col items-center justify-center mt-6">
+                <FaGoogle />
+                <p className="text-3xl">Google</p>
+              </div>
+              <div className="flex flex-col items-center justify-center mt-6">
+                <FaMeta />
+                <p className="text-3xl">Meta</p>
+              </div>
+              <div className="flex flex-col items-center justify-center mt-6">
+                <FaHubspot />
+                <p className="text-3xl">Hubspot</p>
+              </div>
+              <div className="flex flex-col items-center justify-center mt-6">
+                <SiSemrush />
+                <p className="text-3xl">Semrush</p>
+              </div>
+            </div>
           </h2>
           <div className="flex items-center justify-center gap-6">
             <Card
@@ -147,7 +167,7 @@ export function TabsCert() {
               </button>
             </Card>
 
-            <button className="text-gray-300 hover:text-white text-sm">
+            <button className="bg-red-600 text-white py-2 px-1 rounded-lg w-1/4">
               View More...
             </button>
           </div>
@@ -205,7 +225,7 @@ export function TabsCert() {
                 Learn More
               </button>
             </Card>
-            <button className="text-gray-300 hover:text-white text-sm">
+            <button className="bg-red-600 text-white py-2 px-1 rounded-lg w-1/4">
               View More...
             </button>
           </div>
