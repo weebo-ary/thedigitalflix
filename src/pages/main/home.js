@@ -11,6 +11,7 @@ import Faq from "./Home/faq";
 import "./Home/index.css"
 import BrouchureSection from "./Home/brouchure";
 import FeatureList from "./Home/featureListHome";
+import Benifits from "./Home/benifits";
 
 function home() {
   return (
@@ -21,6 +22,7 @@ function home() {
       <Proccess />
       {/* <Feature /> */}
       <FeatureList />
+      <Benifits />
       <BrouchureSection />
        <WhyUs />
        {/* <Video /> */}

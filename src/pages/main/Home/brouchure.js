@@ -23,7 +23,7 @@ function BrouchureSection() {
 
   return (
     <div
-      className={`mx-2 p-5 transition-opacity duration-1000 transform mt-20 -mb-20`} // Apply fade-in and fade-out animation based on visibility state
+      className={`mx-2 p-5 transition-opacity duration-1000 transform mt-10`} // Apply fade-in and fade-out animation based on visibility state
     >
       <div className="">
         <div className="">
