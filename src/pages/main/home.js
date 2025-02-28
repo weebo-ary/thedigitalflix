@@ -10,6 +10,7 @@ import Offering from "./Home/offering";
 import Faq from "./Home/faq";
 import "./Home/index.css"
 import BrouchureSection from "./Home/brouchure";
+import FeatureList from "./Home/featureListHome";
 
 function home() {
   return (
@@ -18,7 +19,8 @@ function home() {
       <Form />
       <Tabs />
       <Proccess />
-      <Feature />
+      {/* <Feature /> */}
+      <FeatureList />
       <BrouchureSection />
        <WhyUs />
        {/* <Video /> */}
