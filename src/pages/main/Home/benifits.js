@@ -3,7 +3,6 @@ import React, { useEffect, useRef, useState } from "react";
 import IllustrationLight from "../../../assets/Images/CertOfComp.png";
 import IllustrationTwo from "../../../assets/Images/lor.png";
 import IllustrationThree from "../../../assets/Images/res.png";
-import VideoBanner from "../../../assets/Video/Banner.mp4";
 import { Link } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
