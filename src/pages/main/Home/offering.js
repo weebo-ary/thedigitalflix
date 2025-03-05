@@ -6,37 +6,64 @@ import OfferingBg from "../../../assets/Images/marvin-meyer-SYTO3xs06fU-unsplash
 const OfferingSection = () => {
   const blobsData = [
     {
-      title: "Lack of Operational Insights",
-      description:
-        "Inability to access real-time data and metrics, leading to poor decision-making and inefficient processes.",
+      title: "AI-Integrated Digital Marketing Training 🤖",
+      description: "No AI integration or outdated curriculum.",
       color: "#9FD2C7",
       icon: <WarningOutlined />,
     },
     {
-      title: "Low OEE",
+      title: "Industry-Recognized Certifications 🎓",
       description:
-        "Overall Equipment Effectiveness (OEE) is suboptimal, indicating that equipment isn't being utilized to its full potential.",
+        "20+ certifications from Google, HubSpot, SEMrush & TheDigitalFlix.",
       color: "#9FD2C7",
       icon: <WarningOutlined />,
     },
     {
-      title: "Higher Rejections",
-      description:
-        "High rate of defective products or parts being rejected, which increases costs and reduces profitability.",
+      title: "Hands-On Practical Training 🛠",
+      description: "Mostly theoretical with no real-world exposure.",
       color: "#9FD2C7",
       icon: <WarningOutlined />,
     },
     {
-      title: "Unprecedented Downtime",
-      description:
-        "Unplanned equipment failures or system outages that disrupt production and lead to significant losses.",
+      title: "Placement Assistance & Internship Opportunities",
+      description: "No guaranteed placement or internship assistance",
       color: "#9FD2C7",
       icon: <WarningOutlined />,
     },
     {
-      title: "Delayed Decision Making",
+      title: "LMS Access (Flix Elevate)",
+      description: "No LMS or limited access to materials",
+      color: "#9FD2C7",
+      icon: <WarningOutlined />,
+    },
+    {
+      title: "Business & Freelancing Training 💰",
+      description: "No business or freelancing guidance.",
+      color: "#9FD2C7",
+      icon: <WarningOutlined />,
+    },
+    {
+      title: "Google Ads, SEO & Social Media Mastery 📈",
       description:
-        "The time taken to gather, analyze, and act on data is too long, resulting in slower responses to critical operational needs.",
+        " Basic training with no in-depth paid advertising strategies.",
+      color: "#9FD2C7",
+      icon: <WarningOutlined />,
+    },
+    {
+      title: "Installment & Scholarship Options 💳",
+      description: "No financial assistance options.",
+      color: "#9FD2C7",
+      icon: <WarningOutlined />,
+    },
+    {
+      title: "Personal Mentorship & Career Guidance 🎤",
+      description: "No personal mentorship, only general classes.",
+      color: "#9FD2C7",
+      icon: <WarningOutlined />,
+    },
+    {
+      title: "Networking & Alumni Community 🌍",
+      description: " No strong networking or alumni benefits.",
       color: "#9FD2C7",
       icon: <WarningOutlined />,
     },
@@ -44,38 +71,71 @@ const OfferingSection = () => {
 
   const blobsDataTwo = [
     {
-      title: "Real-Time Production Insights",
+      title: "AI-Integrated Digital Marketing Training 🤖",
       description:
-        "Access to live data and metrics that enable immediate, informed decision-making to optimize production processes",
+        "Yes, we teach AI-powered marketing, automation, and AI tools like ChatGPT, Jasper, and AI Analytics.",
       color: "#9FD2C7",
       icon: <CheckCircleOutlined />,
     },
     {
-      title: "Higher OEE:",
-      description:
-        "Improved Overall Equipment Effectiveness (OEE), maximizing the use of machinery and resources to enhance productivity",
+      title: "Industry-Recognized Certifications 🎓",
+      description: "Limited or no official certifications.",
       color: "#9FD2C7",
       icon: <CheckCircleOutlined />,
     },
     {
-      title: "Lower Rejections",
-      description:
-        "Reduced rates of defective or rejected products through better quality control and process optimization.",
+      title: "Hands-On Practical Training 🛠",
+      description: "Live projects, case studies & real-world simulations.",
       color: "#9FD2C7",
 
       icon: <CheckCircleOutlined />,
     },
     {
-      title: "Preventive Maintenance",
+      title: "Placement Assistance & Internship Opportunities 💼",
       description:
-        "Proactive maintenance strategies that minimize unplanned downtime by addressing issues before they lead to equipment failure",
+        "100% placement support + internship offers for top students.",
       color: "#9FD2C7",
       icon: <CheckCircleOutlined />,
     },
     {
-      title: "Data-Driven Operations",
+      title: "LMS Access (Flix Elevate) 📚",
       description:
-        "Leveraging data analytics to guide decisions and strategies, resulting in more efficient and optimized operations",
+        "Lifetime access to recorded lectures, study material, and toolkits.",
+      color: "#9FD2C7",
+      icon: <CheckCircleOutlined />,
+    },
+    {
+      title: "Business & Freelancing Training 💰",
+      description:
+        "Learn how to start your digital agency, get clients & earn as a freelancer.",
+      color: "#9FD2C7",
+      icon: <CheckCircleOutlined />,
+    },
+    {
+      title: "Google Ads, SEO & Social Media Mastery ",
+      description:
+        "Advanced training in Google Ads, PPC, SEO, Meta Ads & Social Media Growth.",
+      color: "#9FD2C7",
+      icon: <CheckCircleOutlined />,
+    },
+    {
+      title: "Installment & Scholarship Options 💳",
+      description:
+        "Easy EMI options & special scholarships for eligible students.",
+      color: "#9FD2C7",
+      icon: <CheckCircleOutlined />,
+    },
+    {
+      title: "Personal Mentorship & Career Guidance 🎤",
+      description:
+        "One-on-one mentorship, career counseling, and mock interviews.",
+      color: "#9FD2C7",
+      icon: <CheckCircleOutlined />,
+    },
+    {
+      title: "Networking & Alumni Community 🌍",
+      description:
+        "Lifetime access to our alumni network & industry connections.",
       color: "#9FD2C7",
       icon: <CheckCircleOutlined />,
     },
@@ -189,7 +249,7 @@ const OfferingSection = () => {
 
               <div className="w-auto h-auto md:py-5 overflow-hidden flex flex-col items-center justify-center xs:mt-5 sm:mt-5 xs:mb-5 sm:mb-5">
                 <div className="border-t-2 w-full rotate-90 mt-20 sm:hidden xs:hidden"></div>
-                <div className="bg-black z-50 py-5 rounded-lg">
+                <div className="z-50 py-5 rounded-lg flex items-center justify-center">
                   <img
                     src={Logo}
                     alt="logo"
@@ -207,7 +267,7 @@ const OfferingSection = () => {
                   Industry Challenges{" "}
                 </h1>
                 <div
-                  className={`flex flex-col items-center justify-center gap-5 mb-5 rounded-xl bg-gray-800 py-4 dark:p-0 dark:bg-transparent transition-all duration-500 ease-in-out transform ${
+                  className={`flex flex-col items-center justify-center gap-5 mb-2 rounded-xl bg-gray-800 py-4 dark:p-0 dark:bg-transparent transition-all duration-500 ease-in-out transform ${
                     isTransitioning
                       ? "translate-x-100% opacity-0"
                       : "translate-x-0 opacity-100"
@@ -217,7 +277,7 @@ const OfferingSection = () => {
                     {blobsData[currentIndex].icon}
                   </div>
                   <div>
-                    <h3 className="mt-4 text-4xl md:text-4xl xs:text-2xl text-center font-bold text-white">
+                    <h3 className="mt-4 text-4xl md:text-3xl xs:text-2xl text-center font-bold text-white">
                       {blobsData[currentIndex].title}
                     </h3>
                     <p className="mt-2 text-xl md:text-md xs:text-lg text-center text-gray-100">
