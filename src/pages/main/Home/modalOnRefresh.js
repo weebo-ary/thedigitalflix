@@ -36,7 +36,7 @@ const Modal = ({
   if (!isOpen) return null; // Don't render if modal is closed
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 mt-10 z-10">
+    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 mt-12 z-10">
       <div className="bg-white rounded-lg shadow-lg w-1/2 p-6 flex relative">
         {/* Left Side: Image */}
         <div className="w-full">
