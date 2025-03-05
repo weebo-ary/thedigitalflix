@@ -224,7 +224,7 @@ const OfferingSection = () => {
               >
                 <h1 className="sticky top-0 z-50 text-5xl text-center rounded-xl bg-white py-4 dark:p-0 dark:bg-transparent w-full mb-10 text-green-400">
                   {" "}
-                  Our Offerings{" "}
+                  TheDigitalFlix{" "}
                 </h1>
                 <div
                   className={`flex flex-col items-center justify-center rounded-xl bg-gray-800 py-4 dark:p-0 dark:bg-transparent gap-5 mb-5 transition-all duration-500 ease-in-out transform ${
@@ -264,7 +264,7 @@ const OfferingSection = () => {
               >
                 <h1 className="text-5xl text-center w-full text-red-400 mb-10 rounded-xl bg-white py-4 dark:p-0 dark:bg-transparent ">
                   {" "}
-                  Industry Challenges{" "}
+                  Others{" "}
                 </h1>
                 <div
                   className={`flex flex-col items-center justify-center gap-5 mb-2 rounded-xl bg-gray-800 py-4 dark:p-0 dark:bg-transparent transition-all duration-500 ease-in-out transform ${
