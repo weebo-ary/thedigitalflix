@@ -1,7 +1,7 @@
 import { CheckCircleOutlined, WarningOutlined } from "@ant-design/icons";
 import React, { useEffect, useState, useRef } from "react";
 import Logo from "../../../assets/Logo/DarkLogo.png";
-import OfferingBg from "../../../assets/Images/offering.png"; // Import the background image
+import OfferingBg from "../../../assets/Images/marvin-meyer-SYTO3xs06fU-unsplash.jpg"; // Import the background image
 
 const OfferingSection = () => {
   const blobsData = [

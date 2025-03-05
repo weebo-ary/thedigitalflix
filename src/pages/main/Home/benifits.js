@@ -3,6 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import IllustrationLight from "../../../assets/Images/CertOfComp.png";
 import IllustrationTwo from "../../../assets/Images/lor.png";
 import IllustrationThree from "../../../assets/Images/res.png";
+import IllustrationFour from "../../../assets/Images/Screenshot 2025-03-05 155001.png";
 import { Link } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
@@ -72,13 +73,8 @@ function Banner() {
                 onClick={() => setIsModalOpen(true)}
                 className="w-1/2 bg-red-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-500 transition"
               >
-                Enroll Now
+                Learn More <ArrowRightOutlined className="ml-2" />
               </button>
-              <Link to="/contact">
-                <button className="text-gray-300 transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
-                  Learn More <ArrowRightOutlined className="ml-2" />
-                </button>
-              </Link>
             </div>
           </div>
           <div className="w-1/2">
@@ -103,14 +99,8 @@ function Banner() {
                 onClick={() => setIsModalOpen(true)}
                 className="w-1/2 bg-red-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-500 transition"
               >
-                Enroll Now
+                Learn More <ArrowRightOutlined className="ml-2" />
               </button>
-
-              <Link to="/contact">
-                <button className="text-gray-300 transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
-                  Learn More <ArrowRightOutlined className="ml-2" />
-                </button>
-              </Link>
             </div>
           </div>
 
@@ -136,18 +126,38 @@ function Banner() {
                 onClick={() => setIsModalOpen(true)}
                 className="w-1/2 bg-red-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-500 transition"
               >
-                Enroll Now
+                Learn More <ArrowRightOutlined className="ml-2" />
               </button>
-              <Link to="/contact">
-                <button className="text-gray-300 transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
-                  Learn More <ArrowRightOutlined className="ml-2" />
-                </button>
-              </Link>
             </div>
           </div>
           <div className="w-1/2">
             <img
               src={IllustrationThree}
+              alt="Placeholder"
+              className="w-full rounded-lg"
+            />
+          </div>
+        </div>
+        <div className="flex flex-row-reverse items-center justify-start text-start w-full h-full pl-6 pr-6">
+          <div className="flex flex-col mb-10 w-full p-4">
+            <h2 className="text-5xl font-bold text-white mb-4 mt-4">
+              Digital Portfolio (On Showcase) 🎨
+            </h2>
+            <p className="text-xl font-semibold text-white mb-8">
+            Create a professional portfolio to showcase your digital marketing skills and projects to potential clients and employers.
+            </p>
+            <div className="flex flex-row gap-6">
+              <button
+                onClick={() => setIsModalOpen(true)}
+                className="w-1/2 bg-red-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-500 transition"
+              >
+                Learn More <ArrowRightOutlined className="ml-2" />
+              </button>
+            </div>
+          </div>
+          <div className="w-full">
+            <img
+              src={IllustrationFour}
               alt="Placeholder"
               className="w-full rounded-lg"
             />
