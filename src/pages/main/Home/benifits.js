@@ -4,7 +4,6 @@ import IllustrationLight from "../../../assets/Images/CertOfComp.png";
 import IllustrationTwo from "../../../assets/Images/lor.png";
 import IllustrationThree from "../../../assets/Images/res.png";
 import IllustrationFour from "../../../assets/Images/Screenshot 2025-03-05 155001.png";
-import { Link } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import Feature1 from "../../../assets/Images/Feat2.jpg";
