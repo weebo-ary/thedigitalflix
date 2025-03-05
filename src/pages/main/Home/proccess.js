@@ -172,15 +172,13 @@ function ProcessSection() {
       <div className="flex flex-col items-start justify-center gap-10">
         <div className="">
           <h2 className="text-5xl md:text-5xl sm:text-3xl xs:text-3xl text-gray-900 dark:text-white">
-            Digitize Your <span className="text-orange-500">Processes</span> And
-            Gain Analytics From Day One
+          Unlock the <span className="text-orange-500">Ultimate</span> Digital Marketing Learning Experience
           </h2>
         </div>
         <div className="">
           {" "}
-          <p className="text-3xl md:text-3xl sm:text-xl xs:text-xl text-gray-600 dark:text-gray-400">
-            Take a look at all the key <b>Processes</b> we cover. No Need To
-            Design Or Develop Custom Software For Your Operations.
+          <p className="text-3xl md:text-2xl sm:text-xl xs:text-xl text-gray-600 dark:text-gray-400">
+            Master SEO, PPC, AI-powered marketing, and website development with 50+ industry-focused modules. Get hands-on training, 20+ certifications, placement support, and lifetime LMS access. Flexible online/offline learning with scholarships and EMI options – start your journey with TheDigitalFlix today!
           </p>{" "}
         </div>
       </div>

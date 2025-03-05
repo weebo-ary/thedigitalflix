@@ -22,8 +22,10 @@ export function TabsCert() {
         }}
       >
         <Tabs.Item title="Courses" active icon={PiBooks}>
-          <h2 className="text-4xl pl-6 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
-            Get 20+
+          <h2 className="text-2xl pl-6 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
+            Explore Our Power-Packed{" "}
+            <span className="text-red-600">Digital Marketing Courses</span> –
+            From Beginners to Pros, and Even Young Creators
           </h2>
           <div className="flex items-center justify-center gap-6">
             <Card
@@ -87,7 +89,8 @@ export function TabsCert() {
         </Tabs.Item>
         <Tabs.Item active title="Certifications" icon={GrCertificate}>
           <h2 className="text-2xl pl-6 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
-            Get upto <span className="text-red-600">50+ Certifications</span> in alignment with Global Brands like :{" "}
+            Get upto <span className="text-red-600">50+ Certifications</span> in
+            alignment with Global Brands like :{" "}
             <div className="flex items-center gap-8 pb-6 mt-4">
               <div className="flex flex-col items-center justify-center mt-6">
                 <FaGoogle />
@@ -173,8 +176,10 @@ export function TabsCert() {
           </div>
         </Tabs.Item>
         <Tabs.Item title="Tools" icon={FaGear}>
-          <h2 className="text-4xl pl-6 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
-            Get 20+
+          <h2 className="text-2xl pl-6 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
+            Master the Most Powerful{" "}
+            <span className="text-red-600"> Digital Marketing & AI Tools</span>{" "}
+            – From SEO to Social Media, Ads & Beyond
           </h2>
           <div className="flex items-center justify-center gap-6">
             <Card
