@@ -1,14 +1,8 @@
 import React from "react";
 import AboutIllustration from "../../assets/Images/Vision.jpg";
 import MissionIllustration from "../../assets/Images/about.jpg";
-import PulakImage from "../../assets/Images/Pulak.png";
-import ArunImage from "../../assets/Images/Arun.png";
-import DevanshImage from "../../assets/Images/devansha.png";
-import RamImage from "../../assets/Images/ram1.jpeg";
-import PrakashImage from "../../assets/Images/prakash.jpg";
 import { LinkedinOutlined, MailOutlined } from "@ant-design/icons";
 import VideoBanner from "../../assets/Video/About.mp4";
-import Banner from "../../assets/Illustration/about-banner.jpg";
 import Connect from "../products/EdgeGateway/connect";
 
 const AboutUs = () => {
