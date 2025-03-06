@@ -199,28 +199,27 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-10 flex items-center justify-center gap-4 p-2">
-        <p className=" bg-white text-black rounded-lg p-2 hover:text-gray-800 dark:hover:text-red-400">
-          <b>🇮🇳 India Corp-Office</b> : The DigitalFlix Institute of Digital Marketing, B1,
-          Kamla Nagar, Chitragupt Nagar, Kotra Sultanabad, Bhopal, Madhya
-          Pradesh 462003
+        <a
+          href="https://maps.app.goo.gl/s5FpCN3utg6r2HEX9"
+          target="_blank"
+          rel="noreferrer"
+          className="w-full"
+        >
+          <p className=" bg-white text-black rounded-lg p-2 hover:text-gray-800 dark:hover:text-red-400 w-full cursor-pointer">
+            <b>India Corp-Office</b> : The DigitalFlix Institute of Digital
+            Marketing, B1, Kamla Nagar, Chitragupt Nagar, Kotra Sultanabad,
+            Bhopal, Madhya Pradesh 462003
+          </p>
+        </a>
+
+        <p className=" bg-white text-black rounded-lg p-2 hover:text-gray-800 dark:hover:text-red-400 w-full">
+          <b>Registered Office</b> : LIG 158 Kotra Sultanabad, Behind Givernmetn
+          School, C.T.T.Nagar, Huzur, Bhopal- 462003, Madhya Pradesh
         </p>
 
-        <p className=" bg-white text-black rounded-lg p-2 hover:text-gray-800 dark:hover:text-red-400">
-          <b>Registered Office</b> : The DigitalFlix Institute of Digital Marketing, B1,
-          Kamla Nagar, Chitragupt Nagar, Kotra Sultanabad, Bhopal, Madhya
-          Pradesh 462003
-        </p>
-
-        <p className=" bg-white text-black rounded-lg p-2 hover:text-gray-800 dark:hover:text-red-400">
-          <b>Albania Office</b> : The DigitalFlix Institute of Digital Marketing, B1,
-          Kamla Nagar, Chitragupt Nagar, Kotra Sultanabad, Bhopal, Madhya
-          Pradesh 462003
-        </p>
-
-        <p className=" bg-white text-black rounded-lg p-2 hover:text-gray-800 dark:hover:text-red-400">
-          <b>Germany Office</b> : The DigitalFlix Institute of Digital Marketing, B1,
-          Kamla Nagar, Chitragupt Nagar, Kotra Sultanabad, Bhopal, Madhya
-          Pradesh 462003
+        <p className=" bg-white text-black rounded-lg p-2 py-5 hover:text-gray-800 dark:hover:text-red-400 w-full">
+          <b>Albania Office</b> : 8R97+R62, Mbrapa LSI-se, prane Conad, Rruga
+          Andon Zako Çajupi, Tiranë, Albania
         </p>
       </div>
       {/* <div className="bg-gray-100 dark:bg-gray-900 border-t py-6 mt-10 transition duration-500">

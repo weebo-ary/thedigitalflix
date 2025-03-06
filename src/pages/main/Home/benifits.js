@@ -57,6 +57,7 @@ function Banner() {
         stopOnHover
         infiniteLoop
         interval={2500}
+        showThumbs={false}
       >
         <div className="flex flex-row-reverse items-center justify-start text-start w-full h-full gap-6 mb-10 p-4 pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full">
