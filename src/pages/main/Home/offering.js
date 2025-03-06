@@ -160,7 +160,7 @@ const OfferingSection = () => {
     if (!isPaused) {
       const interval = setInterval(() => {
         handleNext();
-      }, 2000);
+      }, 3000);
 
       return () => {
         clearInterval(interval);
@@ -186,7 +186,7 @@ const OfferingSection = () => {
 
   // Handlers for mouse enter and leave
   const handleMouseEnter = () => {
-    setIsPaused(true);
+    setIsPaused(false);
   };
 
   const handleMouseLeave = () => {
@@ -237,10 +237,10 @@ const OfferingSection = () => {
                     {blobsDataTwo[currentIndex].icon}
                   </div>
                   <div>
-                    <h3 className="mt-4 text-3xl md:text-3xl xs:text-2xl text-center font-bold text-white">
+                    <h3 className="mt-4 text-3xl md:text-xl xs:text-2xl text-center font-bold text-white">
                       {blobsDataTwo[currentIndex].title}
                     </h3>
-                    <p className="mt-2 text-xl md:text-md xs:text-lg text-center text-gray-100">
+                    <p className="mt-2 text-xl md:text-2xl xs:text-lg text-center text-gray-100">
                       {blobsDataTwo[currentIndex].description}
                     </p>
                   </div>
@@ -277,10 +277,10 @@ const OfferingSection = () => {
                     {blobsData[currentIndex].icon}
                   </div>
                   <div>
-                    <h3 className="mt-4 text-4xl md:text-3xl xs:text-2xl text-center font-bold text-white">
+                    <h3 className="mt-4 text-4xl md:text-xl xs:text-2xl text-center font-bold text-white">
                       {blobsData[currentIndex].title}
                     </h3>
-                    <p className="mt-2 text-xl md:text-md xs:text-lg text-center text-gray-100">
+                    <p className="mt-2 text-xl md:text-2xl xs:text-lg text-center text-gray-100">
                       {blobsData[currentIndex].description}
                     </p>
                   </div>

@@ -1,12 +1,13 @@
 import React from "react";
-import AboutIllustration from "../../assets/Illustration/ourVision.jpg";
-import MissionIllustration from "../../assets/Illustration/MissionIllustration.jpg";
+import AboutIllustration from "../../assets/Images/Vision.jpg";
+import MissionIllustration from "../../assets/Images/about.jpg";
 import PulakImage from "../../assets/Images/Pulak.png";
 import ArunImage from "../../assets/Images/Arun.png";
 import DevanshImage from "../../assets/Images/devansha.png";
 import RamImage from "../../assets/Images/ram1.jpeg";
 import PrakashImage from "../../assets/Images/prakash.jpg";
 import { LinkedinOutlined, MailOutlined } from "@ant-design/icons";
+import VideoBanner from "../../assets/Video/About.mp4";
 import Banner from "../../assets/Illustration/about-banner.jpg";
 import Connect from "../products/EdgeGateway/connect";
 
@@ -15,27 +16,34 @@ const AboutUs = () => {
     <div className="bg-gray-50 dark:bg-gray-900 transition-colors duration-500">
       {/* First Section: Introduction */}
       <section className="h-auto relative py-16 bg-gradient-to-r from-white via-gray-100 to-white dark:from-gray-800 dark:via-gray-800 dark:to-gray-800">
-        <img
-          src={Banner}
-          alt="Background"
-          className="absolute inset-0 w-full h-full object-cover z-0 opacity-50 dark:opacity-20"
-        />
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-screen object-cover opacity-90 dark:opacity-30 z-0 "
+        >
+          <source src={VideoBanner} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         <div className="mx-auto px-6 lg:px-8 relative z-10">
-          <h1 className="md:text-center sm:text-start xs:text-start text-6xl text-gray-900 dark:text-white mb-6">
-            OPSIGHT AI
+          <h1 className="md:text-center sm:text-start xs:text-start text-5xl text-white mb-6">
+            <span className="text-red-500">THEDIGITALFLIX</span> INSTITUTE OF{" "}
+            <span className="text-red-500">DIGITAL</span> MARKETING
           </h1>
-          <p className="md:text-3xl sm:text-xl xs:text-xl text-gray-700 dark:text-gray-300 mx-auto md:text-center sm:text-start xs:text-start">
-            Opsight AI Pvt Ltd is an Industrial-AIoT, SaaS Startup
-            revolutionizing the way manufacturing companies harness data. At
-            OpsightAI, we enable manufacturers to make smarter decisions,
-            optimize operations & unlock their full manufacturing potential
-            through intelligent data analytics.
+          <p className="md:text-3xl sm:text-xl xs:text-xl text-gray-300 mx-auto md:text-center sm:text-start xs:text-start">
+            At TheDigitalFlix Institute of Digital Marketing, we empower
+            aspiring marketers with AI-driven digital marketing training,
+            industry-recognized certifications, and hands-on SEO, PPC, and
+            social media expertise. Whether you're a student, professional, or
+            entrepreneur, our online & offline courses ensure real-world skills
+            and career success in the ever-evolving digital landscape. 🚀
           </p>
         </div>
       </section>
 
       {/* Vision and Mission Section */}
-      <section className="py-16 bg-white dark:bg-gray-800 transition-colors duration-500">
+      <section className=" bg-white dark:bg-gray-800 transition-colors duration-500">
         <div className="mx-auto ">
           <div className=" grid grid-cols-1 md:grid-cols-1 gap-12">
             {/* Vision */}
@@ -44,15 +52,22 @@ const AboutUs = () => {
                 src={AboutIllustration}
                 width={500}
                 alt="about-us"
-                className="rounded-lg"
+                className="rounded-lg z-10"
               />
-              <div className="md:w-full">
+              <div className="md:w-full z-10">
                 <h2 className="md:text-6xl sm:text-2xl xs:text-2xl font-bold text-black dark:text-white mb-4">
                   Our Vision
                 </h2>
                 <p className="text-3xl sm:text-xl xs:text-xl text-gray-700 dark:text-gray-300">
-                  Enabling Indian manufacturers to achieve operational
-                  excellence & shift towards data-driven operations.
+                  To be <span className="text-red-500 animate-pulse">India’s Leading Digital Marketing Institute & Agency</span>,
+                  shaping future-ready professionals through innovation,
+                  technology, and industry expertise. We envision a world where
+                  AI-powered marketing and automation drive success for
+                  individuals and businesses alike. By fostering a community of
+                  skilled marketers, entrepreneurs, and digital leaders, we aim
+                  to redefine the future of digital learning. With continuous
+                  upskilling, mentorship, and global networking, we aspire to
+                  create a digitally empowered generation. 🚀
                 </p>
               </div>
             </div>
@@ -61,7 +76,7 @@ const AboutUs = () => {
             <div className="text-start flex md:flex-row-reverse sm:flex-col xs:flex-col items-center justify-center mr-10 gap-10 xs:mr-0 sm:mr-0 xs:p-4 sm:p-4">
               <img
                 src={MissionIllustration}
-                width={500}
+                width={700}
                 alt="mission"
                 className="rounded-xl"
               />
@@ -70,10 +85,18 @@ const AboutUs = () => {
                   Our Mission
                 </h2>
                 <p className="text-3xl sm:text-xl xs:text-xl text-gray-700 dark:text-gray-300">
-                  Empowering manufacturers to leverage IIoT & AI/ML to make
-                  informed decisions through predictive insights & address their
-                  biggest operational concerns:{" "}
-                  <b>Equipment Downtime & Rework Costs.</b>
+                  To empower individuals with{" "}
+                  <span className="text-red-500 animate-pulse">
+                    AI-Driven Digital Marketing{" "}
+                  </span>
+                  skills, hands-on training, and globally recognized
+                  certifications, ensuring career growth and business success.
+                  We aim to bridge the gap between traditional education and
+                  industry demands, ensuring career growth and business success.
+                  Our courses are designed for students, professionals, and
+                  entrepreneurs, helping them master SEO, PPC, social media, and
+                  AI marketing. With online and offline learning options, we
+                  make quality digital education accessible to all.
                 </p>
               </div>
             </div>
@@ -122,23 +145,23 @@ const AboutUs = () => {
             {/* Pulak Rijhwani */}
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
               <img
-                src={PulakImage}
-                alt="Pulak Rijhwani"
+                src=""
+                alt="Shantanu"
                 className="w-32 h-32 rounded-full mx-auto object-cover"
               />
 
               <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
-                Pulak Rijhwani
+                Shantanu Tarey
               </h3>
               <div className="mt-4 flex justify-center space-x-6">
                 <a
-                  href="https://www.linkedin.com/in/pulak-rijhwani-65180a56"
+                  href="https://www.linkedin.com/in/shantanu-tarey-67b43412b/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <LinkedinOutlined />
                 </a>{" "}
-                <a href="mailto:pulakrijhwani@opsight.ai">
+                <a href="mailto:connect@thedigitalflix.com">
                   <MailOutlined />
                 </a>
               </div>
@@ -147,22 +170,22 @@ const AboutUs = () => {
             {/* Arun Kumar */}
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
               <img
-                src={ArunImage}
-                alt="Arun Kumar"
+                src=""
+                alt="Aryan"
                 className="w-32 h-32 rounded-full mx-auto object-cover"
               />
               <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
-                Arun Kumar
+                Aryan Bhardwaj
               </h3>
               <div className="mt-4 flex justify-center space-x-6">
                 <a
-                  href="https://www.linkedin.com/in/arun-kumar-4b025015a"
+                  href="https://www.linkedin.com/in/aryan19"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <LinkedinOutlined />
                 </a>{" "}
-                <a href="mailto:arunkumar@opsight.ai">
+                <a href="mailto:connect@thedigitalflix.com">
                   <MailOutlined />
                 </a>
               </div>
@@ -195,25 +218,25 @@ const AboutUs = () => {
             {/* Employee 1 */}
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
               <img
-                src={DevanshImage}
-                alt="Devansha Shrivastava"
+                src=""
+                alt="##"
                 className="w-32 h-32 rounded-full mx-auto object-cover"
               />
               <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
-                Devansha Shrivastava
+                ##
               </h3>
               <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-6">
-                Project Manager
+                ####
               </h3>
               <div className="mt-4 flex justify-center space-x-6">
                 <a
-                  href="https://www.linkedin.com/in/devansha-shrivastava"
+                  href="##"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <LinkedinOutlined />
                 </a>{" "}
-                <a href="mailto:devansha@opsight.ai">
+                <a href="##">
                   <MailOutlined />
                 </a>
               </div>
@@ -222,25 +245,25 @@ const AboutUs = () => {
             {/* Employee 2 */}
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
               <img
-                src={RamImage}
-                alt="Ramkaran Sherawat"
+                src="#"
+                alt="##"
                 className="w-32 h-32 rounded-full mx-auto object-cover"
               />
               <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
-                Ramkaran Sherawat
+                ##
               </h3>
               <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-6">
-                Embedded Systems Engineer
+                ####
               </h3>
               <div className="mt-4 flex justify-center space-x-6">
                 <a
-                  href="https://www.linkedin.com/in/ramkaran-sherawat-16514621b"
+                  href="##"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <LinkedinOutlined />
                 </a>{" "}
-                <a href="mailto:ramsherawat@opsight.ai">
+                <a href="##">
                   <MailOutlined />
                 </a>
               </div>
@@ -249,25 +272,25 @@ const AboutUs = () => {
             {/* Employee 3 */}
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
               <img
-                src={PrakashImage}
-                alt="Prakash Jadhav"
+                src="##"
+                alt="##"
                 className="w-32 h-32 rounded-full mx-auto object-cover"
               />
               <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
-                Prakash Jadhav
+                ##
               </h3>
               <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-6">
-                ML Intern
+                ####
               </h3>
               <div className="mt-4 flex justify-center space-x-6">
                 <a
-                  href="https://www.linkedin.com/in/prakashjadhav0210"
+                  href="##"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <LinkedinOutlined />
                 </a>{" "}
-                <a href="mailto:prakash.jadhav@opsight.ai">
+                <a href="##">
                   <MailOutlined />
                 </a>
               </div>
