@@ -1,3 +1,4 @@
+import { ArrowLeftOutlined } from "@ant-design/icons";
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 
@@ -21,18 +22,27 @@ const BlogDetail = () => {
 
   return (
     <div className="max-w-4xl mx-auto p-6">
-      <img src={blog.image} alt={blog.title} className="w-full h-80 object-cover rounded-lg mb-6" />
-      <h1 className="text-3xl font-bold text-black dark:text-white mb-4 text-center">{blog.title}</h1>
-      <p className="text-black dark:text-white whitespace-pre-line">{blog.description}</p>
-
-      {/* Back to Blog List */}
-      <div className="mt-6">
+      <img
+        src={blog.image}
+        alt={blog.title}
+        className="w-full h-80 object-cover rounded-lg mb-6"
+      />
+      <h1 className="text-3xl font-bold text-black dark:text-white mb-4 text-center">
         <Link to="/blogs">
-          <button className="px-4 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-800 transition duration-300">
-            Back to Blogs
+          <button className="px-4 py-2 text-black dark:text-white rounded-lg hover:bg-gray-800 transition duration-300">
+            <ArrowLeftOutlined />
           </button>
         </Link>
-      </div>
+        {blog.title}
+      </h1>
+      <p className="text-black dark:text-white whitespace-pre-line">
+        {blog.description}
+      </p>
+      <p className="text-black dark:text-white whitespace-pre-line">
+        By: {blog.writtenBy}
+      </p>
+
+      {/* Back to Blog List */}
     </div>
   );
 };
