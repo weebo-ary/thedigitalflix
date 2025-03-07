@@ -5,6 +5,8 @@ import App from "../App";
 import Home from "../pages/main/home";
 import Services from "../pages/main/services";
 import AboutUs from "../pages/main/about";
+import Blogs from "../pages/main/blogs";
+import BlogDetails from "../pages/main/blogDetails";
 import Contact from "../pages/main/contact";
 import Support from "../pages/extra-pages/support";
 import NotFound from "../pages/maintenance/404";
@@ -40,6 +42,18 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     children: [{ path: "/contact-us", element: <Contact /> }],
+  },
+
+  {
+    path: "/",
+    element: <App />,
+    children: [{ path: "/blogs", element: <Blogs /> }],
+  },
+
+  {
+    path: "/",
+    element: <App />,
+    children: [{ path: "/blogs/:id", element: <BlogDetails /> }],
   },
 
   {

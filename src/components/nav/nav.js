@@ -57,8 +57,7 @@ const Navbar = () => {
     };
   }, []);
 
-    const [isModalOpen, setIsModalOpen] = useState(false);
-  
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
     <>
@@ -137,10 +136,8 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  {/* <a className="text-white transition hover:text-red-600/75 flex items-center gap-1"> */}
-                    {" "}
-                    |
-                  {/* </a> */}
+                  {/* <a className="text-white transition hover:text-red-600/75 flex items-center gap-1"> */}{" "}
+                  |{/* </a> */}
                 </li>
                 <li>
                   <a
@@ -153,7 +150,6 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  
                   <a
                     className="text-white transition hover:text-red-600/75 flex gap-1"
                     href="mailto:connect@thedigitalflix.com"
@@ -177,17 +173,15 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  {/* <a className="text-white transition hover:text-red-600/75 flex items-center gap-1"> */}
-                    {" "}
-                    |
-                  {/* </a> */}
+                  {/* <a className="text-white transition hover:text-red-600/75 flex items-center gap-1"> */}{" "}
+                  |{/* </a> */}
                 </li>
                 <button
-                onClick={() => setIsModalOpen(true)}
-                className="w-30 h-auto flex items-center justify-center bg-red-500 text-xs text-white px-4 py-2 rounded-md shadow-md hover:bg-red-600 transition gap-2"
-              >
-                <FaDownload /> Brouchure
-              </button>
+                  onClick={() => setIsModalOpen(true)}
+                  className="w-30 h-auto flex items-center justify-center bg-red-500 text-xs text-white px-4 py-2 rounded-md shadow-md hover:bg-red-600 transition gap-2"
+                >
+                  <FaDownload /> Brouchure
+                </button>
               </ul>
             </nav>
           </div>
@@ -234,8 +228,17 @@ const Navbar = () => {
                 onMouseEnter={() => setDropdownProduct(true)}
                 onMouseLeave={() => setDropdownProduct(false)}
               >
-                <DotChartOutlined />{" "}
-                <span style={{ cursor: "pointer" }}>Products</span>
+                <NavLink
+                  to="/blogs"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "relative text-md font-medium p-1 text-gray-900 dark:text-white marker-underline active"
+                      : "relative text-md font-medium p-1 text-black dark:text-white marker-underline hover:text-gray-500 dark:hover:text-red-600"
+                  }
+                >
+                  <DotChartOutlined />{" "}
+                  <span style={{ cursor: "pointer" }}>Blogs</span>
+                </NavLink>
                 {dropdownOpenProduct && <DropdownMenuProducts />}
               </div>
 
