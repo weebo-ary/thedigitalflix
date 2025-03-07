@@ -1,6 +1,6 @@
 import { ArrowRightOutlined } from "@ant-design/icons";
 import React, { useEffect, useRef, useState } from "react";
-import IllustrationLight from "../../../assets/Images/DALLE2025-02-2513.44.21-AmoderndigitalmarketingclassroominIndiawhereayoungprofessionalisengagedinlearning.Theroomisilluminatedwithneonredholograms-ezgif.com-webp-to-jpg-converter.jpg";
+import IllustrationLight from "../../../assets/Images/WhatsApp Image 2025-03-07 at 15.38.48_64b3a539.jpg";
 import IllustrationTwo from "../../../assets/Images/TheDigitalFlix WEBSITE DEVELOPMENT PPC SEO.jpg";
 import IllustrationThree from "../../../assets/Images/TheDigitalFlix ONLINE AND OFFLINE CLASSES GET SCHOLARSHIPS  JOB OPPORTUNITIES and CERTIFICATIONS.jpg";
 import IllustrationFour from "../../../assets/Images/TheDigitalFlix COURSES FOR STUDENTS PROFESSIONAL ENTREPRENEURS AND JOB SEEKERS.jpg";
