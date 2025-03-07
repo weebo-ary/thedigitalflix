@@ -65,13 +65,13 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    children: [{ path: "/training", element: <TrainingIndustry40 /> }],
+    children: [{ path: "/agency", element: <TrainingIndustry40 /> }],
   },
 
   {
     path: "/",
     element: <App />,
-    children: [{ path: "/consultancy", element: <Consultancy /> }],
+    children: [{ path: "/institutions-and-classes", element: <Consultancy /> }],
   },
 
   {
@@ -88,17 +88,17 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    children: [{ path: "/cnc-monitoring", element: <CncMoitoring /> }],
+    children: [{ path: "/flixstart-digital", element: <CncMoitoring /> }],
   },
   {
     path: "/",
     element: <App />,
-    children: [{ path: "/robot-monitoring", element: <RobotMonitoring /> }],
+    children: [{ path: "/flixelite-digital-pro", element: <RobotMonitoring /> }],
   },
   {
     path: "/",
     element: <App />,
-    children: [{ path: "/energy-monitoring", element: <EnergyMonitoring /> }],
+    children: [{ path: "/flixyoung-digital-creators", element: <EnergyMonitoring /> }],
   },
 
   {

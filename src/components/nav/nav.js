@@ -248,7 +248,7 @@ const Navbar = () => {
                 onMouseLeave={() => setDropdownOpen(false)}
               >
                 <DotChartOutlined />{" "}
-                <span style={{ cursor: "pointer" }}>Solutions</span>
+                <span style={{ cursor: "pointer" }}>Training</span>
                 {dropdownOpen && <DropdownMenu />}
               </div>
               <div

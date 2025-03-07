@@ -12,16 +12,16 @@ const DropdownMenu = () => {
     <div className="md:absolute xs:relative md:border-t-0 xs:border-t top-full md:w-64 xs:w-72 bg-white dark:bg-gray-800 shadow-xl rounded-lg p-4 z-10 md:flex">
       <div className="md:w-1/2 xs:w-1/2 border-gray-100 dark:border-gray-700 pr-4">
         <Link
-          to="/cnc-monitoring"
+          to="/flixstart-digital"
           className="flex md:w-50 xs:w-48 text-sm items-center px-2 py-3 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded"
         >
-          <BookOutlined className="text-xs mr-3" /> CNC & Line Monitoring
+          <BookOutlined className="text-xs mr-3" /> FlixStart Digital
         </Link>
         <Link
-          to="/robot-monitoring"
+          to="/flixelite-digital-pro"
           className="flex md:w-44 xs:w-48 text-sm items-center px-2 py-3 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded"
         >
-          <SnippetsOutlined className="text-xs mr-3" /> Robot Monitoring
+          <SnippetsOutlined className="text-xs mr-3" /> FlixElite Digital Pro
         </Link>
         {/* <Link
           to="/academy"
@@ -30,10 +30,10 @@ const DropdownMenu = () => {
           <ExpandAltOutlined className="text-xs mr-3" /> Assembly Line Monitoring
         </Link> */}
         <Link
-          to="/energy-monitoring"
-          className="flex md:w-44 xs:w-48 text-sm items-center px-2 py-3 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded"
+          to="/flixyoung-digital-creators"
+          className="flex md:w-52 xs:w-48 text-sm items-center px-2 py-3 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded"
         >
-          <ProjectOutlined className="text-xs mr-3" /> Energy Monitoring
+          <ProjectOutlined className="text-xs mr-3" /> FlixYoung Digital Creators
         </Link>
         <br/>
       </div>
