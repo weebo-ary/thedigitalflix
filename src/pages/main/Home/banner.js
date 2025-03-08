@@ -48,14 +48,14 @@ function Banner() {
   }, []);
 
   return (
-    <div className="mx-0 lg:mx-0 md:mx-0 sm:mx-0 xs:mx-0 lg:mb-0 lg:mt-10 xs:mt-10 lg:min-h-screen md:h-min-h-screen sm:min-h-screen xs:min-h-screen flex flex-row md:flex-row items-start justify-start sm:flex-col xs:flex-col overflow-hidden p-5 md:gap-10">
+    <div className="mx-0 lg:mx-0 md:mx-0 sm:mx-0 xs:mx-0 lg:mb-0 lg:mt-10 xs:mt-0 lg:min-h-screen md:h-min-h-screen sm:min-h-screen xs:min-h-screen  flex flex-row md:flex-row items-start justify-start sm:flex-col xs:flex-col overflow-hidden p-5 md:gap-10">
       {/* Video Background */}
       <video
         autoPlay
         loop
         muted
         playsInline
-        className="absolute inset-0 w-full min-h-screen object-cover opacity-90 dark:opacity-30 z-0"
+        className="absolute inset-0 w-full min-h-screen md:min-h-screen sm:h-auto xs:h-130 object-cover opacity-90 dark:opacity-30 z-0"
       >
         <source src={VideoBanner} type="video/mp4" />
         Your browser does not support the video tag.
@@ -64,26 +64,27 @@ function Banner() {
         {isLeftVisible} {isRightVisible}
       </h2>
       <Carousel
-        className="relative w-full cursor-pointer -mt-10"
+        className="relative w-full cursor-pointer -mt-20 z-0"
         showArrows={true}
         showStatus={false}
         autoPlay
         stopOnHover
         infiniteLoop
         interval={7500}
-        showThumbs={false}
+        showThumbs={true}
+        swipeable = {false}
       >
-        <div className="flex flex-row items-center justify-start text-start w-full h-full gap-6 mb-10 p-4 pl-6 pr-6">
+        <div className="flex lg:flex-row md:flex-row sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full gap-6 mb-10 p-4 pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full">
             <p>
               Connect with us{" "}
               <a href="https://www.linktr.ee/thedigitalflix" target="_blank" rel="noreferrer"><span className="text-red-500">@thedigitalflix</span></a>
             </p>
-            <h1 className="text-4xl font-bold text-white mb-4 mt-4">
+            <h1 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
               DIGITAL MARKETING COURSE IN BHOPAL | POWERED BY
               <span className="text-red-600"> ARTIFICIAL INTELLIGENCE</span>
             </h1>
-            <p className="text-xl font-semibold text-white mb-8">
+            <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
               Welcome to The DigitalFlix Institute of Digital Marketing – where
               innovation meets education. Our AI-enabled digital marketing
               courses equip you with cutting-edge tools and strategies to excel
@@ -113,17 +114,17 @@ function Banner() {
             />
           </div>
         </div>
-        <div className="flex flex-row items-center justify-start text-start w-full h-full p-4 pl-6 pr-6">
+        <div className="flex flex-row lg:flex-row md:flex-row sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full p-4 pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full">
             <p>
               Connect with us{" "}
               <a href="https://www.linktr.ee/thedigitalflix" target="_blank" rel="noreferrer"><span className="text-red-500">@thedigitalflix</span></a>
             </p>
-            <h2 className="text-4xl font-bold text-white mb-4 mt-4">
+            <h2 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
               <span className="text-red-600">WEBSITE DEVELOPMENT</span> | SEO |
               SOCIAL MEDIA | PPC | ARTIFICIAL INTELLIGENCE
             </h2>
-            <p className="text-xl font-semibold text-white mb-8">
+            <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
               Our AI-powered courses are designed to equip you with cutting-edge
               skills in Website Development, Search Engine Optimization (SEO),
               Social Media Marketing, Pay-Per-Click (PPC) Advertising, and
@@ -155,19 +156,19 @@ function Banner() {
             />
           </div>
         </div>
-        <div className="flex flex-row items-center justify-start text-start w-full h-full pl-6 pr-6">
+        <div className="flex flex-row lg:flex-row md:flex-row sm:flex-col-reverse xs:flex-col-reverse xs:mt-7 items-center justify-start text-start w-full h-full pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full p-4">
             <p>
               Connect with us{" "}
               <a href="https://www.linktr.ee/thedigitalflix" target="_blank" rel="noreferrer"><span className="text-red-500">@thedigitalflix</span></a>
             </p>
-            <h2 className="text-4xl font-bold text-white mb-4 mt-4">
+            <h2 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
               <span className="text-red-600">ONLINE AND OFFLINE</span> CLASSES |
               GET <span className="text-red-600">SCHOLARSHIPS</span>,{" "}
               <span className="text-red-600">JOB</span> OPPORTUNITIES &{" "}
               <span className="text-red-600">CERTIFICATIONS</span>
             </h2>
-            <p className="text-xl font-semibold text-white mb-8">
+            <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
               Whether you prefer online or offline classes, we offer flexible
               learning options tailored to your needs. Unlock exclusive
               scholarships, gain access to top job opportunities, and earn
@@ -197,19 +198,19 @@ function Banner() {
             />
           </div>
         </div>
-        <div className="flex flex-row items-center justify-start text-start w-full h-full pl-6 pr-6">
+        <div className="flex flex-row lg:flex-row md:flex-row sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full p-4">
             <p>
               Connect with us{" "}
               <a href="https://www.linktr.ee/thedigitalflix" target="_blank" rel="noreferrer"><span className="text-red-500">@thedigitalflix</span></a>
             </p>
-            <h2 className="text-4xl font-bold text-white mb-4 mt-4">
+            <h2 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
               COURSES FOR <span className="text-red-600">STUDENTS</span>,{" "}
               <span className="text-red-600">PROFESSIONALS</span>,{" "}
               <span className="text-red-600">ENTREPRENEURS</span> &{" "}
               <span className="text-red-600">JOB</span> SEEKERS
             </h2>
-            <p className="text-xl font-semibold text-white mb-8">
+            <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
               No matter where you are in your career, TheDigitalFlix has the
               perfect course for you! Whether you’re a student looking to start
               early, a professional aiming to upskill, an entrepreneur ready to
@@ -238,19 +239,19 @@ function Banner() {
             />
           </div>
         </div>
-        <div className="flex flex-row items-center justify-start text-start w-full h-full pl-6 pr-6">
+        <div className="flex flex-row lg:flex-row md:flex-row sm:flex-col-reverse xs:flex-col-reverse xs:mt-7 items-center justify-start text-start w-full h-full pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full p-4">
             <p>
               Connect with us{" "}
               <a href="https://www.linktr.ee/thedigitalflix" target="_blank" rel="noreferrer"><span className="text-red-500">@thedigitalflix</span></a>
             </p>
-            <h2 className="text-4xl font-bold text-white mb-4 mt-4">
+            <h2 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
               GET JOBS IN{" "}
               <span className="text-red-600">DIGITAL MARKETING</span> | BECOME A{" "}
               <span className="text-red-600">FREELANCER</span> | START YOUR OWN{" "}
               <span className="text-red-600">DIGITAL AGENCY</span>
             </h2>
-            <p className="text-xl font-semibold text-white mb-8">
+            <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
               TheDigitalFlix empowers you with in-demand digital marketing
               skills to land high-paying jobs, work independently as a
               freelancer, or build your own successful digital agency. Learn

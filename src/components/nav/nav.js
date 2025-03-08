@@ -69,7 +69,7 @@ const Navbar = () => {
         }`}
       >
         <div className="w-full">
-          <div className=" flex flex-row items-center justify-center bg-gray-900 p-2">
+          <div className=" flex flex-row items-center justify-center bg-gray-900 p-2 md:flex sm:hidden xs:hidden">
             <nav aria-label="Global">
               <ul className="flex items-center gap-6 text-lg">
                 <li>

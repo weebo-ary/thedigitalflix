@@ -16,18 +16,18 @@ export function TabsCert() {
         theme={{
           tablist: {
             tabitem: {
-              base: "text-2xl px-6 py-4 flex items-center justify-center",
+              base: "md:text-2xl sm:text-sm xs:text-sm md:px-6 sm:px-3   xs:px-3 py-4 flex items-center justify-center",
             },
           },
         }}
       >
         <Tabs.Item title="Courses" active icon={PiBooks}>
-          <h2 className="text-2xl pl-6 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
+          <h2 className="md:text-2xl sm:text-lg xs:text-lg md:pl-6 sm:pl-0 xs:pl-0 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
             Explore Our Power-Packed{" "}
-            <span className="text-red-600">Digital Marketing Courses</span> –
+            <span className="text-red-600">Digital Marketing Courses</span> : 
             From Beginners to Pros, and Even Young Creators
           </h2>
-          <div className="flex items-center justify-center gap-6">
+          <div className="flex md:flex-row sm:flex-col xs:flex-col items-center justify-center gap-6">
             <Card
               className="max-w-sm"
               imgAlt="Meaningful alt text for an image that is not purely decorative"
@@ -82,16 +82,16 @@ export function TabsCert() {
                 Learn More
               </button>
             </Card>
-            <button className="bg-red-600 text-white py-2 px-1 rounded-lg w-1/4">
+            <button className="bg-red-600 text-white py-2 px-1 rounded-lg w-1/4 md:w-1/2 sm:w-full xs:w-full">
               View More...
             </button>
           </div>
         </Tabs.Item>
         <Tabs.Item active title="Certifications" icon={GrCertificate}>
-          <h2 className="text-2xl pl-6 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
+          <h2 className="md:text-2xl sm:text-lg xs:text-lg md:pl-6 sm:pl-0 xs:pl-0 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
             Get upto <span className="text-red-600">50+ Certifications</span> in
             alignment with Global Brands like :{" "}
-            <div className="flex items-center gap-8 pb-6 mt-4">
+            <div className="fle md:flex md:flex-row sm:grid sm:grid-cols-2 xs:grid xs:grid-cols-2 items-center gap-8 pb-6 mt-4">
               <div className="flex flex-col items-center justify-center mt-6">
                 <FaGoogle />
                 <p className="text-3xl">Google</p>
@@ -110,7 +110,7 @@ export function TabsCert() {
               </div>
             </div>
           </h2>
-          <div className="flex items-center justify-center gap-6">
+          <div className="flex md:flex-row sm:flex-col xs:flex-col items-center justify-center gap-6">
             <Card
               className="max-w-sm"
               imgAlt="Meaningful alt text for an image that is not purely decorative"
@@ -170,18 +170,18 @@ export function TabsCert() {
               </button>
             </Card>
 
-            <button className="bg-red-600 text-white py-2 px-1 rounded-lg w-1/4">
+            <button className="bg-red-600 text-white py-2 px-1 rounded-lg md:w-1/4 sm:w-full xs:w-full">
               View More...
             </button>
           </div>
         </Tabs.Item>
         <Tabs.Item title="Tools" icon={FaGear}>
-          <h2 className="text-2xl pl-6 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
+          <h2 className="md:text-2xl sm:text-lg xs:text-lg md:pl-6 sm:pl-0 xs:pl-0 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
             Master the Most Powerful{" "}
             <span className="text-red-600"> Digital Marketing & AI Tools</span>{" "}
             – From SEO to Social Media, Ads & Beyond
           </h2>
-          <div className="flex items-center justify-center gap-6">
+          <div className="flex md:flex-row sm:flex-col xs:flex-col items-center justify-center gap-6">
             <Card
               className="max-w-sm"
               imgAlt="Meaningful alt text for an image that is not purely decorative"
@@ -230,7 +230,7 @@ export function TabsCert() {
                 Learn More
               </button>
             </Card>
-            <button className="bg-red-600 text-white py-2 px-1 rounded-lg w-1/4">
+            <button className="bg-red-600 text-white py-2 px-1 rounded-lg md:w-1/4 sm:w-full xs:w-full">
               View More...
             </button>
           </div>
