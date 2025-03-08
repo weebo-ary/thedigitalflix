@@ -69,7 +69,7 @@ const Navbar = () => {
         }`}
       >
         <div className="w-full">
-          <div className=" flex flex-row items-center justify-center bg-gray-900 p-2 md:flex sm:hidden xs:hidden">
+          <div className=" flex flex-row items-center justify-center bg-gray-900 p-2 md:flex xs:hidden">
             <nav aria-label="Global">
               <ul className="flex items-center gap-6 text-lg">
                 <li>
@@ -194,7 +194,7 @@ const Navbar = () => {
                   <img
                     src={theme === "dark" ? DarkLogo : LightLogo}
                     alt={theme === "dark" ? "DarkLogo" : "LightLogo"}
-                    className="w-48 lg:h-16 md:h-22 sm:h-10 xs:h-10"
+                    className="w-48 lg:h-16 md:h-22 sm:h-22 xs:h-22"
                   />
                 </NavLink>
               </div>

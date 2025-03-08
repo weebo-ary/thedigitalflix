@@ -36,14 +36,14 @@ const Modal = ({
   if (!isOpen) return null; // Don't render if modal is closed
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 mt-12 z-10">
-      <div className="bg-white rounded-lg shadow-lg w-1/2 p-6 flex relative">
+    <div className="fixed inset-0 flex  items-center justify-center bg-black bg-opacity-50 z-10">
+      <div className="bg-white md:mt-20 rounded-lg shadow-lg md:w-1/2 sm:w-full xs:w-full sm:mt-28 xs:mt-28 p-6 flex md:flex md:flex-row sm:flex-col xs:flex-col relative">
         {/* Left Side: Image */}
-        <div className="w-full">
+        <div className="w-full flex items-center justify-center">
           <img
             src={imageSrc}
             alt="Modal"
-            className="w-full h-full object-cover rounded-l-lg"
+            className="md:w-full sm:w-1/2 xs:w-1/2 h-full object-cover rounded-l-lg"
           />
         </div>
 
@@ -55,7 +55,9 @@ const Modal = ({
           </div>
 
           {/* Headings */}
-          <h2 className="text-lg font-semibold text-center mt-2 text-gray-800">{head1}</h2>
+          <h2 className="text-lg font-semibold text-center mt-2 text-gray-800">
+            {head1}
+          </h2>
           <h3 className="text-md text-gray-600 text-center mb-4">{head2}</h3>
 
           {/* Input Fields */}
@@ -85,25 +87,25 @@ const Modal = ({
           />
 
           {/* Submit Button (Disabled if form is incomplete) */}
-          <button
-            onClick={() => alert("Form Submitted!")}
-            disabled={!isFormValid}
-            className={`w-full py-2 text-white rounded ${
-              isFormValid
-                ? "bg-red-500 hover:bg-red  -600"
-                : "bg-gray-400 cursor-not-allowed"
-            }`}
-          >
-            {buttonText}
-          </button>
-
-          {/* Close Button */}
-          <button
-            onClick={onClose}
-            className="absolute top-2 right-2 bg-gray-100 p-2 rounded-full hover:bg-gray-300 "
-          >
-            ✖
-          </button>
+          <div className="flex gap-4">
+            <button
+              onClick={onClose}
+              className={`w-full py-2 text-red-600 rounded`}
+            >
+              Close
+            </button>
+            <button
+              onClick={() => alert("Form Submitted!")}
+              disabled={!isFormValid}
+              className={`w-full py-2 text-white rounded ${
+                isFormValid
+                  ? "bg-red-500 hover:bg-red-600"
+                  : "bg-gray-400 cursor-not-allowed"
+              }`}
+            >
+              {buttonText}
+            </button>
+          </div>
         </div>
       </div>
     </div>

@@ -84,21 +84,28 @@ function App() {
     );
   }
 
+  const handleOnClose = () => {
+    setIsModalOpen(false)
+    sessionStorage.setItem("modalShown", "false");
+  }
+
   return (
     <div className="bg-white dark:bg-gray-800 text-black dark:text-white min-h-screen transition duration-500">
-      <ScrollToTop />
-      <Navbar />
-      <div className="overflow-hidden">
-        <Outlet />
-        <Modal
+       <Modal
           isOpen={isModalOpen}
-          onClose={() => setIsModalOpen(false)}
+          onClose={handleOnClose}
           imageSrc={Feature1} // Replace with your image URL
           logoSrc={Logo} // Replace with your logo URL
           head1="Register For Demo"
           head2="Please enter your details below"
           buttonText="Submit"
+          className="z-10"
         />
+      <ScrollToTop />
+     
+      <Navbar />
+      <div className="overflow-hidden">
+        <Outlet />
       </div>
       <Footer />
     </div>

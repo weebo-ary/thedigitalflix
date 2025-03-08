@@ -45,7 +45,7 @@ function Banner() {
   }, []);
 
   return (
-    <div className="mx-0 lg:mx-0 md:mx-0 sm:mx-0 xs:mx-0 lg:mb-0 lg:mt-10 xs:mt-10 flex flex-row md:flex-row items-start justify-start sm:flex-col xs:flex-col overflow-hidden p-5 md:gap-10">
+    <div className="mx-0 lg:mx-0 md:mx-0 sm:mx-0 xs:mx-0 lg:mb-0 lg:mt-10 xs:mt-0 flex flex-row md:flex-row items-start justify-start sm:flex-col xs:flex-col overflow-hidden p-5 md:gap-10">
       <h2 className="hidden">
         {isLeftVisible} {isRightVisible}
       </h2>
@@ -59,12 +59,12 @@ function Banner() {
         interval={2500}
         showThumbs={false}
       >
-        <div className="flex flex-row-reverse items-center justify-start text-start w-full h-full gap-6 mb-10 p-4 pl-6 pr-6">
+        <div className="flex md:flex-row-reverse sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full gap-6 mb-10 p-4 pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full">
-            <h1 className="text-5xl font-bold text-white mb-4 mt-4">
+            <h1 className="md:text-5xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
               TheDigitalFlix Certificate of Completion 🏅
             </h1>
-            <p className="text-xl font-semibold text-white mb-8">
+            <p className="md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
               Receive an officially framed course completion certificate from
               TheDigitalFlix, validating your expertise in digital marketing.
             </p>
@@ -85,12 +85,12 @@ function Banner() {
             />
           </div>
         </div>
-        <div className="flex flex-row-reverse items-center justify-start text-start w-full h-full p-4 pl-6 pr-6">
+        <div className="flex md:flex-row-reverse sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full p-4 pl-6 pr-6">
           <div className="flex flex-col mb-10 p-4 w-full">
-            <h2 className="text-5xl font-bold text-white mb-4 mt-4">
+            <h2 className="md:text-5xl sm:text-2xl xs:text-2xl  font-bold text-white mb-4 mt-4">
               Letter of Recommendation 🏆
             </h2>
-            <p className="text-xl font-semibold text-white mb-8">
+            <p className="md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
               Get a personalized Letter of Recommendation (LOR) from
               TheDigitalFlix, adding credibility to your profile.
             </p>
@@ -112,12 +112,12 @@ function Banner() {
             />
           </div>
         </div>
-        <div className="flex flex-row-reverse items-center justify-start text-start w-full h-full pl-6 pr-6">
+        <div className="flex md:flex-row-reverse sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full p-4">
-            <h2 className="text-5xl font-bold text-white mb-4 mt-4">
+            <h2 className="md:text-5xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
               FlixPro Resume 📄
             </h2>
-            <p className="text-xl font-semibold text-white mb-8">
+            <p className="md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
               Receive a professionally designed, job-ready resume, tailored for
               digital marketing and optimized for recruiter visibility.
             </p>
@@ -138,12 +138,12 @@ function Banner() {
             />
           </div>
         </div>
-        <div className="flex flex-row-reverse items-center justify-start text-start w-full h-full pl-6 pr-6">
+        <div className="flex md:flex-row-reverse sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full p-4">
-            <h2 className="text-5xl font-bold text-white mb-4 mt-4">
+            <h2 className="md:text-5xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
               Digital Portfolio (On Showcase) 🎨
             </h2>
-            <p className="text-xl font-semibold text-white mb-8">
+            <p className="md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
             Create a professional portfolio to showcase your digital marketing skills and projects to potential clients and employers.
             </p>
             <div className="flex flex-row gap-6">

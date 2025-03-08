@@ -158,10 +158,10 @@ function FeatureList() {
 
   return (
     <div className="border-t-2 border-b-2 border-white ">
-    <h2 className="text-5xl font-bold text-red-600 mt-10 dark:text-red-500 text-center mb-10">
+    <h2 className="text-5xl sm:text-2xl xs:text-2xl font-bold text-red-600 mt-10 dark:text-red-500 text-center mb-10">
         Everything you Need to Know
     </h2>
-    <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-20 p-8 w-full mb-10">
+    <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-3 sm:grid-cols-2 xs:grid-cols-2 gap-20 p-8 w-full mb-10">
       {features.map((feature, index) => (
         <div
           key={index}

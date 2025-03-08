@@ -42,15 +42,15 @@ function BrouchureSection() {
           </p>
         </div>
         <div className="p-6 w-full flex items-center justify-center mb-12 gap-5">
-          <img src={Feature1} alt="Feature1" className="w-1/5" onContextMenu={handleContextMenu} />
-          <p><ArrowLeftOutlined /> Front</p>
-          <p>Back <ArrowRightOutlined /></p>
-          <img src={Feature2} alt="Feature2" className="w-1/5" onContextMenu={handleContextMenu}/>
+          <img src={Feature1} alt="Feature1" className="md:w-1/5 sm:w-1/3 xs:w-1/3" onContextMenu={handleContextMenu} />
+          <p className="flex items-center justify-center gap-2"><ArrowLeftOutlined /> Front</p>
+          <p className="flex items-center justify-center gap-2">Back <ArrowRightOutlined /></p>
+          <img src={Feature2} alt="Feature2" className="md:w-1/5 sm:w-1/3 xs:w-1/3" onContextMenu={handleContextMenu}/>
         </div>
         <div className="p-6 w-full flex items-center justify-center mb-12">
         <button
         onClick={() => setIsModalOpen(true)}
-        className="w-1/2 bg-red-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-600 transition"
+        className="md:w-1/2 sm:w-full xs:w-full bg-red-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-600 transition"
       >
         Download Brouchure
       </button>

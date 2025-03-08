@@ -71,7 +71,7 @@ function Banner() {
         stopOnHover
         infiniteLoop
         interval={7500}
-        showThumbs={true}
+        showThumbs={false}
         swipeable = {false}
       >
         <div className="flex lg:flex-row md:flex-row sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full gap-6 mb-10 p-4 pl-6 pr-6">

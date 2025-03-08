@@ -164,27 +164,27 @@ function ProcessSection() {
   return (
     <div
       ref={sectionRef}
-      className={`mx-8 xs:mx-4 flex md:flex-row sm:flex-col lg:mt-10 lg:mb-10 xs:flex-col sm:mt-10 xs:mt-0 bg-gray-100 dark:bg-gray-900 p-10 rounded-lg transform transition-transform duration-700 ${
+      className={`mx-8 xs:mx-4 flex md:flex-row sm:flex-col lg:mt-10 lg:mb-10 xs:flex-col sm:mt-10 xs:mt-0 sm:mb-10 xs:mb-10 bg-gray-100 dark:bg-gray-900 p-10 rounded-lg transform transition-transform duration-700 ${
         isZoomedIn ? "scale-100" : "scale-90 opacity-50"
       }`} // Apply zoom in/out and opacity based on scroll
     >
       <div className="absolute bottom-30 left-30 w-64 h-auto bg-orange-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000"></div>
       <div className="flex flex-col items-start justify-center gap-10">
         <div className="">
-          <h2 className="text-5xl md:text-5xl sm:text-3xl xs:text-3xl text-gray-900 dark:text-white">
+          <h2 className="text-5xl md:text-5xl sm:text-xl xs:text-xl text-gray-900 dark:text-white">
           Unlock the <span className="text-orange-500">Ultimate</span> Digital Marketing Learning Experience
           </h2>
         </div>
         <div className="">
           {" "}
-          <p className="text-3xl md:text-2xl sm:text-xl xs:text-xl text-gray-600 dark:text-gray-400">
+          <p className="text-3xl md:text-2xl sm:text-sm xs:text-sm text-gray-600 dark:text-gray-400">
             Master SEO, PPC, AI-powered marketing, and website development with 50+ industry-focused modules. Get hands-on training, 20+ certifications, placement support, and lifetime LMS access. Flexible online/offline learning with scholarships and EMI options – start your journey with TheDigitalFlix today!
           </p>{" "}
         </div>
       </div>
       <div className="flex flex-col xs:max-w-full items-center justify-center">
         <div
-          className="relative w-144 md:w-144 sm:max-w-full xs:max-w-full p-6 bg-gradient-to-r bg-gray-100 dark:bg-gray-900 rounded-sm text-center overflow-hidden cursor-pointer"
+          className="relative w-144 md:w-144 sm:w-96 xs:w-96 p-6 bg-gradient-to-r rounded-sm text-center overflow-hidden cursor-pointer"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
