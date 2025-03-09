@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Im1 from "../../../assets/Illustration/energy-eng.png";
 import Im2 from "../../../assets/Illustration/enhacned-cnc.png";
 import Im3 from "../../../assets/Illustration/alerts-eng.png";
-import Im4 from "../../../assets/Illustration/mon-feat.jpg"
+import Im4 from "../../../assets/Illustration/mon-feat.jpg";
 
 function Solution() {
   const cardsRef = useRef([]);
@@ -33,26 +33,45 @@ function Solution() {
   const cardsData = [
     {
       image: Im1,
-      title: "Energy Usage of machines",
+      title: "For Young Learners (Students & Creators)",
       description:
-        "Monitor energy usage of machines to analyze machine health and performance ",
+        "Easy-to-learn, engaging & interactive",
     },
     {
       image: Im2,
-      title: "Energy Consumption Insight",
+      title: "Social Media & Content Creation",
       description:
-        "Monitor Energy usage at machine level, Line level and plant level",
+        "Learn how to grow on Instagram, YouTube & more",
     },
     {
       image: Im3,
-      title: "Real-Time Alerts",
-      description: "Get real time alerts for Threshold values of different parameters",
+      title: "Website & Blog Creation",
+      description:
+        "Build your first website & personal brand online",
+    },
+    {
+      image: Im3,
+      title: "Fun & Gamified Learning",
+      description:
+        "AI-based interactive modules for better engagement",
+    },
+    {
+      image: Im3,
+      title: "Monetization & Freelancing Basics",
+      description:
+        "Learn how to earn money online at an early age",
+    },
+    {
+      image: Im3,
+      title: "Exclusive Digital Creator Certification",
+      description:
+        "Stand out with a specialized certification",
     },
   ];
 
   return (
     <div className="relative h-auto flex flex-col justify-center items-center text-start md:text-start p-8 ">
-       <img
+      <img
         src={Im4}
         alt="Background"
         className="absolute inset-0 w-full h-full object-cover z-0 liopacity-30 opacity-50 dark:opacity-20 "

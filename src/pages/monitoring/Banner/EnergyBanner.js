@@ -67,7 +67,11 @@ const BannerWithFadingGridBackground = () => {
           </span>
         </p>
         <h1 className="text-6xl md:text-5xl sm:text-4xl xs:text-4xl md:text-center xs:text-start sm:text-start font-bold text-gray-800 dark:text-gray-100 mb-10">
-        FlixYoung Digital Creators <br/> Best <span className="text-red-600 animate-pulse">Digital Marketing Course</span> for School and College Students
+          FlixYoung Digital Creators <br /> Best{" "}
+          <span className="text-red-600 animate-pulse">
+            Digital Marketing Course
+          </span>{" "}
+          for School and College Students
         </h1>
       </div>
       <div className="flex md:flex-row-reverse xs:flex-col-reverse sm:flex-col items-center justify-center gap-10">
@@ -77,14 +81,14 @@ const BannerWithFadingGridBackground = () => {
           </p>
         </div>
         <div>
-        <iframe
-        width="720"
-        height="480"
-        src="https://www.youtube.com/embed/It9ApbDK41U?start=3"
-        title="Flix Start Digital"
-        allowFullScreen
-        className="rounded-lg shadow-lg"
-      ></iframe> 
+          <iframe
+            width="720"
+            height="480"
+            src="https://www.youtube.com/embed/It9ApbDK41U?start=3"
+            title="Flix Start Digital"
+            allowFullScreen
+            className="rounded-lg shadow-lg"
+          ></iframe>
         </div>
       </div>
     </div>

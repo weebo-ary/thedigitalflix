@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Im1 from "../../../assets/Illustration/brand-cnc.png";
 import Im2 from "../../../assets/Illustration/prod-cnc.png";
 import Im3 from "../../../assets/Illustration/condition-cnc.png";
-import Im4 from "../../../assets/Illustration/mon-feat.jpg";
+import Im4 from "../../../assets/Images/featuresCourses.jpg";
 
 function Solution() {
   const cardsRef = useRef([]);
@@ -33,21 +33,42 @@ function Solution() {
   const cardsData = [
     {
       image: Im1,
-      title: "Brand Agnostic",
+      title: "Advanced Digital Marketing Training",
       description:
-        "Supports integration with different Robot controllers through multiple protocols & their SDKs",
+        " Learn Google Ads, Meta Ads, AI-driven strategies & more",
     },
     {
       image: Im2,
-      title: "Production Monitoring",
+      title: "High-Value Paid Certifications",
       description:
-        "Monitor critical Robot KPIs like TCP Position, Robot Utilization, Cycle Time etc.",
+        "Get certifications from Google, HubSpot, and TheDigitalFlix",
     },
     {
       image: Im3,
-      title: "Condition Monitoring",
+      title: "AI & Automation in Marketing",
       description:
-        "Monitor critical operational parameters like Joint Torque, Joint Speed, Joint Acceleration, Alarms etc",
+        "Learn how to use AI tools to optimize your campaigns",
+    },
+
+    {
+      image: Im3,
+      title: "Placement & Freelancing Support",
+      description:
+        "Build a career or start your own digital agency",
+    },
+
+    {
+      image: Im3,
+      title: "Live Industry Projects",
+      description:
+        "Work on real-time marketing campaigns",
+    },
+
+    {
+      image: Im3,
+      title: "Personal Mentorship & Career Guidance",
+      description:
+        "Get one-on-one mentorship from industry experts",
     },
   ];
 
@@ -60,7 +81,7 @@ function Solution() {
       />
       <div className="text-center md:text-center sm:text-start xs:text-start mb-10">
         <h2 className="text-6xl md:text-6xl sm:text-4xl xs:text-4xl p-8">
-          Our{" "}
+        6 Main{" "}
           <span className="relative inline-block">
             Features
             <svg

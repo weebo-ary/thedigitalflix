@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Im1 from "../../../assets/Illustration/brand-cnc.png";
 import Im2 from "../../../assets/Illustration/prod-cnc.png";
 import Im3 from "../../../assets/Illustration/condition-cnc.png";
-import Im4 from "../../../assets/Illustration/mon-feat.jpg";
+import Im4 from "../../../assets/Images/featuresCourses.jpg";
 
 function Solution() {
   const cardsRef = useRef([]);
@@ -33,21 +33,37 @@ function Solution() {
   const cardsData = [
     {
       image: Im1,
-      title: "Feature One",
-      description:
-        "Supports integration with different PLCs, CNC controllers, legacy controllers via multiple protocols",
+      title: "Beginner-Friendly Learning",
+      description: "No prior experience needed, start from scratch.",
     },
     {
       image: Im2,
-      title: "Production Monitoring",
-      description:
-        "Monitor critical production KPIs like Cycle Time, Asset Utilization, OEE, OLE and many more.",
+      title: "AI-Integrated Training",
+      description: "Learn how AI is transforming digital marketing",
     },
     {
       image: Im3,
-      title: "Condition Monitoring",
+      title: "SEO, Social Media & Google Ads",
+      description: " Master essential digital marketing strategies",
+    },
+
+    {
+      image: Im3,
+      title: "Real-World Projects & Case Studies",
+      description: "Work on practical assignments",
+    },
+
+    {
+      image: Im3,
+      title: "100% Free Industry Certifications",
       description:
-        "Monitor critical maintenance parameters like Servo Temperature, Spindle RPM, Tool Life, Assembly-Line Bottlenecks etc.",
+        "Earn recognized certificates from Google, HubSpot, and more",
+    },
+
+    {
+      image: Im3,
+      title: "Flexible Learning Options",
+      description: "Available in online & offline modes.",
     },
   ];
 
@@ -60,7 +76,7 @@ function Solution() {
       />
       <div className="text-center md:text-center sm:text-start xs:text-start mb-10">
         <h2 className="text-6xl md:text-6xl sm:text-4xl xs:text-4xl p-8">
-          Course{" "}
+          6 Main{" "}
           <span className="relative inline-block">
             Features
             <svg

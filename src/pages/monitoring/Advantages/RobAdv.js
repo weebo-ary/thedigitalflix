@@ -33,7 +33,7 @@ const BannerWithFadingGridBackground = () => {
       {/* Banner Content */}
       <div
         ref={textRef}
-        className={`relative max-w-3xl px-4 md:px-0 transition-transform duration-1000 ease-in-out ${
+        className={`px-4 md:px-0 transition-transform duration-1000 ease-in-out ${
           isTextVisible
             ? "opacity-100 translate-x-0"
             : "opacity-0 -translate-x-20"
@@ -50,7 +50,7 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Improved Performance
+            Google Ads  
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">Maximize Robot Uptime & improve by analyzing historical data.</p>
@@ -61,7 +61,7 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Downtime Reduction
+            AI-driven marketing
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">Minimize production downtime through anomaly detection & historical failure data.</p>
@@ -72,7 +72,18 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Enhanced Safety
+            Advanced SEO
+          </b>{" "}
+          <br />{" "}
+          <p className="text-lg mt-2 text-gray-400">Improve safety by tracking robot position in real-time to avoid any collision.</p>
+        </p>
+        <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
+          <b>
+            <CheckCircleOutlined
+              className="animate-bounce"
+              style={{ fontSize: "24px", color: "green" }}
+            />{" "}
+            Performance Marketing
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">Improve safety by tracking robot position in real-time to avoid any collision.</p>

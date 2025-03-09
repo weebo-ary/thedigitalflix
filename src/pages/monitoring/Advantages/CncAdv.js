@@ -48,27 +48,59 @@ const BannerWithFadingGridBackground = () => {
       <div className="flex md:flex-row sm:flex-col xs:flex-col gap-10 w-full text-center">
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-10 w-full">
           <b>
-            <CheckCircleOutlined className="animate-bounce" style={{ fontSize: "24px", color: "green" }} />{" "}
-            Improved Productivity
+            <CheckCircleOutlined
+              className="animate-bounce"
+              style={{ fontSize: "24px", color: "green" }}
+            />{" "}
+            SEO
           </b>{" "}
           <br />{" "}
-          <p className="text-lg mt-2 text-gray-400">Maximize Machine uptime & improve OEE, OLE through historical data access.</p>
+          <p className="text-lg mt-2 text-gray-400">
+            Maximize Machine uptime & improve OEE, OLE through historical data
+            access.
+          </p>
         </p>
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
           <b>
-            <CheckCircleOutlined className="animate-bounce" style={{ fontSize: "24px", color: "green" }} />{" "}
-            Downtime Reduction
+            <CheckCircleOutlined
+              className="animate-bounce"
+              style={{ fontSize: "24px", color: "green" }}
+            />{" "}
+            Social Media
           </b>{" "}
           <br />{" "}
-          <p className="text-lg mt-2 text-gray-400">Minimize production downtime through anomaly detection & historical failure data.</p>
+          <p className="text-lg mt-2 text-gray-400">
+            Minimize production downtime through anomaly detection & historical
+            failure data.
+          </p>
         </p>{" "}
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
           <b>
-            <CheckCircleOutlined className="animate-bounce" style={{ fontSize: "24px", color: "green" }} />{" "}
-            Enhanced Quality
+            <CheckCircleOutlined
+              className="animate-bounce"
+              style={{ fontSize: "24px", color: "green" }}
+            />{" "}
+            PPC
           </b>{" "}
           <br />{" "}
-          <p className="text-lg mt-2 text-gray-400">Maintain Consistent production quality by tracking tool parameters & operator performance through historical data.</p>
+          <p className="text-lg mt-2 text-gray-400">
+            Maintain Consistent production quality by tracking tool parameters &
+            operator performance through historical data.
+          </p>
+        </p>
+        <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
+          <b>
+            <CheckCircleOutlined
+              className="animate-bounce"
+              style={{ fontSize: "24px", color: "green" }}
+            />{" "}
+            Content Marketing
+          </b>{" "}
+          <br />{" "}
+          <p className="text-lg mt-2 text-gray-400">
+            Maintain Consistent production quality by tracking tool parameters &
+            operator performance through historical data.
+          </p>
         </p>
       </div>
     </div>

@@ -50,7 +50,7 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Reduce Energy Cost
+            SEO
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
@@ -64,7 +64,35 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Increase Machine Performance
+            Social Media
+          </b>{" "}
+          <br />{" "}
+          <p className="text-lg mt-2 text-gray-400">
+            Optimize machine performance by setting threshold values (Current,
+            Power factor, voltage) for machines
+          </p>
+        </p>{" "}
+        <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
+          <b>
+            <CheckCircleOutlined
+              className="animate-bounce"
+              style={{ fontSize: "24px", color: "green" }}
+            />{" "}
+            Content Creation
+          </b>{" "}
+          <br />{" "}
+          <p className="text-lg mt-2 text-gray-400">
+            Optimize machine performance by setting threshold values (Current,
+            Power factor, voltage) for machines
+          </p>
+        </p>{" "}
+        <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
+          <b>
+            <CheckCircleOutlined
+              className="animate-bounce"
+              style={{ fontSize: "24px", color: "green" }}
+            />{" "}
+            AI Tools
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">

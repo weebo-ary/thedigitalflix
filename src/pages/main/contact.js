@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import VideoContact from "../../assets/Video/Contact.mp4";
 import TrustUs from "./Home/trustus";
+import { Link } from "react-router-dom";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -52,13 +53,13 @@ function Contact() {
 
   return (
     <>
-      <div className="mx-0 lg:mx-0 md:mx-0 sm:mx-0 xs:mx-0 lg:mb-0 lg:mt-20 xs:mt-0 lg:h-screen md:h-screen sm:min-h-screen xs:min-h-screen flex flex-row md:flex-row items-start justify-start sm:flex-col xs:flex-col overflow-hidden p-5 md:gap-10">
+      <div className="mx-0 lg:mx-0 md:mx-0 sm:mx-0 xs:mx-0 lg:mb-0 lg:mt-20 xs:-mt-12 lg:h-screen md:h-screen sm:min-h-screen xs:min-h-screen flex flex-row md:flex-row items-start justify-start sm:flex-col xs:flex-col overflow-hidden p-5 md:gap-10">
         <video
           autoPlay
           loop
           muted
           playsInline
-          className="absolute inset-0 w-full h-screen object-cover opacity-90 dark:opacity-40 z-0"
+          className="absolute inset-0 w-full h-150 z object-cover opacity-90 dark:opacity-40 z-0 md:mt-10 sm:-mt-10 xs:-mt-10"
         >
           <source src={VideoContact} type="video/mp4" />
           Your browser does not support the video tag.
@@ -70,15 +71,14 @@ function Contact() {
             <h1 className="text-4xl font-bold">Connect with us</h1>
             <p className="text-lg">
               Feel free to contact us with your inquiries, feedback, or any
-              assistance you may need. We value your feedback and are here to
-              assist with any inquiries or support you may require.
+              assistance you may need. Get in Touch with TheDigitalFlix!
             </p>
             <div className="space-y-6">
               <div className="flex items-center space-x-4">
                 <i className="fas fa-envelope text-2xl"></i>
                 <div>
                   <p>Email</p>
-                  <p className="font-semibold">connect@opsight.ai</p>
+                  <p className="font-semibold">connect@thedigitalflix.com</p>
                 </div>
               </div>
 
@@ -86,18 +86,26 @@ function Contact() {
                 <i className="fab fa-linkedin text-2xl"></i>
                 <div>
                   <p>Contact</p>
-                  <p className="font-semibold">+91-8770885079</p>
+                  <p className="font-semibold">+91-9201457156</p>
+                  <p className="font-semibold">+91-7987999491</p>
                 </div>
               </div>
 
               <div className="flex items-center space-x-4">
                 <i className="fas fa-map-marker-alt text-2xl"></i>
-                <div>
-                  <p>Headquarter</p>
+                <div> 
+                  <p>Office</p>
                   <p className="font-semibold">
-                    A3/603, Priyadarshini Adhishthan Bawadia Kalan, Bhopal
-                    (M.P.), 462026
+                  📍 B1, Kamla Nagar, Near Harish Chowk, Next to Muthoot Finance, Kotra Sultanabad, Bhopal, M.P. (462003)
                   </p>
+                </div>
+              </div>
+              <div className="flex items-center space-x-4">
+                <i className="fas fa-map-marker-alt text-2xl"></i>
+                <div>
+                  <p>Office Hours</p>
+                  <p className="font-semibold">🗓️ Monday – Saturday: 10:00 AM – 7:00 PM</p>
+                  <p className="font-semibold">📌 Sunday: Closed</p>
                 </div>
               </div>
             </div>
@@ -105,7 +113,9 @@ function Contact() {
 
           {/* Contact Form */}
           <div className="bg-white rounded-lg shadow-lg p-8 max-w-lg w-full space-y-6">
-            <h2 className="text-2xl font-bold text-gray-700">Send Message</h2>
+            <h2 className="text-2xl font-bold text-gray-700">📩 Get in Touch – Drop Us a Message</h2>
+            <p className="text-xs font-light text-gray-500">Have a question? Fill out the form below, and our team will get back to you ASAP!
+            </p>
             <form className="space-y-4" onSubmit={handleSubmit}>
               <div className="flex space-x-4">
                 <div className="w-1/2">
@@ -175,7 +185,8 @@ function Contact() {
                   }
                 ></textarea>
               </div>
-
+                  <p className="text-xs font-light text-gray-800">👉 Our team will respond to your inquiry within 24 hours!
+                  </p>
               <button
                 type="submit"
                 className="w-full bg-blue-500 text-white py-2 rounded-md disabled:bg-gray-500 hover:bg-blue-600 transition duration-200"
