@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import VideoContact from "../../assets/Video/Contact.mp4";
 import TrustUs from "./Home/trustus";
-import { Link } from "react-router-dom";
 
 function Contact() {
   const [formData, setFormData] = useState({
