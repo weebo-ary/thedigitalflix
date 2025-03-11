@@ -4,8 +4,8 @@ import DropdownMenu from "../dropdown/DropdownMenu";
 import DropdownMenuProducts from "../dropdown/DropDownProducts";
 import DarkLogo from "../../assets/Logo/DarkLogo.png";
 import LightLogo from "../../assets/Logo/LightLogo.png";
-import { MenuOutlined } from "@ant-design/icons";
-import { NavLink } from "react-router-dom";
+import { ArrowRightOutlined, MenuOutlined } from "@ant-design/icons";
+import { Link, NavLink } from "react-router-dom";
 import "./nav.css";
 import Sidebar from "../Drawer/Sidebar";
 import { FaDownload, FaFacebook, FaLinkedin } from "react-icons/fa";
@@ -23,6 +23,7 @@ import {
 } from "@ant-design/icons";
 import DropdownMenuServices from "../dropdown/DropDownService";
 import Modal from "../../pages/main/Home/modal";
+import { BsBuildingAdd } from "react-icons/bs";
 
 const Navbar = () => {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
@@ -182,6 +183,22 @@ const Navbar = () => {
                 >
                   <FaDownload /> Brouchure
                 </button>
+                <a
+                  href={
+                    window.location.pathname === "/institute"
+                      ? "/"
+                      : "/institute"
+                  }
+                >
+                  <button className="animate-pulse flex items-center justify-center bg-red-500 text-sm text-white px-6 py-2 rounded-md shadow-md hover:bg-red-600 transition gap-2">
+                    <BsBuildingAdd />{" "}
+                    {window.location.pathname === "/institute"
+                      ? "Agency"
+                      : "Institute"}
+                  </button>
+                </a>
+
+                <ArrowRightOutlined />
               </ul>
             </nav>
           </div>

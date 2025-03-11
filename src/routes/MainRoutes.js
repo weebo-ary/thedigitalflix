@@ -3,6 +3,7 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "../App";
 import Home from "../pages/main/home";
+import AgencyHome from "../pages/main/agencyHome";
 import Services from "../pages/main/services";
 import AboutUs from "../pages/main/about";
 import Blogs from "../pages/main/blogs";
@@ -23,7 +24,12 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    children: [{ path: "/", element: <Home /> }],
+    children: [{ path: "/", element: <AgencyHome /> }],
+  },
+  {
+    path: "/",
+    element: <App />,
+    children: [{ path: "/institute", element: <Home /> }],
   },
 
   {

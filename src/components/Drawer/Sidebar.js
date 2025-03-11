@@ -34,7 +34,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
       >
         {/* Sidebar Header */}
         <div className="flex items-center justify-between p-4 border-b-2 dark:bg-gray-700">
-          <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200">Opsight AI</h2>
+          <h2 className="text-xl font-semibold text-red-600 dark:text-red-600">TheDigitalFlix</h2>
           <button
             onClick={toggleSidebar}
             className="text-gray-800 dark:text-gray-200 focus:outline-none"
