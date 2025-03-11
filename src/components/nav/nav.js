@@ -5,7 +5,7 @@ import DropdownMenuProducts from "../dropdown/DropDownProducts";
 import DarkLogo from "../../assets/Logo/DarkLogo.png";
 import LightLogo from "../../assets/Logo/LightLogo.png";
 import { ArrowRightOutlined, MenuOutlined } from "@ant-design/icons";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./nav.css";
 import Sidebar from "../Drawer/Sidebar";
 import { FaDownload, FaFacebook, FaLinkedin } from "react-icons/fa";

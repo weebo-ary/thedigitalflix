@@ -1,4 +1,4 @@
-import { ArrowRightOutlined, ArrowsAltOutlined } from "@ant-design/icons";
+import { ArrowRightOutlined } from "@ant-design/icons";
 import React, { useEffect, useRef, useState } from "react";
 import IllustrationLight from "../../../assets/Images/Agency5Img.jpg";
 import IllustrationTwo from "../../../assets/Images/Agency2img.jpg";
