@@ -1,11 +1,11 @@
 import { ArrowRightOutlined, ArrowsAltOutlined } from "@ant-design/icons";
 import React, { useEffect, useRef, useState } from "react";
-import IllustrationLight from "../../../assets/Images/WhatsApp Image 2025-03-07 at 15.38.48_64b3a539.jpg";
-import IllustrationTwo from "../../../assets/Images/TheDigitalFlix WEBSITE DEVELOPMENT PPC SEO.jpg";
-import IllustrationThree from "../../../assets/Images/TheDigitalFlix ONLINE AND OFFLINE CLASSES GET SCHOLARSHIPS  JOB OPPORTUNITIES and CERTIFICATIONS.jpg";
-import IllustrationFour from "../../../assets/Images/TheDigitalFlix COURSES FOR STUDENTS PROFESSIONAL ENTREPRENEURS AND JOB SEEKERS.jpg";
-import IllustrationFive from "../../../assets/Images/TheDigitalFlix GET JOBS IN DIGITAL MARKETING BECOME A FREELANCER START YOUR OWN AGENCY.jpg";
-import VideoBanner from "../../../assets/Video/Banner.mp4";
+import IllustrationLight from "../../../assets/Images/Agency5Img.jpg";
+import IllustrationTwo from "../../../assets/Images/Agency2img.jpg";
+import IllustrationThree from "../../../assets/Images/Agency3Img.jpg";
+import IllustrationFour from "../../../assets/Images/Agency4Img.jpg";
+import IllustrationFive from "../../../assets/Images/Agency1img.jpg";
+import VideoBanner from "../../../assets/Video/Agency.mp4";
 import { Link } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
@@ -111,7 +111,7 @@ function Banner() {
               </Link>
             </div>
           </div>
-          <div className="w-full">
+          <div className="w-1/2">
             <img
               src={IllustrationFive}
               alt="Placeholder"
@@ -158,7 +158,7 @@ function Banner() {
             </div>
           </div>
 
-          <div className="w-full">
+          <div className="w-1/2">
             <img
               src={IllustrationTwo}
               alt="Placeholder"
@@ -204,7 +204,7 @@ function Banner() {
               </Link>
             </div>
           </div>
-          <div className="w-full">
+          <div className="w-1/2">
             <img
               src={IllustrationThree}
               alt="Placeholder"
@@ -251,7 +251,7 @@ function Banner() {
               </Link>
             </div>
           </div>
-          <div className="w-full">
+          <div className="w-1/2">
             <img
               src={IllustrationFour}
               alt="Placeholder"
@@ -299,7 +299,7 @@ function Banner() {
               </Link>
             </div>
           </div>
-          <div className="w-full">
+          <div className="w-1/2">
             <img
               src={IllustrationLight}
               alt="Placeholder"
