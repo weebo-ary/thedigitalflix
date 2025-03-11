@@ -84,7 +84,7 @@ const BannerWithFadingGridBackground = () => {
           <iframe
             width="720"
             height="480"
-            src="https://www.youtube.com/embed/It9ApbDK41U?start=3"
+            src="https://www.youtube.com/embed/kTdPSRB1t_Y?start=3"
             title="Flix Start Digital"
             allowFullScreen
             className="rounded-lg shadow-lg"
