@@ -63,7 +63,6 @@ function Banner() {
       <h2 className="hidden">
         {isLeftVisible} {isRightVisible}
       </h2>
-      
       <Carousel
         className="relative w-full cursor-pointer -mt-20 z-0"
         showArrows={true}
@@ -73,25 +72,30 @@ function Banner() {
         infiniteLoop
         interval={7500}
         showThumbs={false}
-        swipeable = {false}
+        swipeable={false}
       >
         <div className="flex lg:flex-row md:flex-row sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full gap-6 mb-10 p-4 pl-6 pr-6">
-          <div className="flex flex-col mb-10 w-full">
+          <div className="flex flex-col mb-10 w-full mt-10">
             <p>
               Connect with us{" "}
-              <a href="https://www.linktr.ee/thedigitalflix" target="_blank" rel="noreferrer"><span className="text-red-500">@thedigitalflix</span></a>
+              <a
+                href="https://www.linktr.ee/thedigitalflix"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="text-red-500">@thedigitalflix</span>
+              </a>
             </p>
             <h1 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
-              DIGITAL MARKETING COURSE IN BHOPAL | POWERED BY
-              <span className="text-red-600"> ARTIFICIAL INTELLIGENCE</span>
+              Drive Business Growth with TheDigitalFlix –{" "}
+              <span className="text-red-600">AI Powered Digital Marketing</span>
             </h1>
             <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
-              Welcome to The DigitalFlix Institute of Digital Marketing – where
-              innovation meets education. Our AI-enabled digital marketing
-              courses equip you with cutting-edge tools and strategies to excel
-              in the digital world. Master in-demand skills like SEO, social
-              media marketing, PPC, and AI-driven strategies to stay ahead in
-              the industry.
+              Supercharge your brand with AI-driven marketing strategies, SEO,
+              PPC, and social media growth. As the top digital marketing company
+              in Bhopal, we create data-backed campaigns that boost traffic,
+              leads, and sales. Get customized solutions for your business
+              success – Let’s grow together! 🚀
             </p>
             <div className="flex flex-row gap-6">
               <button
@@ -119,19 +123,24 @@ function Banner() {
           <div className="flex flex-col mb-10 w-full">
             <p>
               Connect with us{" "}
-              <a href="https://www.linktr.ee/thedigitalflix" target="_blank" rel="noreferrer"><span className="text-red-500">@thedigitalflix</span></a>
+              <a
+                href="https://www.linktr.ee/thedigitalflix"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="text-red-500">@thedigitalflix</span>
+              </a>
             </p>
             <h2 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
-              <span className="text-red-600">WEBSITE DEVELOPMENT</span> | SEO |
-              SOCIAL MEDIA | PPC | ARTIFICIAL INTELLIGENCE
+              Cutting-Edge Marketing with the Latest{" "}
+              <span className="text-red-600">AI Tools & Software</span>
             </h2>
             <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
-              Our AI-powered courses are designed to equip you with cutting-edge
-              skills in Website Development, Search Engine Optimization (SEO),
-              Social Media Marketing, Pay-Per-Click (PPC) Advertising, and
-              Artificial Intelligence applications in marketing. Gain hands-on
-              experience with real-world projects and industry-recognized
-              certifications.
+              We leverage advanced AI automation, data analytics, and top
+              marketing tools like SEMrush, Ahrefs, Google Analytics, HubSpot &
+              ChatGPT to drive smarter, faster, and more profitable campaigns.
+              Stay ahead of the competition with TheDigitalFlix’s tech-driven
+              marketing solutions! 🤖
             </p>
             <div className="flex flex-row gap-6">
               <button
@@ -161,21 +170,25 @@ function Banner() {
           <div className="flex flex-col mb-10 w-full p-4">
             <p>
               Connect with us{" "}
-              <a href="https://www.linktr.ee/thedigitalflix" target="_blank" rel="noreferrer"><span className="text-red-500">@thedigitalflix</span></a>
+              <a
+                href="https://www.linktr.ee/thedigitalflix"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="text-red-500">@thedigitalflix</span>
+              </a>
             </p>
             <h2 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
-              <span className="text-red-600">ONLINE AND OFFLINE</span> CLASSES |
-              GET <span className="text-red-600">SCHOLARSHIPS</span>,{" "}
-              <span className="text-red-600">JOB</span> OPPORTUNITIES &{" "}
-              <span className="text-red-600">CERTIFICATIONS</span>
+              More <span className="text-red-600">Leads</span>, More{" "}
+              <span className="text-red-600">Sales</span> – We Focus on High ROI
+              & Business Growth
             </h2>
             <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
-              Whether you prefer online or offline classes, we offer flexible
-              learning options tailored to your needs. Unlock exclusive
-              scholarships, gain access to top job opportunities, and earn
-              industry-recognized certifications to boost your career. Join a
-              thriving community of learners and experts, and take the next step
-              toward digital success
+              Our performance marketing approach is designed for maximum returns
+              on investment. Whether through PPC ads, conversion-optimized
+              landing pages, or retargeting strategies, we ensure every rupee
+              spent generates real business growth. Your success is our
+              priority! 📈
             </p>
             <div className="flex flex-row gap-6">
               <button
@@ -203,20 +216,26 @@ function Banner() {
           <div className="flex flex-col mb-10 w-full p-4">
             <p>
               Connect with us{" "}
-              <a href="https://www.linktr.ee/thedigitalflix" target="_blank" rel="noreferrer"><span className="text-red-500">@thedigitalflix</span></a>
+              <a
+                href="https://www.linktr.ee/thedigitalflix"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="text-red-500">@thedigitalflix</span>
+              </a>
             </p>
             <h2 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
-              COURSES FOR <span className="text-red-600">STUDENTS</span>,{" "}
-              <span className="text-red-600">PROFESSIONALS</span>,{" "}
-              <span className="text-red-600">ENTREPRENEURS</span> &{" "}
-              <span className="text-red-600">JOB</span> SEEKERS
+              Trusted by{" "}
+              <span className="text-red-600">
+                Startups, Small Businesses & Global Enterprises
+              </span>
             </h2>
             <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
-              No matter where you are in your career, TheDigitalFlix has the
-              perfect course for you! Whether you’re a student looking to start
-              early, a professional aiming to upskill, an entrepreneur ready to
-              grow your business, or a job seeker searching for high-demand
-              skills, our expert-led training will equip you for success.
+              From local startups and e-commerce brands to established
+              corporations, we help businesses in real estate, healthcare,
+              education, finance, and more scale their digital presence. No
+              matter the industry, our custom strategies ensure measurable
+              success. 🏢
             </p>
             <div className="flex flex-row gap-6">
               <button
@@ -244,20 +263,27 @@ function Banner() {
           <div className="flex flex-col mb-10 w-full p-4">
             <p>
               Connect with us{" "}
-              <a href="https://www.linktr.ee/thedigitalflix" target="_blank" rel="noreferrer"><span className="text-red-500">@thedigitalflix</span></a>
+              <a
+                href="https://www.linktr.ee/thedigitalflix"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="text-red-500">@thedigitalflix</span>
+              </a>
             </p>
             <h2 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
-              GET JOBS IN{" "}
-              <span className="text-red-600">DIGITAL MARKETING</span> | BECOME A{" "}
-              <span className="text-red-600">FREELANCER</span> | START YOUR OWN{" "}
-              <span className="text-red-600">DIGITAL AGENCY</span>
+              Your Growth Partner –{" "}
+              <span className="text-red-600">
+                Creative, Data-Driven & Transparent
+              </span>{" "}
+              Marketing
             </h2>
             <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
-              TheDigitalFlix empowers you with in-demand digital marketing
-              skills to land high-paying jobs, work independently as a
-              freelancer, or build your own successful digital agency. Learn
-              from industry experts, gain hands-on experience, and unlock
-              endless career opportunities in the digital world.
+              At TheDigitalFlix, we don’t just run ads – we create strategies
+              that work! Our team blends creativity, data insights, and market
+              research to deliver customized digital marketing solutions.
+              Transparent reporting, expert execution, and guaranteed results –
+              Let’s grow together! 🚀
             </p>
             <div className="flex flex-row gap-6">
               <button
