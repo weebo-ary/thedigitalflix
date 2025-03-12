@@ -1,11 +1,14 @@
 import { Tabs, Card } from "flowbite-react";
-import { GrCertificate } from "react-icons/gr";
 import { PiBooks } from "react-icons/pi";
-import { FaGear, FaMeta } from "react-icons/fa6";
 
 import React from "react";
-import { FaGoogle, FaHubspot } from "react-icons/fa";
-import { SiSemrush } from "react-icons/si";
+
+import Ags1 from "../../../assets/Images/AGS1.webp";
+import Ags2 from "../../../assets/Images/AGS2.webp";
+import Ags3 from "../../../assets/Images/AGS3.webp";
+import Ags4 from "../../../assets/Images/AGS4.webp";
+import Ags5 from "../../../assets/Images/AGS5.webp";
+import Ags6 from "../../../assets/Images/AGS6.webp";
 
 export function TabsCert() {
   return (
@@ -21,26 +24,31 @@ export function TabsCert() {
           },
         }}
       >
-        <Tabs.Item title="Courses" active icon={PiBooks}>
+        <Tabs.Item title="Services" active icon={PiBooks}>
           <h2 className="md:text-2xl sm:text-lg xs:text-lg md:pl-6 sm:pl-0 xs:pl-0 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
             Explore Our Power-Packed{" "}
-            <span className="text-red-600">Digital Marketing Courses</span> : 
-            From Beginners to Pros, and Even Young Creators
+            <span className="text-red-600">Digital Marketing Services</span>
           </h2>
-          <div className="flex md:flex-row sm:flex-col xs:flex-col items-center justify-center gap-6">
+          <div className="grid md:grid md:grid-cols-3 sm:grid-cols-1 xs:grid-cols-1 items-center justify-center gap-6">
             <Card
               className="max-w-sm"
               imgAlt="Meaningful alt text for an image that is not purely decorative"
-              imgSrc="https://plus.unsplash.com/premium_photo-1661678060948-b8d1d293889a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNlYXJjaCUyMGVuZ2luZSUyMG9wdGltaXphdGlvbnxlbnwwfHwwfHx8MA%3D%3D"
+              imgSrc={Ags1}
             >
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                FlixStart Digital
+                Web Development & Branding
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">
-                Your gateway to the world of digital marketing! This
-                beginner-friendly course covers SEO, social media, PPC, content
-                marketing, and AI tools, providing a strong foundation for
-                aspiring marketers.
+                🔹 "Transform Your Brand with Stunning Websites & Powerful
+                Branding" 
+                <br /> 
+                <br /> 
+                📢 Your website is your first impression—make
+                it count! We design high-performance, SEO-optimized websites
+                that reflect your brand’s identity. From custom website design,
+                development, and maintenance to brand strategy and content
+                writing, we create digital experiences that captivate and
+                convert.
               </p>
               <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
                 Learn More
@@ -49,16 +57,20 @@ export function TabsCert() {
             <Card
               className="max-w-sm"
               imgAlt="Meaningful alt text for an image that is not purely decorative"
-              imgSrc="https://media.istockphoto.com/id/1443560890/photo/digital-marketing-business-technology-concept-website-advertisement-email-social-media.webp?a=1&b=1&s=612x612&w=0&k=20&c=7y9fW3AX6d3TsOiY-A3aegkgaQqg6p0H3OtoDdXkkPs="
+              imgSrc={Ags2}
             >
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                FlixElite Digital PRO
+                Digital Advertising & Paid Campaigns
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">
-                Become a certified digital marketing expert with our advanced
-                course! Master AI-driven strategies, paid advertising,
-                analytics, automation, and high-level digital marketing
-                techniques to accelerate your career.
+                🔹 "Maximize Your ROI with Smart, Data-Driven Paid Advertising"
+                <br />
+                <br />
+                📢 Struggling to get leads? We specialize in Google Ads, Social
+                Media Ads & PPC Campaigns that drive targeted traffic, boost
+                conversions, and increase brand awareness. Our ROI-driven
+                marketing strategies ensure that every ad spend translates into
+                real business growth!
               </p>
               <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
                 Learn More
@@ -67,27 +79,97 @@ export function TabsCert() {
             <Card
               className="max-w-sm"
               imgAlt="Meaningful alt text for an image that is not purely decorative"
-              imgSrc="https://plus.unsplash.com/premium_photo-1681883455364-b8fc8c56b967?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGRpZ2l0YWwlMjBtYXJrZXRpbmclMjBjb3Vyc2V8ZW58MHx8MHx8fDA%3D"
+              imgSrc={Ags3}
             >
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                FlixYoung Digital Creators
+                Social Media & Content Marketing
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">
-                A fun and interactive course designed for school students to
-                explore the world of digital marketing, creativity, and
-                technology. Learn social media basics, website building, and
-                AI-powered tools to develop future-ready skills!
+                🔹 "Engage, Influence & Grow with Powerful Content & Social
+                Media Strategies"
+                <br />
+                <br />
+                📢 Social Media is the heartbeat of modern marketing. We create
+                scroll-stopping content, viral campaigns, and audience-focused
+                strategies to build your brand on platforms like Instagram,
+                Facebook, LinkedIn & Twitter. Our expert team delivers content
+                marketing, video production, and photography to tell your
+                brand’s story in a compelling way.
               </p>
               <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
                 Learn More
               </button>
             </Card>
-            <button className="bg-red-600 text-white py-2 px-1 rounded-lg w-1/4 md:w-1/2 sm:w-full xs:w-full">
-              View More...
-            </button>
+            <Card
+              className="max-w-sm"
+              imgAlt="Meaningful alt text for an image that is not purely decorative"
+              imgSrc={Ags4}
+            >
+              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                SEO & Organic Growth Strategies
+              </h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">
+                🔹 "Get Found on Google & Stay on Top with Proven SEO
+                Strategies"
+                <br />
+                <br />
+                📢 Want more website traffic? Our SEO experts optimize your
+                website to rank higher on Google, bringing in organic leads and
+                ensuring long-term growth. With keyword research, technical SEO,
+                link-building, and competitor analysis, we increase visibility &
+                drive high-intent visitors to your site.
+              </p>
+              <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
+                Learn More
+              </button>
+            </Card>
+            <Card
+              className="max-w-sm"
+              imgAlt="Meaningful alt text for an image that is not purely decorative"
+              imgSrc={Ags5}
+            >
+              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                App Development & Digital Solutions
+              </h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">
+                🔹 "Innovative App & Software Solutions to Grow Your Business"
+                <br />
+                <br />
+                📢 Build your dream app with custom Android & iOS development.
+                From E-commerce platforms and custom software solutions to
+                seamless UI/UX experiences, we bring your digital vision to life
+                with cutting-edge technology and top-tier development
+                strategies.
+              </p>
+              <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
+                Learn More
+              </button>
+            </Card>
+            <Card
+              className="max-w-sm"
+              imgAlt="Meaningful alt text for an image that is not purely decorative"
+              imgSrc={Ags6}
+            >
+              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                Branding, Design & Promotions
+              </h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">
+                🔹 "Stand Out with Eye-Catching Designs & Creative Branding"
+                <br />
+                <br/> 
+                📢 Great design fuels brand success! Our expert team provides logo
+                design, business branding, promotional creatives, video editing
+                & animations to make your brand visually stunning. Whether you
+                need personal or corporate branding, we bring creativity &
+                strategy together for unforgettable impressions!
+              </p>
+              <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
+                Learn More
+              </button>
+            </Card>
           </div>
         </Tabs.Item>
-        <Tabs.Item active title="Certifications" icon={GrCertificate}>
+        {/* <Tabs.Item active title="Certifications" icon={GrCertificate}>
           <h2 className="md:text-2xl sm:text-lg xs:text-lg md:pl-6 sm:pl-0 xs:pl-0 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
             Get upto <span className="text-red-600">50+ Certifications</span> in
             alignment with Global Brands like :{" "}
@@ -234,7 +316,7 @@ export function TabsCert() {
               View More...
             </button>
           </div>
-        </Tabs.Item>
+        </Tabs.Item> */}
         {/* <Tabs.Item title="Contacts" icon={HiClipboardList}>
         This is <span className="font-medium text-gray-800 dark:text-white">Contacts tab's associated content</span>.
         Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to

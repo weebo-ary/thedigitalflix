@@ -1,7 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
-import Im1 from "../../../assets/Illustration/brand-cnc.png";
-import Im2 from "../../../assets/Illustration/prod-cnc.png";
-import Im3 from "../../../assets/Illustration/condition-cnc.png";
+import Im1 from "../../../assets/Images/FD1.jpg";
+import Im2 from "../../../assets/Images/FD2.jpg";
+import Im3 from "../../../assets/Images/FD3.jpg";
+import Im5 from "../../../assets/Images/FD4.jpg";
+import Im6 from "../../../assets/Images/FD5.jpg";
+import Im7 from "../../../assets/Images/FD6.jpg";
 import Im4 from "../../../assets/Images/featuresCourses.jpg";
 
 function Solution() {
@@ -48,20 +51,20 @@ function Solution() {
     },
 
     {
-      image: Im3,
+      image: Im5,
       title: "Real-World Projects & Case Studies",
       description: "Work on practical assignments",
     },
 
     {
-      image: Im3,
+      image: Im6,
       title: "100% Free Industry Certifications",
       description:
         "Earn recognized certificates from Google, HubSpot, and more",
     },
 
     {
-      image: Im3,
+      image: Im7,
       title: "Flexible Learning Options",
       description: "Available in online & offline modes.",
     },
@@ -109,7 +112,7 @@ function Solution() {
             <img
               src={card.image}
               alt={card.title}
-              className="w-96 h-44 rounded-xl md:mb-10"
+              className="w-96 h-auto rounded-xl md:mb-10"
             />
             <h2 className="text-2xl font-semibold text-center mb-4">
               {card.title}

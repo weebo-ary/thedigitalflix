@@ -1,7 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
-import Im1 from "../../../assets/Illustration/brand-cnc.png";
-import Im2 from "../../../assets/Illustration/prod-cnc.png";
-import Im3 from "../../../assets/Illustration/condition-cnc.png";
+import Im1 from "../../../assets/Images/FE1.webp";
+import Im2 from "../../../assets/Images/FE2.webp";
+import Im3 from "../../../assets/Images/FE6.webp";
+import Im5 from "../../../assets/Images/FE3.webp";
+import Im6 from "../../../assets/Images/FE4.webp";
+import Im7 from "../../../assets/Images/FE5.webp";
 import Im4 from "../../../assets/Images/featuresCourses.jpg";
 
 function Solution() {
@@ -51,21 +54,21 @@ function Solution() {
     },
 
     {
-      image: Im3,
+      image: Im5,
       title: "Placement & Freelancing Support",
       description:
         "Build a career or start your own digital agency",
     },
 
     {
-      image: Im3,
+      image: Im6,
       title: "Live Industry Projects",
       description:
         "Work on real-time marketing campaigns",
     },
 
     {
-      image: Im3,
+      image: Im7,
       title: "Personal Mentorship & Career Guidance",
       description:
         "Get one-on-one mentorship from industry experts",

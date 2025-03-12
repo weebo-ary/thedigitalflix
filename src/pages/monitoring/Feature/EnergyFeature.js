@@ -1,8 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
-import Im1 from "../../../assets/Illustration/energy-eng.png";
-import Im2 from "../../../assets/Illustration/enhacned-cnc.png";
-import Im3 from "../../../assets/Illustration/alerts-eng.png";
-import Im4 from "../../../assets/Illustration/mon-feat.jpg";
+import Im1 from "../../../assets/Images/FY1.webp";
+import Im2 from "../../../assets/Images/FY2.webp";
+import Im3 from "../../../assets/Images/FY3.webp";
+import Im5 from "../../../assets/Images/FY4.webp";
+import Im6 from "../../../assets/Images/FY5.webp";
+import Im7 from "../../../assets/Images/FY6.webp";
+import Im4 from "../../../assets/Images/featuresCourses.jpg";
+
 
 function Solution() {
   const cardsRef = useRef([]);
@@ -50,19 +54,19 @@ function Solution() {
         "Build your first website & personal brand online",
     },
     {
-      image: Im3,
+      image: Im5,
       title: "Fun & Gamified Learning",
       description:
         "AI-based interactive modules for better engagement",
     },
     {
-      image: Im3,
+      image: Im6,
       title: "Monetization & Freelancing Basics",
       description:
         "Learn how to earn money online at an early age",
     },
     {
-      image: Im3,
+      image: Im7,
       title: "Exclusive Digital Creator Certification",
       description:
         "Stand out with a specialized certification",
