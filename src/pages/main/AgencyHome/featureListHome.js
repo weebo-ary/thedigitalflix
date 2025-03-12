@@ -1,134 +1,104 @@
 import React, { useEffect, useRef, useState } from "react";
 
-import { AiOutlineBulb, AiOutlineClockCircle, AiOutlineCodeSandbox, AiOutlineFacebook, AiOutlineGift, AiOutlineGlobal, AiOutlineLineChart, AiOutlineTeam } from "react-icons/ai";
-import { BiBookContent, BiBookOpen, BiGift } from "react-icons/bi";
-import { MdLocationOn, MdOndemandVideo, MdOutlineCastForEducation, MdPayments, MdWorkOutline, MdWorkspacePremium } from "react-icons/md";
-import { GiArtificialIntelligence, GiSkills } from "react-icons/gi";
-import { PiStudent } from "react-icons/pi";
-import { RiGuideFill } from "react-icons/ri";
+import INWS1 from "../../../assets/Images/INWS1.webp";
+import INWS2 from "../../../assets/Images/INWS2.webp";
+import INWS3 from "../../../assets/Images/INWS3.webp";
+import INWS4 from "../../../assets/Images/INWS4.webp";
+import INWS5 from "../../../assets/Images/INWS5.webp";
+import INWS6 from "../../../assets/Images/INWS6.webp";
+import INWS7 from "../../../assets/Images/INWS7.webp";
+import INWS8 from "../../../assets/Images/INWS8.webp";
+import INWS9 from "../../../assets/Images/INWS9.webp";
+import INWS10 from "../../../assets/Images/INWS10.webp";
 
 const features = [
-  
-    {
-        icon: <AiOutlineClockCircle style={{ fontSize: "3rem" }} />,
-        title: "Course Duration",
-        description: "3 Months of Intensive Learning",
-      },
-      {
-        icon: <BiBookContent style={{ fontSize: "3rem" }} />,
-        title: "Total Modules",
-        description: "50+ Industry-Focused Modules",
-      },
-      {
-        icon: <MdOutlineCastForEducation style={{ fontSize: "3rem" }} />,
-        title: "Online / Offline Learning",
-        description: "Flexible learning – Join Online or Offline",
-      },
-      {
-        icon: <MdWorkspacePremium style={{ fontSize: "3rem" }} />,
-        title: "Certifications",
-        description: "20+ Recognized Certifications (Google, HubSpot, etc.)",
-      },
-      {
-        icon: <MdWorkOutline style={{ fontSize: "3rem" }} />,
-        title: "Placement Assistance",
-        description: "100% Job & Freelance Support",
-      },
-      {
-        icon: <GiSkills style={{ fontSize: "3rem" }} />,
-        title: "Practical Training",
-        description: "Work on Real-World Projects & Live Campaigns",
-      },
-      {
-        icon: <GiArtificialIntelligence style={{ fontSize: "3rem" }} />,
-        title: "AI in Digital Marketing",
-        description: "Master AI tools for automation & smarter marketing",
-      },
-      {
-        icon: <AiOutlineFacebook style={{ fontSize: "3rem" }} />,
-        title: "Paid Ads & Social Media",
-        description: "Google & Meta Ads, Facebook & Instagram Marketing",
-      },
-      {
-        icon: <AiOutlineCodeSandbox style={{ fontSize: "3rem" }} />,
-        title: "Website Development",
-        description: "Learn WordPress, Hosting & SEO",
-      },
-      {
-        icon: <AiOutlineLineChart style={{ fontSize: "3rem" }} />,
-        title: "Data Analytics",
-        description: "Track & optimize marketing campaigns",
-      },
-      {
-        icon: <MdPayments style={{ fontSize: "3rem" }} />,
-        title: "Installment Plans",
-        description: "Flexible Payment & EMI Options",
-      },
-      {
-        icon: <AiOutlineGift style={{ fontSize: "3rem" }} />,
-        title: "Scholarships",
-        description: "Scholarship opportunities for eligible students",
-      },
-      {
-        icon: <BiGift style={{ fontSize: "3rem" }} />,
-        title: "Bonuses & Discounts",
-        description: "Special offers & early bird discounts",
-      },
-      {
-        icon: <BiBookOpen style={{ fontSize: "3rem" }} />,
-        title: "Course Material",
-        description: "Comprehensive study guides & handbooks",
-      },
-      {
-        icon: <PiStudent style={{ fontSize: "3rem" }} />,
-        title: "LMS Access",
-        description: "24/7 access to TheDigitalFlix LMS (Flix Elevate)",
-      },
-      {
-        icon: <AiOutlineBulb style={{ fontSize: "3rem" }} />,
-        title: "Doubt-Solving & Mentoring",
-        description: "One-on-one mentorship & doubt-clearing sessions",
-      },
-      {
-        icon: <MdOndemandVideo style={{ fontSize: "3rem" }} />,
-        title: "Recorded Sessions",
-        description: "Missed a class? Watch recordings anytime",
-      },
-      {
-        icon: <AiOutlineGlobal style={{ fontSize: "3rem" }} />,
-        title: "Business & Freelancing",
-        description: "Learn how to start your own digital agency",
-      },
-      {
-        icon: <MdLocationOn style={{ fontSize: "3rem" }} />,
-        title: "Prime Location",
-        description: "Located in Bhopal, easily accessible",
-      },
-      {
-        icon: <AiOutlineTeam style={{ fontSize: "3rem" }} />,
-        title: "Networking & Alumni",
-        description: "Exclusive access to digital marketing networks",
-      },
-      {
-        icon: <RiGuideFill style={{ fontSize: "3rem" }} />,
-        title: "Support",
-        description: "Individual Lifetime Guidance",
-      },
-
+  {
+    icon: <img src={INWS1} alt="HealthCare" />,
+    title: "Healthcare",
+    subtitle: "Enhancing Patient Engagement through Digital Solutions",
+    description:
+      "We provide tailored digital marketing strategies for healthcare providers, focusing on patient education, appointment scheduling, and online reputation management to improve patient trust and engagement.",
+  },
+  {
+    icon: <img src={INWS2} alt="E-commerce" />,
+    title: "E-commerce",
+    subtitle: "Driving Online Sales with Targeted Marketing",
+    description:
+      "Our expertise in e-commerce marketing helps online retailers increase traffic, optimize conversion rates, and boost sales through personalized campaigns and effective product positioning.",
+  },
+  {
+    icon: <img src={INWS3} alt="Education" />,
+    title: "Education",
+    subtitle: "Empowering Educational Institutions in the Digital Age",
+    description:
+      "We assist schools, colleges, and e-learning platforms in enhancing their online presence, engaging students, and promoting courses through strategic digital marketing efforts.",
+  },
+  {
+    icon: <img src={INWS4} alt="Real Estate" />,
+    title: "Real Estate",
+    subtitle: "Showcasing Properties to the Right Audience",
+    description:
+      "Our digital marketing services for real estate professionals focus on virtual tours, targeted advertising, and lead generation to connect buyers with their ideal properties.",
+  },
+  {
+    icon: <img src={INWS5} alt="Hospitality" />,
+    title: "Hospitality",
+    subtitle: "Attracting Guests with Compelling Digital Campaigns",
+    description:
+      "We help hotels and restaurants enhance their online visibility, manage reviews, and create engaging content to attract and retain guests in a competitive market.",
+  },
+  {
+    icon: <img src={INWS6} alt="Finance" />,
+    title: "Finance",
+    subtitle: "Building Trust and Credibility in Financial Services",
+    description:
+      "Our strategies for financial institutions include content marketing, SEO, and social media management to educate clients and establish authority in the financial sector.",
+  },
+  {
+    icon: <img src={INWS7} alt="Retail" />,
+    title: "Retail",
+    subtitle: "Enhancing In-Store and Online Shopping Experiences",
+    description:
+      "We support retail businesses in integrating digital marketing to drive foot traffic, boost online sales, and improve customer engagement through personalized promotions.",
+  },
+  {
+    icon: <img src={INWS8} alt="Automotive" />,
+    title: "Automotive",
+    subtitle: "Accelerating Sales with Innovative Marketing",
+    description:
+      "Our digital solutions for the automotive industry focus on lead generation, customer retention, and showcasing vehicle features to drive sales and brand loyalty.",
+  },
+  {
+    icon: <img src={INWS9} alt="Non-Profit Organizations" />,
+    title: "Non-Profit Organizations",
+    subtitle: "Amplifying Causes through Digital Outreach",
+    description:
+      "We assist non-profits in raising awareness, engaging supporters, and increasing donations by leveraging social media, email campaigns, and impactful storytelling.",
+  },
+  {
+    icon: <img src={INWS10} alt="Expanding Horizons" />,
+    title: "Expanding Horizons: Serving Diverse Industries",
+    subtitle: "Tailored Digital Solutions for Every Business Sector",
+    description:
+      "Beyond our core industries, we empower businesses across various sectors, including manufacturing, logistics, legal, healthcare, entertainment, and more. Our customized digital marketing strategies ensure enhanced brand visibility, lead generation, and business growth, no matter the industry. Let us help you thrive in the digital era!",
+  },
 ];
 
 // Reusable Feature Item component
-const FeatureItem = ({ icon, title, description, isVisible }) => (
+const FeatureItem = ({ icon, title, subtitle, description, isVisible }) => (
   <div
     className={`text-center transition-transform duration-700 ease-in-out transform ${
       isVisible ? "translate-y-0 opacity-100" : "-translate-y-10 opacity-0"
     }`}
   >
-     <div className="flex justify-center items-center mb-2">
-      {icon}
-    </div>
-    <h2 className="text-xl font-semibold border-b mb-2">{title}</h2>
-    <p className="text-sm text-gray-600 dark:text-gray-300">{description}</p>
+    <div className="flex justify-center items-center mb- w-3/4">{icon}</div>
+    <h2 className="text-xl text-start font-semibold mb-2">{title}</h2>
+    <h2 className="text-lg text-start font-light border-b mb-2 pb-2">
+      {subtitle}
+    </h2>
+    <p className="text-sm text-start text-gray-600 dark:text-gray-300">
+      {description}
+    </p>
   </div>
 );
 
@@ -158,25 +128,26 @@ function FeatureList() {
 
   return (
     <div className="border-t-2 border-b-2 border-white ">
-    <h2 className="text-5xl sm:text-2xl xs:text-2xl font-bold text-red-600 mt-10 dark:text-red-500 text-center mb-10">
-        Everything you Need to Know
-    </h2>
-    <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-3 sm:grid-cols-2 xs:grid-cols-2 gap-20 p-8 w-full mb-10">
-      {features.map((feature, index) => (
-        <div
-          key={index}
-          ref={(el) => (featureRefs.current[index] = el)}
-          data-index={index}
-        >
-          <FeatureItem
-            icon={feature.icon}
-            title={feature.title}
-            description={feature.description}
-            isVisible={visibleFeatures[index]}
-          />
-        </div>
-      ))}
-    </div>
+      <h2 className="text-5xl sm:text-2xl xs:text-2xl font-bold text-red-600 mt-10 dark:text-red-500 text-center mb-10">
+        Industries we Serve
+      </h2>
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 sm:grid-cols-1 xs:grid-cols-1 gap-20 p-8 w-full mb-10">
+        {features.map((feature, index) => (
+          <div
+            key={index}
+            ref={(el) => (featureRefs.current[index] = el)}
+            data-index={index}
+          >
+            <FeatureItem
+              icon={feature.icon}
+              title={feature.title}
+              subtitle={feature.subtitle}
+              description={feature.description}
+              isVisible={visibleFeatures[index]}
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
