@@ -93,10 +93,11 @@ function WhyUsSection() {
         </div>
         <div className="">
           <p className="text-3xl md:text-3xl sm:text-xl xs:text-xl text-center md:text-center sm:text-start xs:text-start text-gray-600 dark:text-gray-400">
-            At TheDigitalFlix, we blend AI-powered digital marketing training
-            with hands-on projects, industry certifications, and 100% placement
-            assistance, ensuring you gain real-world skills to thrive in the
-            digital era!
+            At <b>TheDigitalFlix</b>, we deliver cutting-edge <b>AI-powered digital
+            marketing solutions</b> tailored to accelerate your business growth. Our
+            data-driven strategies, creative campaigns, and automation tools
+            ensure maximum ROI and brand impact in the competitive digital
+            landscape.
           </p>
         </div>
       </div>
