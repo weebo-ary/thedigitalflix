@@ -3,7 +3,7 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 function Form() {
   return (
-    <div className="flex">
+    <div className="flex sm:mt-6 xs:mt-6">
       <form class="w-full p-6">
         <div className="bg-white text-black p-6 rounded-lg flex items-center justify-center md:flex-row sm:flex-col xs:flex-col gap-8">
           <div className="w-full">

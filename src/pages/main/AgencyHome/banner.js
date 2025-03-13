@@ -111,7 +111,7 @@ function Banner() {
               </Link>
             </div>
           </div>
-          <div className="w-1/2">
+          <div className="w-1/2 md:w-1/2 sm:w-full xs:w-full">
             <img
               src={IllustrationFive}
               alt="Placeholder"
@@ -158,7 +158,7 @@ function Banner() {
             </div>
           </div>
 
-          <div className="w-1/2">
+          <div className="w-1/2 md:w-1/2 sm:w-full xs:w-full">
             <img
               src={IllustrationTwo}
               alt="Placeholder"
@@ -204,7 +204,7 @@ function Banner() {
               </Link>
             </div>
           </div>
-          <div className="w-1/2">
+          <div className="w-1/2 md:w-1/2 sm:w-full xs:w-full">
             <img
               src={IllustrationThree}
               alt="Placeholder"
@@ -251,7 +251,7 @@ function Banner() {
               </Link>
             </div>
           </div>
-          <div className="w-1/2">
+          <div className="w-1/2 md:w-1/2 sm:w-full xs:w-full">
             <img
               src={IllustrationFour}
               alt="Placeholder"
@@ -299,7 +299,7 @@ function Banner() {
               </Link>
             </div>
           </div>
-          <div className="w-1/2">
+          <div className="w-1/2 md:w-1/2 sm:w-full xs:w-full">
             <img
               src={IllustrationLight}
               alt="Placeholder"
