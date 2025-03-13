@@ -9,7 +9,7 @@ import { SiSemrush } from "react-icons/si";
 
 export function TabsCert() {
   return (
-    <div className="p-6">
+    <div className="p-6 pl-6">
       <Tabs
         aria-label="Default tabs"
         variant="default"

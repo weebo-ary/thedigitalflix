@@ -12,7 +12,8 @@ import Ags6 from "../../../assets/Images/AGS6.webp";
 
 export function TabsCert() {
   return (
-    <div className="p-6">
+    <>
+    <div className="p-6 md:ml-8">
       <Tabs
         aria-label="Default tabs"
         variant="default"
@@ -327,6 +328,7 @@ export function TabsCert() {
       </Tabs.Item> */}
       </Tabs>
     </div>
+    </>
   );
 }
 

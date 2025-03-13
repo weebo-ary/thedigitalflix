@@ -22,7 +22,7 @@ const features = [
   {
     icon: <img src={INWS2} alt="E-commerce" />,
     title: "E-commerce",
-    subtitle: "Driving Online Sales with Targeted Marketing",
+    subtitle: "Driving Online Sales with Targeted and Regulated Marketing",
     description:
       "Our expertise in e-commerce marketing helps online retailers increase traffic, optimize conversion rates, and boost sales through personalized campaigns and effective product positioning.",
   },
@@ -43,7 +43,7 @@ const features = [
   {
     icon: <img src={INWS5} alt="Hospitality" />,
     title: "Hospitality",
-    subtitle: "Attracting Guests with Compelling Digital Campaigns",
+    subtitle: "Attracting Guests with Digital Campaigns",
     description:
       "We help hotels and restaurants enhance their online visibility, manage reviews, and create engaging content to attract and retain guests in a competitive market.",
   },
@@ -57,7 +57,7 @@ const features = [
   {
     icon: <img src={INWS7} alt="Retail" />,
     title: "Retail",
-    subtitle: "Enhancing In-Store and Online Shopping Experiences",
+    subtitle: "Enhancing In-Store and Online Experiences",
     description:
       "We support retail businesses in integrating digital marketing to drive foot traffic, boost online sales, and improve customer engagement through personalized promotions.",
   },
@@ -87,16 +87,16 @@ const features = [
 // Reusable Feature Item component
 const FeatureItem = ({ icon, title, subtitle, description, isVisible }) => (
   <div
-    className={`text-center transition-transform duration-700 ease-in-out transform ${
+    className={`flex flex-col items-center justify-center transition-transform duration-700 ease-in-out transform ${
       isVisible ? "translate-y-0 opacity-100" : "-translate-y-10 opacity-0"
     }`}
   >
     <div className="flex justify-center items-center mb- w-3/4">{icon}</div>
-    <h2 className="text-xl text-start font-semibold mb-2">{title}</h2>
-    <h2 className="text-lg text-start font-light border-b mb-2 pb-2">
+    <h2 className="text-xl text-center font-semibold mb-2 mt-4">{title}</h2>
+    <h2 className="text-lg text-center font-light border-b mb-2 pb-2">
       {subtitle}
     </h2>
-    <p className="text-sm text-start text-gray-600 dark:text-gray-300">
+    <p className="text-sm text-center text-gray-600 dark:text-gray-300">
       {description}
     </p>
   </div>
@@ -136,7 +136,7 @@ function FeatureList() {
           <div
             key={index}
             ref={(el) => (featureRefs.current[index] = el)}
-            data-index={index}
+            data-index={index}  
           >
             <FeatureItem
               icon={feature.icon}

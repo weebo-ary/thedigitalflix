@@ -24,83 +24,95 @@ function ProcessSection() {
   const carouselItems = [
     {
       icon: <ThunderboltOutlined className="text-3xl text-blue-500 mt-3" />,
-      title: "100% Placement Assistance",
+      title:
+        "AI-Driven Marketing Solutions – Stay ahead with AI-powered automation & analytics.",
       bg: "bg-green-100",
-      bgHover: "bg-green-300"
+      bgHover: "bg-green-300",
     },
     {
       icon: <RadarChartOutlined className="text-4xl text-blue-500" />,
-      title: "Practice on Live Project",
+      title:
+        " Performance-Driven SEO – Get higher rankings, organic traffic & long-term visibility.",
       bg: "bg-orange-100",
-      bgHover: "bg-orange-300"
+      bgHover: "bg-orange-300",
     },
     {
       icon: <BarChartOutlined className="text-4xl text-blue-500" />,
-      title: "Get Scholarships",
+      title:
+        "High-Converting Ad Campaigns – Targeted PPC & social ads for maximum ROI.",
       bg: "bg-blue-100",
-      bgHover: "bg-blue-300"
+      bgHover: "bg-blue-300",
     },
     {
       icon: <CheckCircleOutlined className="text-4xl text-blue-500" />,
-      title: "Start Your Own Company",
+      title:
+        "Social Media Growth Strategies – Engage audiences & build strong brand presence.",
       bg: "bg-pink-100",
-      bgHover: "bg-pink-300"
+      bgHover: "bg-pink-300",
     },
   ];
 
   const carouselItemsTwo = [
     {
       icon: <DatabaseOutlined className="text-4xl text-blue-500" />,
-      title: "Pay Fees in Installments",
+      title:
+        "Custom Website Development – SEO-friendly, high-speed & conversion-optimized.",
       bg: "bg-violet-100",
-      bgHover: "bg-violet-300"
+      bgHover: "bg-violet-300",
     },
 
     {
       icon: <CloudDownloadOutlined className="text-4xl text-blue-500" />,
-      title: "Interview Training",
+      title:
+        "Lead Generation Experts – Proven techniques to capture & convert leads.",
       bg: "bg-purple-100",
-      bgHover: "bg-purple-300"
+      bgHover: "bg-purple-300",
     },
     {
       icon: <NumberOutlined className="text-4xl text-blue-500" />,
-      title: "Online / Offline Classes",
+      title:
+        " Brand Building & Awareness – Stronger branding with compelling digital presence.",
       bg: "bg-green-100",
-      bgHover: "bg-green-300"
+      bgHover: "bg-green-300",
     },
     {
       icon: <ToolOutlined className="text-4xl text-blue-500" />,
-      title: "Certificate of Completion",
+      title:
+        "Conversion Rate Optimization (CRO) – Data-backed methods to improve sales.",
       bg: "bg-orange-100",
-      bgHover: "bg-orange-300"
+      bgHover: "bg-orange-300",
     },
   ];
 
   const carouselItemsThree = [
     {
       icon: <CheckCircleOutlined className="text-4xl text-blue-500" />,
-      title: "Personality Development Classes",
+      title:
+        "E-commerce Marketing Excellence – Boost online store visibility & sales.",
       bg: "bg-pink-100",
-      bgHover: "bg-pink-300"
+      bgHover: "bg-pink-300",
     },
     {
       icon: <ToolOutlined className="text-4xl text-blue-500" />,
-      title: "Industry Expert Sessions",
+      title:
+        "Influencer & Content Marketing – Leverage storytelling & collaborations.",
       bg: "bg-yellow-100",
-      bgHover: "bg-yellow-300"
+      bgHover: "bg-yellow-300",
     },
 
     {
       icon: <MonitorOutlined className="text-4xl text-blue-500" />,
-      title: "Become a Freelancer",
+      title:
+        "Complete Digital Strategy & Consulting – Customized solutions for business growth.",
       bg: "bg-red-100",
-      bgHover: "bg-red-300"
+      bgHover: "bg-red-300",
     },
     {
       icon: <MonitorOutlined className="text-4xl text-blue-500" />,
-      title: "AI Integrated Courses",
+      title:
+        "End-to-End Marketing Automation – Smarter processes, better efficiency.",
       bg: "bg-blue-100",
-      bgHover: "bg-blue-300"
+      bgHover: "bg-blue-300",
     },
   ];
 
@@ -164,21 +176,39 @@ function ProcessSection() {
   return (
     <div
       ref={sectionRef}
-      className={`mx-8 xs:mx-4 flex md:flex-row sm:flex-col lg:mt-10 lg:mb-10 xs:flex-col sm:mt-10 xs:mt-0 sm:mb-10 xs:mb-10 bg-gray-100 dark:bg-gray-900 p-10 rounded-lg transform transition-transform duration-700 ${
+      className={`mx-8 xs:mx-4 flex md:flex-row sm:flex-col lg:mt-10 lg:mb-10 xs:flex-col sm:mt-10 xs:mt-0 sm:mb-10 xs:mb-10 bg-gray-800 dark:bg-gray-100 p-10 rounded-lg transform transition-transform duration-700 ${
         isZoomedIn ? "scale-100" : "scale-90 opacity-50"
       }`} // Apply zoom in/out and opacity based on scroll
     >
       <div className="absolute bottom-30 left-30 w-64 h-auto bg-orange-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-4000"></div>
       <div className="flex flex-col items-start justify-center gap-10">
         <div className="">
-          <h2 className="text-5xl md:text-5xl sm:text-xl xs:text-xl text-gray-900 dark:text-white">
-          Unlock the <span className="text-orange-500">Ultimate</span> Digital Marketing Learning Experience
+          <h2 className="text-5xl md:text-5xl sm:text-xl xs:text-xl text-white dark:text-black">
+            Unlock the Ultimate
+            <span className="text-orange-500">
+              Digital Marketing Solutions
+            </span>{" "}
+            for Your Business
           </h2>
         </div>
         <div className="">
           {" "}
-          <p className="text-3xl md:text-2xl sm:text-sm xs:text-sm text-gray-600 dark:text-gray-400">
-            Master SEO, PPC, AI-powered marketing, and website development with 50+ industry-focused modules. Get hands-on training, 20+ certifications, placement support, and lifetime LMS access. Flexible online/offline learning with scholarships and EMI options – start your journey with TheDigitalFlix today!
+          <p className="text-3xl md:text-2xl sm:text-sm xs:text-sm text-gray-300 dark:text-gray-600">
+            Drive leads, boost conversions, and scale your brand with
+            TheDigitalFlix’s result-driven digital marketing strategies. We
+            offer SEO, PPC, social media marketing, AI-powered automation, and
+            high-converting web solutions to help businesses dominate the
+            digital space.
+          </p>{" "}
+          <br/>
+          <p className="text-2xl md:text-xl sm:text-sm xs:text-sm text-gray-300 dark:text-gray-600">
+            Why Choose TheDigitalFlix? 
+            <br/>
+            ✔ Data-driven marketing tailored for success 
+            <br/>
+            ✔ AI-powered automation for smarter campaigns 
+            <br/>
+            ✔ Expert strategies that maximize ROI
           </p>{" "}
         </div>
       </div>
@@ -190,7 +220,7 @@ function ProcessSection() {
         >
           <div className="flex flex-col xs:max-w-full items-center justify-center">
             <div
-              className="relative w-144 md:w-144 sm:max-w-full xs:max-w-full p-6 bg-gradient-to-r bg-gray-100 dark:bg-gray-900 rounded-sm text-center overflow-hidden cursor-pointer"
+              className="relative w-144 md:w-144 sm:max-w-full xs:max-w-full p-6 bg-gradient-to-r bg-gray-800 dark:bg-gray-100 rounded-sm text-center overflow-hidden cursor-pointer"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
@@ -203,7 +233,7 @@ function ProcessSection() {
               >
                 <div>{carouselItems[currentIndex].icon}</div>
                 <div>
-                  <h3 className="mt-4 text-2xl md:text-2xl sm:text-sm xs:text-sm text-end font-bold text-gray-800 dark:text-black">
+                  <h3 className="mt-4 text-2xl md:text-lg sm:text-sm xs:text-sm text-end font-bold text-gray-800 dark:text-black">
                     {carouselItems[currentIndex].title}
                   </h3>
                   <p className="mt-2 text-end md:text-lg sm:text-xs xs:text-xs text-gray-600 dark:text-white">
@@ -223,7 +253,7 @@ function ProcessSection() {
               >
                 <div>{carouselItemsTwo[currentIndex].icon}</div>
                 <div>
-                  <h3 className="mt-4 text-2xl md:text-2xl sm:text-sm xs:text-sm text-start font-bold text-gray-800 dark:text-black">
+                  <h3 className="mt-4 text-2xl md:text-lg sm:text-sm xs:text-sm text-start font-bold text-gray-800 dark:text-black">
                     {carouselItemsTwo[currentIndex].title}
                   </h3>
                   <p className="mt-2 text-start md:text-lg sm:text-xs xs:text-xs text-gray-600 dark:text-gray-400">
@@ -243,7 +273,7 @@ function ProcessSection() {
               >
                 <div>{carouselItemsThree[currentIndex].icon}</div>
                 <div>
-                  <h3 className="mt-4 text-2xl md:text-2xl sm:text-sm xs:text-sm text-end font-bold text-gray-800 dark:text-black">
+                  <h3 className="mt-4 text-2xl md:text-lg sm:text-sm xs:text-sm text-end font-bold text-gray-800 dark:text-black">
                     {carouselItemsThree[currentIndex].title}
                   </h3>
                   <p className="mt-2 text-end md:text-lg sm:text-xs xs:text-xs   text-gray-600 dark:text-gray-400">

@@ -1,17 +1,47 @@
-import {SettingOutlined } from "@ant-design/icons";
+import { SettingOutlined } from "@ant-design/icons";
 import React, { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
 const counters = [
-  { id: 1, title: "Creativity 🎨", value: 100, suffix: "%", color: "text-blue-500" },
-  { id: 2, title: "Use of AI 🤖", value: 92, suffix: "%", color: "text-green-500" },
-  { id: 3, title: "Practical Learning 🛠️", value: 95, suffix: "%", color: "text-orange-500" },
+  {
+    id: 1,
+    title: "Creativity 🎨",
+    value: 100,
+    suffix: "%",
+    color: "text-blue-500",
+  },
+  {
+    id: 2,
+    title: "Use of AI 🤖",
+    value: 92,
+    suffix: "%",
+    color: "text-green-500",
+  },
+  {
+    id: 3,
+    title: "Practical Learning 🛠️",
+    value: 95,
+    suffix: "%",
+    color: "text-orange-500",
+  },
 ];
 
 const counterTwo = [
-  { id: 4, title: "Student Satisfaction ❤️", value: 99, suffix: "%", color: "text-purple-500" },
-  { id: 5, title: "Student Success Rate 🎓", value: 99, suffix: "%", color: "text-pink-500" },
-]
+  {
+    id: 4,
+    title: "Student Satisfaction ❤️",
+    value: 99,
+    suffix: "%",
+    color: "text-purple-500",
+  },
+  {
+    id: 5,
+    title: "Student Success Rate 🎓",
+    value: 99,
+    suffix: "%",
+    color: "text-pink-500",
+  },
+];
 
 const Counter = ({ end, suffix }) => {
   const [count, setCount] = useState(0);
@@ -46,7 +76,6 @@ const Counter = ({ end, suffix }) => {
 };
 
 function WhyUsSection() {
-
   return (
     <div className="mx-8 md:my-10 sm:my-0 xs:my-0 p-5">
       <div className="">
@@ -57,61 +86,74 @@ function WhyUsSection() {
         </div>
         <div className="">
           <p className="text-3xl md:text-3xl sm:text-xl xs:text-xl text-center md:text-center sm:text-start xs:text-start text-gray-600 dark:text-gray-400">
-          At TheDigitalFlix, we blend AI-powered digital marketing training with hands-on projects, industry certifications, and 100% placement assistance, ensuring you gain real-world skills to thrive in the digital era!
+            At TheDigitalFlix, we blend AI-powered digital marketing training
+            with hands-on projects, industry certifications, and 100% placement
+            assistance, ensuring you gain real-world skills to thrive in the
+            digital era!
           </p>
         </div>
       </div>
       <div className=""></div>
       <div className="grid grid-cols-2 md:grid-cols-3 sm:grid-cols-1 xs:grid-cols-1 gap-5 mt-10 items-center">
-          {counters.map(({id, title, value, suffix, color, index}) => (
+        {counters.map(
+          ({ id, title, value, suffix, color, index, description }) => (
             <div
               key={index}
-              className="relative p-6 rounded-lg shadow-md overflow-hidden flex items-center justify-start bg-white dark:bg-gray-900"
+              className="relative p-6 rounded-lg shadow-md overflow-hidden flex flex-col items-center justify-start bg-white dark:bg-gray-900 hover:scale-105 duration-300 cursor-pointer"
             >
-              <div className="flex-shrink-0">
+              <div className="flex-shrink-0 mb-2">
                 <div className="w-12 h-12 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
                   <SettingOutlined className="text-black dark:text-white text-2xl animate-spin" />
                 </div>
               </div>
 
               {/* Blob Content */}
-              <div className="relative z-10 text-start ml-4" key={id}>
+              <div className="relative z-10 text-center ml-4" key={id}>
                 <h3 className="text-xl font-bold text-gray-800 dark:text-white">
                   {title}
                 </h3>
+                <p className="text-sm font-bold text-gray-800 dark:text-white mt-2">
+                  {description}
+                </p>
                 <p className={`mt-2 ${color} dark:${color}`}>
                   <Counter end={value} suffix={suffix} />
                 </p>
               </div>
             </div>
-          ))}
-        </div>
-        <div className="flex md:flex sm:grid xs:grid sm:grid-cols-1 xs:grid-cols-1 gap-5 mt-10 items-center justify-center w-full">
-          {counterTwo.map(({id, title, value, suffix, color, index}) => (
+          )
+        )}
+      </div>
+      <div className="flex md:flex sm:grid xs:grid sm:grid-cols-1 xs:grid-cols-1 gap-5 mt-10 items-center justify-center w-full ">
+        {counterTwo.map(
+          ({ id, title, value, suffix, color, index, description }) => (
             <div
               key={index}
-              className="relative p-6 rounded-lg shadow-md overflow-hidden flex items-center justify-start bg-white dark:bg-gray-900"
+              className="relative p-6 rounded-lg shadow-md overflow-hidden flex flex-col items-center justify-start bg-white dark:bg-gray-900 hover:scale-105 duration-300 cursor-pointer"
             >
-              <div className="flex-shrink-0">
+              <div className="flex-shrink-0 mb-2">
                 <div className="w-12 h-12 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
                   <SettingOutlined className="text-black dark:text-white text-2xl animate-spin" />
                 </div>
               </div>
 
               {/* Blob Content */}
-              <div className="relative z-10 text-start ml-4" key={id}>
+              <div className="relative z-10 text-center ml-4" key={id}>
                 <h3 className="text-xl font-bold text-gray-800 dark:text-white">
                   {title}
                 </h3>
+                <p className="text-sm font-bold text-gray-800 dark:text-white mt-2">
+                  {description}
+                </p>
                 <p className={`mt-2 ${color} dark:${color}`}>
                   <Counter end={value} suffix={suffix} />
                 </p>
               </div>
             </div>
-          ))}
-        </div>
+          )
+        )}
+      </div>
     </div>
-  )
+  );
 }
 
-export default WhyUsSection
+export default WhyUsSection;
