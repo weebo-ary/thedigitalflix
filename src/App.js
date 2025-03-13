@@ -8,7 +8,7 @@ import DarkLogo from "./assets/Logo/DarkLogo.png";
 import ScrollToTop from "./components/ScrollToTop";
 import Modal from "./pages/main/Home/modalOnRefresh";
 import Logo from "./assets/Logo/LightLogo.png";
-import Feature1 from "./assets/Images/Feat2.jpg";
+import Feature1 from "./assets/Images/ModalRefreshBrouchure.jpg";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 function App() {
