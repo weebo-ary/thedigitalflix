@@ -6,64 +6,70 @@ import OfferingBg from "../../../assets/Images/marvin-meyer-SYTO3xs06fU-unsplash
 const OfferingSection = () => {
   const blobsData = [
     {
-      title: "AI-Integrated Digital Marketing Training 🤖",
-      description: "No AI integration or outdated curriculum.",
-      color: "#9FD2C7",
-      icon: <WarningOutlined />,
-    },
-    {
-      title: "Industry-Recognized Certifications 🎓",
+      title: "Strategy & Execution",
       description:
-        "20+ certifications from Google, HubSpot, SEMrush & TheDigitalFlix.",
+        "Offer generic marketing strategies without in-depth business alignment.",
       color: "#9FD2C7",
       icon: <WarningOutlined />,
     },
     {
-      title: "Hands-On Practical Training 🛠",
-      description: "Mostly theoretical with no real-world exposure.",
-      color: "#9FD2C7",
-      icon: <WarningOutlined />,
-    },
-    {
-      title: "Placement Assistance & Internship Opportunities",
-      description: "No guaranteed placement or internship assistance",
-      color: "#9FD2C7",
-      icon: <WarningOutlined />,
-    },
-    {
-      title: "LMS Access (Flix Elevate)",
-      description: "No LMS or limited access to materials",
-      color: "#9FD2C7",
-      icon: <WarningOutlined />,
-    },
-    {
-      title: "Business & Freelancing Training 💰",
-      description: "No business or freelancing guidance.",
-      color: "#9FD2C7",
-      icon: <WarningOutlined />,
-    },
-    {
-      title: "Google Ads, SEO & Social Media Mastery 📈",
+      title: "AI-Powered Marketing",
       description:
-        " Basic training with no in-depth paid advertising strategies.",
+        "Rely on outdated manual processes, slow adaptation to AI trends.",
       color: "#9FD2C7",
       icon: <WarningOutlined />,
     },
     {
-      title: "Installment & Scholarship Options 💳",
-      description: "No financial assistance options.",
+      title: "Paid Ad Campaigns",
+      description:
+        "Run basic, non-optimized ad campaigns with high spending and low returns.",
       color: "#9FD2C7",
       icon: <WarningOutlined />,
     },
     {
-      title: "Personal Mentorship & Career Guidance 🎤",
-      description: "No personal mentorship, only general classes.",
+      title: "SEO & Content Marketing",
+      description:
+        "Focus only on keywords, missing technical SEO, content depth, and authority-building.",
       color: "#9FD2C7",
       icon: <WarningOutlined />,
     },
     {
-      title: "Networking & Alumni Community 🌍",
-      description: " No strong networking or alumni benefits.",
+      title: "Lead Generation & Sales Funnels",
+      description:
+        "Generate traffic without proper lead conversion and nurturing strategies.",
+      color: "#9FD2C7",
+      icon: <WarningOutlined />,
+    },
+    {
+      title: "Social Media Growth & Engagement",
+      description:
+        "Focus only on posting content without an engagement-driven strategy.",
+      color: "#9FD2C7",
+      icon: <WarningOutlined />,
+    },
+    {
+      title: "Data Analytics & Performance Tracking",
+      description: "Provide basic reports with minimal actionable insights.",
+      color: "#9FD2C7",
+      icon: <WarningOutlined />,
+    },
+    {
+      title: "E-Commerce & Dropshipping Support",
+      description:
+        "Lack expertise in e-commerce marketing, missing out on crucial growth strategies.",
+      color: "#9FD2C7",
+      icon: <WarningOutlined />,
+    },
+    {
+      title: "Email & Automation Marketing",
+      description: "Send mass emails without personalization and automation.",
+      color: "#9FD2C7",
+      icon: <WarningOutlined />,
+    },
+    {
+      title: "Brand Building & Positioning",
+      description:
+        "Focus only on short-term digital ads without long-term branding.",
       color: "#9FD2C7",
       icon: <WarningOutlined />,
     },
@@ -71,71 +77,72 @@ const OfferingSection = () => {
 
   const blobsDataTwo = [
     {
-      title: "AI-Integrated Digital Marketing Training 🤖",
+      title: "Strategy & Execution",
       description:
-        "Yes, we teach AI-powered marketing, automation, and AI tools like ChatGPT, Jasper, and AI Analytics.",
+        "Provides customized, data-driven marketing strategies tailored to your industry, audience, and business goals.",
       color: "#9FD2C7",
       icon: <CheckCircleOutlined />,
     },
     {
-      title: "Industry-Recognized Certifications 🎓",
-      description: "Limited or no official certifications.",
-      color: "#9FD2C7",
-      icon: <CheckCircleOutlined />,
-    },
-    {
-      title: "Hands-On Practical Training 🛠",
-      description: "Live projects, case studies & real-world simulations.",
-      color: "#9FD2C7",
-
-      icon: <CheckCircleOutlined />,
-    },
-    {
-      title: "Placement Assistance & Internship Opportunities 💼",
+      title: "AI-Powered Marketing",
       description:
-        "100% placement support + internship offers for top students.",
+        "Uses AI-driven tools for automation, content generation, and advanced audience targeting to maximize ROI.",
       color: "#9FD2C7",
       icon: <CheckCircleOutlined />,
     },
     {
-      title: "LMS Access (Flix Elevate) 📚",
+      title: "Paid Ad Campaigns",
       description:
-        "Lifetime access to recorded lectures, study material, and toolkits.",
+        "Expertly manages Google Ads, Facebook Ads, and LinkedIn Ads, optimizing for cost-effectiveness and maximum conversions.",
       color: "#9FD2C7",
       icon: <CheckCircleOutlined />,
     },
     {
-      title: "Business & Freelancing Training 💰",
+      title: "SEO & Content Marketing",
       description:
-        "Learn how to start your digital agency, get clients & earn as a freelancer.",
+        "Delivers full-spectrum SEO, from technical optimization to high-quality content, ensuring sustained organic growth.",
       color: "#9FD2C7",
       icon: <CheckCircleOutlined />,
     },
     {
-      title: "Google Ads, SEO & Social Media Mastery ",
+      title: "Lead Generation & Sales Funnels",
       description:
-        "Advanced training in Google Ads, PPC, SEO, Meta Ads & Social Media Growth.",
+        "Creates high-converting landing pages, sales funnels, and lead automation systems to drive real business results.",
       color: "#9FD2C7",
       icon: <CheckCircleOutlined />,
     },
     {
-      title: "Installment & Scholarship Options 💳",
+      title: "Social Media Growth & Engagement",
       description:
-        "Easy EMI options & special scholarships for eligible students.",
+        "Develops viral strategies, community-building techniques, and influencer collaborations for rapid social media growth.",
       color: "#9FD2C7",
       icon: <CheckCircleOutlined />,
     },
     {
-      title: "Personal Mentorship & Career Guidance 🎤",
+      title: "Data Analytics & Performance Tracking",
       description:
-        "One-on-one mentorship, career counseling, and mock interviews.",
+        "Uses advanced analytics & AI-based reporting to track, measure, and optimize campaign performance in real time.",
       color: "#9FD2C7",
       icon: <CheckCircleOutlined />,
     },
     {
-      title: "Networking & Alumni Community 🌍",
+      title: "E-Commerce & Dropshipping Support",
       description:
-        "Lifetime access to our alumni network & industry connections.",
+        "Specializes in Shopify, WooCommerce, and Dropshipping, helping businesses scale with high-converting e-commerce strategies.",
+      color: "#9FD2C7",
+      icon: <CheckCircleOutlined />,
+    },
+    {
+      title: "Email & Automation Marketing",
+      description:
+        "Implements AI-driven email sequences, automation workflows, and retargeting for higher engagement and sales.",
+      color: "#9FD2C7",
+      icon: <CheckCircleOutlined />,
+    },
+    {
+      title: "Brand Building & Positioning",
+      description:
+        "Crafts high-impact brand positioning strategies to build authority, trust, and long-term customer loyalty.",
       color: "#9FD2C7",
       icon: <CheckCircleOutlined />,
     },
