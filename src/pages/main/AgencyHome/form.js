@@ -8,7 +8,7 @@ function Form() {
         <div className="bg-white text-black p-6 rounded-lg flex items-center justify-center md:flex-row sm:flex-col xs:flex-col gap-8">
           <div className="w-full">
             <h2 className="text-4xl font-bold mb-4 text-center">
-              Unlock your Digital future with{" "}
+              Unlock Your Business Growth with{" "}
               <span className="text-red-600">TheDigitalFlix!</span>
             </h2>
             <DotLottieReact
@@ -19,8 +19,10 @@ function Form() {
           </div>
           <div className="p-6">
             <h2 className="text-xl font-bold mb-8">
-              Start Your Journey with Us: Fill out the form and step into a
-              world of Digital Marketing excellence
+              Innovative Digital Strategies for Maximum Impact 
+              <br/>
+              Start Your Journey with Us: Fill out the form and take your brand to the next
+              level with data-driven digital marketing solutions.
             </h2>
             <div class="relative z-0 w-full mb-5 group">
               <input
@@ -35,8 +37,7 @@ function Form() {
                 for="floating_text"
                 class="peer-focus:font-medium absolute text-sm md:text-sm sm:text-xs xs:text-xs xs:-mt-2 text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
-                Start your digital journey with TheDigitalFlix!{" "}
-                <b>Enter your Name to begin</b>
+                <b>Enter your Name</b> to begin your digital success story
               </label>
             </div>
             <div class="relative z-0 w-full mb-5 group">
@@ -52,8 +53,7 @@ function Form() {
                 for="floating_text"
                 class="peer-focus:font-medium absolute text-sm md:text-sm sm:text-xs xs:text-xs xs:-mt-2 text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
-                Your digital breakthrough awaits! <b>Share your Number</b> to
-                stay in the loop
+                <b>Share your Contact Number</b> to stay updated on industry insights and exclusive strategies.
               </label>
             </div>
             <div class="relative z-0 w-full mb-5 group">
@@ -69,8 +69,7 @@ function Form() {
                 for="floating_repeat_text"
                 class="peer-focus:font-medium absolute md:text-sm sm:text-xs xs:text-xs xs:-mt-2 text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
-                Unlock digital success! <b>Share your Email</b> for expert tips
-                and updates
+                <b>Provide your Email</b> to receive expert marketing tips, case studies, and success stories
               </label>
             </div>
             <div class="grid md:grid-cols-2 md:gap-6">
@@ -87,7 +86,7 @@ function Form() {
                   for="floating_address"
                   class="peer-focus:font-medium absolute text-sm md:text-sm sm:text-xs xs:text-xs text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                 >
-                  Enter your <b>Address</b> for updates
+                  <b>Enter your Business Name and Address</b>
                 </label>
               </div>
               <div className="relative z-0 w-full mb-5 group mt-2">
@@ -98,24 +97,42 @@ function Form() {
                   required
                 >
                   <option value="" disabled hidden></option>
-                  <option value="employee" className="p-2">
-                    Employee
+                  <option value="e-commerce" className="p-2">
+                  E-commerce
                   </option>
-                  <option value="student" selected className="p-2">
-                    Student
+                  <option value="real-estate" className="p-2">
+                  Real Estate
                   </option>
-                  <option value="freelancer" className="p-2">
-                    Freelancer
+                  <option value="healthcare" className="p-2">
+                  HealthCare
+                  </option>
+                  <option value="retail" className="p-2">
+                  Retail
+                  </option>
+                  <option value="finance" className="p-2">
+                  Finance
+                  </option>
+                  <option value="education" className="p-2">
+                  Education
+                  </option>
+                  <option value="hospitablity" className="p-2">
+                  Hospitablity
+                  </option>
+                  <option value="automotive" className="p-2">
+                  Automative
+                  </option>
+                  <option value="non-profit" className="p-2">
+                  Non-Profit
                   </option>
                   <option value="other" className="p-2">
-                    Other
+                  Other
                   </option>
                 </select>
                 <label
                   htmlFor="floating_occupation"
                   className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                 >
-                  Working Status 👇🏻
+                  Select you Niche
                 </label>
               </div>
             </div>
@@ -124,7 +141,7 @@ function Form() {
               type="submit"
               class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
             >
-              Submit
+              Get Quote
             </button>
           </div>
         </div>
