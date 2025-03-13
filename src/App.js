@@ -96,7 +96,7 @@ function App() {
           onClose={handleOnClose}
           imageSrc={Feature1} // Replace with your image URL
           logoSrc={Logo} // Replace with your logo URL
-          head1="Register For Demo"
+          head1="Register For Callback"
           head2="Please enter your details below"
           buttonText="Submit"
           className="z-10"
