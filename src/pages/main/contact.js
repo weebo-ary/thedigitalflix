@@ -85,8 +85,9 @@ function Contact() {
                 <i className="fab fa-linkedin text-2xl"></i>
                 <div>
                   <p>Contact</p>
-                  <p className="font-semibold">+91-9201457156</p>
-                  <p className="font-semibold">+91-7987999491</p>
+                  <a href="tel:+919201457156"><p className="font-semibold">+91-9201457156</p></a>
+                  <a href="tel:+917987999491"><p className="font-semibold">+91-7987999491</p></a>
+                  <a href="tel:+917553162670"><p className="font-semibold">07553162670</p></a>
                 </div>
               </div>
 
@@ -165,10 +166,11 @@ function Contact() {
                     setFormData({ ...formData, queryType: e.target.value })
                   }
                 >
-                  <option value="book-demo">Book a demo</option>
-                  <option value="consultancy">Consultancy</option>
-                  <option value="iiot-solution">IIOT solution</option>
-                  <option value="general-query">General query</option>
+                  <option value="digital-marketing-services">Digital Marketing Services</option>
+                  <option value="training-and-courses">Digital Marketing Training & Courses</option>
+                  <option value="business-growth-consultation">Business Growth Consultation</option>
+                  <option value="partnership-and-collaboration ">Partnership & Collaboration </option>
+                  <option value="other">Other query</option>
                 </select>
               </div>
 

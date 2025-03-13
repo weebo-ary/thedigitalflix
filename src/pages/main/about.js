@@ -4,10 +4,13 @@ import MissionIllustration from "../../assets/Images/about.jpg";
 import { LinkedinOutlined, MailOutlined } from "@ant-design/icons";
 import VideoBanner from "../../assets/Video/About.mp4";
 import Connect from "../products/EdgeGateway/connect";
-import AJPic from "../../assets/Images/AJ.jpg"
-import AlpeshImg from "../../assets/Images/IMG-20240307-WA0006.jpg"
-import MayuriImg from "../../assets/Images/Mayuri.jpg"
-import PrajwalPic from "../../assets/Images/Prajwal.jpg"
+import AJPic from "../../assets/Images/AJ.jpg";
+import AlpeshImg from "../../assets/Images/IMG-20240307-WA0006.jpg";
+import MayuriImg from "../../assets/Images/Mayuri.jpg";
+import PrajwalPic from "../../assets/Images/Prajwal.jpg";
+import SangharshImg from "../../assets/Images/SangharshImg.jpg";
+import ZhakuImg from "../../assets/Images/Zhaku.jpeg";
+import ShivajiImg from "../../assets/Images/ShivajiImg.jpg";
 
 const AboutUs = () => {
   return (
@@ -26,16 +29,17 @@ const AboutUs = () => {
         </video>
         <div className="mx-auto px-6 lg:px-8 relative z-10">
           <h1 className="md:text-center sm:text-start xs:text-start text-5xl text-white mb-6">
-            <span className="text-red-500">THEDIGITALFLIX</span> INSTITUTE OF{" "}
-            <span className="text-red-500">DIGITAL</span> MARKETING
+            <span className="text-red-600">THEDIGITALFLIX</span> COMPANY &
+            INSTITUTE OF <span className="text-red-600">DIGITAL</span> MARKETING
           </h1>
           <p className="md:text-3xl sm:text-xl xs:text-xl text-gray-300 mx-auto md:text-center sm:text-start xs:text-start">
-            At TheDigitalFlix Institute of Digital Marketing, we empower
-            aspiring marketers with AI-driven digital marketing training,
-            industry-recognized certifications, and hands-on SEO, PPC, and
-            social media expertise. Whether you're a student, professional, or
-            entrepreneur, our online & offline courses ensure real-world skills
-            and career success in the ever-evolving digital landscape. 🚀
+            At <span className="text-red-600">TheDigitalFlix</span>, we empower
+            businesses and aspiring marketers alike. Our AI-driven digital
+            marketing services help brands scale with data-driven SEO, PPC, and
+            social media strategies, while our Institute of Digital Marketing
+            provides hands-on training and industry-recognized certifications
+            for students, professionals, and entrepreneurs to excel in the
+            evolving digital landscape.
           </p>
         </div>
       </section>
@@ -57,8 +61,11 @@ const AboutUs = () => {
                   Our Vision
                 </h2>
                 <p className="text-3xl sm:text-xl xs:text-xl text-gray-700 dark:text-gray-300">
-                  To be <span className="text-red-500 animate-pulse">India’s Leading Digital Marketing Institute & Agency</span>,
-                  shaping future-ready professionals through innovation,
+                  To be{" "}
+                  <span className="text-red-500 animate-pulse">
+                    India’s Leading Digital Marketing Institute & Agency
+                  </span>
+                  , shaping future-ready professionals through innovation,
                   technology, and industry expertise. We envision a world where
                   AI-powered marketing and automation drive success for
                   individuals and businesses alike. By fostering a community of
@@ -144,12 +151,13 @@ const AboutUs = () => {
               <img
                 src="https://media.licdn.com/dms/image/v2/D4D03AQEKXjs8zN4Utw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1732797916693?e=1747267200&v=beta&t=Utp1qblQP92TopijCnyECK8DBmYxCBmkBonAvMUcR8I"
                 alt="Shantanu"
-                className="w-32 h-32 rounded-full mx-auto object-cover"
+                className="w-1/2 rounded-full mx-auto object-cover"
               />
 
               <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
                 Shantanu Tarey
               </h3>
+              <p className="text-center mt-2">(Founder & CEO)</p>
               <div className="mt-4 flex justify-center space-x-6">
                 <a
                   href="https://www.linkedin.com/in/shantanu-tarey-67b43412b/"
@@ -167,11 +175,12 @@ const AboutUs = () => {
               <img
                 src="https://media.licdn.com/dms/image/v2/D4D03AQHc5hnsie4i7A/profile-displayphoto-shrink_400_400/B4DZN0xPtQHUAk-/0/1732830890846?e=1747267200&v=beta&t=i_xyvUPXf_vteAUqJa3z91_0FZiD4DVWU3VaYLXY2V0"
                 alt="Aryan"
-                className="w-32 h-32 rounded-full mx-auto object-cover"
+                className="w-1/2 rounded-full mx-auto object-cover"
               />
               <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
                 Aryan Bhardwaj
               </h3>
+              <p className="text-center mt-2">(Co-Founder & CTO)</p>
               <div className="mt-4 flex justify-center space-x-6">
                 <a
                   href="https://www.linkedin.com/in/aryan19"
@@ -213,49 +222,19 @@ const AboutUs = () => {
             {/* Employee 1 */}
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
               <img
-                src={AJPic}
-                alt="##"
-                className="w-32 h-32 rounded-full mx-auto object-cover"
-              />
-              <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
-              Ajdi Hysaj
-              </h3>
-              <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-6">
-                Advance Communication Expert
-              </h3>
-              <div className="mt-4 flex justify-center space-x-6">
-                <a
-                  href="##"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <LinkedinOutlined />
-                </a>{" "}
-                <a href="##">
-                  <MailOutlined />
-                </a>
-              </div>
-            </div>
-
-            {/* Employee 2 */}
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
-              <img
                 src={MayuriImg}
                 alt="Mayuri Mishra"
-                className="w-32 h-32 rounded-full mx-auto object-cover"
+                className="w-1/2 rounded-lg mx-auto object-cover"
               />
               <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
                 Mayuri Mishra
               </h3>
-              <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-6">
-              Content writing and Copywriting expert
+              <p className="text-center mt-2">(Chief Content Officer)</p>
+              <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-2">
+                Content writing and Copywriting expert
               </h3>
               <div className="mt-4 flex justify-center space-x-6">
-                <a
-                  href="##"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="##" target="_blank" rel="noreferrer">
                   <LinkedinOutlined />
                 </a>{" "}
                 <a href="##">
@@ -269,7 +248,7 @@ const AboutUs = () => {
               <img
                 src={AlpeshImg}
                 alt="Alpesh Chouhan"
-                className="w-32 h-32 rounded-full mx-auto object-cover"
+                className="w-1/2 rounded-lg mx-auto object-cover"
               />
               <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
                 Alpesh Chouhan
@@ -278,11 +257,70 @@ const AboutUs = () => {
                 Social Media Marketing, Content Creation and Political PR Expert
               </h3>
               <div className="mt-4 flex justify-center space-x-6">
-                <a
-                  href="##"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="##" target="_blank" rel="noreferrer">
+                  <LinkedinOutlined />
+                </a>{" "}
+                <a href="##">
+                  <MailOutlined />
+                </a>
+              </div>
+            </div>
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
+              <img
+                src={PrajwalPic}
+                alt="Prajwal Bisane"
+                className="w-1/2 rounded-lg mx-auto object-cover"
+              />
+              <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
+                Prajwal Bisane
+              </h3>
+              <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-6">
+                Search Engine Optimization Expert
+              </h3>
+              <div className="mt-4 flex justify-center space-x-6">
+                <a href="##" target="_blank" rel="noreferrer">
+                  <LinkedinOutlined />
+                </a>{" "}
+                <a href="##">
+                  <MailOutlined />
+                </a>
+              </div>
+            </div>
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
+              <img
+                src={ShivajiImg}
+                alt="Sangharsh Ramteke"
+                className="w-1/2 rounded-lg mx-auto object-cover"
+              />
+              <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
+                Shivaji Sharma
+              </h3>
+              <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-6">
+                COO & PR Expert
+              </h3>
+              <div className="mt-4 flex justify-center space-x-6">
+                <a href="##" target="_blank" rel="noreferrer">
+                  <LinkedinOutlined />
+                </a>{" "}
+                <a href="##">
+                  <MailOutlined />
+                </a>
+              </div>
+            </div>
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
+              <img
+                src={SangharshImg}
+                alt="Sangharsh Ramteke"
+                className="w-1/2 rounded-lg mx-auto object-cover"
+              />
+              <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
+                Sangharsh Ramteke
+              </h3>
+              <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-6">
+                Paid Advertising and Marketing Expert
+              </h3>
+              <div className="mt-4 flex justify-center space-x-6">
+                <a href="##" target="_blank" rel="noreferrer">
                   <LinkedinOutlined />
                 </a>{" "}
                 <a href="##">
@@ -293,28 +331,28 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
+     
       <section className="py-16 bg-white dark:bg-gray-800 transition-colors duration-500">
-        <div className="w-200 w-full mx-auto px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="w-full mx-auto px-6 lg:px-8">
+          <h2 className="text-3xl font-extrabold text-center text-gray-900 dark:text-white mb-10">
+            Meet Our Albanian Team
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {/* Employee 1 */}
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
               <img
-                src={PrajwalPic}
-                alt="Prajwal Bisane"
-                className="w-32 h-32 rounded-full mx-auto object-cover"
+                src={AJPic}
+                alt="aj"
+                className="w-1/3 rounded-lg mx-auto object-cover"
               />
               <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
-              Prajwal Bisane
+                Ajdi Hysaj
               </h3>
               <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-6">
-                Search Engine Optimization Expert
+                Advanced Communication & English Expert
               </h3>
               <div className="mt-4 flex justify-center space-x-6">
-                <a
-                  href="##"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="##" target="_blank" rel="noreferrer">
                   <LinkedinOutlined />
                 </a>{" "}
                 <a href="##">
@@ -326,49 +364,18 @@ const AboutUs = () => {
             {/* Employee 2 */}
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
               <img
-                src="#"
-                alt="##"
-                className="w-32 h-32 rounded-full mx-auto object-cover"
+                src={ZhakuImg}
+                alt="Zhaku"
+                className="w-1/3 rounded-lg mx-auto object-cover"
               />
               <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
-                Sangharsh Ramteke
+                Zhaku
               </h3>
               <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-6">
-                Paid Advertising and Marketing Expert
+                International Marketing Expert
               </h3>
               <div className="mt-4 flex justify-center space-x-6">
-                <a
-                  href="##"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <LinkedinOutlined />
-                </a>{" "}
-                <a href="##">
-                  <MailOutlined />
-                </a>
-              </div>
-            </div>
-
-            {/* Employee 3 */}
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
-              <img
-                src="##"
-                alt="##"
-                className="w-32 h-32 rounded-full mx-auto object-cover"
-              />
-              <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
-                ##
-              </h3>
-              <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-6">
-                ####
-              </h3>
-              <div className="mt-4 flex justify-center space-x-6">
-                <a
-                  href="##"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="##" target="_blank" rel="noreferrer">
                   <LinkedinOutlined />
                 </a>{" "}
                 <a href="##">
