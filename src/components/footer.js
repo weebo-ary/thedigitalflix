@@ -1,6 +1,7 @@
 import React from "react";
 import { LinkedinOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
+import { BsBuildingAdd } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -23,7 +24,9 @@ const Footer = () => {
           </h4>
           <p className="text-gray-600 dark:text-gray-400">
             Our AI-enabled digital marketing courses equip you with cutting-edge
-            tools and strategies to excel in the digital world. .
+            tools and strategies to excel in the digital world, while our
+            expert-led agency services deliver data-driven solutions to help
+            businesses grow, scale, and dominate the digital landscape.
           </p>
           {/* Social Media Icons */}
           <div className="flex space-x-4 mt-4">
@@ -72,24 +75,15 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                to="/iiot-gateway"
+                to="/blogs"
                 className="text-gray-500 hover:text-gray-600 dark:hover:text-gray-400 transition-colors duration-100"
               >
-                IIoT Gateway
+                Blogs
               </Link>
             </li>
             <li>
               <Link
-                to="/platform"
-                className="text-gray-500 hover:text-gray-600 dark:hover:text-gray-400 transition-colors duration-100"
-              >
-                Platform
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                to="/contact-us"
+                to="/"
                 className="text-gray-500 hover:text-gray-600 dark:hover:text-gray-400 transition-colors duration-100"
               >
                 Contact-Us
@@ -101,31 +95,31 @@ const Footer = () => {
         {/* Column 3: Services */}
         <div className="space-y-4">
           <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
-            Solutions
+            Blogs
           </h4>
           <ul className="space-y-2">
             <li>
               <Link
-                to="/cnc-monitoring"
+                to="/blogs/1"
                 className="text-gray-500 hover:text-gray-600 dark:hover:text-gray-400 transition-colors duration-100"
               >
-                CNC Monitoring
+                The Tale of Two Apples
               </Link>
             </li>
             <li>
               <Link
-                to="/robot-monitoring"
+                to="/blogs/2"
                 className="text-gray-500 hover:text-gray-600 dark:hover:text-gray-400 transition-colors duration-100"
               >
-                Robot Monitoring
+                Understanding LSI Keywords in SEO
               </Link>
             </li>
             <li>
               <Link
-                to="/energy-monitoring"
+                to="/blogs/3"
                 className="text-gray-500 hover:text-gray-600 dark:hover:text-gray-400 transition-colors duration-100"
               >
-                Energy Monitoring
+                Breadcrumbs in Websites, <br/>The Tale of Hansel and Gretel
               </Link>
             </li>
           </ul>
@@ -137,12 +131,18 @@ const Footer = () => {
           </h4>
           <ul className="space-y-2">
             <li>
-              <Link
-                to="/training"
-                className="text-gray-500 hover:text-gray-600 dark:hover:text-gray-400 transition-colors duration-100"
+              <a
+                href={
+                  window.location.pathname === "/institute" ? "/" : "/institute"
+                }
               >
-                Training
-              </Link>
+                <button className="animate-pulse flex items-center justify-center bg-red-500 text-sm text-white px-6 py-2 rounded-md shadow-md hover:bg-red-600 transition gap-2">
+                  <BsBuildingAdd />{" "}
+                  {window.location.pathname === "/institute"
+                    ? "Agency"
+                    : "Institute"}
+                </button>
+              </a>
             </li>
             <li>
               <Link
@@ -206,15 +206,15 @@ const Footer = () => {
           className="w-full"
         >
           <p className=" bg-white text-black rounded-lg p-2 hover:text-gray-800 dark:hover:text-red-400 w-full cursor-pointer">
-            <b>India Corp-Office</b> : The DigitalFlix Institute of Digital
+            <b>India Corp-Office</b> : The DigitalFlix Comapny & Institute of Digital
             Marketing, B1, Kamla Nagar, Chitragupt Nagar, Kotra Sultanabad,
             Bhopal, Madhya Pradesh 462003
           </p>
         </a>
 
         <p className=" bg-white text-black rounded-lg p-2 hover:text-gray-800 dark:hover:text-red-400 w-full">
-          <b>Registered Office</b> : LIG 158 Kotra Sultanabad, Behind Givernmetn
-          School, C.T.T.Nagar, Huzur, Bhopal- 462003, Madhya Pradesh
+          <b>Registered Office</b> : LIG 158 Kotra Sultanabad, Behind Government
+          School, C.T.T.Nagar, Huzur, Bhopal, Madhya Pradesh 462003
         </p>
 
         <p className=" bg-white text-black rounded-lg p-2 py-5 hover:text-gray-800 dark:hover:text-red-400 w-full">
@@ -243,9 +243,9 @@ const Footer = () => {
         </div>
       </div> */}
       {/* Footer Bottom */}
-      <div className="mt-10 text-center border-t pt-5">
+      <div className="mt-10 pb-6 text-center border-t pt-5">
         <p className="text-gray-600 dark:text-gray-400">
-          © 2024 Opsight AI Pvt Ltd. All rights reserved.
+          © 2025 DigitalFlix Solutions Pvt Ltd. All rights reserved.
         </p>
       </div>
     </footer>
