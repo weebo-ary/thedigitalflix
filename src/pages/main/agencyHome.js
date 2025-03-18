@@ -11,7 +11,7 @@ import Faq from "./AgencyHome/faq";
 import "./AgencyHome/index.css"
 import BrouchureSection from "./AgencyHome/brouchure";
 import FeatureList from "./AgencyHome/featureListHome";
-import Benifits from "./AgencyHome/benifits";
+// import Benifits from "./AgencyHome/benifits";x
 
 function home() {
   return (
