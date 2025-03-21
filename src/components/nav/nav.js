@@ -185,16 +185,16 @@ const Navbar = () => {
                 </button>
                 <a
                   href={
-                    window.location.pathname === "/institute"
+                    window.location.pathname === "/agency"
                       ? "/"
-                      : "/institute"
+                      : "/agency"
                   }
                 >
                   <button className="animate-pulse flex items-center justify-center bg-red-500 text-sm text-white px-6 py-2 rounded-md shadow-md hover:bg-red-600 transition gap-2">
                     <BsBuildingAdd />{" "}
-                    {window.location.pathname === "/institute"
-                      ? "Agency"
-                      : "Institute"}
+                    {window.location.pathname === "/agency"
+                      ? "Institute"
+                      : "Agency"}
                   </button>
                 </a>
 
