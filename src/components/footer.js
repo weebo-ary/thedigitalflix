@@ -1,7 +1,6 @@
 import React from "react";
 import { LinkedinOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
-import { BsBuildingAdd } from "react-icons/bs";
 
 const Footer = () => {
   return (

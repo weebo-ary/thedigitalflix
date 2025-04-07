@@ -4,7 +4,7 @@ import DropdownMenu from "../dropdown/DropdownMenu";
 import DropdownMenuProducts from "../dropdown/DropDownProducts";
 import DarkLogo from "../../assets/Logo/DarkLogo.png";
 import LightLogo from "../../assets/Logo/LightLogo.png";
-import { ArrowRightOutlined, MenuOutlined } from "@ant-design/icons";
+import { MenuOutlined } from "@ant-design/icons";
 import { NavLink } from "react-router-dom";
 import "./nav.css";
 import Sidebar from "../Drawer/Sidebar";
@@ -23,7 +23,6 @@ import {
 } from "@ant-design/icons";
 import DropdownMenuServices from "../dropdown/DropDownService";
 import Modal from "../../pages/main/Home/modal";
-import { BsBuildingAdd } from "react-icons/bs";
 
 const Navbar = () => {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");

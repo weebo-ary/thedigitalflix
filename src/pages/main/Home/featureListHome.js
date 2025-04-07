@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 
-import { AiOutlineBulb, AiOutlineClockCircle, AiOutlineCodeSandbox, AiOutlineFacebook, AiOutlineGift, AiOutlineGlobal, AiOutlineLineChart, AiOutlineTeam } from "react-icons/ai";
+import { AiOutlineBulb, AiOutlineClockCircle, AiOutlineCodeSandbox, AiOutlineFacebook, AiOutlineGlobal, AiOutlineLineChart, AiOutlineTeam } from "react-icons/ai";
 import { BiBookContent, BiBookOpen, BiGift } from "react-icons/bi";
-import { MdLocationOn, MdOndemandVideo, MdOutlineCastForEducation, MdPayments, MdWorkOutline, MdWorkspacePremium } from "react-icons/md";
+import { MdOndemandVideo, MdOutlineCastForEducation, MdPayments, MdWorkOutline, MdWorkspacePremium } from "react-icons/md";
 import { GiArtificialIntelligence, GiSkills } from "react-icons/gi";
 import { PiStudent } from "react-icons/pi";
 import { RiGuideFill } from "react-icons/ri";
