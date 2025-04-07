@@ -23,9 +23,7 @@ export function TabsCert() {
       >
         <Tabs.Item title="Courses" active icon={PiBooks}>
           <h2 className="md:text-2xl sm:text-lg xs:text-lg md:pl-6 sm:pl-0 xs:pl-0 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
-            Explore Our Power-Packed{" "}
-            <span className="text-red-600">Digital Marketing Courses</span> : 
-            From Beginners to Pros, and Even Young Creators
+            ZBULO PROGRAMET TONA TË PLOTA – NGA FILLESTARËT TEK PROFESIONISTËT
           </h2>
           <div className="flex md:flex-row sm:flex-col xs:flex-col items-center justify-center gap-6">
             <Card
@@ -37,10 +35,9 @@ export function TabsCert() {
                 FlixStart Digital
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">
-                Your gateway to the world of digital marketing! This
-                beginner-friendly course covers SEO, social media, PPC, content
-                marketing, and AI tools, providing a strong foundation for
-                aspiring marketers.
+                Porta juaj drejt marketingut dixhital! Kurs për fillestarë që
+                mbulon SEO, rrjetet sociale, PPC, marketing përmbajtjeje dhe
+                mjete me Inteligjencës Artificiale.
               </p>
               <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
                 Learn More
@@ -55,10 +52,11 @@ export function TabsCert() {
                 FlixElite Digital PRO
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">
-                Become a certified digital marketing expert with our advanced
-                course! Master AI-driven strategies, paid advertising,
-                analytics, automation, and high-level digital marketing
-                techniques to accelerate your career.
+                Bëhuni ekspert i çertifikuar me këtë kurs të avancuar! Mësoni
+                strategji të bazuara në Inteligjencën Artificiale, reklama,
+                analiza, automatizim dhe teknika të nivelit të lartë rreth
+                marketingut dixhital, që do ju ndihmojnë në rritjen e karrierës
+                tuaj.
               </p>
               <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
                 Learn More
@@ -73,10 +71,10 @@ export function TabsCert() {
                 FlixYoung Digital Creators
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">
-                A fun and interactive course designed for school students to
-                explore the world of digital marketing, creativity, and
-                technology. Learn social media basics, website building, and
-                AI-powered tools to develop future-ready skills!
+                Një kurs argëtues dhe ndërveprues për nxënës të shkollës për të
+                zbuluar kreativitetin dhe teknologjinë. Mësoni bazat e rrjeteve
+                sociale, ndërtimin e faqeve dhe përdorimin e mjeteve të
+                Inteligjencës Artificiale.
               </p>
               <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
                 Learn More
@@ -89,8 +87,8 @@ export function TabsCert() {
         </Tabs.Item>
         <Tabs.Item active title="Certifications" icon={GrCertificate}>
           <h2 className="md:text-2xl sm:text-lg xs:text-lg md:pl-6 sm:pl-0 xs:pl-0 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
-            Get upto <span className="text-red-600">50+ Certifications</span> in
-            alignment with Global Brands like :{" "}
+            DERI NË <span className="text-red-600">50+ ÇERTIFIKIME</span> ME
+            MARKA NDËRKOMBËTARE SI:
             <div className="fle md:flex md:flex-row sm:grid sm:grid-cols-2 xs:grid xs:grid-cols-2 items-center gap-8 pb-6 mt-4">
               <div className="flex flex-col items-center justify-center mt-6">
                 <FaGoogle />
@@ -123,8 +121,7 @@ export function TabsCert() {
                 <b>Offered By : </b>Google
               </p>
               <p className="font-normal text-gray-700 dark:text-gray-400">
-                Covers the basics of digital marketing, including SEO, SEM,
-                email marketing, and analytics.
+                SEO, SEM, marketing me email dhe analiza
               </p>
               <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
                 Learn More
@@ -142,8 +139,7 @@ export function TabsCert() {
                 <b>Offered By : </b>Meta
               </p>
               <p className="font-normal text-gray-700 dark:text-gray-400">
-                Learn to create ads, target the right audience, and measure
-                success on Meta platforms (Facebook, Instagram).
+                Krijimi i reklamave dhe analizimi i performancës
               </p>
               <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
                 Learn More
@@ -161,9 +157,7 @@ export function TabsCert() {
                 <b>Offered By : </b>Semrush
               </p>
               <p className="font-normal text-gray-700 dark:text-gray-400">
-                Covers the basics of SEO, keyword research, and on-page
-                optimization. This course is developed by leading experts
-                @Semrush.
+                SEO, hulumtim fjalësh kyçe, optimizim faqeje
               </p>
               <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
                 Learn More
@@ -177,9 +171,8 @@ export function TabsCert() {
         </Tabs.Item>
         <Tabs.Item title="Tools" icon={FaGear}>
           <h2 className="md:text-2xl sm:text-lg xs:text-lg md:pl-6 sm:pl-0 xs:pl-0 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
-            Master the Most Powerful{" "}
-            <span className="text-red-600"> Digital Marketing & AI Tools</span>{" "}
-            – From SEO to Social Media, Ads & Beyond
+            MJETET KRYESORE QË DO ZOTERONI – NGA SEO NE RRJETE SOCIALE, REKLAMA
+            DHE JO VETEM
           </h2>
           <div className="flex md:flex-row sm:flex-col xs:flex-col items-center justify-center gap-6">
             <Card
@@ -191,8 +184,8 @@ export function TabsCert() {
                 Google Ads
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">
-                Google’s advertising platform for creating targeted search,
-                display, and video ads to drive traffic and sales.
+                Krijimi i reklamave të targetuara për rritje trafiku dhe
+                shitjesh
               </p>
               <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
                 Learn More
@@ -207,8 +200,7 @@ export function TabsCert() {
                 Wordpress
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">
-                A leading website builder and CMS for creating and managing
-                websites easily with themes and plugins.
+                Ndërtimi dhe menaxhimi i faqeve me tema dhe shtojca
               </p>
               <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
                 Learn More
@@ -223,8 +215,8 @@ export function TabsCert() {
                 ChatGPT
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">
-                An AI-powered chatbot that assists with content creation,
-                automation, and customer support. 🚀
+                Inteligjence Artificiale për krijim përmbajtjeje,
+                automatizim dhe ndihmë ndaj klientëve
               </p>
               <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
                 Learn More
@@ -235,14 +227,6 @@ export function TabsCert() {
             </button>
           </div>
         </Tabs.Item>
-        {/* <Tabs.Item title="Contacts" icon={HiClipboardList}>
-        This is <span className="font-medium text-gray-800 dark:text-white">Contacts tab's associated content</span>.
-        Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to
-        control the content visibility and styling.
-      </Tabs.Item> */}
-        {/* <Tabs.Item disabled title="Disabled">
-        Disabled content
-      </Tabs.Item> */}
       </Tabs>
     </div>
   );

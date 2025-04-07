@@ -62,18 +62,17 @@ function Banner() {
         <div className="flex md:flex-row-reverse sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full gap-6 mb-10 p-4 pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full">
             <h1 className="md:text-5xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
-              TheDigitalFlix Certificate of Completion 🏅
+            Çertifikata e Përfundimit – TheDigitalFlix 🏅
             </h1>
             <p className="md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
-              Receive an officially framed course completion certificate from
-              TheDigitalFlix, validating your expertise in digital marketing.
+            Merrni certifikatën e përfundimit të kursit tuaj nga The Digital Flix, e cila vërteton ekspertizën tuaj në kursin që ju zgjodhet.
             </p>
             <div className="flex flex-row gap-6">
               <button
                 onClick={() => setIsModalOpen(true)}
                 className="w-1/2 bg-red-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-500 transition"
               >
-                Learn More <ArrowRightOutlined className="ml-2" />
+                Mëso me shumë <ArrowRightOutlined className="ml-2" />
               </button>
             </div>
           </div>
@@ -88,18 +87,17 @@ function Banner() {
         <div className="flex md:flex-row-reverse sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full p-4 pl-6 pr-6">
           <div className="flex flex-col mb-10 p-4 w-full">
             <h2 className="md:text-5xl sm:text-2xl xs:text-2xl  font-bold text-white mb-4 mt-4">
-              Letter of Recommendation 🏆
+            Letër rekomandimi 🏆
             </h2>
             <p className="md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
-              Get a personalized Letter of Recommendation (LOR) from
-              TheDigitalFlix, adding credibility to your profile.
+            Merrni një letër rekomandimi të personalizuar nga TheDigitalFlix, për ti shtuar besueshmëri profilit tuaj.
             </p>
             <div className="flex flex-row gap-6">
               <button
                 onClick={() => setIsModalOpen(true)}
                 className="w-1/2 bg-red-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-500 transition"
               >
-                Learn More <ArrowRightOutlined className="ml-2" />
+                Mëso me shumë <ArrowRightOutlined className="ml-2" />
               </button>
             </div>
           </div>
@@ -118,8 +116,7 @@ function Banner() {
               FlixPro Resume 📄
             </h2>
             <p className="md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
-              Receive a professionally designed, job-ready resume, tailored for
-              digital marketing and optimized for recruiter visibility.
+            Merrni një CV të përgatitur në mënyrë profesionale, e gatshme për tju gjetur punë, e përshtatur për fushën tuaj dhe optimizuar për tu vënë në dukje tek rekrutuesit.
             </p>
             <div className="flex flex-row gap-6">
               <button
@@ -141,17 +138,17 @@ function Banner() {
         <div className="flex md:flex-row-reverse sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full p-4">
             <h2 className="md:text-5xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
-              Digital Portfolio (On Showcase) 🎨
+            Portofoli Dixhital (On Showcase) 🎨
             </h2>
             <p className="md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
-            Create a professional portfolio to showcase your digital marketing skills and projects to potential clients and employers.
+            Krijoni një portofol profesional për të shfaqur aftësitë tuaja dixhitale dhe projektet te klientet dhe punëdhënësit e ndryshëm.
             </p>
             <div className="flex flex-row gap-6">
               <button
                 onClick={() => setIsModalOpen(true)}
                 className="w-1/2 bg-red-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-500 transition"
               >
-                Learn More <ArrowRightOutlined className="ml-2" />
+                Mëso me shumë <ArrowRightOutlined className="ml-2" />
               </button>
             </div>
           </div>

@@ -5,21 +5,21 @@ import { useInView } from "react-intersection-observer";
 const counters = [
   {
     id: 1,
-    title: "Creativity 🎨",
+    title: "Kreativiteti 🎨",
     value: 100,
     suffix: "%",
     color: "text-blue-500",
   },
   {
     id: 2,
-    title: "Use of AI 🤖",
+    title: "Përdorimi i Inteligjencës Artificiale 🤖",
     value: 92,
     suffix: "%",
     color: "text-green-500",
   },
   {
     id: 3,
-    title: "Practical Learning 🛠️",
+    title: "Mësim Praktik 🛠️",
     value: 95,
     suffix: "%",
     color: "text-orange-500",
@@ -29,14 +29,14 @@ const counters = [
 const counterTwo = [
   {
     id: 4,
-    title: "Student Satisfaction ❤️",
+    title: "Kënaqëshmëria e Studentit  ❤️",
     value: 99,
     suffix: "%",
     color: "text-purple-500",
   },
   {
     id: 5,
-    title: "Student Success Rate 🎓",
+    title: "Shkalla e Suksesit të Studentëve 🎓",
     value: 99,
     suffix: "%",
     color: "text-pink-500",
@@ -81,15 +81,12 @@ function WhyUsSection() {
       <div className="">
         <div className="">
           <h2 className="text-center md:text-center sm:text-start xs:text-start text-5xl md:text-5xl sm:text-3xl xs:text-3xl text-gray-900 dark:text-white mb-4">
-            Why Us ?
+          Pse ne?
           </h2>
         </div>
         <div className="">
           <p className="text-3xl md:text-3xl sm:text-xl xs:text-xl text-center md:text-center sm:text-start xs:text-start text-gray-600 dark:text-gray-400">
-            At TheDigitalFlix, we blend AI-powered digital marketing training
-            with hands-on projects, industry certifications, and 100% placement
-            assistance, ensuring you gain real-world skills to thrive in the
-            digital era!
+          Tek TheDigitalFlix, ne nd ërthurim kurset tona të mbështetura nga Inteligjenca Artificiale me projekte reale, certifikata të industrisë së tregut dhe guide karriere 100%  të personalizuar, duke ju garantuar aftësi të botës së sotme që do ju bëjnë të suksesshëm në epokën dixhitale!
           </p>
         </div>
       </div>

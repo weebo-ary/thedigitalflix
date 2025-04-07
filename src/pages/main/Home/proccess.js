@@ -172,13 +172,13 @@ function ProcessSection() {
       <div className="flex flex-col items-start justify-center gap-10">
         <div className="">
           <h2 className="text-5xl md:text-5xl sm:text-xl xs:text-xl text-gray-900 dark:text-white">
-          Unlock the <span className="text-orange-500">Ultimate</span> Digital Marketing Learning Experience
+          PËRVOJA MË E FUNDIT NË MËSIMIN E MARKETINGUT DIXHITAL
           </h2>
         </div>
         <div className="">
           {" "}
           <p className="text-3xl md:text-2xl sm:text-sm xs:text-sm text-gray-600 dark:text-gray-400">
-            Master SEO, PPC, AI-powered marketing, and website development with 50+ industry-focused modules. Get hands-on training, 20+ certifications, placement support, and lifetime LMS access. Flexible online/offline learning with scholarships and EMI options – start your journey with TheDigitalFlix today!
+          Mësoni SEO, PPC, marketing të bazuar në Inteligjencë Artificiale, zhvillim faqesh webi dhe jo vetëm, me 50+ module praktike. Trajnim praktik me projekte reale, 20+ çertifikime, mbështetje për punësim dhe freelance, akses në platformën e studimit LMS (Flix Elevate) pa limit dhe mësim fleksibël online – nisni rrugëtimin tuaj sot me TheDigitalFlix!
           </p>{" "}
         </div>
       </div>

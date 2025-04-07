@@ -9,7 +9,6 @@ import AlpeshImg from "../../assets/Images/IMG-20240307-WA0006.jpg";
 import MayuriImg from "../../assets/Images/Mayuri.jpg";
 import PrajwalPic from "../../assets/Images/Prajwal.jpg";
 import SangharshImg from "../../assets/Images/SangharshImg.jpg";
-import ZhakuImg from "../../assets/Images/Zhaku.jpeg";
 import ShivajiImg from "../../assets/Images/ShivajiImg.jpg";
 
 const AboutUs = () => {
@@ -214,7 +213,7 @@ const AboutUs = () => {
 
       {/* Employees Section */}
       <section className="py-16 bg-white dark:bg-gray-800 transition-colors duration-500">
-        <div className="w-200 w-full mx-auto px-6 lg:px-8">
+        <div className="w-full mx-auto px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-center text-gray-900 dark:text-white mb-10">
             Meet Our Team
           </h2>
@@ -362,7 +361,7 @@ const AboutUs = () => {
             </div>
 
             {/* Employee 2 */}
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
+            {/* <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
               <img
                 src={ZhakuImg}
                 alt="Zhaku"
@@ -382,7 +381,7 @@ const AboutUs = () => {
                   <MailOutlined />
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

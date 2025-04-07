@@ -6,7 +6,7 @@ import OfferingBg from "../../../assets/Images/marvin-meyer-SYTO3xs06fU-unsplash
 const OfferingSection = () => {
   const blobsData = [
     {
-      title: "AI-Integrated Digital Marketing Training 🤖",
+      title: "Marketing i mbështetur nga Inteligjenca Artificiale 🤖",
       description: "No AI integration or outdated curriculum.",
       color: "#9FD2C7",
       icon: <WarningOutlined />,

@@ -72,25 +72,38 @@ function Banner() {
         infiniteLoop
         interval={7500}
         showThumbs={false}
-        swipeable = {false}
+        swipeable={false}
       >
         <div className="flex lg:flex-row md:flex-row sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full gap-6 mb-10 p-4 pl-6 pr-6">
-          <div className="flex flex-col mb-10 w-full">
+          <div className="flex flex-col mb-2 w-full">
             <p>
-              Connect with us{" "}
-              <a href="https://www.linktr.ee/thedigitalflix" target="_blank" rel="noreferrer"><span className="text-red-500">@thedigitalflix</span></a>
+            MËSIM ONLINE{" "}
+              <a
+                href="https://www.linktr.ee/thedigitalflix"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="text-red-500">@thedigitalflix</span>
+              </a>
             </p>
-            <h1 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
-              DIGITAL MARKETING COURSE IN BHOPAL | POWERED BY
-              <span className="text-red-600"> ARTIFICIAL INTELLIGENCE</span>
+            <h1 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-0 mt-4">
+              KURS PËR
+              <span className="text-red-600">MARKETING DIXHITAL</span>
             </h1>
             <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
-              Welcome to The DigitalFlix Institute of Digital Marketing – where
-              innovation meets education. Our AI-enabled digital marketing
-              courses equip you with cutting-edge tools and strategies to excel
-              in the digital world. Master in-demand skills like SEO, social
-              media marketing, PPC, and AI-driven strategies to stay ahead in
-              the industry.
+              Mirësevini në Institutin e kurseve TheDigitalFlix – ku inovacioni
+              takohet me edukimin. Kurset tona për marketing dixhital të
+              ndihmuara nga Inteligjenca Artificiale ju pajisin me mjetet dhe
+              strategjitë më të avancuara për të shkëlqyer në botën dixhitale.
+              Mësoni aftësi shumë të kërkuara si SEO, marketing në rrjetet
+              sociale, PPC dhe strategji të bazuara në AI për të qënë të parët
+              në industri.
+              <br />
+              1. SEO
+              <br />
+              2. Website Development
+              <br />
+              3. Rrjete Sociale | PPC | Inteligjencë Artificiale
             </p>
             <div className="flex flex-row gap-6">
               <button
@@ -117,19 +130,25 @@ function Banner() {
         <div className="flex flex-row lg:flex-row md:flex-row sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full p-4 pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full">
             <p>
-              Connect with us{" "}
-              <a href="https://www.linktr.ee/thedigitalflix" target="_blank" rel="noreferrer"><span className="text-red-500">@thedigitalflix</span></a>
+              MËSIM ONLINE{" "}
+              <a
+                href="https://www.linktr.ee/thedigitalflix"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="text-red-500">@thedigitalflix</span>
+              </a>
             </p>
             <h2 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
-              <span className="text-red-600">WEBSITE DEVELOPMENT</span> | SEO |
-              SOCIAL MEDIA | PPC | ARTIFICIAL INTELLIGENCE
+              <span className="text-red-600">MUNDËSI</span> PUNE & ÇERTIFIKIME
             </h2>
             <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
-              Our AI-powered courses are designed to equip you with cutting-edge
-              skills in Website Development, Search Engine Optimization (SEO),
-              Social Media Marketing, Pay-Per-Click (PPC) Advertising, and
-              Artificial Intelligence applications in marketing. Gain hands-on
-              experience with real-world projects and industry-recognized
+              Ne ofrojmë mësimin online si një nga opsionet më fleksibël të
+              kohës së sotme. Përfitoni ulje, qasje në pozicione pune me paga të
+              larta dhe merrni çertifikime të njohura ndërkombëtarisht për tu
+              rritur në karrierën tuaj. Bashkohuni me një komunitet aktiv
+              studentësh dhe profesionistësh, dhe hidhni hapin e radhës drejt
+              suksesit tuaj dixhital. ects and industry-recognized
               certifications.
             </p>
             <div className="flex flex-row gap-6">
@@ -158,23 +177,18 @@ function Banner() {
         </div>
         <div className="flex flex-row lg:flex-row md:flex-row sm:flex-col-reverse xs:flex-col-reverse xs:mt-7 items-center justify-start text-start w-full h-full pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full p-4">
-            <p>
-              Connect with us{" "}
-              <a href="https://www.linktr.ee/thedigitalflix" target="_blank" rel="noreferrer"><span className="text-red-500">@thedigitalflix</span></a>
-            </p>
+            <p>PUNO NË MARKETING DIXHITAL</p>
             <h2 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
-              <span className="text-red-600">ONLINE AND OFFLINE</span> CLASSES |
-              GET <span className="text-red-600">SCHOLARSHIPS</span>,{" "}
-              <span className="text-red-600">JOB</span> OPPORTUNITIES &{" "}
-              <span className="text-red-600">CERTIFICATIONS</span>
+              BËHU FREELANCER OSE NIS AGJENCINË TËNDE{" "}
+              <span className="text-red-600">DIGJITALE</span>
             </h2>
             <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
-              Whether you prefer online or offline classes, we offer flexible
-              learning options tailored to your needs. Unlock exclusive
-              scholarships, gain access to top job opportunities, and earn
-              industry-recognized certifications to boost your career. Join a
-              thriving community of learners and experts, and take the next step
-              toward digital success
+              <b>TheDigitalFlix</b> ju pajis me aftësitë më të kërkuara të
+              momentit në fushën e marketingut dixhital, të cilat ju sigurojnë
+              punë me paga të larta, punësim si freelancer dhe mundësinë për të
+              ndërtuar agjencinë tuaj të suksesshme. Mësoni nga ekspertët tanë
+              të industrisë, përfitoni përvojë praktike dhe hapni rrugë të
+              pafundme karriere në botën dixhitale.
             </p>
             <div className="flex flex-row gap-6">
               <button
@@ -193,88 +207,6 @@ function Banner() {
           <div className="w-full">
             <img
               src={IllustrationThree}
-              alt="Placeholder"
-              className="w-full rounded-lg"
-            />
-          </div>
-        </div>
-        <div className="flex flex-row lg:flex-row md:flex-row sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full pl-6 pr-6">
-          <div className="flex flex-col mb-10 w-full p-4">
-            <p>
-              Connect with us{" "}
-              <a href="https://www.linktr.ee/thedigitalflix" target="_blank" rel="noreferrer"><span className="text-red-500">@thedigitalflix</span></a>
-            </p>
-            <h2 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
-              COURSES FOR <span className="text-red-600">STUDENTS</span>,{" "}
-              <span className="text-red-600">PROFESSIONALS</span>,{" "}
-              <span className="text-red-600">ENTREPRENEURS</span> &{" "}
-              <span className="text-red-600">JOB</span> SEEKERS
-            </h2>
-            <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
-              No matter where you are in your career, TheDigitalFlix has the
-              perfect course for you! Whether you’re a student looking to start
-              early, a professional aiming to upskill, an entrepreneur ready to
-              grow your business, or a job seeker searching for high-demand
-              skills, our expert-led training will equip you for success.
-            </p>
-            <div className="flex flex-row gap-6">
-              <button
-                onClick={() => setIsModalOpen(true)}
-                className="w-1/2 bg-red-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-500 transition"
-              >
-                Enroll Now
-              </button>
-              <Link to="/contact">
-                <button className="text-gray-300 transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
-                  Learn More <ArrowRightOutlined className="ml-2" />
-                </button>
-              </Link>
-            </div>
-          </div>
-          <div className="w-full">
-            <img
-              src={IllustrationFour}
-              alt="Placeholder"
-              className="w-full rounded-lg"
-            />
-          </div>
-        </div>
-        <div className="flex flex-row lg:flex-row md:flex-row sm:flex-col-reverse xs:flex-col-reverse xs:mt-7 items-center justify-start text-start w-full h-full pl-6 pr-6">
-          <div className="flex flex-col mb-10 w-full p-4">
-            <p>
-              Connect with us{" "}
-              <a href="https://www.linktr.ee/thedigitalflix" target="_blank" rel="noreferrer"><span className="text-red-500">@thedigitalflix</span></a>
-            </p>
-            <h2 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
-              GET JOBS IN{" "}
-              <span className="text-red-600">DIGITAL MARKETING</span> | BECOME A{" "}
-              <span className="text-red-600">FREELANCER</span> | START YOUR OWN{" "}
-              <span className="text-red-600">DIGITAL AGENCY</span>
-            </h2>
-            <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
-              TheDigitalFlix empowers you with in-demand digital marketing
-              skills to land high-paying jobs, work independently as a
-              freelancer, or build your own successful digital agency. Learn
-              from industry experts, gain hands-on experience, and unlock
-              endless career opportunities in the digital world.
-            </p>
-            <div className="flex flex-row gap-6">
-              <button
-                onClick={() => setIsModalOpen(true)}
-                className="w-1/2 bg-red-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-500 transition"
-              >
-                Enroll Now
-              </button>
-              <Link to="/contact">
-                <button className="text-gray-300 transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
-                  Learn More <ArrowRightOutlined className="ml-2" />
-                </button>
-              </Link>
-            </div>
-          </div>
-          <div className="w-full">
-            <img
-              src={IllustrationLight}
               alt="Placeholder"
               className="w-full rounded-lg"
             />

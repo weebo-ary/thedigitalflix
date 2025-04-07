@@ -11,108 +11,98 @@ const features = [
   
     {
         icon: <AiOutlineClockCircle style={{ fontSize: "3rem" }} />,
-        title: "Course Duration",
-        description: "3 Months of Intensive Learning",
+        title: "Kohëzgjatja e kursit",
+        description: "3 muaj mësim intensive",
       },
       {
         icon: <BiBookContent style={{ fontSize: "3rem" }} />,
-        title: "Total Modules",
-        description: "50+ Industry-Focused Modules",
+        title: "Numri total i moduleve",
+        description: "50+ module të fokusuara",
       },
       {
         icon: <MdOutlineCastForEducation style={{ fontSize: "3rem" }} />,
-        title: "Online / Offline Learning",
-        description: "Flexible learning – Join Online or Offline",
+        title: "Mësimi",
+        description: "Online",
       },
       {
         icon: <MdWorkspacePremium style={{ fontSize: "3rem" }} />,
-        title: "Certifications",
-        description: "20+ Recognized Certifications (Google, HubSpot, etc.)",
+        title: "Çertifikime",
+        description: "20+ Certifikime te njohura (Google, HubSpot etj.)",
       },
       {
         icon: <MdWorkOutline style={{ fontSize: "3rem" }} />,
-        title: "Placement Assistance",
-        description: "100% Job & Freelance Support",
+        title: "Mbështetje",
+        description: "Asistencë 100% për punësim dhe freelance",
       },
       {
         icon: <GiSkills style={{ fontSize: "3rem" }} />,
-        title: "Practical Training",
-        description: "Work on Real-World Projects & Live Campaigns",
+        title: "Trajnim praktik",
+        description: "Punoni në projekte reale dhe fushata aktuale",
       },
       {
         icon: <GiArtificialIntelligence style={{ fontSize: "3rem" }} />,
-        title: "AI in Digital Marketing",
-        description: "Master AI tools for automation & smarter marketing",
+        title: "Inteligjenca Artificiale në Marketingun Dixhital",
+        description: "Zotëroni veglat me AI për automatizim dhe marketing më efikas",
       },
       {
         icon: <AiOutlineFacebook style={{ fontSize: "3rem" }} />,
-        title: "Paid Ads & Social Media",
-        description: "Google & Meta Ads, Facebook & Instagram Marketing",
+        title: "Reklama dhe Rrjete Sociale",
+        description: "Reklama në Google dhe Meta. Marketing nëpërmjet Facebook dhe Instagram",
       },
       {
         icon: <AiOutlineCodeSandbox style={{ fontSize: "3rem" }} />,
-        title: "Website Development",
-        description: "Learn WordPress, Hosting & SEO",
+        title: "Web Development",
+        description: "WordPress, Hosting & SEO",
       },
       {
         icon: <AiOutlineLineChart style={{ fontSize: "3rem" }} />,
-        title: "Data Analytics",
-        description: "Track & optimize marketing campaigns",
+        title: "Analiza e të dhënave",
+        description: "Ndiqni dhe optimizoni fushata marketingu",
       },
       {
         icon: <MdPayments style={{ fontSize: "3rem" }} />,
-        title: "Installment Plans",
-        description: "Flexible Payment & EMI Options",
-      },
-      {
-        icon: <AiOutlineGift style={{ fontSize: "3rem" }} />,
-        title: "Scholarships",
-        description: "Scholarship opportunities for eligible students",
+        title: "Pagesa",
+        description: "Pagesa online ose cash",
       },
       {
         icon: <BiGift style={{ fontSize: "3rem" }} />,
-        title: "Bonuses & Discounts",
-        description: "Special offers & early bird discounts",
+        title: "Bonuse dhe ulje",
+        description: "Oferta të vecanta dhe zbritje për regjistrimet e para",
       },
       {
         icon: <BiBookOpen style={{ fontSize: "3rem" }} />,
-        title: "Course Material",
-        description: "Comprehensive study guides & handbooks",
+        title: "Material Kursi",
+        description: "Udhëzues dhe materiale studimore",
       },
       {
         icon: <PiStudent style={{ fontSize: "3rem" }} />,
-        title: "LMS Access",
-        description: "24/7 access to TheDigitalFlix LMS (Flix Elevate)",
+        title: "Akses LMS",
+        description: "Akses 24/7 në TheDigitalFlix LMS (Flix Elevate)",
       },
       {
         icon: <AiOutlineBulb style={{ fontSize: "3rem" }} />,
-        title: "Doubt-Solving & Mentoring",
-        description: "One-on-one mentorship & doubt-clearing sessions",
+        title: "Qartësim dhe Mentorim",
+        description: "Mentorim 1 në 1 dhe seanca qartësimi",
       },
       {
         icon: <MdOndemandVideo style={{ fontSize: "3rem" }} />,
-        title: "Recorded Sessions",
-        description: "Missed a class? Watch recordings anytime",
+        title: "Seanca të regjistruara",
+        description: "Akses të cdo ore mesimi në rast se ju mungoni",
       },
       {
         icon: <AiOutlineGlobal style={{ fontSize: "3rem" }} />,
-        title: "Business & Freelancing",
-        description: "Learn how to start your own digital agency",
-      },
-      {
-        icon: <MdLocationOn style={{ fontSize: "3rem" }} />,
-        title: "Prime Location",
-        description: "Located in Bhopal, easily accessible",
+        title: "Biznes dhe Freelance",
+        description: "Mësoni si të nisni agjensinë tuaj dixhitale",
       },
       {
         icon: <AiOutlineTeam style={{ fontSize: "3rem" }} />,
-        title: "Networking & Alumni",
-        description: "Exclusive access to digital marketing networks",
+        title: "Network dhe Alumni",
+        description: "Akses ekskluziv në rrjetet e marketingut dixhital",
       },
       {
         icon: <RiGuideFill style={{ fontSize: "3rem" }} />,
-        title: "Support",
-        description: "Individual Lifetime Guidance",
+        title: "Suport",
+        description: "Suport Individual i përhershëm",
       },
 
 ];
@@ -159,7 +149,7 @@ function FeatureList() {
   return (
     <div className="border-t-2 border-b-2 border-white ">
     <h2 className="text-5xl sm:text-2xl xs:text-2xl font-bold text-red-600 mt-10 dark:text-red-500 text-center mb-10">
-        Everything you Need to Know
+    CDO GJË QË JU DUHET TË DINI
     </h2>
     <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-3 sm:grid-cols-2 xs:grid-cols-2 gap-20 p-8 w-full mb-10">
       {features.map((feature, index) => (

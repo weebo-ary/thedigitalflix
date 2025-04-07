@@ -28,17 +28,13 @@ function BrouchureSection() {
       <div className="">
         <div className="">
           <h2 className="text-center md:text-center sm:text-start xs:text-start sm:mx-4 xs:mx-3 text-5xl md:text-5xl sm:text-3xl xs:text-3xl text-gray-900 dark:text-white mb-4">
-            Presenting the most advnace{" "}
-            <span className="text-red-600">AI Powered</span> programs in Digital
-            Marketing
+          Ju prezantojmë programet më të avancuara me 
+            <span className="text-red-600">Inteligjencë Artificiale </span> në Marketingun Dixhital
           </h2>
         </div>
         <div className="px-2">
           <p className="text-3xl md:text-3xl sm:text-xl xs:text-xl text-center md:text-center sm:text-start xs:text-start sm:mx-2 text-gray-600 dark:text-gray-400 mb-12">
-            Unlock all the details about our AI-powered digital marketing
-            courses, certifications, career opportunities, and exclusive
-            benefits in one place. Download the brochure now and take the first
-            step toward your digital success! 🚀
+          Zbuloni të gjitha detajet për kurset tona, certifikimet, mundësitë për karrierë dhe përfitimet ekskluzive në një vend. Shkarkoni broshurën tani dhe merrni hapin e pare drejt suksesit tuaj dixhital! 🚀
           </p>
         </div>
         <div className="p-6 w-full flex items-center justify-center mb-12 gap-5">

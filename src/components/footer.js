@@ -23,10 +23,9 @@ const Footer = () => {
             DigitalFlix Solutions Pvt. Ltd.
           </h4>
           <p className="text-gray-600 dark:text-gray-400">
-            Our AI-enabled digital marketing courses equip you with cutting-edge
-            tools and strategies to excel in the digital world, while our
-            expert-led agency services deliver data-driven solutions to help
-            businesses grow, scale, and dominate the digital landscape.
+            Kurset tona të mbështetura nga Inteligjenca Artificiale ju pajisin
+            me mjete moderne dhe strategji të cilat ju bëjnë te shkëlqeni në
+            botën dixhitale.
           </p>
           {/* Social Media Icons */}
           <div className="flex space-x-4 mt-4">
@@ -43,7 +42,7 @@ const Footer = () => {
               className="flex items-center justify-center gap-3"
             >
               <LinkedinOutlined className="text-2xl text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-800 transition-colors duration-300" />
-              Connect with us on LinkedIn!
+              Lidhuni me ne në LinkedIn
             </a>
             {/* <a href="https://instagram.com" target="_blank" rel="noreferrer">
               <InstagramOutlined className="text-2xl text-gray-600 dark:text-gray-300 hover:text-pink-500 dark:hover:text-pink-700 transition-colors duration-300" />
@@ -54,7 +53,7 @@ const Footer = () => {
         {/* Column 2: Quick Links */}
         <div className="space-y-4 ">
           <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
-            Quick Links
+            Linqe të shpejta
           </h4>
           <ul className="space-y-2">
             <li>
@@ -62,7 +61,7 @@ const Footer = () => {
                 to="/"
                 className="text-gray-500 hover:text-gray-600 dark:hover:text-gray-400 transition-colors duration-100"
               >
-                Home
+                Kreu
               </Link>
             </li>
             <li>
@@ -70,7 +69,7 @@ const Footer = () => {
                 to="/about"
                 className="text-gray-500 hover:text-gray-600 dark:hover:text-gray-400 transition-colors duration-100"
               >
-                About Us
+                Rreth nesh
               </Link>
             </li>
             <li>
@@ -78,7 +77,7 @@ const Footer = () => {
                 to="/blogs"
                 className="text-gray-500 hover:text-gray-600 dark:hover:text-gray-400 transition-colors duration-100"
               >
-                Blogs
+                Blogjet
               </Link>
             </li>
             <li>
@@ -86,7 +85,7 @@ const Footer = () => {
                 to="/"
                 className="text-gray-500 hover:text-gray-600 dark:hover:text-gray-400 transition-colors duration-100"
               >
-                Contact-Us
+                Na kontaktoni
               </Link>
             </li>
           </ul>
@@ -95,7 +94,7 @@ const Footer = () => {
         {/* Column 3: Services */}
         <div className="space-y-4">
           <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
-            Blogs
+            Blogjet
           </h4>
           <ul className="space-y-2">
             <li>
@@ -103,7 +102,7 @@ const Footer = () => {
                 to="/blogs/1"
                 className="text-gray-500 hover:text-gray-600 dark:hover:text-gray-400 transition-colors duration-100"
               >
-                The Tale of Two Apples
+                Historia e dy mollëve
               </Link>
             </li>
             <li>
@@ -111,7 +110,7 @@ const Footer = () => {
                 to="/blogs/2"
                 className="text-gray-500 hover:text-gray-600 dark:hover:text-gray-400 transition-colors duration-100"
               >
-                Understanding LSI Keywords in SEO
+                Kuptimi i fjalëve kyçe LSI në SEO
               </Link>
             </li>
             <li>
@@ -119,46 +118,18 @@ const Footer = () => {
                 to="/blogs/3"
                 className="text-gray-500 hover:text-gray-600 dark:hover:text-gray-400 transition-colors duration-100"
               >
-                Breadcrumbs in Websites, <br/>The Tale of Hansel and Gretel
+                Breadcrumbs në faqet e internetit, <br />
+                Përralla e Hansel dhe Gretel
               </Link>
             </li>
           </ul>
         </div>
 
-        <div className="space-y-4">
-          <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
-            Services
-          </h4>
-          <ul className="space-y-2">
-            <li>
-              <a
-                href={
-                  window.location.pathname === "/institute" ? "/" : "/institute"
-                }
-              >
-                <button className="animate-pulse flex items-center justify-center bg-red-500 text-sm text-white px-6 py-2 rounded-md shadow-md hover:bg-red-600 transition gap-2">
-                  <BsBuildingAdd />{" "}
-                  {window.location.pathname === "/institute"
-                    ? "Agency"
-                    : "Institute"}
-                </button>
-              </a>
-            </li>
-            <li>
-              <Link
-                to="/consultancy"
-                className="text-gray-500 hover:text-gray-600 dark:hover:text-gray-400 transition-colors duration-100"
-              >
-                Consultancy
-              </Link>
-            </li>
-          </ul>
-        </div>
 
         {/* Column 4: Contact Info */}
         <div className="space-y-4">
           <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
-            Contact Us
+            Na kontaktoni
           </h4>
           <p className="text-gray-600 dark:text-gray-500">
             Email:{" "}
@@ -166,7 +137,7 @@ const Footer = () => {
               href="mailto:support@company.com"
               className="hover:text-gray-800 dark:hover:text-white"
             >
-              connect@thedigitalflix.com
+              connect@thedigitalflix.al
             </a>
           </p>
           <p className="text-gray-600 dark:text-gray-500">
@@ -175,22 +146,9 @@ const Footer = () => {
               href="tel:+918770885079"
               className="hover:text-gray-800 dark:hover:text-white"
             >
-              +91-9201457156
+              +355674824786
             </a>
             <br />
-            <a
-              href="tel:+917987999491"
-              className="hover:text-gray-800 dark:hover:text-white"
-            >
-              +91-7987999491
-            </a>
-            <br />
-            <a
-              href="tel:07553162670"
-              className="hover:text-gray-800 dark:hover:text-white ml-5"
-            >
-              0755-3162670
-            </a>
           </p>
           {/* <p className="text-gray-600 dark:text-gray-500">
             NCR Office : P41 Etheria, 24th Floor, Bhutani <br/> 
@@ -206,9 +164,9 @@ const Footer = () => {
           className="w-full"
         >
           <p className=" bg-white text-black rounded-lg p-2 hover:text-gray-800 dark:hover:text-red-400 w-full cursor-pointer">
-            <b>India Corp-Office</b> : The DigitalFlix Comapny & Institute of Digital
-            Marketing, B1, Kamla Nagar, Chitragupt Nagar, Kotra Sultanabad,
-            Bhopal, Madhya Pradesh 462003
+            <b>India Corp-Office</b> : The DigitalFlix Comapny & Institute of
+            Digital Marketing, B1, Kamla Nagar, Chitragupt Nagar, Kotra
+            Sultanabad, Bhopal, Madhya Pradesh 462003
           </p>
         </a>
 
@@ -217,10 +175,15 @@ const Footer = () => {
           School, C.T.T.Nagar, Huzur, Bhopal, Madhya Pradesh 462003
         </p>
 
-        <p className=" bg-white text-black rounded-lg p-2 py-5 hover:text-gray-800 dark:hover:text-red-400 w-full">
-          <b>Albania Office</b> : 8R97+R62, Mbrapa LSI-se, prane Conad, Rruga
-          Andon Zako Çajupi, Tiranë, Albania
-        </p>
+        <a
+          href="https://www.google.com/maps/place/Tiran%C3%AB,+Albania/@41.3291059,19.815907,17z/data=!3m1!4b1!4m15!1m8!3m7!1s0x1350310470fac5db:0x40092af10653720!2sTiran%C3%AB,+Albania!3b1!8m2!3d41.3275459!4d19.8186982!16zL20vMDdtX2Y!3m5!1s0x1350310fd92c40df:0x4323f7757aff7f39!8m2!3d41.3291059!4d19.8184819!16s%2Fg%2F11y2z38htv?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
+          target="_blank" rel="noreferrer"
+        >
+          <p className=" bg-white text-black rounded-lg p-2 py-5 hover:text-gray-800 dark:hover:text-red-400 w-full">
+            <b>Albania Office</b> : 8R97+R62, Mbrapa LSI-se, prane Conad, Rruga
+            Andon Zako Çajupi, Tiranë, Albania
+          </p>
+        </a>
       </div>
       {/* <div className="bg-gray-100 dark:bg-gray-900 border-t py-6 mt-10 transition duration-500">
         <div className="mt-7 mx-auto px-4 flex flex-col md:flex-row xs:flex-row items-center justify-around">
