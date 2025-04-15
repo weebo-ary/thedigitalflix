@@ -15,7 +15,7 @@ const AboutUs = () => {
   return (
     <div className="bg-gray-50 dark:bg-gray-900 transition-colors duration-500">
       {/* First Section: Introduction */}
-      <section className="h-auto relative py-16 bg-gradient-to-r from-white via-gray-100 to-white dark:from-gray-800 dark:via-gray-800 dark:to-gray-800">
+      <section className="h-auto relative py-16 bg-gradient-to-r from-white via-gray-100 to-white dark:from-gray-800 dark:via-gray-800 dark:to-gray-800 z-0">
         <video
           autoPlay
           loop
@@ -44,7 +44,7 @@ const AboutUs = () => {
       </section>
 
       {/* Vision and Mission Section */}
-      <section className=" bg-white dark:bg-gray-800 transition-colors duration-500">
+      <section className=" bg-white dark:bg-gray-800 transition-colors duration-500 ">
         <div className="mx-auto ">
           <div className=" grid grid-cols-1 md:grid-cols-1 gap-12">
             {/* Vision */}
@@ -53,9 +53,9 @@ const AboutUs = () => {
                 src={AboutIllustration}
                 width={500}
                 alt="about-us"
-                className="rounded-lg z-10"
+                className="rounded-lg"
               />
-              <div className="md:w-full z-10">
+              <div className="md:w-full">
                 <h2 className="md:text-6xl sm:text-2xl xs:text-2xl font-bold text-black dark:text-white mb-4">
                   Our Vision
                 </h2>

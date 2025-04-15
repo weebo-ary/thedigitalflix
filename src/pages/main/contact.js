@@ -64,7 +64,7 @@ function Contact() {
           Your browser does not support the video tag.
         </video>
 
-        <div className="z-10 mx-auto flex md:flex-row sm:flex-col xs:flex-col-reverse justify-between items-start gap-20 space-y-10 md:space-y-0 ">
+        <div className="z-0 mx-auto flex md:flex-row sm:flex-col xs:flex-col-reverse justify-between items-start gap-20 space-y-10 md:space-y-0 ">
           {/* Contact Information */}
           <div className="text-white max-w-md space-y-8 p-6">
             <h1 className="text-4xl font-bold">Connect with us</h1>
