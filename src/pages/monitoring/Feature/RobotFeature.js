@@ -36,42 +36,37 @@ function Solution() {
   const cardsData = [
     {
       image: Im1,
-      title: "Advanced Digital Marketing Training",
-      description:
-        " Learn Google Ads, Meta Ads, AI-driven strategies & more",
+      title: "Trajnim i avancuar në marketingut dixhital",
+      description: "Mësoni Google Ads, Meta Ads, strategji të drejtuara nga Inteligjenca Artificale dhe më shumë",
     },
     {
       image: Im2,
-      title: "High-Value Paid Certifications",
+      title: "Çertifikata me vlerë me pagesë",
       description:
-        "Get certifications from Google, HubSpot, and TheDigitalFlix",
+        "Merrni certifikata nga Google, HubSpot dhe TheDigitalFlix  ",
     },
     {
       image: Im3,
-      title: "AI & Automation in Marketing",
-      description:
-        "Learn how to use AI tools to optimize your campaigns",
+      title: "Inteligjenca Artificiale & Automatizimi në Marketing",
+      description: "Mësoni se si të përdorni mjetet e Inteligjences Artificiale për të optimizuar fushatat tuaja",
     },
 
     {
       image: Im5,
-      title: "Placement & Freelancing Support",
-      description:
-        "Build a career or start your own digital agency",
+      title: "Mbështetje dhe ndihmë pas certifikimit",
+      description: "Ndërtoni një karrierë ose krijoni agjensinë tuaj dixhitale",
     },
 
     {
       image: Im6,
-      title: "Live Industry Projects",
-      description:
-        "Work on real-time marketing campaigns",
+      title: "Projekte të aktuale të industrisë",
+      description: "Punoni në fushata marketingu në kohë reale",
     },
 
     {
       image: Im7,
-      title: "Personal Mentorship & Career Guidance",
-      description:
-        "Get one-on-one mentorship from industry experts",
+      title: "Mentorim Personal dhe Udhëzim Karriere",
+      description: "Merrni mentorim një-në-një nga ekspertë të industrisë",
     },
   ];
 
@@ -84,9 +79,9 @@ function Solution() {
       />
       <div className="text-center md:text-center sm:text-start xs:text-start mb-10">
         <h2 className="text-6xl md:text-6xl sm:text-4xl xs:text-4xl p-8">
-        6 Main{" "}
+          6 karakteristika{" "}
           <span className="relative inline-block">
-            Features
+            kryesore
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 1213 73"

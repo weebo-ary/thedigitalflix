@@ -40,7 +40,8 @@ const BannerWithFadingGridBackground = () => {
         }`}
       >
         <h1 className="text-6xl md:text-6xl sm:text-4xl xs:text-4xl font-bold text-gray-800 dark:text-gray-100 mb-6">
-          Advantages
+        Avantazhet
+
         </h1>
       </div>
       <div className="flex md:flex-row w-full sm:flex-col xs:flex-col gap-10 max-w-6xl text-center">
@@ -54,8 +55,7 @@ const BannerWithFadingGridBackground = () => {
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Minimize energy cost by analyzing energy usage of the critical
-            machines
+          Reduktoni koston e energjisë duke analizuar përdorimin e energjisë së makinerive kritike
           </p>
         </p>
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -64,12 +64,10 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Social Media
-          </b>{" "}
+            Rjete sociale </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Optimize machine performance by setting threshold values (Current,
-            Power factor, voltage) for machines
+          Optimizo performancën e makinerive duke vendosur vlera prag (rrymën, faktorin e fuqisë, tensionin)
           </p>
         </p>{" "}
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">

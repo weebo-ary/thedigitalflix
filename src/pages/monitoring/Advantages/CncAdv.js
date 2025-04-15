@@ -42,7 +42,7 @@ const BannerWithFadingGridBackground = () => {
         }`}
       >
         <h1 className="text-6xl md:text-6xl sm:text-4xl xs:text-4xl font-bold text-gray-800 dark:text-gray-100 mb-6">
-          Advantages
+          Avantazhet
         </h1>
       </div>
       <div className="flex md:flex-row sm:flex-col xs:flex-col gap-10 w-full text-center">
@@ -56,8 +56,8 @@ const BannerWithFadingGridBackground = () => {
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Maximize Machine uptime & improve OEE, OLE through historical data
-            access.
+            Shtoni kohën e funksionimit së makinës së kërkimit dhe përmirësoni
+            OEE, OLE përmes aksesit në të dhënat historike.
           </p>
         </p>
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -66,12 +66,12 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Social Media
+            Rrjete sociale
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Minimize production downtime through anomaly detection & historical
-            failure data.
+            Reduktoni kohën e humbur në prodhim përmes zbulimit të anomalive dhe
+            të dhënave historike të humbjeve.
           </p>
         </p>{" "}
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -84,8 +84,9 @@ const BannerWithFadingGridBackground = () => {
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Maintain Consistent production quality by tracking tool parameters &
-            operator performance through historical data.
+            Ruani cilësinë e qëndrueshme të prodhimit duke ndjekur parametrat e
+            veglave dhe performancën e operatorëve me ndihmëm e të dhënave
+            historike.
           </p>
         </p>
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -94,7 +95,7 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Content Marketing
+            Marketingu i Content-it
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">

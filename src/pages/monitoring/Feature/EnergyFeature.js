@@ -7,7 +7,6 @@ import Im6 from "../../../assets/Images/FY5.webp";
 import Im7 from "../../../assets/Images/FY6.webp";
 import Im4 from "../../../assets/Images/featuresCourses.jpg";
 
-
 function Solution() {
   const cardsRef = useRef([]);
   const [isVisible, setIsVisible] = useState([]);
@@ -37,39 +36,33 @@ function Solution() {
   const cardsData = [
     {
       image: Im1,
-      title: "For Young Learners (Students & Creators)",
-      description:
-        "Easy-to-learn, engaging & interactive",
+      title: "Për të rinjtë (nxënës & creator)",
+      description: "I lehtë për t’u mësuar, argëtues dhe ndërveprues",
     },
     {
       image: Im2,
-      title: "Social Media & Content Creation",
-      description:
-        "Learn how to grow on Instagram, YouTube & more",
+      title: "Rrjete sociale dhe krijimi i content-it",
+      description: "Mësoni si të rriteni në Instagram, YouTube dhe më shumë",
     },
     {
       image: Im3,
-      title: "Website & Blog Creation",
-      description:
-        "Build your first website & personal brand online",
+      title: "Krijimi i faqeve dhe blogjeve",
+      description: "Ndërtoni faqen tuaj të parë dhe brande personale në internet",
     },
     {
       image: Im5,
-      title: "Fun & Gamified Learning",
-      description:
-        "AI-based interactive modules for better engagement",
+      title: "Mësimi argëtues dhe i gamifikuar",
+      description: "Module interaktive të bazuara në Inteligjencën Artificiale për angazhim më të mirë",
     },
     {
       image: Im6,
-      title: "Monetization & Freelancing Basics",
-      description:
-        "Learn how to earn money online at an early age",
+      title: "Bazat e fitimit të parave online & freelancing-ut",
+      description: "Mësoni si të fitoni para online që në moshë të re",
     },
     {
       image: Im7,
-      title: "Exclusive Digital Creator Certification",
-      description:
-        "Stand out with a specialized certification",
+      title: "Çertifikatë ekskluzive për Krijues Dixhital",
+      description: "Vihuni ne dukje me një certifikim të specializuar",
     },
   ];
 
@@ -82,9 +75,9 @@ function Solution() {
       />
       <div className="text-center md:text-center sm:text-start xs:text-start mb-10">
         <h2 className="text-6xl md:text-6xl sm:text-4xl xs:text-4xl p-8">
-          Our{" "}
+          Karakteristikat
           <span className="relative inline-block">
-            Features
+            tona
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 1213 73"

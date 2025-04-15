@@ -6,6 +6,7 @@ import { FaGear, FaMeta } from "react-icons/fa6";
 import React from "react";
 import { FaGoogle, FaHubspot } from "react-icons/fa";
 import { SiSemrush } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 export function TabsCert() {
   return (
@@ -39,9 +40,11 @@ export function TabsCert() {
                 mbulon SEO, rrjetet sociale, PPC, marketing përmbajtjeje dhe
                 mjete me Inteligjencës Artificiale.
               </p>
-              <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
-                Learn More
-              </button>
+              <Link to="/flixstart-digital">
+                <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
+                  Learn More
+                </button>
+              </Link>
             </Card>
             <Card
               className="max-w-sm"
@@ -58,9 +61,11 @@ export function TabsCert() {
                 marketingut dixhital, që do ju ndihmojnë në rritjen e karrierës
                 tuaj.
               </p>
-              <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
-                Learn More
-              </button>
+              <Link to="/flixelite-digital-pro">
+                <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
+                  Learn More
+                </button>
+              </Link>
             </Card>
             <Card
               className="max-w-sm"
@@ -76,9 +81,11 @@ export function TabsCert() {
                 sociale, ndërtimin e faqeve dhe përdorimin e mjeteve të
                 Inteligjencës Artificiale.
               </p>
-              <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
-                Learn More
-              </button>
+              <Link to="/flixyoung-digital-creators">
+                <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
+                  Learn More
+                </button>
+              </Link>
             </Card>
             <button className="bg-red-600 text-white py-2 px-1 rounded-lg w-1/4 md:w-1/2 sm:w-full xs:w-full">
               View More...
@@ -215,8 +222,8 @@ export function TabsCert() {
                 ChatGPT
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">
-                Inteligjence Artificiale për krijim përmbajtjeje,
-                automatizim dhe ndihmë ndaj klientëve
+                Inteligjence Artificiale për krijim përmbajtjeje, automatizim
+                dhe ndihmë ndaj klientëve
               </p>
               <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
                 Learn More

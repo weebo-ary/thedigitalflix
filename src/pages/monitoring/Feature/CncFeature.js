@@ -36,37 +36,37 @@ function Solution() {
   const cardsData = [
     {
       image: Im1,
-      title: "Beginner-Friendly Learning",
-      description: "No prior experience needed, start from scratch.",
+      title: "I përshtatshëm për fillestarë",
+      description: "Nuk kërkohet përvojë e mëparshme – filloni nga zeroja.",
     },
     {
       image: Im2,
-      title: "AI-Integrated Training",
-      description: "Learn how AI is transforming digital marketing",
+      title: "Trajnim i integruar me Inteligjencë Artificiale",
+      description: "Mësoni si po e transformon Inteligjenca Artificiale marketingun dixhital.",
     },
     {
       image: Im3,
-      title: "SEO, Social Media & Google Ads",
-      description: " Master essential digital marketing strategies",
+      title: "SEO, Rrjetet Sociale dhe Google Ads",
+      description: "Zotëroni strategjitë thelbësore të marketingut dixhital",
     },
 
     {
       image: Im5,
-      title: "Real-World Projects & Case Studies",
-      description: "Work on practical assignments",
+      title: "Projekte reale & raste studimore",
+      description: "Puno me detyra praktike që zbatohen në realitet",
     },
 
     {
       image: Im6,
-      title: "100% Free Industry Certifications",
+      title: "Çertifikime 100% falas nga industria",
       description:
-        "Earn recognized certificates from Google, HubSpot, and more",
+        "Pajisuni me çertifikata të njohura nga Google, HubSpot dhe të tjera",
     },
 
     {
       image: Im7,
-      title: "Flexible Learning Options",
-      description: "Available in online & offline modes.",
+      title: "Mundësi fleksible mësimi",
+      description: "Klasa online.",
     },
   ];
 
@@ -79,9 +79,9 @@ function Solution() {
       />
       <div className="text-center md:text-center sm:text-start xs:text-start mb-10">
         <h2 className="text-6xl md:text-6xl sm:text-4xl xs:text-4xl p-8">
-          6 Main{" "}
+        6 Karakteristikat{" "}
           <span className="relative inline-block">
-            Features
+          kryesore
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 1213 73"

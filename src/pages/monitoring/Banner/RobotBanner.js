@@ -67,7 +67,7 @@ const BannerWithFadingGridBackground = () => {
           </span>
         </p>
         <h1 className="text-6xl md:text-5xl sm:text-4xl xs:text-4xl md:text-center xs:text-start sm:text-start font-bold text-gray-800 dark:text-gray-100 mb-10">
-          FlixElite Digital Pro <br/>Best <span className="text-red-600 animate-pulse">Digital Marketing Course</span> for Marketing Professional, Business Owners, Job Seekers, Freelancers, Agency Owners etc.   
+        Zbuloni më shumë rreth  <span className="text-red-600 animate-pulse">FlixElite Digital</span>  
         </h1>
       </div>
       <div className="flex md:flex-row-reverse xs:flex-col-reverse sm:flex-col items-center justify-center gap-10 z-10">

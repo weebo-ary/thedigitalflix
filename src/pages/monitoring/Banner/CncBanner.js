@@ -68,11 +68,11 @@ const BannerWithFadingGridBackground = () => {
         </p>
         <h1 className="text-6xl md:text-5xl sm:text-3xl xs:text-3xl md:text-center xs:text-start sm:text-start font-bold text-gray-800 dark:text-gray-100 mb-10">
           <b>FlixStart Digital</b> <br />
-          Best{" "}
+          Kursi i duhur i{" "}
           <span className="text-red-600 animate-pulse">
-            Digital Marketing Course
+          Marketingut Dixhital 
           </span>{" "}
-          For Student, Entreprenaurs, Working Professionals etc.
+          për studentë, sipërmarrës, profesionistë të pavarur, etj.
         </h1>
       </div>
       <div className="flex md:flex-row-reverse xs:flex-col-reverse sm:flex-col items-center justify-center gap-10 z-10">
