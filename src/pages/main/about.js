@@ -28,17 +28,18 @@ const AboutUs = () => {
         </video>
         <div className="mx-auto px-6 lg:px-8 relative z-10">
           <h1 className="md:text-center sm:text-start xs:text-start text-5xl text-white mb-6">
-            <span className="text-red-600">THEDIGITALFLIX</span> COMPANY &
-            INSTITUTE OF <span className="text-red-600">DIGITAL</span> MARKETING
+            KOMPANIA DHE INSTITUTI I MARKETINGUT{" "}
+            <span className="text-red-600">DIGITAL</span> "THEDIGITALFLIX"
           </h1>
           <p className="md:text-3xl sm:text-xl xs:text-xl text-gray-300 mx-auto md:text-center sm:text-start xs:text-start">
-            At <span className="text-red-600">TheDigitalFlix</span>, we empower
-            businesses and aspiring marketers alike. Our AI-driven digital
-            marketing services help brands scale with data-driven SEO, PPC, and
-            social media strategies, while our Institute of Digital Marketing
-            provides hands-on training and industry-recognized certifications
-            for students, professionals, and entrepreneurs to excel in the
-            evolving digital landscape.
+            Tek <span className="text-red-600">TheDigitalFlix</span>, ne i japim
+            mundësi bizneseve edhe aspirantëve të marketingut. Shërbimet tona të
+            marketingut dixhital të mbështetura nga Inteligjenca Artificiale
+            ndihmojnë brandet të rriten përmes strategjive të bazuara në të
+            dhëna nga SEO, PPC dhe rrjetet sociale, ndërkohë Instituti ynë i
+            Marketingut Dixhital ofron kurse, trajnime praktike dhe certifikime
+            të njohura në industri për studentë, profesionistë dhe freelancers,
+            për të shkëlqyer në fushën e pafundme të marketingut dixhital.
           </p>
         </div>
       </section>
@@ -48,7 +49,7 @@ const AboutUs = () => {
         <div className="mx-auto ">
           <div className=" grid grid-cols-1 md:grid-cols-1 gap-12">
             {/* Vision */}
-            <div className="text-start flex md:flex-row sm:flex-col xs:flex-col items-center gap-20 justify-center ml-10 xs:ml-0 sm:ml-0 xs:p-4 sm:p-4">
+            <div className="text-start flex md:flex-row sm:flex-col xs:flex-col items-center gap-20 justify-center ml-10 xs:ml-0 sm:ml-0 xs:p-4 sm:p-4 -mt-16 z-10">
               <img
                 src={AboutIllustration}
                 width={500}
@@ -57,21 +58,19 @@ const AboutUs = () => {
               />
               <div className="md:w-full">
                 <h2 className="md:text-6xl sm:text-2xl xs:text-2xl font-bold text-black dark:text-white mb-4">
-                  Our Vision
+                  Vizioni ynë
                 </h2>
                 <p className="text-3xl sm:text-xl xs:text-xl text-gray-700 dark:text-gray-300">
-                  To be{" "}
-                  <span className="text-red-500 animate-pulse">
-                    India’s Leading Digital Marketing Institute & Agency
-                  </span>
-                  , shaping future-ready professionals through innovation,
-                  technology, and industry expertise. We envision a world where
-                  AI-powered marketing and automation drive success for
-                  individuals and businesses alike. By fostering a community of
-                  skilled marketers, entrepreneurs, and digital leaders, we aim
-                  to redefine the future of digital learning. With continuous
-                  upskilling, mentorship, and global networking, we aspire to
-                  create a digitally empowered generation. 🚀
+                  Ne përgatisim profesionistë të gatshëm për të ardhmen përmes
+                  inovacionit, teknologjisë dhe ekspertizës së industrisë. Ne
+                  imagjinojmë një botë ku marketingu i mbështetur nga
+                  Inteligjenca Artificiale dhe automatizimi sjellin sukses si
+                  për individët ashtu edhe për bizneset. Duke u kujdesur për një
+                  komunitet të përbërë nga marketues, freelancers dhe lidera
+                  dixhitalë, ne synojmë të definojmë të ardhmen e të mësuarit
+                  dixhital. Me përmirësimin e vazhdueshëm të aftësive,
+                  mentorimit dhe networkimit global, ne aspirojmë të krijojmë
+                  një brez të influencuar nga bota dixhitale. 🚀
                 </p>
               </div>
             </div>
@@ -86,21 +85,19 @@ const AboutUs = () => {
               />
               <div className="w-full ml-8">
                 <h2 className="md:text-6xl sm:text-2xl xs:text-2xl font-bold text-black dark:text-white mb-4">
-                  Our Mission
+                  Misioni ynë
                 </h2>
                 <p className="text-3xl sm:text-xl xs:text-xl text-gray-700 dark:text-gray-300">
-                  To empower individuals with{" "}
-                  <span className="text-red-500 animate-pulse">
-                    AI-Driven Digital Marketing{" "}
-                  </span>
-                  skills, hands-on training, and globally recognized
-                  certifications, ensuring career growth and business success.
-                  We aim to bridge the gap between traditional education and
-                  industry demands, ensuring career growth and business success.
-                  Our courses are designed for students, professionals, and
-                  entrepreneurs, helping them master SEO, PPC, social media, and
-                  AI marketing. With online and offline learning options, we
-                  make quality digital education accessible to all.
+                  Të influencojmë individët me aftësi në Marketingun Dixhital të
+                  mbështetura nga Inteligjenca Artificiale, trajnime praktike
+                  dhe certifikime të njohura globalisht, duke siguruar rritje në
+                  karrierë dhe sukses në biznes. Ne synojmë të kapërcejmë
+                  hendekun mes edukimit tradicional dhe kërkesave të tregut,
+                  duke ndihmuar studentët, profesionistët dhe freelancerat të
+                  zotërojnë SEO, PPC, rrjetet sociale dhe marketingun me
+                  Inteligjencë Artificiale. Bashkë me mundësinë e mësimit
+                  online, e bëjmë edukimin dixhital të aksesueshëm për të
+                  gjithë.
                 </p>
               </div>
             </div>
@@ -142,7 +139,7 @@ const AboutUs = () => {
         </div>
         <div className="w-full mx-auto px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-center text-gray-900 dark:text-white mb-10">
-            Meet Our Founders
+            Njihu me themeluesit tanë
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -156,7 +153,7 @@ const AboutUs = () => {
               <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
                 Shantanu Tarey
               </h3>
-              <p className="text-center mt-2">(Founder & CEO)</p>
+              <p className="text-center mt-2">(Themelues & CEO)</p>
               <div className="mt-4 flex justify-center space-x-6">
                 <a
                   href="https://www.linkedin.com/in/shantanu-tarey-67b43412b/"
@@ -179,7 +176,8 @@ const AboutUs = () => {
               <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
                 Aryan Bhardwaj
               </h3>
-              <p className="text-center mt-2">(Co-Founder & CTO)</p>
+              <p className="text-center mt-2">(Bashkëthemelues & CTO)</p>
+              <p className="text-center mt-2">(Drejtues i Përmbajtjes)</p>
               <div className="mt-4 flex justify-center space-x-6">
                 <a
                   href="https://www.linkedin.com/in/aryan19"
@@ -210,135 +208,14 @@ const AboutUs = () => {
           <circle cx="50" cy="50" r="15" fill="#F5A623" />
         </svg>
       </div>
-
-      {/* Employees Section */}
-      <section className="py-16 bg-white dark:bg-gray-800 transition-colors duration-500">
-        <div className="w-full mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-center text-gray-900 dark:text-white mb-10">
-            Meet Our Team
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            {/* Employee 1 */}
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
-              <img
-                src={MayuriImg}
-                alt="Mayuri Mishra"
-                className="w-1/2 rounded-lg mx-auto object-cover"
-              />
-              <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
-                Mayuri Mishra
-              </h3>
-              <p className="text-center mt-2">(Chief Content Officer)</p>
-              <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-2">
-                Content writing and Copywriting expert
-              </h3>
-              <div className="mt-4 flex justify-center space-x-6">
-                <a href="##" target="_blank" rel="noreferrer">
-                  <LinkedinOutlined />
-                </a>{" "}
-                <a href="##">
-                  <MailOutlined />
-                </a>
-              </div>
-            </div>
-
-            {/* Employee 3 */}
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
-              <img
-                src={AlpeshImg}
-                alt="Alpesh Chouhan"
-                className="w-1/2 rounded-lg mx-auto object-cover"
-              />
-              <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
-                Alpesh Chouhan
-              </h3>
-              <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-6">
-                Social Media Marketing, Content Creation and Political PR Expert
-              </h3>
-              <div className="mt-4 flex justify-center space-x-6">
-                <a href="##" target="_blank" rel="noreferrer">
-                  <LinkedinOutlined />
-                </a>{" "}
-                <a href="##">
-                  <MailOutlined />
-                </a>
-              </div>
-            </div>
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
-              <img
-                src={PrajwalPic}
-                alt="Prajwal Bisane"
-                className="w-1/2 rounded-lg mx-auto object-cover"
-              />
-              <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
-                Prajwal Bisane
-              </h3>
-              <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-6">
-                Search Engine Optimization Expert
-              </h3>
-              <div className="mt-4 flex justify-center space-x-6">
-                <a href="##" target="_blank" rel="noreferrer">
-                  <LinkedinOutlined />
-                </a>{" "}
-                <a href="##">
-                  <MailOutlined />
-                </a>
-              </div>
-            </div>
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
-              <img
-                src={ShivajiImg}
-                alt="Sangharsh Ramteke"
-                className="w-1/2 rounded-lg mx-auto object-cover"
-              />
-              <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
-                Shivaji Sharma
-              </h3>
-              <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-6">
-                COO & PR Expert
-              </h3>
-              <div className="mt-4 flex justify-center space-x-6">
-                <a href="##" target="_blank" rel="noreferrer">
-                  <LinkedinOutlined />
-                </a>{" "}
-                <a href="##">
-                  <MailOutlined />
-                </a>
-              </div>
-            </div>
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
-              <img
-                src={SangharshImg}
-                alt="Sangharsh Ramteke"
-                className="w-1/2 rounded-lg mx-auto object-cover"
-              />
-              <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
-                Sangharsh Ramteke
-              </h3>
-              <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-6">
-                Paid Advertising and Marketing Expert
-              </h3>
-              <div className="mt-4 flex justify-center space-x-6">
-                <a href="##" target="_blank" rel="noreferrer">
-                  <LinkedinOutlined />
-                </a>{" "}
-                <a href="##">
-                  <MailOutlined />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-     
       <section className="py-16 bg-white dark:bg-gray-800 transition-colors duration-500">
         <div className="w-full mx-auto px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-center text-gray-900 dark:text-white mb-10">
             Meet Our Albanian Team
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div className="flex items-center  justify-center gap-12">
             {/* Employee 1 */}
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800 w-1/2">
               <img
                 src={AJPic}
                 alt="aj"
@@ -348,7 +225,7 @@ const AboutUs = () => {
                 Ajdi Hysaj
               </h3>
               <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-6">
-                Advanced Communication & English Expert
+                Ekspert në Komunikim të Avancuar dhe Gjuhën Angleze
               </h3>
               <div className="mt-4 flex justify-center space-x-6">
                 <a href="##" target="_blank" rel="noreferrer">
@@ -385,6 +262,127 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
+      {/* Employees Section */}
+      <section className="py-16 bg-white dark:bg-gray-800 transition-colors duration-500">
+        <div className="w-full mx-auto px-6 lg:px-8">
+          <h2 className="text-3xl font-extrabold text-center text-gray-900 dark:text-white mb-10">
+            Meet Our Team
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            {/* Employee 1 */}
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
+              <img
+                src={MayuriImg}
+                alt="Mayuri Mishra"
+                className="w-1/2 rounded-lg mx-auto object-cover"
+              />
+              <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
+                Mayuri Mishra
+              </h3>
+              <p className="text-center mt-2">(Chief Content Officer)</p>
+              <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-2">
+                Eksperte në Shkrim Contenti dhe Copywriting
+              </h3>
+              <div className="mt-4 flex justify-center space-x-6">
+                <a href="##" target="_blank" rel="noreferrer">
+                  <LinkedinOutlined />
+                </a>{" "}
+                <a href="##">
+                  <MailOutlined />
+                </a>
+              </div>
+            </div>
+
+            {/* Employee 3 */}
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
+              <img
+                src={AlpeshImg}
+                alt="Alpesh Chouhan"
+                className="w-1/2 rounded-lg mx-auto object-cover"
+              />
+              <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
+                Alpesh Chouhan
+              </h3>
+              <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-6">
+                Ekspert në Marketing, Rrjete Sociale, Krijim Contenti dhe PR në
+                Politikë
+              </h3>
+              <div className="mt-4 flex justify-center space-x-6">
+                <a href="##" target="_blank" rel="noreferrer">
+                  <LinkedinOutlined />
+                </a>{" "}
+                <a href="##">
+                  <MailOutlined />
+                </a>
+              </div>
+            </div>
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
+              <img
+                src={PrajwalPic}
+                alt="Prajwal Bisane"
+                className="w-1/2 rounded-lg mx-auto object-cover"
+              />
+              <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
+                Prajwal Bisane
+              </h3>
+              <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-6">
+                Ekspert në Optimizim të Motorëve të Kërkimit (SEO)
+              </h3>
+              <div className="mt-4 flex justify-center space-x-6">
+                <a href="##" target="_blank" rel="noreferrer">
+                  <LinkedinOutlined />
+                </a>{" "}
+                <a href="##">
+                  <MailOutlined />
+                </a>
+              </div>
+            </div>
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
+              <img
+                src={ShivajiImg}
+                alt="Sangharsh Ramteke"
+                className="w-1/2 rounded-lg mx-auto object-cover"
+              />
+              <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
+                Shivaji Sharma
+              </h3>
+              <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-6">
+                Ekspert në Marrëdhënie me Publikun & COO
+              </h3>
+              <div className="mt-4 flex justify-center space-x-6">
+                <a href="##" target="_blank" rel="noreferrer">
+                  <LinkedinOutlined />
+                </a>{" "}
+                <a href="##">
+                  <MailOutlined />
+                </a>
+              </div>
+            </div>
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
+              <img
+                src={SangharshImg}
+                alt="Sangharsh Ramteke"
+                className="w-1/2 rounded-lg mx-auto object-cover"
+              />
+              <h3 className="text-center text-xl font-bold text-gray-900 dark:text-white mt-6">
+                Sangharsh Ramteke
+              </h3>
+              <h3 className="text-center text-lg font-bold text-gray-600 dark:text-gray-200 mt-6">
+                Ekspert në Reklama me Pagesë dhe Marketing
+              </h3>
+              <div className="mt-4 flex justify-center space-x-6">
+                <a href="##" target="_blank" rel="noreferrer">
+                  <LinkedinOutlined />
+                </a>{" "}
+                <a href="##">
+                  <MailOutlined />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <Connect />
     </div>
   );
