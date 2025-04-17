@@ -18,6 +18,17 @@ import Platform from "../pages/products/platform";
 import CncMoitoring from "../pages/monitoring/CncMonitoring";
 import RobotMonitoring from "../pages/monitoring/RobotMonitoring";
 import EnergyMonitoring from "../pages/monitoring/EnergyMonitoring";
+import FlixBuild from "../pages/monitoring/FlixBuild";
+import FlixAIMarketing from "../pages/monitoring/FlixAIMarketing";
+import FlixSEO from "../pages/monitoring/FlixSEO";
+import FlixMarkAuto from "../pages/monitoring/FlixMarkAuto";
+import FlixSMM from "../pages/monitoring/FlixSMM";
+import FlixEmailSmsMark from "../pages/monitoring/FlixEmailSms";
+import FlixEcom from "../pages/monitoring/FlixEcom";
+import FlixPPC from "../pages/monitoring/FlixPPC";
+import FlixJavaScript from "../pages/monitoring/FlixJavaScript";
+import FlixAdvEnglish from "../pages/monitoring/FlixJavaScript";
+import FlixDropAffMark from "../pages/monitoring/FlixDropshipAffiliateMarketing";
 
 // Define your routes
 const router = createBrowserRouter([
@@ -106,6 +117,73 @@ const router = createBrowserRouter([
     element: <App />,
     children: [{ path: "/flixyoung-digital-creators", element: <EnergyMonitoring /> }],
   },
+
+  {
+    path: "/",
+    element: <App />,
+    children: [{ path: "/flixbuild-web", element: <FlixBuild /> }],
+  },
+
+  {
+    path: "/",
+    element: <App />,
+    children: [{ path: "/flix-ai", element: <FlixAIMarketing /> }],
+  },
+
+  {
+    path: "/",
+    element: <App />,
+    children: [{ path: "/flix-seo", element: <FlixSEO /> }],
+  },
+
+  {
+    path: "/",
+    element: <App />,
+    children: [{ path: "/flix-mark-auto", element: <FlixMarkAuto /> }],
+  },
+
+  {
+    path: "/",
+    element: <App />,
+    children: [{ path: "/flix-smm", element: <FlixSMM /> }],
+  },
+
+  {
+    path: "/",
+    element: <App />,
+    children: [{ path: "/flix-email-sms", element: <FlixEmailSmsMark /> }],
+  },
+
+  {
+    path: "/",
+    element: <App />,
+    children: [{ path: "/flix-ecommerce", element: <FlixEcom /> }],
+  },
+
+  {
+    path: "/",
+    element: <App />,
+    children: [{ path: "/flix-ppc", element: <FlixPPC /> }],
+  },
+
+  {
+    path: "/",
+    element: <App />,
+    children: [{ path: "/flix-javascript", element: <FlixJavaScript /> }],
+  },
+
+  {
+    path: "/",
+    element: <App />,
+    children: [{ path: "/flix-adv-english", element: <FlixAdvEnglish /> }],
+  },
+
+  {
+    path: "/",
+    element: <App />,
+    children: [{ path: "/flix-dropship-affiliate-marketing", element: <FlixDropAffMark /> }],
+  },
+
 
   {
     path: "/",

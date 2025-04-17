@@ -110,7 +110,7 @@ function Banner() {
               >
                 Enroll Now
               </button>
-              <Link to="/contact">
+              <Link to="/contact-us">
                 <button className="text-gray-300 transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
                   Learn More <ArrowRightOutlined className="ml-2" />
                 </button>
@@ -157,7 +157,7 @@ function Banner() {
                 Enroll Now
               </button>
 
-              <Link to="/contact">
+              <Link to="/contact-us">
                 <button className="text-gray-300 transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
                   Learn More <ArrowRightOutlined className="ml-2" />
                 </button>
@@ -195,7 +195,7 @@ function Banner() {
               >
                 Enroll Now
               </button>
-              <Link to="/contact">
+              <Link to="/contact-us">
                 <button className="text-gray-300 transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
                   Learn More <ArrowRightOutlined className="ml-2" />
                 </button>
