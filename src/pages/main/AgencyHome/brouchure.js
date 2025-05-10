@@ -8,8 +8,8 @@ import React, { useState } from "react";
 //   DatabaseOutlined,
 //   RightOutlined,
 // } from "@ant-design/icons";
-import Feature1 from "../../../assets/Images/Feat2.jpg";
-import Feature2 from "../../../assets/Images/feat1.jpg";
+import Feature1 from "../../../assets/Images/Feat2.png";
+import Feature2 from "../../../assets/Images/Feat1.png";
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@ant-design/icons";
 import Modal from "./modal";
 import Logo from "../../../assets/Logo/LightLogo.png";

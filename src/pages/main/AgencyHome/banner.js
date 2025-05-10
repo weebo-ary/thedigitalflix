@@ -9,7 +9,7 @@ import VideoBanner from "../../../assets/Video/Agency.mp4";
 import { Link } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import Feature1 from "../../../assets/Images/Feat2.jpg";
+import Feature1 from "../../../assets/Images/Feat2.png";
 import Logo from "../../../assets/Logo/LightLogo.png";
 import Modal from "./modal";
 

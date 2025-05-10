@@ -115,7 +115,7 @@ const FAQ = () => {
     <div className="overflow-hidden p-14 bg-white dark:bg-gray-800 mb-20">
       <div className="max-w-5xl sm:max-w-full xs:max-w-full mx-auto px-4">
         <h2 className="text-center text-4xl md:text-5xl md:mb-10 sm:text-3xl xs:text-3xl text-gray-900 dark:text-white mb-4">
-        Frequently Asked Questions
+          Pyetjet më të shpeshta
         </h2>
         
         <div className="space-y-4">

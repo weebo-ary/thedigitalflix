@@ -7,7 +7,7 @@ import VideoBanner from "../../../assets/Video/Banner.mp4";
 import { Link } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import Feature1 from "../../../assets/Images/Feat2.jpg";
+import Feature1 from "../../../assets/Images/Feat2.png";
 import Logo from "../../../assets/Logo/LightLogo.png";
 import Modal from "./modal";
 
@@ -85,23 +85,11 @@ function Banner() {
               </a>
             </p>
             <h1 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-0 mt-4">
-              KURS PËR
+              KURS PËR{" "}
               <span className="text-red-600">MARKETING DIXHITAL</span>
             </h1>
             <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
-              Mirësevini në Institutin e kurseve TheDigitalFlix – ku inovacioni
-              takohet me edukimin. Kurset tona për marketing dixhital të
-              ndihmuara nga Inteligjenca Artificiale ju pajisin me mjetet dhe
-              strategjitë më të avancuara për të shkëlqyer në botën dixhitale.
-              Mësoni aftësi shumë të kërkuara si SEO, marketing në rrjetet
-              sociale, PPC dhe strategji të bazuara në AI për të qënë të parët
-              në industri.
-              <br />
-              1. SEO
-              <br />
-              2. Website Development
-              <br />
-              3. Rrjete Sociale | PPC | Inteligjencë Artificiale
+              Instituti TheDigitalFlix ofron kurse të avancuara në marketingun dixhital, të mbështetura nga Inteligjenca Artificiale, për të përgatitur pjesëmarrësit me aftësi të kërkuara si SEO, PPC dhe menaxhimi i rrjeteve sociale. Qëllimi është t’i ndihmojë ata të dallohen në tregun dixhital përmes strategjive moderne dhe teknologjisë së fundit.
             </p>
             <div className="flex flex-row gap-6">
               <button
@@ -177,8 +165,8 @@ function Banner() {
           <div className="flex flex-col mb-10 w-full p-4">
             <p>PUNO NË MARKETING DIXHITAL</p>
             <h2 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
-              BËHU FREELANCER OSE NIS AGJENCINË TËNDE{" "}
-              <span className="text-red-600">DIGJITALE</span>
+              BËHU FREELANCER OSE NIS AGJENSINË TËNDE{" "}
+              <span className="text-red-600">DIXHITALE</span>
             </h2>
             <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
               <b>TheDigitalFlix</b> ju pajis me aftësitë më të kërkuara të

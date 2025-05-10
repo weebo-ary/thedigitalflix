@@ -12,7 +12,7 @@ import { FaDownload, FaFacebook, FaLinkedin } from "react-icons/fa";
 import { FaLocationDot, FaXTwitter } from "react-icons/fa6";
 import { MdEmail, MdOutlineWifiCalling3 } from "react-icons/md";
 import { RiInstagramFill, RiWhatsappFill } from "react-icons/ri";
-import Feature1 from "../../assets/Images/Feat2.jpg";
+import Feature1 from "../../assets/Images/Feat2.png";
 
 import {
   ControlOutlined,
@@ -75,7 +75,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="text-white transition hover:text-green-600/75 flex gap-1"
-                    href="https://api.whatsapp.com/send/?phone=919201457156&text&type=phone_number&app_absent=0"
+                    href="https://api.whatsapp.com/send/?phone=+355674824786&text&type=phone_number&app_absent=0"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -88,7 +88,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="text-white transition hover:text-pink-600/75 flex gap-1"
-                    href="https://www.instagram.com/thedigitalflix/"
+                    href="https://www.instagram.com/thedigitalflix.al/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -98,7 +98,7 @@ const Navbar = () => {
                   </a>
                 </li>
 
-                <li>
+                {/* <li>
                   <a
                     className="text-white transition hover:text-blue-600/75 flex gap-1"
                     href="https://www.instagram.com/thedigitalflix/"
@@ -109,7 +109,7 @@ const Navbar = () => {
                     <span className="text-xs">Facebook: </span>
                     <FaFacebook />{" "}
                   </a>
-                </li>
+                </li> */}
 
                 <li>
                   <a
@@ -142,7 +142,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="text-white transition hover:text-red-600/75 flex gap-1"
-                    href="tel:+919201457156"
+                    href="tel:+355674824786"
                     rel="Call us for "
                   >
                     <span className="text-xs"> Call Us: </span>
@@ -152,7 +152,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="text-white transition hover:text-red-600/75 flex gap-1"
-                    href="mailto:connect@thedigitalflix.com"
+                    href="mailto:connect@thedigitalflix.al"
                     rel="TheDigitalFlix"
                   >
                     {" "}
@@ -163,7 +163,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="text-white transition hover:text-red-600/75 flex gap-1"
-                    href="https://www.google.com/maps/place/The+DigitalFlix+Institute+of+Digital+Marketing/data=!4m2!3m1!1s0x0:0x4759d4f33282627d?sa=X&ved=1t:2428&ictx=111"
+                    href="https://www.google.com/maps/place/Tiran%C3%AB,+Albania/@41.3291059,19.815907,17z/data=!3m1!4b1!4m15!1m8!3m7!1s0x1350310470fac5db:0x40092af10653720!2sTiran%C3%AB,+Albania!3b1!8m2!3d41.3275459!4d19.8186982!16zL20vMDdtX2Y!3m5!1s0x1350310fd92c40df:0x4323f7757aff7f39!8m2!3d41.3291059!4d19.8184819!16s%2Fg%2F11y2z38htv?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
                     target="_blank"
                     rel="noreferrer"
                   >

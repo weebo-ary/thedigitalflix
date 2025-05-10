@@ -33,7 +33,7 @@ const BlogCard = ({ blog }) => {
           </button>
         </Link>
         <p className="text-black dark:text-gray-400 whitespace-pre-line mt-4">
-          <span className="text-black dark:text-white">By:</span> {blog.writtenBy}
+          <span className="text-black dark:text-white">Nga:</span> {blog.writtenBy}
         </p>
       </div>
     </div>
@@ -53,7 +53,7 @@ const BlogSection = () => {
   return (
     <div className="mx-auto p-6 mb-8">
       <h1 className="text-3xl font-bold text-black dark:text-white text-center mb-8">
-        Latest Blogs
+        Blogjet e Fundit
       </h1>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {blogs.map((blog) => (

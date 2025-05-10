@@ -8,7 +8,7 @@ function Form() {
         <div className="bg-white text-black p-6 rounded-lg flex items-center justify-center md:flex-row sm:flex-col xs:flex-col gap-8">
           <div className="w-full">
             <h2 className="text-4xl font-bold mb-4 text-center">
-              NIS UDHËTIMIN TËND DIXHITAL ME
+              NIS UDHËTIMIN TËND DIXHITAL ME{" "}
               <span className="text-red-600">TheDigitalFlix!</span>
             </h2>
             <DotLottieReact

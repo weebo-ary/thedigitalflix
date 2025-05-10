@@ -67,62 +67,41 @@ function Contact() {
         <div className="z-0 mx-auto flex md:flex-row sm:flex-col xs:flex-col-reverse justify-between items-start gap-20 space-y-10 md:space-y-0 ">
           {/* Contact Information */}
           <div className="text-white max-w-md space-y-8 p-6">
-            <h1 className="text-4xl font-bold">Connect with us</h1>
+            <h1 className="text-4xl font-bold">Lidhuni me TheDigitalFlix.al!</h1>
             <p className="text-lg">
-              Feel free to contact us with your inquiries, feedback, or any
-              assistance you may need. Get in Touch with TheDigitalFlix!
+              Mos hezitoni të na kontaktoni për çdo pyetje, sugjerim apo ndihmë që mund tju nevojitet. Lidhuni me TheDigitalFlix!
             </p>
             <div className="space-y-6">
               <div className="flex items-center space-x-4">
                 <i className="fas fa-envelope text-2xl"></i>
                 <div>
                   <p>Email</p>
-                  <p className="font-semibold">connect@thedigitalflix.com</p>
+                  <p className="font-semibold">connect@thedigitalflix.al</p>
                 </div>
               </div>
 
               <div className="flex items-center space-x-4">
                 <i className="fab fa-linkedin text-2xl"></i>
                 <div>
-                  <p>Contact</p>
-                  <a href="tel:+919201457156"><p className="font-semibold">+91-9201457156</p></a>
-                  <a href="tel:+917987999491"><p className="font-semibold">+91-7987999491</p></a>
-                  <a href="tel:+917553162670"><p className="font-semibold">07553162670</p></a>
-                </div>
-              </div>
-
-              <div className="flex items-center space-x-4">
-                <i className="fas fa-map-marker-alt text-2xl"></i>
-                <div> 
-                  <p>Office</p>
-                  <p className="font-semibold">
-                  📍 B1, Kamla Nagar, Near Harish Chowk, Next to Muthoot Finance, Kotra Sultanabad, Bhopal, M.P. (462003)
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-center space-x-4">
-                <i className="fas fa-map-marker-alt text-2xl"></i>
-                <div>
-                  <p>Office Hours</p>
-                  <p className="font-semibold">🗓️ Monday – Saturday: 10:00 AM – 7:00 PM</p>
-                  <p className="font-semibold">📌 Sunday: Closed</p>
+                  <p>WhatsApp</p>
+                  <a href="tel:+355674824786"><p className="font-semibold">+355674824786</p></a>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Contact Form */}
-          <div className="bg-white rounded-lg shadow-lg p-8 max-w-lg w-full space-y-6">
-            <h2 className="text-2xl font-bold text-gray-700">📩 Get in Touch – Drop Us a Message</h2>
-            <p className="text-xs font-light text-gray-500">Have a question? Fill out the form below, and our team will get back to you ASAP!
+          <div className="bg-white rounded-lg shadow-lg p-5">
+            <h2 className="text-xl font-bold mb-2 text-gray-700">📩 Na Kontaktoni – Dërgoni Një Mesazh</h2>
+            <p className="text-xs font-light text-gray-500 mb-2">Keni pyetje? Plotësoni formularin më poshtë dhe ekipi ynë do ju përgjigjet sa më shpejt të jetë e mundur!
             </p>
             <form className="space-y-4" onSubmit={handleSubmit}>
               <div className="flex space-x-4">
                 <div className="w-1/2">
-                  <label className="block text-gray-700">First name</label>
+                  <label className="block text-gray-700">Emri</label>
                   <input
                     type="text"
-                    placeholder="Enter first name"
+                    placeholder="Enter Emri"
                     className="mt-1 w-full px-4 py-2 border rounded-md text-gray-700 focus:ring-2 focus:ring-blue-400"
                     value={formData.firstName}
                     onChange={(e) =>
@@ -131,10 +110,10 @@ function Contact() {
                   />
                 </div>
                 <div className="w-1/2">
-                  <label className="block text-gray-700">Last name</label>
+                  <label className="block text-gray-700">Shkruaj emrin</label>
                   <input
                     type="text"
-                    placeholder="Enter last name"
+                    placeholder="Enter Shkruaj emrin"
                     className="mt-1 w-full px-4 py-2 border rounded-md text-gray-700 focus:ring-2 focus:ring-blue-400"
                     value={formData.lastName}
                     onChange={(e) =>
@@ -145,10 +124,10 @@ function Contact() {
               </div>
 
               <div>
-                <label className="block text-gray-700">Email address</label>
+                <label className="block text-gray-700">Mbiemri</label>
                 <input
                   type="email"
-                  placeholder="Enter your email"
+                  placeholder="Enter Mbiemri"
                   className="mt-1 w-full px-4 py-2 border rounded-md text-gray-700 focus:ring-2 focus:ring-blue-400"
                   value={formData.email}
                   onChange={(e) =>
@@ -158,7 +137,7 @@ function Contact() {
               </div>
 
               <div>
-                <label className="block text-gray-700">Type of query</label>
+                <label className="block text-gray-700">Lloji i kërkesës</label>
                 <select
                   className="mt-1 w-full px-4 py-2 border rounded-md text-gray-700 focus:ring-2 focus:ring-blue-400"
                   value={formData.queryType}
@@ -166,10 +145,10 @@ function Contact() {
                     setFormData({ ...formData, queryType: e.target.value })
                   }
                 >
-                  <option value="digital-marketing-services">Digital Marketing Services</option>
-                  <option value="training-and-courses">Digital Marketing Training & Courses</option>
-                  <option value="business-growth-consultation">Business Growth Consultation</option>
-                  <option value="partnership-and-collaboration ">Partnership & Collaboration </option>
+                  <option value="digital-marketing-services">Shërbime të Marketingut Dixhital</option>
+                  <option value="training-and-courses">Kurse dhe trajnime</option>
+                  <option value="business-growth-consultation">Konsultim për rritje biznesi</option>
+                  <option value="partnership-and-collaboration ">Kërkesë tjetër </option>
                   <option value="other">Other query</option>
                 </select>
               </div>
@@ -186,14 +165,15 @@ function Contact() {
                   }
                 ></textarea>
               </div>
-                  <p className="text-xs font-light text-gray-800">👉 Our team will respond to your inquiry within 24 hours!
+                  <p className="text-xs font-light text-gray-800">👉 Ekipi ynë do t’i përgjigjet kërkesës suaj brenda 24 orëve!
+
                   </p>
               <button
                 type="submit"
                 className="w-full bg-blue-500 text-white py-2 rounded-md disabled:bg-gray-500 hover:bg-blue-600 transition duration-200"
                 disabled={formData.email === "" || isSubmitting}
               >
-                {isSubmitting ? "Sending..." : "Send"}
+                {isSubmitting ? "Sending..." : "Dërgo"}
               </button>
             </form>
           </div>

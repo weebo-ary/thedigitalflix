@@ -6,7 +6,7 @@ import IllustrationThree from "../../../assets/Images/res.png";
 import IllustrationFour from "../../../assets/Images/Screenshot 2025-03-05 155001.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import Feature1 from "../../../assets/Images/Feat2.jpg";
+import Feature1 from "../../../assets/Images/Feat2.png";
 import Logo from "../../../assets/Logo/LightLogo.png";
 import Modal from "./modal";
 
