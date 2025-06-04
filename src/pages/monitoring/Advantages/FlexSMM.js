@@ -52,12 +52,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Komunikoni rrjedhshëm
+            Rritje organike e ndjekësve
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Flisni, shkruani dhe prezanitoni ide rrjedhshëm në çdo ambient
-            profesional
+            Ndërtoni dhe angazhoni një audiencë të vërtetë që konvertohet në klientelë
           </p>
         </p>
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -66,11 +65,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Rritje globale në karrierë
+            Monetizimi i brand-it personal apo të biznesit
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Jepini vetes mundësi për karrierë dhe edukim në gjithë botën
+            Kthejeni llogarinë tuaj personale ose të biznesit në një makineri prodhuese
           </p>
         </p>{" "}
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -79,12 +78,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Brand personal
+            Projekte për portofol me fushata reale
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Shkruani email-e, CV dhe bëni prezantime që ju bëjnë të bëni
-            diferencën
+             Krijoni dhe shfaqni fushata të drejtpërdrejta të brandit.
           </p>
         </p>
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -93,11 +91,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Detyra praktike
+            Strategji të përditësuara me trended
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Merrni pjesë në diskutime, debate dhe shkrime profesionale
+            Qëndroni gjithmonë up-to date me strategji contenti të bazuara në trende aktuale.
           </p>
         </p>
       </div>

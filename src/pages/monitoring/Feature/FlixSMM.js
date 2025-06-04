@@ -36,37 +36,37 @@ function Solution() {
   const cardsData = [
     {
       image: Im1,
-      title: "Beginner-Friendly Curriculum",
-      description: "No technical background? No problem — we start from the very basics.",
+      title: "Strategji për secilën platformë",
+      description: "Mësoni algoritmet dhe stilet përmbajtëse unike.",
     },
     {
       image: Im2,
-      title: "Front-End Development",
-      description: "Master HTML, CSS & JavaScript to build stunning interfaces.",
+      title: "Mjete për krijimin e contentit",
+      description: "Canva, CapCut, etj.",
     },
     {
       image: Im3,
-      title: "Responsive Web Design",
-      description: "Build websites that look perfect on any device — mobile, tablet, or desktop.",
+      title: "Trajnim për reklamat me pagesë",
+      description: "Lanconi dhe menaxhoni fushata të sponsorizuara reklamash në të gjitha platformat.",
     },
 
     {
       image: Im5,
-      title: "WordPress Development",
-      description: "Create blogs, portfolios, or e-commerce websites without writing a single line of code.",
+      title: "Analiza & optimizim",
+      description: " Përdorni të dhënat për të përmirësuar contentin dhe merrni vendime të bazuara në këto të dhëna.",
     },
 
     {
       image: Im6,
-      title: "Website Optimization & SEO",
+      title: "Certifikime",
       description:
-        "Learn performance tuning, image compression, page speed, and on-page SEO for better results.",
+        "Merrni certifikime nga Meta, Google, LinkedIn Learning",
     },
 
     {
       image: Im7,
-      title: "Hands-On Projects & Lifetime Access",
-      description: "Work on real-world websites & access course content anytime, anywhere.",
+      title: "Mësim fleksibël",
+      description: "Mësim fleksibël me të dhënat e platformës.",
     },
   ];
 
