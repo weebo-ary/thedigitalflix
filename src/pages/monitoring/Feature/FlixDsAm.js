@@ -36,37 +36,37 @@ function Solution() {
   const cardsData = [
     {
       image: Im1,
-      title: "SEO On Page",
-      description: "Optimizoni faqet për renditje më të larta",
+      title: "Kërkimi i Produkteve & Mjete",
+      description: "Gjej produkte në trend për dropshipping dhe afiliacion me ndihmën e Inteligjencës Artificiale.",
     },
     {
       image: Im2,
-      title: "SEO Off Page & backlink-e",
-      description: "Ndërtoni autoritet me lidhje cilësore.",
+      title: "Ndërtimi i Dyqaneve & Funnels",
+      description: "Ndërto dyqane Shopify ose faqe për afiliacion që konvertojnë.",
     },
     {
       image: Im3,
-      title: "SEO teknike",
-      description: "Kuptoni shpejtësinë, indeksimin dhe strukturen e faqes.",
+      title: "Gjenerimi i Trafikut",
+      description: "Sill trafik me metoda organike dhe të paguara",
     },
 
     {
       image: Im5,
-      title: "Mjetet e IA për SEO",
-      description: "Gjeneroni automatikisht meta tag-e, blogje dhe plane për content.",
+      title: "Strategjitë për Marketing Filial",
+      description: "Përdor Amazon, ClickBank dhe programe të tjera afiliate.",
     },
 
     {
       image: Im6,
-      title: "Certifikata SEO",
+      title: "Studime Rasti Reale",
       description:
-        "Merrni certifikata nga platformat kryesore (SEMrush, Ahrefs, Google)",
+        "Mëso nga dyqane dhe fushata që kanë sjellë fitime.",
     },
 
     {
       image: Im7,
-      title: "Mësim fleksibël",
-      description: "Përmjeti të dhënave të te dërgojë në Inteligjencë Artificiale",
+      title: "Mësim Fleksibël",
+      description: "Mund të ndjekësh kursin online.",
     },
   ];
 

@@ -1,7 +1,7 @@
 import React from 'react'
-import FlixBanner from "./Banner/FlixBuildBanner"
-import FlixBuildFeat from "./Feature/FlixBuildFeat"
-import FlixBuildAdv from "./Advantages/FlixBuildAdv"
+import FlixBanner from "./Banner/FlixEcom"
+import FlixBuildFeat from "./Feature/FlixECom"
+import FlixBuildAdv from "./Advantages/FlixEcom"
 import Connect from "../extra-pages/connect"
 
 

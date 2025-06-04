@@ -27,7 +27,7 @@ import FlixEmailSmsMark from "../pages/monitoring/FlixEmailSms";
 import FlixEcom from "../pages/monitoring/FlixEcom";
 import FlixPPC from "../pages/monitoring/FlixPPC";
 import FlixJavaScript from "../pages/monitoring/FlixJavaScript";
-import FlixAdvEnglish from "../pages/monitoring/FlixJavaScript";
+import FlixAdvEnglish from "../pages/monitoring/FlixAdvEnglish";
 import FlixDropAffMark from "../pages/monitoring/FlixDropshipAffiliateMarketing";
 
 // Define your routes

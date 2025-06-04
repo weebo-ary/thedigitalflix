@@ -42,7 +42,7 @@ const BannerWithFadingGridBackground = () => {
         }`}
       >
         <h1 className="text-6xl md:text-6xl sm:text-4xl xs:text-4xl font-bold text-gray-800 dark:text-gray-100 mb-6">
-        Advantages
+          Përfitimet
         </h1>
       </div>
       <div className="flex md:flex-row sm:flex-col xs:flex-col gap-10 w-full text-center">
@@ -52,11 +52,12 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            HTML & CSS
+            Komunikoni rrjedhshëm
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-          Learn to structure and style beautiful web pages from scratch.
+            Flisni, shkruani dhe prezanitoni ide rrjedhshëm në çdo ambient
+            profesional
           </p>
         </p>
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -65,11 +66,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            JavaScript
+            Rritje globale në karrierë
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-          Add interactivity and dynamic content to enhance user experience.
+            Jepini vetes mundësi për karrierë dhe edukim në gjithë botën
           </p>
         </p>{" "}
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -78,11 +79,12 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            WordPress
+            Brand personal
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-          Design and manage websites with themes, plugins, and customizations.
+            Shkruani email-e, CV dhe bëni prezantime që ju bëjnë të bëni
+            diferencën
           </p>
         </p>
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -91,11 +93,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Website Optimization
+            Detyra praktike
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-          Speed up websites and improve SEO for better rankings and user satisfaction.
+            Merrni pjesë në diskutime, debate dhe shkrime profesionale
           </p>
         </p>
       </div>

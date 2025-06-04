@@ -52,12 +52,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Komunikoni rrjedhshëm
+            Kurseni kohë me automatizim
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Flisni, shkruani dhe prezanitoni ide rrjedhshëm në çdo ambient
-            profesional
+            Automatizoni procese të përsëritura
           </p>
         </p>
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -66,11 +65,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Rritje globale në karrierë
+            Rritni konvertimet
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Jepini vetes mundësi për karrierë dhe edukim në gjithë botën
+             Ndërtoni strategji përmes funnel-eve të targetuara që rrisin fitimet tuaja
           </p>
         </p>{" "}
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -79,12 +78,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Brand personal
+            Akses në mjete profesionale
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Shkruani email-e, CV dhe bëni prezantime që ju bëjnë të bëni
-            diferencën
+             Punoni në mjetet e përdorura nga ekipet më të mira të marketingut në nivel global.
           </p>
         </p>
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -93,11 +91,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Detyra praktike
+            Projekte praktike për klientët
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Merrni pjesë në diskutime, debate dhe shkrime profesionale
+            Vendosni në funksion sistemet e automatizimit për klientët tuaj
           </p>
         </p>
       </div>

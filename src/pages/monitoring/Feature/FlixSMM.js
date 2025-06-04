@@ -36,37 +36,37 @@ function Solution() {
   const cardsData = [
     {
       image: Im1,
-      title: "SEO On Page",
-      description: "Optimizoni faqet për renditje më të larta",
+      title: "Beginner-Friendly Curriculum",
+      description: "No technical background? No problem — we start from the very basics.",
     },
     {
       image: Im2,
-      title: "SEO Off Page & backlink-e",
-      description: "Ndërtoni autoritet me lidhje cilësore.",
+      title: "Front-End Development",
+      description: "Master HTML, CSS & JavaScript to build stunning interfaces.",
     },
     {
       image: Im3,
-      title: "SEO teknike",
-      description: "Kuptoni shpejtësinë, indeksimin dhe strukturen e faqes.",
+      title: "Responsive Web Design",
+      description: "Build websites that look perfect on any device — mobile, tablet, or desktop.",
     },
 
     {
       image: Im5,
-      title: "Mjetet e IA për SEO",
-      description: "Gjeneroni automatikisht meta tag-e, blogje dhe plane për content.",
+      title: "WordPress Development",
+      description: "Create blogs, portfolios, or e-commerce websites without writing a single line of code.",
     },
 
     {
       image: Im6,
-      title: "Certifikata SEO",
+      title: "Website Optimization & SEO",
       description:
-        "Merrni certifikata nga platformat kryesore (SEMrush, Ahrefs, Google)",
+        "Learn performance tuning, image compression, page speed, and on-page SEO for better results.",
     },
 
     {
       image: Im7,
-      title: "Mësim fleksibël",
-      description: "Përmjeti të dhënave të te dërgojë në Inteligjencë Artificiale",
+      title: "Hands-On Projects & Lifetime Access",
+      description: "Work on real-world websites & access course content anytime, anywhere.",
     },
   ];
 

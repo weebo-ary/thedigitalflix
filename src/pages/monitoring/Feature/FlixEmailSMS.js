@@ -36,37 +36,37 @@ function Solution() {
   const cardsData = [
     {
       image: Im1,
-      title: "SEO On Page",
-      description: "Optimizoni faqet për renditje më të larta",
+      title: "Strategjia e Email Marketingut",
+      description: "Krijo buletine, oferta dhe fushata që sjellin klikime",
     },
     {
       image: Im2,
-      title: "SEO Off Page & backlink-e",
-      description: "Ndërtoni autoritet me lidhje cilësore.",
+      title: "Fushatat me SMS & WhatsApp",
+      description: " Krijo mesazhe të shkurtra dhe të fuqishme për ndikim maksimal",
     },
     {
       image: Im3,
-      title: "SEO teknike",
-      description: "Kuptoni shpejtësinë, indeksimin dhe strukturen e faqes.",
+      title: "Ndërtimi & Segmentimi i Listave",
+      description: "Rrit dhe targeto audiencën për kthim më të lartë të investimit (ROI)",
     },
 
     {
       image: Im5,
-      title: "Mjetet e IA për SEO",
-      description: "Gjeneroni automatikisht meta tag-e, blogje dhe plane për content.",
+      title: "Testim A/B & Metricks",
+      description: "Mëso si të testosh dhe optimizosh fushatat e tua",
     },
 
     {
       image: Im6,
-      title: "Certifikata SEO",
+      title: "Certifikime për Mjete Falas",
       description:
-        "Merrni certifikata nga platformat kryesore (SEMrush, Ahrefs, Google)",
+        "Zotëro platforma si Klaviyo, Mailchimp dhe Sendinblue",
     },
 
     {
       image: Im7,
-      title: "Mësim fleksibël",
-      description: "Përmjeti të dhënave të te dërgojë në Inteligjencë Artificiale",
+      title: "Mësim Fleksibël",
+      description: "Ndiq kursin online",
     },
   ];
 

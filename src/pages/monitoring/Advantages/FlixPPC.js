@@ -52,12 +52,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Komunikoni rrjedhshëm
+            Trafik i Menjëhershëm në Uebfaqe
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Flisni, shkruani dhe prezanitoni ide rrjedhshëm në çdo ambient
-            profesional
+            Sill vizitorë dhe shitje në kohë reale përmes reklamave.
           </p>
         </p>
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -66,11 +65,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Rritje globale në karrierë
+            Menaxhimi i Fushatave për Klientët
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Jepini vetes mundësi për karrierë dhe edukim në gjithë botën
+            Ndërto, menaxho dhe raporto fushata reale reklamuese.
           </p>
         </p>{" "}
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -79,12 +78,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Brand personal
+            Projekte Freelancer për PPC
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Shkruani email-e, CV dhe bëni prezantime që ju bëjnë të bëni
-            diferencën
+            Filloni të fitoni duke menaxhuar reklama për biznese.
           </p>
         </p>
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -93,11 +91,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Detyra praktike
+            Zotërimi i Metric-save të Reklamave
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Merrni pjesë në diskutime, debate dhe shkrime profesionale
+            Analizo CPC, CTR, Quality Score dhe ROAS.
           </p>
         </p>
       </div>

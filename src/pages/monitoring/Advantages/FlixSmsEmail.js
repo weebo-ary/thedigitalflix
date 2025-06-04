@@ -52,12 +52,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Komunikoni rrjedhshëm
+            Rritje e Angazhimit
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Flisni, shkruani dhe prezanitoni ide rrjedhshëm në çdo ambient
-            profesional
+             Dërgo mesazhin e duhur në kohën e duhur.
           </p>
         </p>
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -66,11 +65,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Rritje globale në karrierë
+            Rritje e Shitjeve
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Jepini vetes mundësi për karrierë dhe edukim në gjithë botën
+           Përdor fushata automatike për të gjeneruar konvertime.
           </p>
         </p>{" "}
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -79,12 +78,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Brand personal
+            Sisteme të Gatshme për Klientët
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Shkruani email-e, CV dhe bëni prezantime që ju bëjnë të bëni
-            diferencën
+            Ndërto të gjithë sistemin e email marketingut nga e para.
           </p>
         </p>
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -93,11 +91,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Detyra praktike
+            Mjete të Përballueshme
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Merrni pjesë në diskutime, debate dhe shkrime profesionale
+            Përdor platforma falas ose me kosto të ulët për tu shërbyer klientëve.
           </p>
         </p>
       </div>

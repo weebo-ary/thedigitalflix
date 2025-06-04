@@ -63,18 +63,15 @@ const BannerWithFadingGridBackground = () => {
       >
         <p className="text-base md:text-lg text-gray-500 dark:text-gray-100 mb-20 md:text-center xs:text-start sm:text-start">
           <span className="bg-white dark:bg-gray-700 border-2 dark:border-gray-500 p-2 rounded-lg">
-            Course #4 Flix Anglishte e Avancuar
+            Course #4 Flix Marketingu në Rrjete Sociale
           </span>
         </p>
         <h1 className="text-6xl lg:text-3xl md:text-5xl sm:text-3xl xs:text-3xl md:text-center xs:text-start sm:text-start font-bold text-gray-800 dark:text-gray-100 mb-10">
           <b className="text-6xl">Flix Anglishte e Avancuar</b> <br /> <br />
           <span className="text-red-600 animate-pulse">
-            Kursi përfundimtar i komunikimit në anglisht për studentë,
-            profesionistë dhe krijues.
+            Kurs i plotë SMM për
           </span>{" "}
-          Fitoni vetëbesimin në të folur, të shkruar, prezantime dhe komunikim
-          profesional. Mësoni anglisht biznesi, të folur në publik, aftësi për
-          intervistim dhe zotërim të gramatikës.
+          Instagram, Facebook, LinkedIn dhe YouTube. Mësoni Content Creation, Planifikimim, Reklama të paguara dhe analitikë për krijuesit dhe marketerët.
         </h1>
       </div>
       <div className="flex md:flex-row-reverse xs:flex-col-reverse sm:flex-col items-center justify-center gap-10">

@@ -36,37 +36,37 @@ function Solution() {
   const cardsData = [
     {
       image: Im1,
-      title: "SEO On Page",
-      description: "Optimizoni faqet për renditje më të larta",
+      title: "Fushata email & drip",
+      description: "Krijoni automatizime që konvertojnë vizitorët në klientë.",
     },
     {
       image: Im2,
-      title: "SEO Off Page & backlink-e",
-      description: "Ndërtoni autoritet me lidhje cilësore.",
+      title: "Integrim CRM",
+      description: "Menaxhoni audiencën dhe segmentimin në mënyrë profesionale.",
     },
     {
       image: Im3,
-      title: "SEO teknike",
-      description: "Kuptoni shpejtësinë, indeksimin dhe strukturen e faqes.",
+      title: "Funnels shitjesh me Inteligjencë Artificiale",
+      description: "Përdorni Inteligjencën Artificiale për të projektuar, testuar dhe optimizuar rrugetimin që ndjekin shitjet.",
     },
 
     {
       image: Im5,
-      title: "Mjetet e IA për SEO",
-      description: "Gjeneroni automatikisht meta tag-e, blogje dhe plane për content.",
+      title: "Sisteme për kujdesin ndaj klientëve",
+      description: "Krijoni strategji që konvertojnë kuriozët në klientë.",
     },
 
     {
       image: Im6,
-      title: "Certifikata SEO",
+      title: "Certifikime në mjete të ndryshme",
       description:
-        "Merrni certifikata nga platformat kryesore (SEMrush, Ahrefs, Google)",
+        "Certifikime në mjete si Mailchimp, HubSpot, Zoho",
     },
 
     {
       image: Im7,
       title: "Mësim fleksibël",
-      description: "Përmjeti të dhënave të te dërgojë në Inteligjencë Artificiale",
+      description: "Work on real-world websites & access course content anytime, anywhere.",
     },
   ];
 

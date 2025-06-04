@@ -36,37 +36,37 @@ function Solution() {
   const cardsData = [
     {
       image: Im1,
-      title: "I përshtatshëm për fillestarë",
-      description: "Nuk kërkohet përvojë e mëparshme – filloni nga zeroja.",
+      title: "Krijimi i përmbajtjes me Inteligjencë Artificiale",
+      description: "Gjeneroni blogje, përshkrime, reklama dhe skripte.",
     },
     {
       image: Im2,
-      title: "Trajnim i integruar me Inteligjencë Artificiale",
-      description: "Mësoni si po e transformon Inteligjenca Artificiale marketingun dixhital.",
+      title: "Automatizimi i marketingut me Inteligjencë Artificiale",
+      description: "Automatizoni fushata, email-e dhe gjetjen e klientëve.",
     },
     {
       image: Im3,
-      title: "SEO, Rrjetet Sociale dhe Google Ads",
-      description: "Zotëroni strategjitë thelbësore të marketingut dixhital",
+      title: "ChatGPT për marketerët",
+      description: "Përdorni prompt-et për të krijuar përmbajtje me konvertim të lartë.",
     },
 
     {
       image: Im5,
-      title: "Projekte reale & raste studimore",
-      description: "Puno me detyra praktike që zbatohen në realitet",
+      title: "Reklama të fuqizuara nga Inteligjencë Artificiale",
+      description: "Projektoni fushata reklamuese me analiza të avancuara të audiencës.",
     },
 
     {
       image: Im6,
-      title: "Çertifikime 100% falas nga industria",
+      title: "Certifikata falas nga platformat e Inteligjencës Artificiale",
       description:
         "Pajisuni me çertifikata të njohura nga Google, HubSpot dhe të tjera",
     },
 
     {
       image: Im7,
-      title: "Mundësi fleksible mësimi",
-      description: "Klasa online.",
+      title: "Mësim fleksibërës në Inteligjencë Artificiale",
+      description: "Përmjeti të dhënave të te dërgojë në Inteligjencë Artificiale",
     },
   ];
 

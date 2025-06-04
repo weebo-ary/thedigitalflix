@@ -145,7 +145,7 @@ const Navbar = () => {
                     href="tel:+355674824786"
                     rel="Call us for "
                   >
-                    <span className="text-xs"> Call Us: </span>
+                    <span className="text-xs"> Na kontakto: </span>
                     <MdOutlineWifiCalling3 />
                   </a>
                 </li>
@@ -156,20 +156,8 @@ const Navbar = () => {
                     rel="TheDigitalFlix"
                   >
                     {" "}
-                    <span className="text-xs">Mail Us: </span>
+                    <span className="text-xs">Na shkruaj: </span>
                     <MdEmail />{" "}
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="text-white transition hover:text-red-600/75 flex gap-1"
-                    href="https://www.google.com/maps/place/Tiran%C3%AB,+Albania/@41.3291059,19.815907,17z/data=!3m1!4b1!4m15!1m8!3m7!1s0x1350310470fac5db:0x40092af10653720!2sTiran%C3%AB,+Albania!3b1!8m2!3d41.3275459!4d19.8186982!16zL20vMDdtX2Y!3m5!1s0x1350310fd92c40df:0x4323f7757aff7f39!8m2!3d41.3291059!4d19.8184819!16s%2Fg%2F11y2z38htv?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {" "}
-                    <span className="text-xs">Our Location: </span>
-                    <FaLocationDot />{" "}
                   </a>
                 </li>
                 <li>
@@ -227,7 +215,7 @@ const Navbar = () => {
                     : "relative text-md font-medium p-1 text-gray-700 dark:text-gray-300 marker-underline hover:text-gray-600 dark:hover:text-red-600"
                 }
               >
-                <HomeOutlined /> Home
+                <HomeOutlined /> Kreu
               </NavLink>
               <NavLink
                 to="/about"
@@ -237,7 +225,7 @@ const Navbar = () => {
                     : "relative text-md font-medium p-1 text-black dark:text-white marker-underline hover:text-gray-500 dark:hover:text-red-600"
                 }
               >
-                <ExclamationCircleOutlined /> About Us
+                <ExclamationCircleOutlined /> Rreth Nesh
               </NavLink>
               <div
                 className="relative text-md font-medium p-1 text-black dark:text-white hover:text-red-500 dark:hover:text-red-600"
@@ -253,7 +241,7 @@ const Navbar = () => {
                   }
                 >
                   <DotChartOutlined />{" "}
-                  <span style={{ cursor: "pointer" }}>Blogs</span>
+                  <span style={{ cursor: "pointer" }}>Blogje</span>
                 </NavLink>
                 {dropdownOpenProduct && <DropdownMenuProducts />}
               </div>
@@ -264,7 +252,7 @@ const Navbar = () => {
                 onMouseLeave={() => setDropdownOpen(false)}
               >
                 <DotChartOutlined />{" "}
-                <span style={{ cursor: "pointer" }}>Training & Courses</span>
+                <span style={{ cursor: "pointer" }}>Trajnime</span>
                 {dropdownOpen && <DropdownMenu />}
               </div>
               <div
@@ -273,7 +261,7 @@ const Navbar = () => {
                 onMouseLeave={() => setDropdownServices(false)}
               >
                 <ControlOutlined />{" "}
-                <span style={{ cursor: "pointer" }}>Services</span>
+                <span style={{ cursor: "pointer" }}>Shërbime</span>
                 {dropdownOpenServices && <DropdownMenuServices />}
               </div>
               <NavLink
@@ -284,7 +272,7 @@ const Navbar = () => {
                     : "relative text-md p-1 font-medium text-black dark:text-white marker-underline hover:text-gray-500 dark:hover:text-red-600"
                 }
               >
-                <PhoneOutlined /> Contact
+                <PhoneOutlined /> Kontakt
               </NavLink>
             </div>
           </div>

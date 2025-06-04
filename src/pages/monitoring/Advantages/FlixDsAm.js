@@ -52,12 +52,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Komunikoni rrjedhshëm
+            Fillo pa Inventar
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Flisni, shkruani dhe prezanitoni ide rrjedhshëm në çdo ambient
-            profesional
+            Zhvillo biznese e-commerce pa mbajtur produkte fizikisht.
           </p>
         </p>
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -66,11 +65,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Rritje globale në karrierë
+            Sisteme për të Ardhura Pasive
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Jepini vetes mundësi për karrierë dhe edukim në gjithë botën
+            Krijo të ardhura automatike përmes linkeve afiliate.
           </p>
         </p>{" "}
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -79,12 +78,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Brand personal
+            Qasje në Tregun Global
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Shkruani email-e, CV dhe bëni prezantime që ju bëjnë të bëni
-            diferencën
+            Shit në çdo vend të botës përmes furnitorëve që bëjnë dropshipping.
           </p>
         </p>
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -93,11 +91,11 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Detyra praktike
+            Fito Gjatë Mësimit
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Merrni pjesë në diskutime, debate dhe shkrime profesionale
+            Nis dyqanin ose faqen filiale gjatë kohës që ndjek kursin.
           </p>
         </p>
       </div>

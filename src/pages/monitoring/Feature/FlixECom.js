@@ -36,37 +36,37 @@ function Solution() {
   const cardsData = [
     {
       image: Im1,
-      title: "SEO On Page",
-      description: "Optimizoni faqet për renditje më të larta",
+      title: "Krijimi & Optimizimi i Dyqanit",
+      description: " Dizajno dyqane, shpejtë, me ndërfaqje miqësore për përdoruesin në Shopify ose WooCommerce.",
     },
     {
       image: Im2,
-      title: "SEO Off Page & backlink-e",
-      description: "Ndërtoni autoritet me lidhje cilësore.",
+      title: "Publikimi i Produkteve & SEO",
+      description: "Shkruaj përshkrime të optimizuara dhe përdor strategji me fjalë kyçe.",
     },
     {
       image: Im3,
-      title: "SEO teknike",
-      description: "Kuptoni shpejtësinë, indeksimin dhe strukturen e faqes.",
+      title: "Reklamat për E-commerce",
+      description: "Krijo fushata reklamuese në Facebook & Instagram që konvertojnë shikuesit në klientelë.",
     },
 
     {
       image: Im5,
-      title: "Mjetet e IA për SEO",
-      description: "Gjeneroni automatikisht meta tag-e, blogje dhe plane për content.",
+      title: "Funnels me Email & Retargeting",
+      description: "Ndërto sisteme për të rikthyer klientët dhe rritur vlerën mesatare të porosive (AOV).",
     },
 
     {
       image: Im6,
-      title: "Certifikata SEO",
+      title: "Certifikime në Platforma",
       description:
-        "Merrni certifikata nga platformat kryesore (SEMrush, Ahrefs, Google)",
+        "Pajisu me certifikime për Meta Ads, Shopify dhe Klaviyo.",
     },
 
     {
       image: Im7,
-      title: "Mësim fleksibël",
-      description: "Përmjeti të dhënave të te dërgojë në Inteligjencë Artificiale",
+      title: "Mësim Fleksibël",
+      description: "Mund të ndjekësh kursin online.",
     },
   ];
 
