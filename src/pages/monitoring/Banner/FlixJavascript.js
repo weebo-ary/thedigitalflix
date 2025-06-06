@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
+import Js from "../../../assets/Images/JS.jpeg";
 
 const BannerWithFadingGridBackground = () => {
   // Array to create 64 grid items (8x8 grid)
@@ -84,14 +85,11 @@ const BannerWithFadingGridBackground = () => {
           </p>
         </div>
         <div className="">
-          <iframe
-            width="720"
-            height="480"
-            src="https://www.youtube.com/embed/80H2O7H6qeI?start=3"
-            title="Flix Start Digital"
-            allowFullScreen
-            className="rounded-lg shadow-lg"
-          ></iframe>
+          <img
+            src={Js}
+            alt="Js"
+            className="w-1/2 md:w-full sm:w-1/2 xs:w-1/2"
+          />
         </div>
       </div>
     </div>

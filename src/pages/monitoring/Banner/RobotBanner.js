@@ -67,13 +67,13 @@ const BannerWithFadingGridBackground = () => {
           </span>
         </p>
         <h1 className="text-6xl md:text-5xl sm:text-4xl xs:text-4xl md:text-center xs:text-start sm:text-start font-bold text-gray-800 dark:text-gray-100 mb-10">
-        Zbuloni më shumë rreth  <span className="text-red-600 animate-pulse">FlixElite Digital</span>  
+        Zbuloni më shumë rreth  <span className="text-red-600 animate-pulse">FlixElite Digital Pro</span>  
         </h1>
       </div>
       <div className="flex md:flex-row-reverse xs:flex-col-reverse sm:flex-col items-center justify-center gap-10">
         <div className="md:w-1/3 sm:w-full xs:w-full flex flex-col md:flex-col sm:flex-row xs:flex-row justify-start items-center md:items-start md:justify-center space-y-4 md:space-y-0 md:space-x-4 md:gap-10 sm:gap-2 xs:gap-2">
           <p className="sm:text-start xs:text-start text-base md:text-4xl text-gray-800 dark:text-white mb-10 sm:mb-0 xs:mb-0">
-            Discover More About FlixElite Digital
+            Discover More About FlixElite Digital Pro
           </p>
         </div>
         <div>

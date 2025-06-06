@@ -10,7 +10,7 @@ import "./nav.css";
 import Sidebar from "../Drawer/Sidebar";
 import { FaDownload, FaLinkedin } from "react-icons/fa";
 import {  FaXTwitter } from "react-icons/fa6";
-import { MdEmail, MdOutlineWifiCalling3 } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
 import { RiInstagramFill, RiWhatsappFill } from "react-icons/ri";
 import Feature1 from "../../assets/Images/Feat2.png";
 
@@ -139,16 +139,7 @@ const Navbar = () => {
                   {/* <a className="text-white transition hover:text-red-600/75 flex items-center gap-1"> */}{" "}
                   |{/* </a> */}
                 </li>
-                <li>
-                  <a
-                    className="text-white transition hover:text-red-600/75 flex gap-1"
-                    href="tel:+355674824786"
-                    rel="Call us for "
-                  >
-                    <span className="text-xs"> Na kontakto: </span>
-                    <MdOutlineWifiCalling3 />
-                  </a>
-                </li>
+                
                 <li>
                   <a
                     className="text-white transition hover:text-red-600/75 flex gap-1"

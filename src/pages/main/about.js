@@ -10,6 +10,7 @@ import MayuriImg from "../../assets/Images/Mayuri.jpg";
 import PrajwalPic from "../../assets/Images/Prajwal.jpg";
 import SangharshImg from "../../assets/Images/SangharshImg.jpg";
 import ShivajiImg from "../../assets/Images/ShivajiImg.jpg";
+import AryanImg from "../../assets/Images/Aryan.jpeg"
 
 const AboutUs = () => {
   return (
@@ -169,7 +170,7 @@ const AboutUs = () => {
             </div>
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
               <img
-                src="https://media.licdn.com/dms/image/v2/D4D03AQHc5hnsie4i7A/profile-displayphoto-shrink_400_400/B4DZN0xPtQHUAk-/0/1732830890846?e=1747267200&v=beta&t=i_xyvUPXf_vteAUqJa3z91_0FZiD4DVWU3VaYLXY2V0"
+                src={AryanImg}
                 alt="Aryan"
                 className="w-1/2 rounded-full mx-auto object-cover"
               />

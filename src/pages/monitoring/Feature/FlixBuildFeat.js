@@ -36,37 +36,37 @@ function Solution() {
   const cardsData = [
     {
       image: Im1,
-      title: "Beginner-Friendly Curriculum",
-      description: "No technical background? No problem — we start from the very basics.",
+      title: "Kurrikulë e përshtatshme për fillestarë",
+      description: "Nuk kërkohet njohuri paraprake në kodim — mëso nga e para.",
     },
     {
       image: Im2,
-      title: "Front-End Development",
-      description: "Master HTML, CSS & JavaScript to build stunning interfaces.",
+      title: "Zhvillim Faqe Uebi me ndihmën e Inteligjencës Artificiale",
+      description: "Shfrytëzo mjetet e inteligjencës artificiale për të përshpejtuar kodimin dhe ndërtimin e faqeve.",
     },
     {
       image: Im3,
-      title: "Responsive Web Design",
-      description: "Build websites that look perfect on any device — mobile, tablet, or desktop.",
+      title: "Mjeshtëri në Frontend dhe Backend",
+      description: "Mëso HTML, CSS, JavaScript, React, Node.js dhe më shumë.",
     },
 
     {
       image: Im5,
-      title: "WordPress Development",
-      description: "Create blogs, portfolios, or e-commerce websites without writing a single line of code.",
+      title: "Projekte reale dhe punim final (capstone)",
+      description: "Ndërto faqe interneti, landing pages dhe aplikacione uebi sipas kërkesave reale të tregut.",
     },
 
     {
       image: Im6,
-      title: "Website Optimization & SEO",
+      title: "Certifikime të Industris  100% Falas",
       description:
-        "Learn performance tuning, image compression, page speed, and on-page SEO for better results.",
+        " Merr certifikata të njohura nga platforma si FreeCodeCamp, Microsoft e të tjera.",
     },
 
     {
       image: Im7,
-      title: "Hands-On Projects & Lifetime Access",
-      description: "Work on real-world websites & access course content anytime, anywhere.",
+      title: "Mundësi fleksibile mësimi",
+      description: "Mesim online.",
     },
   ];
 

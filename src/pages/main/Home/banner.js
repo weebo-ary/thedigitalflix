@@ -81,7 +81,7 @@ function Banner() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <span className="text-red-500">@thedigitalflix</span>
+                <span className="text-red-500">f.al</span>
               </a>
             </p>
             <h1 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-0 mt-4">
@@ -122,7 +122,7 @@ function Banner() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <span className="text-red-500">@thedigitalflix</span>
+                <span className="text-red-500">@thedigitalflix.al</span>
               </a>
             </p>
             <h2 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
