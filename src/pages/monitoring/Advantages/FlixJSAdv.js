@@ -42,7 +42,7 @@ const BannerWithFadingGridBackground = () => {
         }`}
       >
         <h1 className="text-6xl md:text-6xl sm:text-4xl xs:text-4xl font-bold text-gray-800 dark:text-gray-100 mb-6">
-          Advantages
+          Avantazhet
         </h1>
       </div>
       <div className="flex md:flex-row sm:flex-col xs:flex-col gap-10 w-full text-center">
@@ -52,12 +52,12 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Core Programming Logic
+            Logjika Themelore e Programimit
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Build a deep understanding of logic, syntax, and structure of
-            JavaScript.
+            Ndërtoni një kuptim të thellë të logjikës, sintaksës dhe strukturës
+            së JavaScript-it.
           </p>
         </p>
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -66,11 +66,12 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Interactive Websites
+            Faqe interaktive
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Create UI experiences that respond to user actions in real-time.
+            Krijoni ndërfaqje UI që përgjigjen në kohë reale ndaj veprimeve të
+            përdoruesit.
           </p>
         </p>{" "}
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -79,11 +80,12 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Real API Usage
+            Përdorim real i API-ve
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Bring your apps to life with real-world data and user inputs.
+            Jepini jetë aplikacioneve tuaja me të dhëna dhe ndërveprime reale
+            nga përdoruesit.
           </p>
         </p>
         <p className="text-base md:text-2xl text-gray-800 dark:text-white mb-6 w-full">
@@ -92,12 +94,12 @@ const BannerWithFadingGridBackground = () => {
               className="animate-bounce"
               style={{ fontSize: "24px", color: "green" }}
             />{" "}
-            Career-Ready Skills
+            Aftësi të gatshme për karrierë
           </b>{" "}
           <br />{" "}
           <p className="text-lg mt-2 text-gray-400">
-            Prepare for front-end roles, freelance gigs, or your own product
-            ideas.
+            Përgatituni për role në front-end, projekte freelance ose idetë
+            tuaja personale.
           </p>
         </p>
       </div>

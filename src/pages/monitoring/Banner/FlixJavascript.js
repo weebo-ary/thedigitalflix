@@ -69,13 +69,11 @@ const BannerWithFadingGridBackground = () => {
         </p>
         <h1 className="text-6xl lg:text-3xl md:text-5xl sm:text-3xl xs:text-3xl md:text-center xs:text-start sm:text-start font-bold text-gray-800 dark:text-gray-100 mb-10">
           <b className="text-6xl">FlixScript JS</b> <br /> <br />
-          <span className="text-red-600 animate-pulse">
-            Best Javascript Course
-          </span>{" "}
-          For Students, Creators, Freelancers & Essential JavaScript Course For
-          Aspiring Developers, Designers & Tech Enthusiasts Learn Core
-          JavaScript, DOM Manipulation, ES6, API Integration, and Front-End
-          Development.
+          Kursi më i mirë i JavaScript për studentë, individë krijues,
+          freelancera & kurs thelbësor për developera, dizajnera dhe entuziastë
+          të teknologjisë. Mëso bazat e
+          <span className="text-red-600 animate-pulse">JavaScript </span>,
+          manipulimin e DOM, ES6, integrimin e API-ve dhe zhvillimin front-end.
         </h1>
       </div>
       <div className="flex md:flex-row-reverse xs:flex-col-reverse sm:flex-col items-center justify-center gap-10">

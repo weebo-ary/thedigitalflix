@@ -36,33 +36,33 @@ function Solution() {
   const cardsData = [
     {
       image: Im1,
-      title: "Solid JavaScript Fundamentals",
-      description: "Build a deep understanding of variables, functions, loops, and logic.",
+      title: "Bazat kryesore të JavaScript",
+      description: " Ndërtoni një kuptim të thellë mbi variablat, funksionet, ciklet dhe logjikën.",
     },
     {
       image: Im2,
-      title: "AI-Integrated Training",
-      description: "Learn how Artificial Intelligence is transforming digital marketing.",
+      title: "Trajnim i integruar me Inteligjencë Artificiale",
+      description: " Mësoni se si Inteligjenca Artificiale po transformon marketingun dixhital.",
     },
     {
       image: Im3,
-      title: "SEO, Social Media, and Google Ads",
-      description: "Master essential digital marketing strategies and tools.",
+      title: "SEO, Rrjetet Sociale dhe Google Ads",
+      description: "Zotëroni strategjitë dhe mjetet thelbësore të marketingut dixhital.",
     },
     {
       image: Im5,
-      title: "Real-World Projects & Case Studies",
-      description: "Work on practical assignments and real-life use cases.",
+      title: "Projekte reale & Studime rastesh",
+      description: "Punoni me detyra praktike dhe raste konkrete",
     },
     {
       image: Im6,
-      title: "100% Free Industry Certifications",
-      description: "Earn recognized certificates from Google, HubSpot, and more.",
+      title: "Certifikime 100% falas nga industria",
+      description: "Merrni certifikata të njohura nga Google, HubSpot dhe kompani të tjera.",
     },
     {
       image: Im7,
-      title: "Flexible Learning Options",
-      description: "Attend classes online or offline as per your convenience.",
+      title: "Mundësi fleksibile mësimi",
+      description: "Ndiqni mësimin online.",
     },
   ];
   
