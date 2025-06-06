@@ -11,6 +11,7 @@ import PrajwalPic from "../../assets/Images/Prajwal.jpg";
 import SangharshImg from "../../assets/Images/SangharshImg.jpg";
 import ShivajiImg from "../../assets/Images/ShivajiImg.jpg";
 import AryanImg from "../../assets/Images/Aryan.jpeg"
+import ShantanuImg from "../../assets/Images/Shantanu.jpg"
 
 const AboutUs = () => {
   return (
@@ -146,7 +147,7 @@ const AboutUs = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform transform hover:scale-105 hover:bg-gradient-to-l hover:from-gray-100 hover:via-gray-200 hover:to-white cursor-pointer dark:hover:from-gray-700 dark:hover:via-gray-800 dark:hover:to-gray-800">
               <img
-                src="https://media.licdn.com/dms/image/v2/D4D03AQEKXjs8zN4Utw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1732797916693?e=1747267200&v=beta&t=Utp1qblQP92TopijCnyECK8DBmYxCBmkBonAvMUcR8I"
+                src={ShantanuImg}
                 alt="Shantanu"
                 className="w-1/2 rounded-full mx-auto object-cover"
               />
