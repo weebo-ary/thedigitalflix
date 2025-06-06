@@ -87,9 +87,11 @@ export function TabsCert() {
                 </button>
               </Link>
             </Card>
-            <button className="bg-red-600 text-white py-2 px-1 rounded-lg w-1/4 md:w-1/2 sm:w-full xs:w-full">
+            <Link to = "/institutions-and-classes">
+            <button className="  text-white py-2 px-1 rounded-lg w-full md:w-1/2 sm:w-full xs:w-full">
               View More...
             </button>
+            </Link>
           </div>
         </Tabs.Item>
         <Tabs.Item active title="Certifications" icon={GrCertificate}>
@@ -130,9 +132,7 @@ export function TabsCert() {
               <p className="font-normal text-gray-700 dark:text-gray-400">
                 SEO, SEM, marketing me email dhe analiza
               </p>
-              <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
-                Learn More
-              </button>
+              
             </Card>
             <Card
               className="max-w-sm "
@@ -148,9 +148,7 @@ export function TabsCert() {
               <p className="font-normal text-gray-700 dark:text-gray-400">
                 Krijimi i reklamave dhe analizimi i performancës
               </p>
-              <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
-                Learn More
-              </button>
+             
             </Card>
             <Card
               className="max-w-sm"
@@ -166,14 +164,8 @@ export function TabsCert() {
               <p className="font-normal text-gray-700 dark:text-gray-400">
                 SEO, hulumtim fjalësh kyçe, optimizim faqeje
               </p>
-              <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
-                Learn More
-              </button>
+              
             </Card>
-
-            <button className="bg-red-600 text-white py-2 px-1 rounded-lg md:w-1/4 sm:w-full xs:w-full">
-              View More...
-            </button>
           </div>
         </Tabs.Item>
         <Tabs.Item title="Tools" icon={FaGear}>
@@ -194,9 +186,7 @@ export function TabsCert() {
                 Krijimi i reklamave të targetuara për rritje trafiku dhe
                 shitjesh
               </p>
-              <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
-                Learn More
-              </button>
+              
             </Card>
             <Card
               className="max-w-sm"
@@ -209,9 +199,7 @@ export function TabsCert() {
               <p className="font-normal text-gray-700 dark:text-gray-400">
                 Ndërtimi dhe menaxhimi i faqeve me tema dhe shtojca
               </p>
-              <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
-                Learn More
-              </button>
+              
             </Card>
             <Card
               className="max-w-sm"
@@ -225,13 +213,9 @@ export function TabsCert() {
                 Inteligjence Artificiale për krijim përmbajtjeje, automatizim
                 dhe ndihmë ndaj klientëve
               </p>
-              <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
-                Learn More
-              </button>
+              
             </Card>
-            <button className="bg-red-600 text-white py-2 px-1 rounded-lg md:w-1/4 sm:w-full xs:w-full">
-              View More...
-            </button>
+            
           </div>
         </Tabs.Item>
       </Tabs>

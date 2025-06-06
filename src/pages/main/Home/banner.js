@@ -77,7 +77,7 @@ function Banner() {
             <p>
             MËSIM ONLINE{" "}
               <a
-                href="https://www.linktr.ee/thedigitalflix"
+                href="https://linktr.ee/thedigitalflix.al"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -118,7 +118,7 @@ function Banner() {
             <p>
               MËSIM ONLINE{" "}
               <a
-                href="https://www.linktr.ee/thedigitalflix"
+                href="https://linktr.ee/thedigitalflix.al"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -163,7 +163,7 @@ function Banner() {
         </div>
         <div className="flex flex-row lg:flex-row md:flex-row sm:flex-col-reverse xs:flex-col-reverse xs:mt-7 items-center justify-start text-start w-full h-full pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full p-4">
-            <p>PUNO NË MARKETING DIXHITAL<span className="text-red-600">@thedigitalflix.al</span></p>
+            <p>PUNO NË MARKETING DIXHITAL</p>
             <h2 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
               BËHU FREELANCER OSE NIS AGJENSINË TËNDE{" "}
               <span className="text-red-600">DIXHITALE</span>
