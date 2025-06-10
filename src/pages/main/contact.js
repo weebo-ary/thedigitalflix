@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import VideoContact from "../../assets/Video/Contact.mp4";
-import TrustUs from "./Home/trustus";
 
 function Contact() {
   const [formData, setFormData] = useState({
