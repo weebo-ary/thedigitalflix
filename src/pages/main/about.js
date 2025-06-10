@@ -30,8 +30,8 @@ const AboutUs = () => {
         </video>
         <div className="mx-auto px-6 lg:px-8 relative z-10">
           <h1 className="md:text-center sm:text-start xs:text-start text-5xl text-white mb-6">
-            KOMPANIA DHE INSTITUTI I MARKETINGUT{" "}
-            <span className="text-red-600">DIGITAL</span> "THEDIGITALFLIX"
+            KOMPANIA DHE INSTITUTI I MARKETINGUT {" "}
+            <span className="text-red-600">DIXHITAL</span> "THEDIGITALFLIX"
           </h1>
           <p className="md:text-3xl sm:text-xl xs:text-xl text-gray-300 mx-auto md:text-center sm:text-start xs:text-start">
             Tek <span className="text-red-600">TheDigitalFlix</span>, ne i japim

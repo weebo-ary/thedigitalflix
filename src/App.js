@@ -96,9 +96,9 @@ function App() {
           onClose={handleOnClose}
           imageSrc={Feature1} // Replace with your image URL
           logoSrc={Logo} // Replace with your logo URL
-          head1="Register For Callback"
-          head2="Please enter your details below"
-          buttonText="Submit"
+          head1="Regjistrohuni që t’iu kontaktojmë"
+          head2="Ju lutem shkruani të dhënat tuaja"
+          buttonText="Dërgo"
           className="z-10"
         />
       <ScrollToTop />

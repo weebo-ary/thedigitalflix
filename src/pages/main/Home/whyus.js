@@ -86,7 +86,7 @@ function WhyUsSection() {
         </div>
         <div className="">
           <p className="text-3xl md:text-3xl sm:text-xl xs:text-xl text-center md:text-center sm:text-start xs:text-start text-gray-600 dark:text-gray-400">
-          Tek TheDigitalFlix, ne nd ërthurim kurset tona të mbështetura nga Inteligjenca Artificiale me projekte reale, certifikata të industrisë së tregut dhe guide karriere 100%  të personalizuar, duke ju garantuar aftësi të botës së sotme që do ju bëjnë të suksesshëm në epokën dixhitale!
+          Tek TheDigitalFlix, ne ndërthurim kurset tona të mbështetura nga Inteligjenca Artificiale me projekte reale, certifikata të industrisë së tregut dhe guide karriere 100%  të personalizuar, duke ju garantuar aftësi të botës së sotme që do ju bëjnë të suksesshëm në epokën dixhitale!
           </p>
         </div>
       </div>

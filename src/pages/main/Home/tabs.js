@@ -5,8 +5,9 @@ import { FaGear, FaMeta } from "react-icons/fa6";
 
 import React from "react";
 import { FaGoogle, FaHubspot } from "react-icons/fa";
-import { SiSemrush } from "react-icons/si";
+import { SiCisco, SiSemrush } from "react-icons/si";
 import { Link } from "react-router-dom";
+import { BsMicrosoft } from "react-icons/bs";
 
 export function TabsCert() {
   return (
@@ -22,7 +23,7 @@ export function TabsCert() {
           },
         }}
       >
-        <Tabs.Item title="Courses" active icon={PiBooks}>
+        <Tabs.Item title="Kurset" active icon={PiBooks}>
           <h2 className="md:text-2xl sm:text-lg xs:text-lg md:pl-6 sm:pl-0 xs:pl-0 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
             ZBULO PROGRAMET TONA TË PLOTA – NGA FILLESTARËT TEK PROFESIONISTËT
           </h2>
@@ -42,7 +43,7 @@ export function TabsCert() {
               </p>
               <Link to="/flixstart-digital">
                 <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
-                  Learn More
+                  Mëso më shumë
                 </button>
               </Link>
             </Card>
@@ -63,7 +64,7 @@ export function TabsCert() {
               </p>
               <Link to="/flixelite-digital-pro">
                 <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
-                  Learn More
+                  Mëso më shumë
                 </button>
               </Link>
             </Card>
@@ -83,22 +84,30 @@ export function TabsCert() {
               </p>
               <Link to="/flixyoung-digital-creators">
                 <button className="bg-red-600 text-white py-3 px-2 rounded-lg w-1/2">
-                  Learn More
+                  Mëso më shumë
                 </button>
               </Link>
             </Card>
             <Link to = "/institutions-and-classes">
             <button className="  text-white py-2 px-1 rounded-lg w-full md:w-1/2 sm:w-full xs:w-full">
-              View More...
+              Shiko më shumë...
             </button>
             </Link>
           </div>
         </Tabs.Item>
-        <Tabs.Item active title="Certifications" icon={GrCertificate}>
+        <Tabs.Item active title="Certifikata" icon={GrCertificate}>
           <h2 className="md:text-2xl sm:text-lg xs:text-lg md:pl-6 sm:pl-0 xs:pl-0 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
             DERI NË <span className="text-red-600">50+ ÇERTIFIKIME</span> ME
             MARKA NDËRKOMBËTARE SI:
             <div className="fle md:flex md:flex-row sm:grid sm:grid-cols-2 xs:grid xs:grid-cols-2 items-center gap-8 pb-6 mt-4">
+              <div className="flex flex-col items-center justify-center mt-6">
+                <SiCisco />
+                <p className="text-3xl">Cisco</p>
+              </div>
+              <div className="flex flex-col items-center justify-center mt-6">
+                <BsMicrosoft />
+                <p className="text-3xl">Microsoft</p>
+              </div>
               <div className="flex flex-col items-center justify-center mt-6">
                 <FaGoogle />
                 <p className="text-3xl">Google</p>
@@ -168,7 +177,7 @@ export function TabsCert() {
             </Card>
           </div>
         </Tabs.Item>
-        <Tabs.Item title="Tools" icon={FaGear}>
+        <Tabs.Item title="Vegla" icon={FaGear}>
           <h2 className="md:text-2xl sm:text-lg xs:text-lg md:pl-6 sm:pl-0 xs:pl-0 font-bold tracking-tight text-gray-900 dark:text-white mb-6">
             MJETET KRYESORE QË DO ZOTERONI – NGA SEO NE RRJETE SOCIALE, REKLAMA
             DHE JO VETEM

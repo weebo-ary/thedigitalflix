@@ -55,16 +55,17 @@ const Modal = ({
           </div>
 
           {/* Headings */}
-          <h2 className="text-lg font-semibold text-center mt-2 text-gray-800">
-            {head1}
+          <h2 className="text-sm font-semibold text-center mt-2 text-gray-800">
+            Regjistrohuni që t’iu kontaktojmë
           </h2>
-          <h3 className="text-md text-gray-600 text-center mb-4">{head2}</h3>
+          <h3 className="text-md text-xs text-gray-600 text-center mb-4">Ju lutem shkruani të dhënat tuaja
+</h3>
 
           {/* Input Fields */}
           <input
             type="text"
             name="name"
-            placeholder="Name"
+            placeholder="Emër"
             value={formData.name}
             onChange={handleChange}
             className="border rounded p-2 mb-3 w-full text-black"
@@ -72,7 +73,7 @@ const Modal = ({
           <input
             type="email"
             name="email"
-            placeholder="Email"
+            placeholder="Adresë emaili"
             value={formData.email}
             onChange={handleChange}
             className="border rounded p-2 mb-3 w-full text-black"
@@ -80,7 +81,7 @@ const Modal = ({
           <input
             type="number"
             name="phone"
-            placeholder="Phone Number"
+            placeholder="Numër telefoni"
             value={formData.phone}
             onChange={handleChange}
             className="border rounded p-2 mb-3 w-full text-black"
@@ -92,7 +93,7 @@ const Modal = ({
               onClick={onClose}
               className={`w-full py-2 text-red-600 rounded`}
             >
-              Close
+              Mbyll
             </button>
             <button
               onClick={() => alert("Form Submitted!")}
@@ -103,7 +104,7 @@ const Modal = ({
                   : "bg-gray-400 cursor-not-allowed"
               }`}
             >
-              {buttonText}
+              Dërgo
             </button>
           </div>
         </div>

@@ -96,11 +96,11 @@ function Banner() {
                 onClick={() => setIsModalOpen(true)}
                 className="w-1/2 bg-red-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-500 transition"
               >
-                Enroll Now
+                Regjistrohu tani
               </button>
               <Link to="/contact-us">
                 <button className="text-gray-300 transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
-                  Learn More <ArrowRightOutlined className="ml-2" />
+                  Mëso më shumë <ArrowRightOutlined className="ml-2" />
                 </button>
               </Link>
             </div>
@@ -142,12 +142,12 @@ function Banner() {
                 onClick={() => setIsModalOpen(true)}
                 className="w-1/2 bg-red-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-500 transition"
               >
-                Enroll Now
+                Regjistrohu tani
               </button>
 
               <Link to="/contact-us">
                 <button className="text-gray-300 transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
-                  Learn More <ArrowRightOutlined className="ml-2" />
+                  Mëso më shumë <ArrowRightOutlined className="ml-2" />
                 </button>
               </Link>
             </div>
@@ -181,11 +181,11 @@ function Banner() {
                 onClick={() => setIsModalOpen(true)}
                 className="w-1/2 bg-red-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-500 transition"
               >
-                Enroll Now
+                Regjistrohu tani
               </button>
               <Link to="/contact-us">
                 <button className="text-gray-300 transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
-                  Learn More <ArrowRightOutlined className="ml-2" />
+                  Mëso më shumë <ArrowRightOutlined className="ml-2" />
                 </button>
               </Link>
             </div>

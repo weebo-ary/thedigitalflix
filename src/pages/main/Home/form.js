@@ -100,7 +100,7 @@ function Form() {
                 for="floating_address"
                 class="peer-focus:font-medium absolute text-sm md:text-sm sm:text-xs xs:text-xs text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
-                <b>Enter your Message</b>
+                <b>Shkruani mesazhin tuaj</b>
               </label>
             </div>
             <div className="relative z-0 w-full mb-5 group mt-8 pt-2">
@@ -146,7 +146,7 @@ function Form() {
                 htmlFor="floating_occupation"
                 className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
               >
-                Select you Niche
+                Zgjidhni preferencën tuaj
               </label>
             </div>
 
@@ -154,7 +154,7 @@ function Form() {
               type="submit"
               class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800"
             >
-              Submit Form
+              Dërgoni formën
             </button>
           </div>
         </div>

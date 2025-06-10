@@ -26,7 +26,7 @@ function home() {
       <BrouchureSection />
        <WhyUs />
        {/* <Video /> */}
-      <TrustUs />
+      {/* <TrustUs /> */}
       <Offering />
      <Faq />
     </div>

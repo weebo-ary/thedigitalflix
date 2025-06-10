@@ -28,7 +28,7 @@ function BrouchureSection() {
       <div className="">
         <div className="">
           <h2 className="text-center md:text-center sm:text-start xs:text-start sm:mx-4 xs:mx-3 text-5xl md:text-5xl sm:text-3xl xs:text-3xl text-gray-900 dark:text-white mb-4">
-          Ju prezantojmë programet më të avancuara me 
+          Ju prezantojmë programet më të avancuara me {" "}
             <span className="text-red-600">Inteligjencë Artificiale </span> në Marketingun Dixhital
           </h2>
         </div>
@@ -39,8 +39,8 @@ function BrouchureSection() {
         </div>
         <div className="p-6 w-full flex items-center justify-center mb-12 gap-5">
           <img src={Feature1} alt="Feature1" className="md:w-1/5 sm:w-1/3 xs:w-1/3" onContextMenu={handleContextMenu} />
-          <p className="flex items-center justify-center gap-2"><ArrowLeftOutlined /> Front</p>
-          <p className="flex items-center justify-center gap-2">Back <ArrowRightOutlined /></p>
+          <p className="flex items-center justify-center gap-2"><ArrowLeftOutlined /> Para</p>
+          <p className="flex items-center justify-center gap-2">Pas <ArrowRightOutlined /></p>
           <img src={Feature2} alt="Feature2" className="md:w-1/5 sm:w-1/3 xs:w-1/3" onContextMenu={handleContextMenu}/>
         </div>
         <div className="p-6 w-full flex items-center justify-center mb-12">
@@ -48,7 +48,7 @@ function BrouchureSection() {
         onClick={() => setIsModalOpen(true)}
         className="md:w-1/2 sm:w-full xs:w-full bg-red-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-600 transition"
       >
-        Download Brouchure
+        Shkarko broshurën
       </button>
 
       {/* Reusable Modal */}

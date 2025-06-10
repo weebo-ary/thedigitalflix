@@ -81,7 +81,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                to="/"
+                to="/contact-us"
                 className="text-gray-500 hover:text-gray-600 dark:hover:text-gray-400 transition-colors duration-100"
               >
                 Na kontaktoni

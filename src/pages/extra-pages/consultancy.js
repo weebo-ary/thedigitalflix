@@ -88,7 +88,7 @@ function TrainingIndustry40() {
     <div className="h-auto bg-white dark:bg-gray-800 flex flex-col items-center justify-center p-4 transition mb-10">
       <div className="bg-white dark:bg-gray-800 rounded-lg p-6 max-w-6xl transition">
         <h1 className="text-6xl md:text-5xl sm:text-2xl xs:text-2xl text-start font-bold mb-5 text-gray-800 dark:text-gray-100 py-10 border-b-2">
-        Pricing and Course :
+        Cmimet dhe kurset :
         </h1>
 
         <div className="space-y-6">

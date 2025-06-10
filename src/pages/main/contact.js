@@ -154,9 +154,9 @@ function Contact() {
               </div>
 
               <div>
-                <label className="block text-gray-700">Message</label>
+                <label className="block text-gray-700">Mesazhi</label>
                 <textarea
-                  placeholder="Enter your message"
+                  placeholder="Shkruani mesazhin tuaj"
                   rows="5"
                   className="mt-1 w-full px-4 py-2 border rounded-md text-gray-700 focus:ring-2 focus:ring-blue-400"
                   value={formData.message}
@@ -179,7 +179,6 @@ function Contact() {
           </div>
         </div>
       </div>
-      <TrustUs />
     </>
   );
 }
