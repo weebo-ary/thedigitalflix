@@ -1,7 +1,9 @@
 import { ArrowRightOutlined } from "@ant-design/icons";
 import React, { useEffect, useRef, useState } from "react";
+import IllustrationOne from "../../../assets/Images/marvin-meyer-SYTO3xs06fU-unsplash.jpg";
 import IllustrationTwo from "../../../assets/Images/TheDigitalFlix WEBSITE DEVELOPMENT PPC SEO.jpg";
 import IllustrationThree from "../../../assets/Images/TheDigitalFlix ONLINE AND OFFLINE CLASSES GET SCHOLARSHIPS  JOB OPPORTUNITIES and CERTIFICATIONS.jpg";
+import IllustrationFour from "../../../assets/Images/TheDigitalFlix COURSES FOR STUDENTS PROFESSIONAL ENTREPRENEURS AND JOB SEEKERS.jpg";
 import IllustrationFive from "../../../assets/Images/TheDigitalFlix GET JOBS IN DIGITAL MARKETING BECOME A FREELANCER START YOUR OWN AGENCY.jpg";
 import VideoBanner from "../../../assets/Video/Banner.mp4";
 import { Link } from "react-router-dom";
@@ -75,7 +77,7 @@ function Banner() {
         <div className="flex lg:flex-row md:flex-row sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full gap-6 mb-10 p-4 pl-6 pr-6">
           <div className="flex flex-col mb-2 w-full">
             <p>
-            MËSIM ONLINE{" "}
+              MËSIM ONLINE{" "}
               <a
                 href="https://linktr.ee/thedigitalflix.al"
                 target="_blank"
@@ -85,11 +87,15 @@ function Banner() {
               </a>
             </p>
             <h1 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-0 mt-4">
-              KURS PËR{" "}
-              <span className="text-red-600">MARKETING DIXHITAL</span>
+              KURS PËR <span className="text-red-600">MARKETING DIXHITAL</span>
             </h1>
             <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
-              Instituti TheDigitalFlix ofron kurse të avancuara në marketingun dixhital, të mbështetura nga Inteligjenca Artificiale, për të përgatitur pjesëmarrësit me aftësi të kërkuara si SEO, PPC dhe menaxhimi i rrjeteve sociale. Qëllimi është t’i ndihmojë ata të dallohen në tregun dixhital përmes strategjive moderne dhe teknologjisë së fundit.
+              Instituti TheDigitalFlix ofron kurse të avancuara në marketingun
+              dixhital, të mbështetura nga Inteligjenca Artificiale, për të
+              përgatitur pjesëmarrësit me aftësi të kërkuara si SEO, PPC dhe
+              menaxhimi i rrjeteve sociale. Qëllimi është t’i ndihmojë ata të
+              dallohen në tregun dixhital përmes strategjive moderne dhe
+              teknologjisë së fundit.
             </p>
             <div className="flex flex-row gap-6">
               <button
@@ -193,6 +199,98 @@ function Banner() {
           <div className="w-full">
             <img
               src={IllustrationThree}
+              alt="Placeholder"
+              className="w-full rounded-lg"
+            />
+          </div>
+        </div>
+        <div className="flex lg:flex-row md:flex-row sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full gap-6 mb-10 p-4 pl-6 pr-6">
+          <div className="flex flex-col mb-2 w-full">
+            <p>
+              MËSIM ONLINE{" "}
+              <a
+                href="https://linktr.ee/thedigitalflix.al"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="text-red-500">@thedigitalflix.al</span>
+              </a>
+            </p>
+            <h1 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-0 mt-4">
+              BËHU FREELANCER OSE NIS AGJENSINË{" "}
+              <span className="text-red-600">TËNDE DIXHITALE</span>
+            </h1>
+            <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
+              TheDigitalFlix ju pajisë me aftësitë më të kërkuara të momentit në
+              fushën e marketingut dixhital, të cilat ju sigurojnë punë me paga
+              të larta, punësim si freelancer dhe mundësinë për të ndërtuar
+              agjencinë tuaj të suksesshme. Mësoni nga ekspertët tanë të
+              industrisë, përfitoni përvojë praktike dhe hapni rrugë të pafundme
+              karriere në botën dixhitale.
+            </p>
+            <div className="flex flex-row gap-6">
+              <button
+                onClick={() => setIsModalOpen(true)}
+                className="w-1/2 bg-red-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-500 transition"
+              >
+                Regjistrohu tani
+              </button>
+              <Link to="/contact-us">
+                <button className="text-gray-300 transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
+                  Mëso më shumë <ArrowRightOutlined className="ml-2" />
+                </button>
+              </Link>
+            </div>
+          </div>
+          <div className="w-full">
+            <img
+              src={IllustrationFour}
+              alt="Placeholder"
+              className="w-full rounded-lg"
+            />
+          </div>
+        </div>
+        <div className="flex lg:flex-row md:flex-row sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full gap-6 mb-10 p-4 pl-6 pr-6">
+          <div className="flex flex-col mb-2 w-full">
+            <p>
+              MËSIM ONLINE{" "}
+              <a
+                href="https://linktr.ee/thedigitalflix.al"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="text-red-500">@thedigitalflix.al</span>
+              </a>
+            </p>
+            <h1 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-0 mt-4">
+              MUNDËSI
+              <span className="text-red-600">PUNE & ÇERTIFIKIME</span>
+            </h1>
+            <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
+              Instituti TheDigitalFlix ofron kurse të avancuara në marketingun
+              dixhital, të mbështetura nga Inteligjenca Artificiale, për të
+              përgatitur pjesëmarrësit me aftësi të kërkuara si SEO, PPC dhe
+              menaxhimi i rrjeteve sociale. Qëllimi është t’i ndihmojë ata të
+              dallohen në tregun dixhital përmes strategjive moderne dhe
+              teknologjisë së fundit.
+            </p>
+            <div className="flex flex-row gap-6">
+              <button
+                onClick={() => setIsModalOpen(true)}
+                className="w-1/2 bg-red-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-500 transition"
+              >
+                Regjistrohu tani
+              </button>
+              <Link to="/contact-us">
+                <button className="text-gray-300 transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
+                  Mëso më shumë <ArrowRightOutlined className="ml-2" />
+                </button>
+              </Link>
+            </div>
+          </div>
+          <div className="w-full">
+            <img
+              src={IllustrationOne}
               alt="Placeholder"
               className="w-full rounded-lg"
             />
