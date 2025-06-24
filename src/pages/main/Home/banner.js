@@ -3,8 +3,8 @@ import React, { useEffect, useRef, useState } from "react";
 import IllustrationOne from "../../../assets/Images/marvin-meyer-SYTO3xs06fU-unsplash.jpg";
 import IllustrationTwo from "../../../assets/Images/TheDigitalFlix WEBSITE DEVELOPMENT PPC SEO.jpg";
 import IllustrationThree from "../../../assets/Images/TheDigitalFlix ONLINE AND OFFLINE CLASSES GET SCHOLARSHIPS  JOB OPPORTUNITIES and CERTIFICATIONS.jpg";
-import IllustrationFour from "../../../assets/Images/TheDigitalFlix COURSES FOR STUDENTS PROFESSIONAL ENTREPRENEURS AND JOB SEEKERS.jpg";
-import IllustrationFive from "../../../assets/Images/TheDigitalFlix GET JOBS IN DIGITAL MARKETING BECOME A FREELANCER START YOUR OWN AGENCY.jpg";
+import IllustrationFive from "../../../assets/Images/Twi.jpeg";
+import IllustrationFive2 from "../../../assets/Images/TheDigitalFlix GET JOBS IN DIGITAL MARKETING BECOME A FREELANCER START YOUR OWN AGENCY.jpg";
 import VideoBanner from "../../../assets/Video/Banner.mp4";
 import { Link } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -75,7 +75,7 @@ function Banner() {
         swipeable={false}
       >
         <div className="flex lg:flex-row md:flex-row sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full gap-6 mb-10 p-4 pl-6 pr-6">
-          <div className="flex flex-col mb-2 w-full">
+          <div className="flex flex-col -mb-8 w-full">
             <p>
               MËSIM ONLINE{" "}
               <a
@@ -87,15 +87,19 @@ function Banner() {
               </a>
             </p>
             <h1 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-0 mt-4">
-              KURS PËR <span className="text-red-600">MARKETING DIXHITAL</span>
+              ZHVILLIME FAQESH{" "}
+              <span className="text-red-600">
+                WEB | SEO | RRJETE SOCIALE | PPC | INTELIGJENCË ARTIFICIALE
+              </span>
             </h1>
             <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
-              Instituti TheDigitalFlix ofron kurse të avancuara në marketingun
-              dixhital, të mbështetura nga Inteligjenca Artificiale, për të
-              përgatitur pjesëmarrësit me aftësi të kërkuara si SEO, PPC dhe
-              menaxhimi i rrjeteve sociale. Qëllimi është t’i ndihmojë ata të
-              dallohen në tregun dixhital përmes strategjive moderne dhe
-              teknologjisë së fundit.
+              Kursët tona të mbështetura nga Inteligjenca Artificiale janë të
+              dizajnuar për t’ju pajisur me aftësi të avancuara në zhvillimin e
+              faqeve të webit, optimizimin për motorët e kërkimit (SEO),
+              marketingun në rrjetet sociale, reklamimin me pagesë për klikim
+              (PPC) dhe përdorimin e Inteligjencës Artificiale në marketing.
+              Fitoni përvojë praktike përmes projekteve reale dhe merrni
+              certifikime të njohura në industri.
             </p>
             <div className="flex flex-row gap-6">
               <button
@@ -113,6 +117,52 @@ function Banner() {
           </div>
           <div className="w-full">
             <img
+              src={IllustrationFive2}
+              alt="Placeholder"
+              className="w-full rounded-lg"
+            />
+          </div>
+        </div>
+        <div className="flex lg:flex-row md:flex-row sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full gap-6 mb-10 p-4 pl-6 pr-6">
+          <div className="flex flex-col mb-2 w-full">
+            <p>
+              MËSIM ONLINE{" "}
+              <a
+                href="https://linktr.ee/thedigitalflix.al"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="text-red-500">@thedigitalflix.al</span>
+              </a>
+            </p>
+            <h1 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-0 mt-4">
+              KURS PËR <span className="text-red-600">MARKETING DIXHITAL</span>
+            </h1>
+            <p className="text-xl md:text-xl sm:text-sm xs:text-sm mt-2 font-semibold text-white mb-8">
+              Mirësevini në Institutin e kurseve TheDigitalFlix – ku inovacioni
+              takohet me edukimin. Kurset tona për marketing dixhital të
+              mbështetura nga Inteligjenca Artificiale ju pajisin me mjetet dhe
+              strategjitë më të avancuara për të shkëlqyer në botën dixhitale.
+              Mësoni aftësi shumë të kërkuara si SEO, marketing me rrjete
+              sociale, PPC dhe strategji të bazuara në Inteligjencën Artificiale
+              për të qënë të parët në industri.
+            </p>
+            <div className="flex flex-row gap-6">
+              <button
+                onClick={() => setIsModalOpen(true)}
+                className="w-1/2 bg-red-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-500 transition"
+              >
+                Regjistrohu tani
+              </button>
+              <Link to="/contact-us">
+                <button className="text-gray-300 transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
+                  Mëso më shumë <ArrowRightOutlined className="ml-2" />
+                </button>
+              </Link>
+            </div>
+          </div>
+          <div className="w-[700px] rounded-lg">
+            <img
               src={IllustrationFive}
               alt="Placeholder"
               className="w-full rounded-lg"
@@ -120,7 +170,7 @@ function Banner() {
           </div>
         </div>
         <div className="flex flex-row lg:flex-row md:flex-row sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full p-4 pl-6 pr-6">
-          <div className="flex flex-col mb-10 w-full">
+          <div className="flex flex-col -mb-8 w-full">
             <p>
               MËSIM ONLINE{" "}
               <a
@@ -132,7 +182,11 @@ function Banner() {
               </a>
             </p>
             <h2 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
-              <span className="text-red-600">MUNDËSI</span> PUNE & ÇERTIFIKIME
+              KURSE PËR{" "}
+              <span className="text-red-600">
+                STUDENTË, PROFESIONISTË, FREELANCERA{" "}
+              </span>{" "}
+              DHE KËRKUES PUNË
             </h2>
             <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
               Ne ofrojmë mësimin online si një nga opsionet më fleksibël të
@@ -169,7 +223,16 @@ function Banner() {
         </div>
         <div className="flex flex-row lg:flex-row md:flex-row sm:flex-col-reverse xs:flex-col-reverse xs:mt-7 items-center justify-start text-start w-full h-full pl-6 pr-6">
           <div className="flex flex-col mb-10 w-full p-4">
-            <p>PUNO NË MARKETING DIXHITAL</p>
+            <p>
+              MËSIM ONLINE{" "}
+              <a
+                href="https://linktr.ee/thedigitalflix.al"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="text-red-500">@thedigitalflix.al</span>
+              </a>
+            </p>
             <h2 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-4 mt-4">
               BËHU FREELANCER OSE NIS AGJENSINË TËNDE{" "}
               <span className="text-red-600">DIXHITALE</span>
@@ -196,55 +259,9 @@ function Banner() {
               </Link>
             </div>
           </div>
-          <div className="w-full">
+          <div className="w-[800px]">
             <img
-              src={IllustrationThree}
-              alt="Placeholder"
-              className="w-full rounded-lg"
-            />
-          </div>
-        </div>
-        <div className="flex lg:flex-row md:flex-row sm:flex-col-reverse xs:flex-col-reverse items-center justify-start text-start w-full h-full gap-6 mb-10 p-4 pl-6 pr-6">
-          <div className="flex flex-col mb-2 w-full">
-            <p>
-              MËSIM ONLINE{" "}
-              <a
-                href="https://linktr.ee/thedigitalflix.al"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span className="text-red-500">@thedigitalflix.al</span>
-              </a>
-            </p>
-            <h1 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-0 mt-4">
-              BËHU FREELANCER OSE NIS AGJENSINË{" "}
-              <span className="text-red-600">TËNDE DIXHITALE</span>
-            </h1>
-            <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
-              TheDigitalFlix ju pajisë me aftësitë më të kërkuara të momentit në
-              fushën e marketingut dixhital, të cilat ju sigurojnë punë me paga
-              të larta, punësim si freelancer dhe mundësinë për të ndërtuar
-              agjencinë tuaj të suksesshme. Mësoni nga ekspertët tanë të
-              industrisë, përfitoni përvojë praktike dhe hapni rrugë të pafundme
-              karriere në botën dixhitale.
-            </p>
-            <div className="flex flex-row gap-6">
-              <button
-                onClick={() => setIsModalOpen(true)}
-                className="w-1/2 bg-red-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-500 transition"
-              >
-                Regjistrohu tani
-              </button>
-              <Link to="/contact-us">
-                <button className="text-gray-300 transition duration-100 ease-in-out hover:text-white font-semibold py-2 px-4 rounded-lg">
-                  Mëso më shumë <ArrowRightOutlined className="ml-2" />
-                </button>
-              </Link>
-            </div>
-          </div>
-          <div className="w-full">
-            <img
-              src={IllustrationFour}
+              src={IllustrationOne}
               alt="Placeholder"
               className="w-full rounded-lg"
             />
@@ -266,13 +283,13 @@ function Banner() {
               MUNDËSI
               <span className="text-red-600">PUNE & ÇERTIFIKIME</span>
             </h1>
-            <p className="text-xl md:text-xl sm:text-sm xs:text-sm font-semibold text-white mb-8">
-              Instituti TheDigitalFlix ofron kurse të avancuara në marketingun
-              dixhital, të mbështetura nga Inteligjenca Artificiale, për të
-              përgatitur pjesëmarrësit me aftësi të kërkuara si SEO, PPC dhe
-              menaxhimi i rrjeteve sociale. Qëllimi është t’i ndihmojë ata të
-              dallohen në tregun dixhital përmes strategjive moderne dhe
-              teknologjisë së fundit.
+            <p className="text-xl md:text-xl sm:text-sm mt-4 xs:text-sm font-semibold text-white mb-8">
+              Ne ofrojmë mësimin online si një nga opsionet më fleksibël të
+              kohës së sotme. Përfitoni ulje, qasje në pozicione pune me paga të
+              larta dhe merrni çertifikime të njohura ndërkombëtarisht për tu
+              rritur në karrierën tuaj. Bashkohuni me një komunitet aktiv
+              studentësh dhe profesionistësh, dhe hidhni hapin e radhës drejt
+              suksesit tuaj dixhital.
             </p>
             <div className="flex flex-row gap-6">
               <button
@@ -290,7 +307,7 @@ function Banner() {
           </div>
           <div className="w-full">
             <img
-              src={IllustrationOne}
+              src={IllustrationThree}
               alt="Placeholder"
               className="w-full rounded-lg"
             />
