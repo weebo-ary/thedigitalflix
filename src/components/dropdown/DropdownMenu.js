@@ -19,8 +19,8 @@ import { Link } from "react-router-dom";
 
 const DropdownMenu = () => {
   return (
-    <div className="md:absolute xs:relative md:border-t-0 xs:border-t top-full lg:w-120 md:w-64 xs:w-72 bg-white dark:bg-gray-800 shadow-xl rounded-lg p-4 z-10 md:flex">
-      <div className="md:w-1/2 xs:w-1/2 border-gray-100 dark:border-gray-700 pr-4">
+    <div className=" md:absolute xs:relative md:border-t-0 xs:border-t top-full lg:w-120 md:w-64 xs:w-72 bg-white dark:bg-gray-800 shadow-xl rounded-lg p-4 z-10 md:flex xs:-mt-44">
+      <div className=" md:w-1/2 xs:w-1/2 border-gray-100 dark:border-gray-700 pr-4">
         <h2 className="lg:text-2xl md:text-2xl sm:text-xl xs:text-xl font-bold text-white">
           Bulk Packages
         </h2>
@@ -69,7 +69,9 @@ const DropdownMenu = () => {
         </Link>
       </div>
       <div className="md:w-1/2 xs:w-1/2 border-gray-100 dark:border-gray-700 pr-4">
-      <h2 className="lg:text-2xl md:text-2xl sm:text-xl xs:text-xl font-bold text-white">Marketing</h2>
+        <h2 className="lg:text-2xl md:text-2xl sm:text-xl xs:text-xl font-bold text-white">
+          Marketing
+        </h2>
         <Link
           to="/flix-ai"
           className="flex md:w-52 xs:w-48 text-sm items-center px-2 py-3 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded"
@@ -115,7 +117,7 @@ const DropdownMenu = () => {
         >
           <GiClick className="text-xs mr-3" /> Flix Google Ads (PPC)
         </Link>
-       
+
         <Link
           to="/flix-dropship-affiliate-marketing"
           className="flex md:w-52 xs:w-48 text-sm items-center px-2 py-3 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded"
@@ -125,7 +127,6 @@ const DropdownMenu = () => {
         </Link>
         <br />
       </div>
-      
 
       <div className="md:w-128 sm:w-72 md:pl-5">
         {/* <h3 className="font-semibold text-sm text-gray-700 dark:text-gray-300 mb-0 xs:hidden md:flex">

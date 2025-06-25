@@ -87,7 +87,7 @@ function Banner() {
               </a>
             </p>
             <h1 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-0 mt-4">
-              ZHVILLIME FAQESH{" "}
+              ZHVILLIM FAQESH{" "}
               <span className="text-red-600">
                 WEB | SEO | RRJETE SOCIALE | PPC | INTELIGJENCË ARTIFICIALE
               </span>
@@ -161,7 +161,7 @@ function Banner() {
               </Link>
             </div>
           </div>
-          <div className="w-[700px] rounded-lg">
+          <div className="w-1/2 rounded-lg">
             <img
               src={IllustrationFive}
               alt="Placeholder"
@@ -259,7 +259,7 @@ function Banner() {
               </Link>
             </div>
           </div>
-          <div className="w-[800px]">
+          <div className="w-full">
             <img
               src={IllustrationOne}
               alt="Placeholder"
@@ -280,7 +280,7 @@ function Banner() {
               </a>
             </p>
             <h1 className="text-4xl md:text-4xl sm:text-2xl xs:text-2xl font-bold text-white mb-0 mt-4">
-              MUNDËSI
+              MUNDËSI{" "}
               <span className="text-red-600">PUNE & ÇERTIFIKIME</span>
             </h1>
             <p className="text-xl md:text-xl sm:text-sm mt-4 xs:text-sm font-semibold text-white mb-8">

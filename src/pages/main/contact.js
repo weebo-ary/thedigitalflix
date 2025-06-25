@@ -75,7 +75,7 @@ function Contact() {
                 <i className="fas fa-envelope text-2xl"></i>
                 <div>
                   <p>Email</p>
-                  <p className="font-semibold">connect@thedigitalflix.al</p>
+                  <p className="font-semibold">thedigitalflix.al@gmail.com</p>
                 </div>
               </div>
 

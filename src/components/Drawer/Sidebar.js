@@ -2,18 +2,15 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import {
-  ArrowRightOutlined,
   ControlOutlined,
   DotChartOutlined,
   ExclamationCircleOutlined,
-  ExpandAltOutlined,
   HomeOutlined,
   PhoneOutlined,
 } from "@ant-design/icons";
 import DropdownMenu from "../dropdown/DropdownMenu";
 import DropdownMenuProducts from "../dropdown/DropDownProducts";
 import DropdownMenuServices from "../dropdown/DropDownService";
-import { BsBuildingAdd } from "react-icons/bs";
 
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -47,86 +44,79 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
         </div>
 
         {/* Navigation Links */}
-        <nav className="mt-4">
+        <nav className="mt-4 flex flex-col gap-5 p-4">
           <NavLink
             to="/"
             end
             className={({ isActive }) =>
               isActive
-                ? "block py-2 px-4 text-lg font-medium text-indigo-600 dark:text-indigo-400"
-                : "block py-2 px-4 text-lg font-medium text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400"
+                ? "relative text-md font-medium p-1 text-black dark:text-red-500 marker-underline active"
+                : "relative text-md font-medium p-1 text-gray-700 dark:text-gray-300 marker-underline hover:text-gray-600 dark:hover:text-red-600"
             }
-            onClick={toggleSidebar}
           >
-            <HomeOutlined /> Home
+            <HomeOutlined /> Kreu
           </NavLink>
+          <div
+            className={({ isActive }) =>
+              isActive
+                ? "relative text-md font-medium p-1 text-gray-900 dark:text-red-500 marker-underline active -ml-1"
+                : "relative text-md font-medium p-1 text-black dark:text-white marker-underline hover:text-gray-500 dark:hover:text-red-600 -ml-1"
+            }
+            onMouseEnter={() => setDropdownOpen(true)}
+            onMouseLeave={() => setDropdownOpen(false)}
+          >
+            <DotChartOutlined />{" "}
+            <span style={{ cursor: "pointer" }}>Kurse</span>
+            {dropdownOpen && <DropdownMenu />}
+          </div>
           <NavLink
             to="/about"
             className={({ isActive }) =>
               isActive
-                ? "block py-2 px-4 text-lg font-medium text-indigo-600 dark:text-indigo-400"
-                : "block py-2 px-4 text-lg font-medium text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400"
+                ? "relative text-md font-medium p-1 text-gray-900 dark:text-red-500 marker-underline active"
+                : "relative text-md font-medium p-1 text-black dark:text-white marker-underline hover:text-gray-500 dark:hover:text-red-600"
             }
-            onClick={toggleSidebar}
           >
-            <ExclamationCircleOutlined /> About Us
+            <ExclamationCircleOutlined /> Rreth Nesh
           </NavLink>
           <div
-            className="relative text-lg ml-3 font-medium p-1 text-gray-700 dark:text-gray-300 hover:text-gray-500 dark:hover:text-indigo-400"
+            className="relative text-md font-medium p-1 text-black dark:text-white hover:text-red-500 dark:hover:text-red-600"
             onMouseEnter={() => setDropdownProduct(true)}
             onMouseLeave={() => setDropdownProduct(false)}
           >
-            <DotChartOutlined />{" "}
-            <span style={{ cursor: "pointer" }}>Products</span>
+            <NavLink
+              to="/blogs"
+              className={({ isActive }) =>
+                isActive
+                  ? "relative text-md font-medium p-1 text-gray-900 dark:text-red-500 marker-underline active -ml-1"
+                  : "relative text-md font-medium p-1 text-black dark:text-white marker-underline hover:text-gray-500 dark:hover:text-red-600 -ml-1"
+              }
+            >
+              <DotChartOutlined />{" "}
+              <span style={{ cursor: "pointer" }}>Blogje</span>
+            </NavLink>
             {dropdownOpenProduct && <DropdownMenuProducts />}
           </div>
-          {/* Solutions Dropdown */}
-          <div className="relative">
-            <div
-              className="flex justify-between items-center cursor-pointer py-2 px-4 text-lg font-medium text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400"
-              onClick={() => setDropdownOpen(!dropdownOpen)}
-            >
-              <span>
-                <DotChartOutlined /> Solutions
-              </span>
-              <ExpandAltOutlined />
-            </div>
-            {dropdownOpen && <DropdownMenu />}
-          </div>
+
           <div
-            className="relative text-lg ml-3 font-medium p-1 text-gray-700 dark:text-gray-300 hover:text-gray-500 dark:hover:text-indigo-400"
+            className="relative text-md font-medium p-1 text-black dark:text-white hover:text-red-500 dark:hover:text-red-600"
             onMouseEnter={() => setDropdownServices(true)}
             onMouseLeave={() => setDropdownServices(false)}
           >
             <ControlOutlined />{" "}
-            <span style={{ cursor: "pointer" }}>Services</span>
+            <span style={{ cursor: "pointer" }}>Shërbime</span>
             {dropdownOpenServices && <DropdownMenuServices />}
           </div>
           <NavLink
             to="/contact-us"
             className={({ isActive }) =>
               isActive
-                ? "block py-2 px-4 text-lg font-medium text-indigo-600 dark:text-indigo-400"
-                : "block py-2 px-4 text-lg font-medium text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400"
+                ? "relative text-md p-1 font-medium text-gray-900 dark:text-white marker-underline active"
+                : "relative text-md p-1 font-medium text-black dark:text-white marker-underline hover:text-gray-500 dark:hover:text-red-600"
             }
-            onClick={toggleSidebar}
           >
-            <PhoneOutlined /> Contact
+            <PhoneOutlined /> Kontakt
           </NavLink>
-          <a
-            href={
-              window.location.pathname === "/institute" ? "/" : "/institute"
-            }
-          >
-            <button className="animate-pulse flex items-center justify-center bg-red-500 text-sm text-white px-6 py-2 rounded-md shadow-md hover:bg-red-600 transition gap-2">
-              <BsBuildingAdd />{" "}
-              {window.location.pathname === "/institute"
-                ? "Agency"
-                : "Institute"}
-            </button>
-          </a>
-
-          <ArrowRightOutlined />
         </nav>
       </div>
     </div>
