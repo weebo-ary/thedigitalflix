@@ -19,7 +19,7 @@ import { Link } from "react-router-dom";
 
 const DropdownMenu = () => {
   return (
-    <div className=" md:absolute xs:relative md:border-t-0 xs:border-t top-full lg:w-120 md:w-64 xs:w-72 bg-white dark:bg-gray-800 shadow-xl rounded-lg p-4 z-10 md:flex xs:-mt-44">
+    <div className=" md:absolute xs:relative md:border-t-0 xs:border-t top-full lg:w-120 md:w-64 xs:w-72 bg-white dark:bg-gray-800 shadow-xl rounded-lg p-4 z-10 md:flex md:-mt-4 xs:-mt-44">
       <div className=" md:w-1/2 xs:w-1/2 border-gray-100 dark:border-gray-700 pr-4">
         <h2 className="lg:text-2xl md:text-2xl sm:text-xl xs:text-xl font-bold text-white">
           Bulk Packages
