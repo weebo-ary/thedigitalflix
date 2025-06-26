@@ -135,7 +135,7 @@ const Footer = () => {
               href="mailto:support@company.com"
               className="hover:text-gray-800 dark:hover:text-white"
             >
-              connect@thedigitalflix.al
+              thedigitalflix.al@gmail.com
             </a>
           </p>
           <p className="text-gray-600 dark:text-gray-500">
