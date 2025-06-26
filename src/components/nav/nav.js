@@ -143,7 +143,7 @@ const Navbar = () => {
                 <li>
                   <a
                     className="text-white transition hover:text-red-600/75 flex gap-1"
-                    href="mailto:connect@thedigitalflix.al"
+                    href="mailto:thedigitalflix.al@gmail.com"
                     rel="TheDigitalFlix"
                   >
                     {" "}
