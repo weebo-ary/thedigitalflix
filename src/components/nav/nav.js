@@ -293,9 +293,9 @@ const Navbar = () => {
         onClose={() => setIsModalOpen(false)}
         imageSrc={Feature1} // Change with your image URL
         logoSrc={LightLogo} // Change with your logo URL
-        head1="Welcome to Our Platform"
-        head2="Please enter your details below"
-        buttonText="Submit"
+        head1="Regjistrohuni që t’iu kontaktojmë"
+          head2="Ju lutem shkruani të dhënat tuaja"
+          buttonText="Dërgo"
       />
     </>
   );

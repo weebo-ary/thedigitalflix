@@ -40,7 +40,7 @@ const Modal = ({
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 mt-10 z-10">
+    <div className=" fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 mt-[100px] z-10">
       <div className="bg-white rounded-lg shadow-lg w-1/2 p-6 flex relative">
         <div className="w-full">
           <img
@@ -60,7 +60,7 @@ const Modal = ({
           <input
             type="text"
             name="name"
-            placeholder="Name"
+            placeholder="Emër"
             value={formData.name}
             onChange={handleChange}
             className="border rounded p-2 mb-3 w-full text-black"
@@ -68,7 +68,7 @@ const Modal = ({
           <input
             type="email"
             name="email"
-            placeholder="Email"
+            placeholder="Adresë emaili"
             value={formData.email}
             onChange={handleChange}
             className="border rounded p-2 mb-3 w-full text-black"
@@ -76,7 +76,7 @@ const Modal = ({
           <input
             type="tel"
             name="phone"
-            placeholder="Phone Number"
+            placeholder="Numër telefoni"
             value={formData.phone}
             onChange={handleChange}
             className="border rounded p-2 mb-3 w-full text-black"
