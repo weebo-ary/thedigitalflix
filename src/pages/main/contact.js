@@ -100,7 +100,7 @@ function Contact() {
                   <label className="block text-gray-700">Emri</label>
                   <input
                     type="text"
-                    placeholder="Enter Emri"
+                    placeholder="Shkruani Emrin"
                     className="mt-1 w-full px-4 py-2 border rounded-md text-gray-700 focus:ring-2 focus:ring-blue-400"
                     value={formData.firstName}
                     onChange={(e) =>
@@ -109,10 +109,10 @@ function Contact() {
                   />
                 </div>
                 <div className="w-1/2">
-                  <label className="block text-gray-700">Shkruaj emrin</label>
+                  <label className="block text-gray-700">Email</label>
                   <input
                     type="text"
-                    placeholder="Enter Shkruaj emrin"
+                    placeholder="Shkroani adresen email"
                     className="mt-1 w-full px-4 py-2 border rounded-md text-gray-700 focus:ring-2 focus:ring-blue-400"
                     value={formData.lastName}
                     onChange={(e) =>
@@ -126,7 +126,7 @@ function Contact() {
                 <label className="block text-gray-700">Mbiemri</label>
                 <input
                   type="email"
-                  placeholder="Enter Mbiemri"
+                  placeholder="Shkruani Mbiemri"
                   className="mt-1 w-full px-4 py-2 border rounded-md text-gray-700 focus:ring-2 focus:ring-blue-400"
                   value={formData.email}
                   onChange={(e) =>
