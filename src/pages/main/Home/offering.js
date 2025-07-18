@@ -6,46 +6,46 @@ import OfferingBg from "../../../assets/Images/marvin-meyer-SYTO3xs06fU-unsplash
 const OfferingSection = () => {
   const blobsData = [
     {
-      title: "Marketing i mbështetur nga Inteligjenca Artificiale 🤖",
-      description: "No AI integration or outdated curriculum.",
+      title: "Trajnim Marketingu Dixhital me integrim të Inteligjencës Artificiale 🤖",
+      description: "Mungesa e integrimit të inteligjencës artificiale ose kurrikul e vjetër.",
       color: "#9FD2C7",
       icon: <WarningOutlined />,
     },
     {
-      title: "Industry-Recognized Certifications 🎓",
+      title: "Certifikime të njohura nga industria 🎓",
       description:
-        "20+ certifications from Google, HubSpot, SEMrush & TheDigitalFlix.",
+        "20+ çertifikata nga Google, HubSpot, SEMrush dhe TheDigitalFlix.",
       color: "#9FD2C7",
       icon: <WarningOutlined />,
     },
     {
-      title: "Hands-On Practical Training 🛠",
-      description: "Mostly theoretical with no real-world exposure.",
+      title: "Trajnim aktual dhe praktik 🛠",
+      description: "Kryesisht teori, pa praktikë nga bota reale.",
       color: "#9FD2C7",
       icon: <WarningOutlined />,
     },
     {
-      title: "Placement Assistance & Internship Opportunities",
-      description: "No guaranteed placement or internship assistance",
+      title: "Guide karriere të personalizuar dhe mundësi praktike",
+      description: "Nuk garantohet guida e personalizuar e karries apo mundësia për praktikë.",
       color: "#9FD2C7",
       icon: <WarningOutlined />,
     },
     {
-      title: "LMS Access (Flix Elevate)",
-      description: "No LMS or limited access to materials",
+      title: "Akses në LMS (Flix Elevate)",
+      description: "Nuk ka LMS ose qasje të kufizuar në materiale studimi",
       color: "#9FD2C7",
       icon: <WarningOutlined />,
     },
     {
-      title: "Business & Freelancing Training 💰",
-      description: "No business or freelancing guidance.",
+      title: "Trajnim për Biznes dhe Freelancing 💰",
+      description: "Mungesë e trajnimit për biznes dhe freelancing.",
       color: "#9FD2C7",
       icon: <WarningOutlined />,
     },
     {
-      title: "Google Ads, SEO & Social Media Mastery 📈",
+      title: "Zotërim i Google Ads, SEO & Rrjeteve Sociale 📈",
       description:
-        " Basic training with no in-depth paid advertising strategies.",
+        "Trajnim bazë pa strategji të avancuara reklamimi me pagesë.",
       color: "#9FD2C7",
       icon: <WarningOutlined />,
     },
@@ -56,14 +56,14 @@ const OfferingSection = () => {
       icon: <WarningOutlined />,
     },
     {
-      title: "Personal Mentorship & Career Guidance 🎤",
-      description: "No personal mentorship, only general classes.",
+      title: "Mentorim Personal dhe Udhëzim Karriere 🎤",
+      description: "Nuk ka mentorim personal, vetëm klasa të përgjithshme.",
       color: "#9FD2C7",
       icon: <WarningOutlined />,
     },
     {
-      title: "Networking & Alumni Community 🌍",
-      description: " No strong networking or alumni benefits.",
+      title: "Networking & Alumni 🌍",
+      description: " Mungesë networku apo i benefiteve nga grupi i të diplomuarit .",
       color: "#9FD2C7",
       icon: <WarningOutlined />,
     },
@@ -71,50 +71,50 @@ const OfferingSection = () => {
 
   const blobsDataTwo = [
     {
-      title: "AI-Integrated Digital Marketing Training 🤖",
+      title: "Trajnim për Marketing Dixhital me mbështetje të Inteligjencës Artificiale 🤖",
       description:
-        "Yes, we teach AI-powered marketing, automation, and AI tools like ChatGPT, Jasper, and AI Analytics.",
+        "Po, ne ju mësojmë marketingun, automatizimin dhe mjetet e inteligjencës artificiale si ChatGPT, Jasper dhe AI ​​Analytics..",
       color: "#9FD2C7",
       icon: <CheckCircleOutlined />,
     },
     {
-      title: "Industry-Recognized Certifications 🎓",
-      description: "Limited or no official certifications.",
+      title: "Certifikime të njohura nga industria 🎓",
+      description: "Çertifikime të kufizuara ose jo certifikata zyrtare.",
       color: "#9FD2C7",
       icon: <CheckCircleOutlined />,
     },
     {
-      title: "Hands-On Practical Training 🛠",
-      description: "Live projects, case studies & real-world simulations.",
+      title: "Trajnim praktik në terren 🛠",
+      description: "Projekte aktuale, studime të rasteve dhe simulime të botës reale.",
       color: "#9FD2C7",
 
       icon: <CheckCircleOutlined />,
     },
     {
-      title: "Placement Assistance & Internship Opportunities 💼",
+      title: "Guidë karriere e personalizuar dhe mundësi praktike  💼",
       description:
-        "100% placement support + internship offers for top students.",
+        "Mbështetje 100% për punësim + oferta për praktikë pune për studentët më të mirë.",
       color: "#9FD2C7",
       icon: <CheckCircleOutlined />,
     },
     {
-      title: "LMS Access (Flix Elevate) 📚",
+      title: "Akses LMS (Flix Elevate) 📚",
       description:
-        "Lifetime access to recorded lectures, study material, and toolkits.",
+        "Qasje pa limit në leksione të regjistruara, materiale studimore dhe paketa veglash mësimore.",
       color: "#9FD2C7",
       icon: <CheckCircleOutlined />,
     },
     {
-      title: "Business & Freelancing Training 💰",
+      title: "Trajnim për Business & Freelancing 💰",
       description:
-        "Learn how to start your digital agency, get clients & earn as a freelancer.",
+        "Mësoni si të filloni agjensinë tuaj dixhitale, të keni klientë dhe të gjeneroni të ardhura si një profesionist i pavarur freelance.",
       color: "#9FD2C7",
       icon: <CheckCircleOutlined />,
     },
     {
-      title: "Google Ads, SEO & Social Media Mastery ",
+      title: "Google Ads, SEO dhe mjeshtëri e rrjeteve sociale ",
       description:
-        "Advanced training in Google Ads, PPC, SEO, Meta Ads & Social Media Growth.",
+        "Trajnim i avancuar në Google Ads, PPC, SEO, Meta Ads dhe Rritjen e Rrjeteve Sociale.",
       color: "#9FD2C7",
       icon: <CheckCircleOutlined />,
     },
@@ -126,20 +126,21 @@ const OfferingSection = () => {
       icon: <CheckCircleOutlined />,
     },
     {
-      title: "Personal Mentorship & Career Guidance 🎤",
+      title: "Mentorim personal dhe orientim në karrierë 🎤",
       description:
-        "One-on-one mentorship, career counseling, and mock interviews.",
+        "Mentorim 1-1, këshillim për karrierë dhe intervista provë.",
       color: "#9FD2C7",
       icon: <CheckCircleOutlined />,
     },
     {
-      title: "Networking & Alumni Community 🌍",
+      title: "Networking & Alumni 🌍",
       description:
-        "Lifetime access to our alumni network & industry connections.",
+        "Qasje e palimituar në networkun tonë të të diplomuarve dhe në networkun e industrisë.",
       color: "#9FD2C7",
       icon: <CheckCircleOutlined />,
     },
   ];
+
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(false);
